@@ -1,4 +1,4 @@
-#Qsn) Given an array greater than size 3, find if there's a sub array of size 3 with sum of elements = 15. Return true or false. 
+#Qsn Given an array greater than size 3, find if there's a sub array of size 3 with sum of elements = 15. Return true or false. 
 
 arr=[1,-1,4,5,6,7,6]
 key=15
