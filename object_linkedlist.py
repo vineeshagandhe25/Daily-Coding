@@ -1,6 +1,6 @@
     
 class Student:
-    def _init_(self,name,roll,status):
+    def __init__(self,name,roll,status):
         self.name=name
         self.roll=roll
         self.status=status
@@ -9,11 +9,11 @@ class Student:
         print("Rollno ",self.roll)
         print("Status: ",self.status)
 class Node:
-    def _init_(self,obj):
+    def __init__(self,obj):
         self.data=obj
         self.next=None
 class classlist:
-    def _init_(self):
+    def __init__(self):
         self.head=None
     def add(self,newdata):
         newnode=Node(newdata)
