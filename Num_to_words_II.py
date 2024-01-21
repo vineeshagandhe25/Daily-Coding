@@ -1,5 +1,5 @@
 #Q:Convert a given integer into words
-num=21324132
+num=99999
 ones=['one','two','three','four','five','six','seven','eight','nine']
 teens = ["ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"]
 tens = [ "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty","ninety"]
@@ -46,10 +46,10 @@ else:
     elif r==0:
         output_string+=" "+"thousand"+" "
     num=num%1000
-
+    print(num)
  if num>=100:
         output_string+=ones[r//100-1]+"hundred"+" "
-        r=r%100
+        r=num%100
         if 10 <= r < 20:
             output_string+= teens[r - 10]+" "
             r = 0
