@@ -1,0 +1,18 @@
+#Qsn) Given an array greater than size 3, find if there's a sub array of size 3 with sum of elements = 15. Return true or false. 
+
+arr=[1,-1,4,5,6,7,6]
+key=15
+res=False
+if len(arr)<3:
+    print("Invalid")  #checking the arr size 
+else:   
+    
+    for i in range(len(arr)-2):   # O(n) time complexity
+        if arr[i]+arr[i+1]+arr[i+2]==key:   #checking for a sub array
+            res=True
+            break
+        
+print(res)            
+
+
+#Time complexity-->O(n)
