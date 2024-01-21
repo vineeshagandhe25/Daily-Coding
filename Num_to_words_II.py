@@ -46,7 +46,7 @@ else:
     elif r==0:
         output_string+=" "+"thousand"+" "
     num=num%1000
-    print(num)
+    
  if num>=100:
         output_string+=ones[r//100-1]+"hundred"+" "
         r=num%100
