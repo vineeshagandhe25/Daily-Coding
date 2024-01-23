@@ -15,14 +15,20 @@ def permutations(arr,first,last):  #  function to generate  permutations
                 arr[i],arr[first]=arr[first],arr[i]    # back tracking    
 
 
-num=temp=1234
+num=temp=-1234
 res=[] # List to store digits of input integer
-while temp != 0: # Converting given integer  into list
-    x=temp%10
-    res.append(x)
-    temp //= 10
+if num<0:
+     print("Given integer is a negative num plz provide a positive num")
+elif num==0:
+     print(num)     
+else:     
+    while temp != 0: # Converting given integer  into list
+       x=temp%10
+       res.append(x)
+       temp //= 10
+
         
-permutations(res,0,len(res))
+    permutations(res,0,len(res))
 
 # * Time Complexity --- O(N!) where N is no of digits in input integer 
 # * Space Complexity --- O(N) where N is no of digits in input integer (Due to the space used to store the digits in res[])
