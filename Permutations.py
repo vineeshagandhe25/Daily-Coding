@@ -14,7 +14,7 @@ def permutations(arr,first,last):  #  function to generate  permutations
                        arr[i],arr[first]=arr[first],arr[i]    # back tracking    
 
 
-num=temp=333
+num=temp=12122
 res=[] # List to store digits of input integer
 if num<0:
      print("Given integer is a negative num plz provide a positive num")
