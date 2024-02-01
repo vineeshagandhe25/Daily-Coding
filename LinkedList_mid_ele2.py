@@ -30,7 +30,7 @@ class Linkedlist:
 			second_pointer=second_pointer.next
 		print(second_pointer.data)
 
-arr=[1,2,3,4]
+arr=[1,2]
 ll=Linkedlist()
 for i in arr:  # Time Complexity --- O(N) where N is length of arr (Dominated factor )
 	ll.insert(i)
