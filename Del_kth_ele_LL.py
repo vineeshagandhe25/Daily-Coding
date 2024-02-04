@@ -1,4 +1,5 @@
-# Given an array of integers, convert into linked list
+# Given a linked list , remove kth element
+
 
 class Node:  # This class is used for linkedlist to consists one is data field and another is next field
 	def __init__(self, data):
