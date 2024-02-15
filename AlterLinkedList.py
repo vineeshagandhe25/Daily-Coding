@@ -17,28 +17,45 @@ class Linkedlist:
 			return
 		self.tail.next=new_node
 		self.tail=new_node  # Making new node as tail node
-		
-	def swap(self):
+
+	# swapping Function	
+	def swap(self):  # Time complexity -- O(N) where N is length of Linked List
+		if self.head is None :  # for empty linked list
+			return self.head
+		if self.head.next is None:  # for single node 
+			return self.head.data
+		#code to swap first two nodes
+		node1=self.head
+		node2=self.head.next
+		node1.next=self.head.next.next
+		node2.next=self.head
+		self.head=node2
+		iter_node=node1.next
+		# code to swap next pair of nodes
+		while iter_node and iter_node.next:
+			temp=iter_node.next
+			iter_node.next=temp.next
+			temp.next=iter_node
+			node1.next=temp
+			node1=iter_node
+			iter_node=iter_node.next
+
+		return self.head.data
+	
+	# function to print linked list
+	def printll(self):  # Time complexity -- O(N) where N is length of Linked List
 		if self.head is None:
 			return None
-		if self.head.next is None:
-			return self.head.data
-		self.head,self.head.next=self.head.next,self.head
-		iter_node=self.head.next.next
-		while iter_node.next != None:
-			iter_node,iter_node.next=iter_node.next,iter_node
-			iter_node=iter_node.next.next
-		return self.head.data
-		
-		
-			
-			
-    
-	    
+		iter_node=self.head
+		while iter_node:
+			print(iter_node.data,end=' ')
+			iter_node=iter_node.next
+		    
 		
 ll=Linkedlist()
-for i in [1,2,3]:
+for i in [1,2,3,4,5,6]:
      ll.insert(i) 
-print(ll.swap())	 
+print(ll.swap())	
+ll.printll() 
 	 
 	        
