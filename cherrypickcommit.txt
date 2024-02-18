@@ -1,0 +1,25 @@
+WHAT IS CHERRY-PICKING A COMMIT WITH GIT?
+Cherry picking in Git means choosing a commit from one branch and applying it to another branch.
+* In other words picking a commit from a branch and applying it to another.
+* Cherry picking can cause duplicate commits , so traditional merge are prefered.
+* For example , if we made a commit to wrong branch then we can use Cherry pick to correct it.
+
+HOW TO USE CHERRY-PICKING ?
+
+step 1:
+git log --oneline 
+above command is used to get commits with their commit ids,so copy the commit id to Cherry-pick
+
+step 2:
+git checkout branch name (here branch isthe  branch on which you want to apply Cherry-pick)
+above command is used to switch from one branch to another
+
+step 3:
+git cherry-pick commit_id (here commit_id is the thing which you have copied in step 1 )
+above command is used to Cherry pick
+
+--> You can check new commit(cherry-pick commit) with help of ls command
+
+SOME USEFUL LINKS:
+1.https://docs.github.com/en/desktop/managing-commits/cherry-picking-a-commit-in-github-desktop
+2.https://www.youtube.com/watch?v=yw-qkJs4py0
