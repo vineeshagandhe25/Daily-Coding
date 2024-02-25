@@ -55,4 +55,4 @@ ll2.next.next=Node(9)
 Add(ll1,ll2)
 
 # * Time Complexity --- O(N) where N is len(max(ll1,ll2))
-# * Space Complexity --- O(M) where M is len(ll1+ll2)
+# * Space Complexity --- O(M) where M is len(max(ll1,ll2))
