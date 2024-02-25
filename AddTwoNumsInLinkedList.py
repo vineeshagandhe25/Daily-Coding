@@ -46,11 +46,11 @@ def Add(head1,head2):  # Time Complexity --- O(N) where N is len(max(ll1,ll2))
 		
 ll1=Node(2)
 ll1.next=Node(4)			
-ll1.next.next=Node(3)
+
 
 ll2=Node(5)
-ll2.next=Node(6)
-ll2.next.next=Node(4)
+ll2.next=Node(7)
+ll2.next.next=Node(9)
 
 Add(ll1,ll2)
 
