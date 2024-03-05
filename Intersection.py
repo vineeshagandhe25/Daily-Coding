@@ -53,6 +53,7 @@ res_ll=intersection(ll1,ll2)
 res_ll.printLL()     
 
 # Time complexity for Intersection function --- O(N+M) where N is length of Linkedlist 1 (ll1) and M is length of Linked List 2(ll2)
+# As Linked Lists are already sorted , each ele get compared at most so the time complexity is O(N+M)
 # Space complexity for Intersection function --- O(S) where S is length of res_ll
 
 
