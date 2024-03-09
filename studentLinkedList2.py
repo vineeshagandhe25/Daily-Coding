@@ -51,9 +51,32 @@ class studentll:  #  to create a student linked list
             iter_node=iter_node.next
             print("-------")    
 
+# code to find topper in the class
+def topper(obj):
+    total=0  # used for total marks of a student
+    top=0  # uesd for top marks
+    name='' # used for topper name
+    iter_node=obj.head  # node to traverse student Linked List
+
+    while iter_node :   # Time Complexity --- O(N) where N is length of linked list
+        marks_node=iter_node.marks.head   # node to traverse subject Linked List
+        
+        while marks_node:  # Time Complexity --- O(M) where M is length of submarks
+            total+=marks_node.marks
+            marks_node=marks_node.next
+
+        if total > top :  # finding topper
+            top=total
+            name=iter_node.name
+
+        total=0
+        iter_node=iter_node.next
+
+    return name  # returning topper name       
 
 
-marks_data1={'C':100,'C++':100,'JAVA':100,'PYTHON':100,'DBMS':56,'DM':89}
+
+marks_data1={'C':100,'C++':100,'JAVA':100,'PYTHON':100,'DBMS':100,'DM':99}
 obj=studentll()
 obj.insert("alex",marks_data1)    
 marks_data2={'C':99,'C++':99,'JAVA':99,'PYTHON':99,'DBMS':95,'DM':98}
@@ -61,7 +84,7 @@ obj.insert("bob",marks_data2)
 marks_data3={'C':98,'C++':98,'JAVA':98,'PYTHON':98,'DBMS':85,'DM':96}
 obj.insert("caster",marks_data3)  
 marks_data4={'C':98,'C++':88,'JAVA':78,'PYTHON':96,'DBMS':95,'DM':94}
-obj.insert("dolo",marks_data4)  
+obj.insert("david",marks_data4)  
 marks_data5={'C':100,'C++':98,'JAVA':98,'PYTHON':98,'DBMS':95,'DM':98}
 obj.insert("emu",marks_data5)  
 marks_data6={'C':89,'C++':87,'JAVA':88,'PYTHON':78,'DBMS':95,'DM':88}
@@ -72,9 +95,10 @@ marks_data8={'C':100,'C++':100,'JAVA':100,'PYTHON':100,'DBMS':98,'DM':98}
 obj.insert("honey",marks_data8)  
 marks_data9={'C':99,'C++':90,'JAVA':97,'PYTHON':96,'DBMS':95,'DM':94}
 obj.insert("iron man",marks_data9)  
-marks_data10={'C':100,'C++':98,'JAVA':98,'PYTHON':98,'DBMS':95,'DM':98}
+marks_data10={'C':100,'C++':100,'JAVA':100,'PYTHON':100,'DBMS':100,'DM':100}
 obj.insert("jhon",marks_data10)  
-obj.printll() 
+#obj.printll() 
+print(topper(obj))
 
 # *Time Complexity --- O(N) where N is length of linked list
 # *Space Complexity ---O(N)  where N is length of linked list
