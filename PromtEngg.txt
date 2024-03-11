@@ -1,0 +1,11 @@
+PROMPT ENGINEERING :
+Terminology : AI(Artificial Intelligence) --- Teach computer to do tasks like human.
+              NLP(Natural Language Processing) --- subset of AI
+              GPT(Generative Pre-trained Transformer) --- AI model (GPT 3 = ChatGPT)
+              LLM : Large Language Model
+
+prompts : question to AI Model
+
+Promt Engineering : How to talk to AI to give best results.
+Types of prompts:  a.prompts by example
+                   b.direct prompts          
