@@ -3,7 +3,7 @@
 # function which reverse the string
 def reverseString(string):
     
-    # len() : Time Complexity --- O(N) where N is length of string
+    # len() : Time Complexity --- O(1) this function quickly retrive stored length. 
     last_index=len(string)-1
     res_str=''
     
