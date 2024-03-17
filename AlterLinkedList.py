@@ -58,4 +58,5 @@ for i in [1,2,3,4,5,6]:
 print(ll.swap())	
 ll.printll() 
 	 
-	        
+# * Time complexity -- O(N) where N is length of Linked List	        
+# * Space complexity -- O(N) where N is length of Linked List	        
