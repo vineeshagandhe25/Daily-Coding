@@ -10,7 +10,7 @@ occurrence of 2 - 2
 occurrence of 4 - 1
 occurrence of 5 - 1
 occurrence of 6 - 3
-occurrence of 7 - 1'''
+occurrence of 7 - 1'''
 
 class Node:  # This class is used for linkedlist to consists one is data field and another is next field
 	def __init__(self, data):
@@ -30,15 +30,34 @@ class Linkedlist:
 			return
 		self.tail.next=new_node
 		self.tail=new_node  # Making new node as tail node
-			
-	def printLinkedList(self):
-		current_node = self.head # starting from head node and traversing through list using current_node
-		while(current_node):
-			print(current_node.data)
-			current_node = current_node.next	
+
+
+# frequency function , storing corresponding occurrence of an element in dictorany data type 		
+def freq(linkedlist):
+		Freq={}
+		if linkedlist.head == None:
+			return
+		current_node = linkedlist.head # starting from head node and traversing through list using current_node
+
+		while(current_node):# Time Complexity --- O(N) where N is length of linked list
+
+			if current_node.data in Freq:
+				Freq[current_node.data]= Freq[current_node.data] + 1
+		    
+			else: # for first occurrence of an ele   
+				Freq[current_node.data]= 1
+
+			current_node=current_node.next	
+
+		for i in Freq: # Time Complexity --- O(N) where N is length of linked list
+			print('occurrence of ',i,'-',Freq[i])		
+		
 
 arr=[1,1,2,2,4,5,6,6,6,7]
 ll=Linkedlist()
-for i in arr:  # Time Complexity --- O(N) where N is length of arr
+for i in arr:  
 	ll.insert(i)
-ll.printLinkedList()
+freq(ll)
+
+# * Time Complexity --- O(N) where N is length of linked list
+# * Space Complexity --- O(N) where N is length of linked list (space used for Freq )
