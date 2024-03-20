@@ -34,23 +34,24 @@ class Linkedlist:
 
 # frequency function , storing corresponding occurrence of an element in dictorany data type 		
 def freq(linkedlist):
-		Freq={}
+		Freq=[0]*50 # as input is only between 0-50
 		if linkedlist.head == None:
 			return
 		current_node = linkedlist.head # starting from head node and traversing through list using current_node
 
 		while(current_node):# Time Complexity --- O(N) where N is length of linked list
 
-			if current_node.data in Freq:
-				Freq[current_node.data]= Freq[current_node.data] + 1
+			if Freq[current_node.data-1] > 0:
+				Freq[current_node.data-1]= Freq[current_node.data-1] + 1
 		    
 			else: # for first occurrence of an ele   
-				Freq[current_node.data]= 1
+				Freq[current_node.data-1]= 1
 
 			current_node=current_node.next	
 
-		for i in Freq: # Time Complexity --- O(N) where N is length of linked list
-			print('occurrence of ',i,'-',Freq[i])		
+		for i in range(50): 
+			if Freq[i] > 0:
+				print('occurrence of ',i+1,'-',Freq[i])		
 		
 
 arr=[1,1,2,2,4,5,6,6,6,7]
@@ -60,4 +61,4 @@ for i in arr:
 freq(ll)
 
 # * Time Complexity --- O(N) where N is length of linked list
-# * Space Complexity --- O(N) where N is length of linked list (space used for Freq )
+# * Space Complexity --- O(N) where N is length of linked list 
