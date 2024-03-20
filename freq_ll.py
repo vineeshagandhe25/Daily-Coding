@@ -41,11 +41,7 @@ def freq(linkedlist):
 
 		while(current_node):# Time Complexity --- O(N) where N is length of linked list
 
-			if Freq[current_node.data-1] > 0:
-				Freq[current_node.data-1]= Freq[current_node.data-1] + 1
-		    
-			else: # for first occurrence of an ele   
-				Freq[current_node.data-1]= 1
+			Freq[current_node.data-1] += 1
 
 			current_node=current_node.next	
 
