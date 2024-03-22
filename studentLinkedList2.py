@@ -72,7 +72,72 @@ def topper(obj):
         total=0
         iter_node=iter_node.next
 
-    return name  # returning topper name       
+    return name  # returning topper name    
+
+def avg_marks_at_sub(obj):
+    sub_marks={'C':0,'C++':0,'JAVA':0,'PYTHON':0,'DBMS':0,'DM':0}
+    iter_node=obj.head  # node to traverse student Linked List
+
+    while iter_node :   # Time Complexity --- O(N) where N is length of linked list
+
+        marks_node=iter_node.marks.head   # node to traverse subject Linked List
+        
+        while marks_node:  # Time Complexity --- O(M) where M is length of submarks
+            sub_marks[marks_node.sub] += marks_node.marks
+            marks_node=marks_node.next
+
+        iter_node=iter_node.next
+
+    for i in sub_marks:
+        sub_marks[i] //= 10
+
+    return sub_marks       
+
+def failed_students(obj):
+    names=[] # used for failed names
+    iter_node=obj.head  # node to traverse student Linked List
+
+    while iter_node :   # Time Complexity --- O(N) where N is length of linked list
+        marks_node=iter_node.marks.head   # node to traverse subject Linked List
+        
+        while marks_node:  # Time Complexity --- O(M) where M is length of submarks
+            if marks_node.marks < 40:
+                names.append(iter_node.name)
+            marks_node=marks_node.next
+
+        iter_node=iter_node.next
+
+    return names  
+
+def sort_avg_score(obj):
+    avg_marks=avg_marks_at_sub(obj)
+    sort_avg_marks=dict(sorted(avg_marks.items(),key=lambda item:item[1]))
+    return sort_avg_marks
+
+def sort_students(obj):
+    iter_node=obj.head  # node to traverse student Linked List
+    total=0
+    students=[]
+
+    while iter_node :   # Time Complexity --- O(N) where N is length of linked list
+
+        marks_node=iter_node.marks.head   # node to traverse subject Linked List
+        
+        while marks_node:  # Time Complexity --- O(M) where M is length of submarks
+            total += marks_node.marks 
+            marks_node=marks_node.next
+        
+        students.append([iter_node.name,total])
+        iter_node=iter_node.next
+        total=0
+    
+    for i in range(len(students)):
+        for j in range(len(students)-i-1):
+              if students[j][1] < students[j+1][1] :
+                  students[j][1],students[j+1][1]=students[j+1][1],students[j][1]  
+ 
+
+    return students           
 
 
 
@@ -93,12 +158,17 @@ marks_data7={'C':100,'C++':98,'JAVA':98,'PYTHON':98,'DBMS':95,'DM':98}
 obj.insert("ghu",marks_data7)  
 marks_data8={'C':100,'C++':100,'JAVA':100,'PYTHON':100,'DBMS':98,'DM':98}
 obj.insert("honey",marks_data8)  
-marks_data9={'C':99,'C++':90,'JAVA':97,'PYTHON':96,'DBMS':95,'DM':94}
-obj.insert("iron man",marks_data9)  
+marks_data9={'C':99,'C++':90,'JAVA':97,'PYTHON':39,'DBMS':95,'DM':94}
+obj.insert("imrean",marks_data9)  
 marks_data10={'C':100,'C++':100,'JAVA':100,'PYTHON':100,'DBMS':100,'DM':100}
 obj.insert("jhon",marks_data10)  
 #obj.printll() 
-print(topper(obj))
+print('The topper ---',topper(obj))
+print('avg marks at sub level',avg_marks_at_sub(obj))
+print('Failed students :',failed_students(obj))
+print('sorted avg max ',sort_avg_score(obj))
+print('sorted students ',sort_students(obj))
+
 
 # *Time Complexity --- O(N) where N is length of linked list
 # *Space Complexity ---O(N)  where N is length of linked list
