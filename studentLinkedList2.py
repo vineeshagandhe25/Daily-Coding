@@ -74,6 +74,7 @@ def topper(obj):
 
     return name  # returning topper name    
 
+# function to get avg marks at subject level
 def avg_marks_at_sub(obj):
     sub_marks={'C':0,'C++':0,'JAVA':0,'PYTHON':0,'DBMS':0,'DM':0}
     iter_node=obj.head  # node to traverse student Linked List
@@ -87,12 +88,13 @@ def avg_marks_at_sub(obj):
             marks_node=marks_node.next
 
         iter_node=iter_node.next
-
+    # to find avg 
     for i in sub_marks:
         sub_marks[i] //= 10
 
     return sub_marks       
 
+# function to get list of failed students
 def failed_students(obj):
     names=[] # used for failed names
     iter_node=obj.head  # node to traverse student Linked List
@@ -109,11 +111,13 @@ def failed_students(obj):
 
     return names  
 
+# function to sort subjects based on their avg score
 def sort_avg_score(obj):
     avg_marks=avg_marks_at_sub(obj)
     sort_avg_marks=dict(sorted(avg_marks.items(),key=lambda item:item[1]))
     return sort_avg_marks
 
+# function to sort students based on their total marks
 def sort_students(obj):
     iter_node=obj.head  # node to traverse student Linked List
     total=0
@@ -131,6 +135,7 @@ def sort_students(obj):
         iter_node=iter_node.next
         total=0
     
+    # sorting
     for i in range(len(students)):
         for j in range(len(students)-i-1):
               if students[j][1] < students[j+1][1] :
