@@ -1,0 +1,3320 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://diagramplus.com/
+Subject: Netflix | Diagram by TablePlus
+Date: Wed, 27 Mar 2024 21:33:57 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--SncEeiwnf1k9SRfAhlvc6LrR6yS4maOnwJodDCLiAL----"
+
+
+------MultipartBoundary--SncEeiwnf1k9SRfAhlvc6LrR6yS4maOnwJodDCLiAL----
+Content-Type: text/html
+Content-ID: <frame-ACEDA27F89E25B4F76A64BAA2461034C@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://diagramplus.com/
+
+<!DOCTYPE html><html class=3D"dark-theme" lang=3D"en"><head><meta http-equi=
+v=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"><link rel=3D"styl=
+esheet" type=3D"text/css" href=3D"cid:css-72307664-3e6b-4334-a459-5755334ca=
+01b@mhtml.blink" /><title>Netflix | Diagram by TablePlus</title><meta name=
+=3D"description" content=3D"Modern Database Design Tool from TablePlus"><li=
+nk rel=3D"icon" href=3D"https://diagramplus.com/images/favicon.svg"><link r=
+el=3D"icon" type=3D"image/svg+xml" sizes=3D"any" href=3D"https://diagramplu=
+s.com/images/favicon.svg"><link rel=3D"icon" type=3D"image/png" sizes=3D"16=
+x16" href=3D"https://diagramplus.com/images/favicon-16x16.png"><link rel=3D=
+"icon" type=3D"image/png" sizes=3D"32x32" href=3D"https://diagramplus.com/i=
+mages/favicon-32x32.png"><link rel=3D"icon" type=3D"image/png" sizes=3D"64x=
+64" href=3D"https://diagramplus.com/images/favicon-64x64.png"><link rel=3D"=
+apple-touch-icon" href=3D"https://diagramplus.com/images/apple-touch-icon.p=
+ng"><meta property=3D"og:type" content=3D"website"><meta property=3D"og:url=
+" content=3D"https://diagramplus.com/"><meta property=3D"og:title" content=
+=3D"Diagram by TablePlus"><meta property=3D"og:description" content=3D"Mode=
+rn Database Design Tool from TablePlus"><meta property=3D"og:image" content=
+=3D"./images/cover.png"><meta name=3D"viewport" content=3D"width=3Ddevice-w=
+idth,initial-scale=3D1"><link href=3D"https://diagramplus.com/static/css/ma=
+in.69a3b2d1.css" rel=3D"stylesheet"><link type=3D"text/css" rel=3D"styleshe=
+et" href=3D"https://fonts.googleapis.com/css2?family=3DOpen+Sans:ital,wght@=
+0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp=
+;family=3DPoppins:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,600;1,800=
+&amp;display=3Dswap"></head><body><div id=3D"root"><div class=3D"flex h-scr=
+een flex-col bg-[var(--slate1)]"><div class=3D"flex-0"><div class=3D" bg-[v=
+ar(--slate2)]"><div class=3D" flex items-center px-2"><div class=3D"px-2 h-=
+[64px] flex items-center "><button class=3D"bg-[var(--slate1)] active:bg-[v=
+ar(--slate6)] shadow-sm text-[var(--slate12)] disabled:text-[var(--slate4)]=
+ border border-[var(--slate7)] hover:bg-[var(--slate4)] transition-shadow e=
+ase-out duration-300 outline outline-transparent ring-8 ring-transparent fl=
+ex justify-center gap-2 rounded text-13 p-2  bg-[var(--slate8)] hover:bg-[v=
+ar(--slate9)] active:bg-[var(--slate10)] [-webkit-app-region:no-drag] " fdp=
+rocessedid=3D"4hwpa"><svg stroke=3D"currentColor" fill=3D"currentColor" str=
+oke-width=3D"0" class=3D"" height=3D"1em" width=3D"1em" xmlns=3D"http://www=
+.w3.org/2000/svg" viewBox=3D"0 0 16 16" style=3D"width: 16px; height: 16px;=
+"><path d=3D"M9.99 11.99h-9c-.55 0-1 .45-1 1s.45 1 1 1h9c.55 0 1-.45 1-1s-.=
+45-1-1-1zm0-5h-9c-.55 0-1 .45-1 1s.45 1 1 1h9c.55 0 1-.45 1-1s-.45-1-1-1zm0=
+-5h-9c-.55 0-1 .45-1 1s.45 1 1 1h9c.55 0 1-.45 1-1s-.45-1-1-1zm5.71 5.3l-2-=
+2a1.003 1.003 0 00-1.71.71v4a1.003 1.003 0 001.71.71l2-2c.18-.18.29-.43.29-=
+.71s-.11-.53-.29-.71z"></path></svg></button></div><div class=3D"lg:flex md=
+:hidden sm:hidden"><div class=3D"px-2 h-[64px] flex items-center "><div typ=
+e=3D"button" id=3D"radix-:r0:" aria-haspopup=3D"menu" aria-expanded=3D"fals=
+e" data-state=3D"closed"><button class=3D"bg-[var(--slate1)] active:bg-[var=
+(--slate6)] shadow-sm text-[var(--slate12)] disabled:text-[var(--slate4)] b=
+order border-[var(--slate7)] hover:bg-[var(--slate4)] transition-shadow eas=
+e-out duration-300 outline outline-transparent ring-8 ring-transparent flex=
+ justify-center gap-2 rounded text-13 p-2   [-webkit-app-region:no-drag] " =
+fdprocessedid=3D"y9hnq"><svg stroke=3D"currentColor" fill=3D"currentColor" =
+stroke-width=3D"0" class=3D"" height=3D"1em" width=3D"1em" xmlns=3D"http://=
+www.w3.org/2000/svg" viewBox=3D"0 0 16 16" style=3D"width: 16px; height: 16=
+px;"><path d=3D"M7.29 11.71c.18.18.43.29.71.29s.53-.11.71-.29l4-4a1.003 1.0=
+03 0 00-1.42-1.42L9 8.59V1c0-.55-.45-1-1-1S7 .45 7 1v7.59l-2.29-2.3a1.003 1=
+.003 0 00-1.42 1.42l4 4zM15 11c-.55 0-1 .45-1 1v2H2v-2c0-.55-.45-1-1-1s-1 .=
+45-1 1v3c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-3c0-.55-.45-1-1-1z"></path></sv=
+g>Import</button></div></div><div class=3D"px-2 h-[64px] flex items-center =
+"><div type=3D"button" id=3D"radix-:r8:" aria-haspopup=3D"menu" aria-expand=
+ed=3D"false" data-state=3D"closed"><button class=3D"bg-[var(--slate1)] acti=
+ve:bg-[var(--slate6)] shadow-sm text-[var(--slate12)] disabled:text-[var(--=
+slate4)] border border-[var(--slate7)] hover:bg-[var(--slate4)] transition-=
+shadow ease-out duration-300 outline outline-transparent ring-8 ring-transp=
+arent flex justify-center gap-2 rounded text-13 p-2   [-webkit-app-region:n=
+o-drag] " fdprocessedid=3D"c8xnr9"><svg stroke=3D"currentColor" fill=3D"cur=
+rentColor" stroke-width=3D"0" class=3D"" height=3D"1em" width=3D"1em" xmlns=
+=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 16 16" style=3D"width: 16px;=
+ height: 16px;"><path d=3D"M4 6c.28 0 .53-.11.71-.29L7 3.41V11c0 .55.45 1 1=
+ 1s1-.45 1-1V3.41l2.29 2.29c.18.19.43.3.71.3a1.003 1.003 0 00.71-1.71l-4-4C=
+8.53.11 8.28 0 8 0s-.53.11-.71.29l-4 4A1.003 1.003 0 004 6zm11 5c-.55 0-1 .=
+45-1 1v2H2v-2c0-.55-.45-1-1-1s-1 .45-1 1v3c0 .55.45 1 1 1h14c.55 0 1-.45 1-=
+1v-3c0-.55-.45-1-1-1z"></path></svg>Export</button></div></div><div class=
+=3D"px-2 h-[64px] flex items-center "><button class=3D"bg-[var(--slate1)] a=
+ctive:bg-[var(--slate6)] shadow-sm text-[var(--slate12)] disabled:text-[var=
+(--slate4)] border border-[var(--slate7)] hover:bg-[var(--slate4)] transiti=
+on-shadow ease-out duration-300 outline outline-transparent ring-8 ring-tra=
+nsparent flex justify-center gap-2 rounded text-13 p-2   [-webkit-app-regio=
+n:no-drag] " fdprocessedid=3D"xl5lki"><svg stroke=3D"currentColor" fill=3D"=
+currentColor" stroke-width=3D"0" class=3D"" height=3D"1em" width=3D"1em" xm=
+lns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 16 16" style=3D"width: 16=
+px; height: 16px;"><path d=3D"M13 7H9V3c0-.55-.45-1-1-1s-1 .45-1 1v4H3c-.55=
+ 0-1 .45-1 1s.45 1 1 1h4v4c0 .55.45 1 1 1s1-.45 1-1V9h4c.55 0 1-.45 1-1s-.4=
+5-1-1-1z"></path></svg>Table</button></div><div class=3D"px-2 h-[64px] flex=
+ items-center "><div class=3D"border border-[var(--slate7)] rounded"><div c=
+lass=3D"flex "><div class=3D"group-init flex-0"><button class=3D"bg-none te=
+xt-[var(--slate12)] disabled:text-[var(--slate10)] hover:bg-[var(--slate6)]=
+ active:bg-[var(--slate7)] transition-shadow ease-out duration-300 outline =
+outline-transparent ring-8 ring-transparent flex justify-center gap-2 round=
+ed text-13 p-2   [-webkit-app-region:no-drag] " fdprocessedid=3D"jx4pq6"><s=
+vg stroke=3D"currentColor" fill=3D"currentColor" stroke-width=3D"0" class=
+=3D"" height=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.org/2000/svg" vie=
+wBox=3D"0 0 16 16" style=3D"width: 16px; height: 16px;"><path d=3D"M4 11c-1=
+.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm7-7H3.41L4.7 2.71c.19-.18.3-.43.3=
+-.71a1.003 1.003 0 00-1.71-.71l-3 3C.11 4.47 0 4.72 0 5c0 .28.11.53.29.71l3=
+ 3a1.003 1.003 0 001.42-1.42L3.41 6H11c1.66 0 3 1.34 3 3s-1.34 3-3 3H7v2h4c=
+2.76 0 5-2.24 5-5s-2.24-5-5-5z"></path></svg></button></div><div class=3D"g=
+roup-tail flex-0"><button class=3D"bg-none text-[var(--slate12)] disabled:t=
+ext-[var(--slate10)] hover:bg-[var(--slate6)] active:bg-[var(--slate7)] tra=
+nsition-shadow ease-out duration-300 outline outline-transparent ring-8 rin=
+g-transparent flex justify-center gap-2 rounded text-13 p-2   [-webkit-app-=
+region:no-drag] " disabled=3D""><svg stroke=3D"currentColor" fill=3D"curren=
+tColor" stroke-width=3D"0" class=3D"" height=3D"1em" width=3D"1em" xmlns=3D=
+"http://www.w3.org/2000/svg" viewBox=3D"0 0 16 16" style=3D"width: 16px; he=
+ight: 16px;"><path d=3D"M12 11c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm=
+3.71-6.71l-3-3a1.003 1.003 0 00-1.42 1.42L12.59 4H5C2.24 4 0 6.24 0 9s2.24 =
+5 5 5h4v-2H5c-1.66 0-3-1.34-3-3s1.34-3 3-3h7.59L11.3 7.29c-.19.18-.3.43-.3.=
+71a1.003 1.003 0 001.71.71l3-3c.18-.18.29-.43.29-.71 0-.28-.11-.53-.29-.71z=
+"></path></svg></button></div></div></div></div></div><div class=3D"px-2 h-=
+[64px] flex items-center  flex-1"><div class=3D"flex-none flex items-center=
+ p-2 w-full"><div class=3D"p-1 bg-[var(--slate1)] w-full rounded"><datalist=
+ id=3D"header-search"><option value=3D"Login Details"></option><option valu=
+e=3D"Profiles"></option><option value=3D"Cast"></option><option value=3D"Vi=
+deos"></option><option value=3D"Status"></option><option value=3D"User Vide=
+os"></option></datalist><input class=3D"transition-shadow ease-out duration=
+-300 outline outline-transparent focus:outline-blue-500 ring-8 ring-transpa=
+rent focus:ring focus:ring-blue-200 block text-13 w-full rounded bg-[var(--=
+slate1)] text-[var(--slate12)] border border-[var(--slate7)] py-1.5 px-2 di=
+sabled:text-[var(--slate10)] " placeholder=3D"Find table=E2=80=A6" list=3D"=
+header-search" value=3D"" fdprocessedid=3D"z5up2"></div></div></div><div cl=
+ass=3D"lg:flex md:flex sm:hidden"><div class=3D"px-2 h-[64px] flex items-ce=
+nter "><div class=3D"border border-[var(--slate7)] rounded"><div class=3D"f=
+lex "><div class=3D"group-init flex-0"><button class=3D"bg-none text-[var(-=
+-slate12)] disabled:text-[var(--slate10)] hover:bg-[var(--slate6)] active:b=
+g-[var(--slate7)] transition-shadow ease-out duration-300 outline outline-t=
+ransparent ring-8 ring-transparent flex justify-center gap-2 rounded text-1=
+3 p-2 text-[var(--slate12)]  [-webkit-app-region:no-drag] " fdprocessedid=
+=3D"f1yqo"><svg stroke=3D"currentColor" fill=3D"currentColor" stroke-width=
+=3D"0" class=3D"" height=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.org/2=
+000/svg" viewBox=3D"0 0 16 16" style=3D"width: 16px; height: 16px;"><path d=
+=3D"M14 9.5c-.56 0-1.06.23-1.42.59L8.99 8l3.59-2.09A2.002 2.002 0 0016 4.5c=
+0-1.1-.9-2-2-2s-2 .9-2 2c0 .19.03.37.08.54L8.5 7.13v-3.2c.86-.22 1.5-1 1.5-=
+1.93 0-1.1-.9-2-2-2S6 .9 6 2c0 .93.64 1.71 1.5 1.93v3.2L3.92 5.04c.05-.17.0=
+8-.35.08-.54 0-1.1-.9-2-2-2s-2 .9-2 2 .9 2 2 2c.56 0 1.06-.23 1.42-.59L7.01=
+ 8l-3.59 2.09A2.002 2.002 0 000 11.5c0 1.1.9 2 2 2s2-.9 2-2c0-.19-.03-.37-.=
+08-.54L7.5 8.87v3.2c-.86.22-1.5 1-1.5 1.93 0 1.1.9 2 2 2s2-.9 2-2c0-.93-.64=
+-1.71-1.5-1.93v-3.2l3.58 2.09c-.05.17-.08.35-.08.54 0 1.1.9 2 2 2s2-.9 2-2-=
+.9-2-2-2z"></path></svg>Arrange</button></div><div class=3D"group-tail flex=
+-0"><div type=3D"button" id=3D"radix-:rd:" aria-haspopup=3D"menu" aria-expa=
+nded=3D"false" data-state=3D"closed"><button class=3D"bg-none text-[var(--s=
+late12)] disabled:text-[var(--slate10)] hover:bg-[var(--slate6)] active:bg-=
+[var(--slate7)] transition-shadow ease-out duration-300 outline outline-tra=
+nsparent ring-8 ring-transparent flex justify-center gap-2 rounded text-13 =
+p-2   [-webkit-app-region:no-drag] " fdprocessedid=3D"5a73hh"><svg stroke=
+=3D"currentColor" fill=3D"currentColor" stroke-width=3D"0" class=3D"" heigh=
+t=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0=
+ 16 16" style=3D"width: 16px; height: 16px;"><path d=3D"M12 6.5c0-.28-.22-.=
+5-.5-.5h-7a.495.495 0 00-.37.83l3.5 4c.09.1.22.17.37.17s.28-.07.37-.17l3.5-=
+4c.08-.09.13-.2.13-.33z"></path></svg></button></div></div></div></div></di=
+v><div class=3D"px-2 h-[64px] flex items-center "><div class=3D"rounded bor=
+der border-[var(--slate7)]"><div class=3D"flex "><div class=3D"group-init f=
+lex-0"><button class=3D"bg-none text-[var(--slate12)] disabled:text-[var(--=
+slate10)] hover:bg-[var(--slate6)] active:bg-[var(--slate7)] transition-sha=
+dow ease-out duration-300 outline outline-transparent ring-8 ring-transpare=
+nt flex justify-center gap-2 rounded text-13 p-2   [-webkit-app-region:no-d=
+rag] " fdprocessedid=3D"ogw6ql"><svg stroke=3D"currentColor" fill=3D"curren=
+tColor" stroke-width=3D"0" class=3D"" height=3D"1em" width=3D"1em" xmlns=3D=
+"http://www.w3.org/2000/svg" viewBox=3D"0 0 16 16" style=3D"width: 16px; he=
+ight: 16px;"><path d=3D"M3.99 5.99c-.55 0-1 .45-1 1s.45 1 1 1h6c.55 0 1-.45=
+ 1-1s-.45-1-1-1h-6zm11.56 7.44l-2.67-2.68a6.94 6.94 0 001.11-3.76c0-3.87-3.=
+13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.39 0 2.68-.42 3.76-1.11l2.68 2.67a1.498 1=
+.498 0 102.12-2.12zm-8.56-1.44c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.2=
+4 5-5 5z"></path></svg></button></div><div class=3D"group-tail group-init f=
+lex-0"><div class=3D"w-20 rounded p-1 hover:shadow hover:bg-[var(--slate4)]=
+ text-[var(--slate12)]"><button type=3D"button" role=3D"combobox" aria-cont=
+rols=3D"radix-:rf:" aria-expanded=3D"false" aria-autocomplete=3D"none" dir=
+=3D"ltr" data-state=3D"closed" class=3D"transition-shadow ease-out duration=
+-300 outline outline-transparent ring-8 ring-transparent block text-13 roun=
+ded w-fit flex flex-1 items-center justify-between gap-2 white py-1 px-2" f=
+dprocessedid=3D"nxcd36"><div class=3D"flex flex-1 justify-center items-cent=
+er text-[var(--slate12)]" style=3D"pointer-events: none;">100%</div><div ar=
+ia-hidden=3D"true"><svg stroke=3D"currentColor" fill=3D"currentColor" strok=
+e-width=3D"0" class=3D"w-4 h-4 fill-[var(--slate12)]" height=3D"1em" width=
+=3D"1em" xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 16 16" style=
+=3D"width: 16px; height: 16px;"><path d=3D"M12 5c-.28 0-.53.11-.71.29L8 8.5=
+9l-3.29-3.3a1.003 1.003 0 00-1.42 1.42l4 4c.18.18.43.29.71.29s.53-.11.71-.2=
+9l4-4A1.003 1.003 0 0012 5z"></path></svg></div></button></div></div><div c=
+lass=3D"group-tail flex-0"><button class=3D"bg-none text-[var(--slate12)] d=
+isabled:text-[var(--slate10)] hover:bg-[var(--slate6)] active:bg-[var(--sla=
+te7)] transition-shadow ease-out duration-300 outline outline-transparent r=
+ing-8 ring-transparent flex justify-center gap-2 rounded text-13 p-2   [-we=
+bkit-app-region:no-drag] " fdprocessedid=3D"omvhtf"><svg stroke=3D"currentC=
+olor" fill=3D"currentColor" stroke-width=3D"0" class=3D"" height=3D"1em" wi=
+dth=3D"1em" xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 16 16" styl=
+e=3D"width: 16px; height: 16px;"><path d=3D"M7.99 5.99v-2c0-.55-.45-1-1-1s-=
+1 .45-1 1v2h-2c-.55 0-1 .45-1 1s.45 1 1 1h2v2c0 .55.45 1 1 1s1-.45 1-1v-2h2=
+c.55 0 1-.45 1-1s-.45-1-1-1h-2zm7.56 7.44l-2.67-2.68a6.94 6.94 0 001.11-3.7=
+6c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.39 0 2.68-.42 3.76-1.11l2.68 2=
+.67a1.498 1.498 0 102.12-2.12zm-8.56-1.44c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2=
+.24 5 5-2.24 5-5 5z"></path></svg></button></div></div></div></div><div cla=
+ss=3D"px-2 h-[64px] flex items-center "><div type=3D"button" id=3D"radix-:r=
+g:" aria-haspopup=3D"menu" aria-expanded=3D"false" data-state=3D"closed"><b=
+utton class=3D"bg-[var(--slate1)] active:bg-[var(--slate6)] shadow-sm text-=
+[var(--slate12)] disabled:text-[var(--slate4)] border border-[var(--slate7)=
+] hover:bg-[var(--slate4)] transition-shadow ease-out duration-300 outline =
+outline-transparent ring-8 ring-transparent flex justify-center gap-2 round=
+ed text-13 p-2   [-webkit-app-region:no-drag] " fdprocessedid=3D"7zf3nt"><s=
+vg stroke=3D"currentColor" fill=3D"currentColor" stroke-width=3D"0" class=
+=3D"" height=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.org/2000/svg" vie=
+wBox=3D"0 0 16 16" style=3D"width: 16px; height: 16px;"><path d=3D"M11 8c0-=
+.28-.11-.53-.29-.71l-3-3a1.003 1.003 0 00-1.42 1.42L7.59 7H1c-.55 0-1 .45-1=
+ 1s.45 1 1 1h6.59L6.3 10.29c-.19.18-.3.43-.3.71a1.003 1.003 0 001.71.71l3-3=
+c.18-.18.29-.43.29-.71zm4-8H9c-.55 0-1 .45-1 1s.45 1 1 1h5v12H9c-.55 0-1 .4=
+5-1 1s.45 1 1 1h6c.55 0 1-.45 1-1V1c0-.55-.45-1-1-1z"></path></svg>Login</b=
+utton></div></div></div><div class=3D"px-2 h-[64px] flex items-center "><bu=
+tton class=3D"bg-[var(--slate1)] active:bg-[var(--slate6)] shadow-sm text-[=
+var(--slate12)] disabled:text-[var(--slate4)] border border-[var(--slate7)]=
+ hover:bg-[var(--slate4)] transition-shadow ease-out duration-300 outline o=
+utline-transparent ring-8 ring-transparent flex justify-center gap-2 rounde=
+d text-13 p-2   [-webkit-app-region:no-drag] " fdprocessedid=3D"h4qcpv"><sv=
+g stroke=3D"currentColor" fill=3D"currentColor" stroke-width=3D"0" class=3D=
+"" height=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.org/2000/svg" viewBo=
+x=3D"0 0 16 16" style=3D"width: 16px; height: 16px;"><path d=3D"M2 6.03a2 2=
+ 0 100 4 2 2 0 100-4zM14 6.03a2 2 0 100 4 2 2 0 100-4zM8 6.03a2 2 0 100 4 2=
+ 2 0 100-4z"></path></svg></button></div></div></div></div><hr class=3D"bor=
+der-[1px] border-solid self-stretch h-auto border-b-0 border-r-0 border-[va=
+r(--gray8)]"><div class=3D"flex-1 overflow-hidden flex"><div class=3D"flex-=
+0 overflow-hidden max-w-[80vh]" style=3D"width: 320px;"><div class=3D"w-ful=
+l h-full overflow-y-auto overflow-x-hidden bg-[var(--slate2)]"><div><div cl=
+ass=3D"flex items-center p-3"><button class=3D"bg-[var(--slate1)] active:bg=
+-[var(--slate6)] shadow-sm text-[var(--slate12)] disabled:text-[var(--slate=
+4)] border border-[var(--slate7)] hover:bg-[var(--slate4)] transition-shado=
+w ease-out duration-300 outline outline-transparent ring-8 ring-transparent=
+ flex justify-center gap-2 rounded text-13 p-2   [-webkit-app-region:no-dra=
+g] " fdprocessedid=3D"a7y9vs"><svg stroke=3D"currentColor" fill=3D"currentC=
+olor" stroke-width=3D"0" class=3D"" height=3D"1em" width=3D"1em" xmlns=3D"h=
+ttp://www.w3.org/2000/svg" viewBox=3D"0 0 16 16" style=3D"width: 16px; heig=
+ht: 16px;"><path d=3D"M13 7H9V3c0-.55-.45-1-1-1s-1 .45-1 1v4H3c-.55 0-1 .45=
+-1 1s.45 1 1 1h4v4c0 .55.45 1 1 1s1-.45 1-1V9h4c.55 0 1-.45 1-1s-.45-1-1-1z=
+"></path></svg>Diagram</button></div><div class=3D"flex bg-[var(--slate7)] =
+group"><div class=3D"flex-[1_1_0px] overflow-hidden text-[var(--slate12)]">=
+<div class=3D"flex items-center"><button class=3D"group flex-[1_1] text-ell=
+ipsis overflow-hidden transition-none whitespace-nowrap text-left cursor-po=
+inter h-[32px] px-2 rounded  " title=3D"Click to select, Double-click to re=
+name" fdprocessedid=3D"vm571g">Netflix</button></div></div><div class=3D"gr=
+oup-hover:flex group-focus-within:flex group-focus:flex group-open:flex hid=
+den text-[var(--slate11)]"><button class=3D"bg-none text-[var(--slate12)] d=
+isabled:text-[var(--slate10)] hover:bg-[var(--slate6)] active:bg-[var(--sla=
+te7)] transition-shadow ease-out duration-300 outline outline-transparent r=
+ing-8 ring-transparent flex justify-center gap-2 rounded text-13 p-2   [-we=
+bkit-app-region:no-drag] h-[32px] w-[32px]" fdprocessedid=3D"bck5i"><svg st=
+roke=3D"currentColor" fill=3D"currentColor" stroke-width=3D"0" class=3D"" h=
+eight=3D"1em" width=3D"1em" xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D=
+"0 0 16 16" style=3D"width: 16px; height: 16px;"><path d=3D"M10 14H2V2h4v4h=
+1c0-.83.36-1.55.91-2.09l-.03-.03.9-.9C8.3 2.45 8 1.77 8 1L7 0H1C.45 0 0 .45=
+ 0 1v14c0 .55.45 1 1 1h10c.55 0 1-.45 1-1V8.22c-.53.48-1.23.78-2 .78v5zm5-1=
+4h-4c-.55 0-1 .45-1 1s.45 1 1 1h1.59l-3.3 3.29a1.003 1.003 0 001.42 1.42L14=
+ 3.41V5c0 .55.45 1 1 1s1-.45 1-1V1c0-.55-.45-1-1-1z"></path></svg></button>=
+<button class=3D"bg-none text-[var(--slate12)] disabled:text-[var(--slate10=
+)] hover:bg-[var(--slate6)] active:bg-[var(--slate7)] transition-shadow eas=
+e-out duration-300 outline outline-transparent ring-8 ring-transparent flex=
+ justify-center gap-2 rounded text-13 p-2   [-webkit-app-region:no-drag] h-=
+[32px] w-[32px]" fdprocessedid=3D"a6t6m"><svg stroke=3D"currentColor" fill=
+=3D"currentColor" stroke-width=3D"0" class=3D"" height=3D"1em" width=3D"1em=
+" xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 16 16" style=3D"width=
+: 16px; height: 16px;"><path d=3D"M3.25 10.26l2.47 2.47 6.69-6.69-2.46-2.48=
+-6.7 6.7zM.99 14.99l3.86-1.39-2.46-2.44-1.4 3.83zm12.25-14c-.48 0-.92.2-1.2=
+4.51l-1.44 1.44 2.47 2.47 1.44-1.44c.32-.32.51-.75.51-1.24.01-.95-.77-1.74-=
+1.74-1.74z"></path></svg></button><div><div type=3D"button" id=3D"radix-:rq=
+:" aria-haspopup=3D"menu" aria-expanded=3D"false" data-state=3D"closed"><bu=
+tton class=3D"bg-none text-[var(--slate12)] disabled:text-[var(--slate10)] =
+hover:bg-[var(--slate6)] active:bg-[var(--slate7)] transition-shadow ease-o=
+ut duration-300 outline outline-transparent ring-8 ring-transparent flex ju=
+stify-center gap-2 rounded text-13 p-2   [-webkit-app-region:no-drag] h-[32=
+px] w-[32px]" fdprocessedid=3D"yiei1"><svg stroke=3D"currentColor" fill=3D"=
+currentColor" stroke-width=3D"0" class=3D"" height=3D"1em" width=3D"1em" xm=
+lns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 16 16" style=3D"width: 16=
+px; height: 16px;"><path d=3D"M2 6.03a2 2 0 100 4 2 2 0 100-4zM14 6.03a2 2 =
+0 100 4 2 2 0 100-4zM8 6.03a2 2 0 100 4 2 2 0 100-4z"></path></svg></button=
+></div></div></div></div><hr class=3D"border-[1px] border-solid self-stretc=
+h h-auto border-b-0 border-r-0 border-[var(--gray6)]"></div></div></div><di=
+v class=3D"relative"><div class=3D"h-full cursor-col-resize w-4 -mr-[15px] =
+relative group "><div class=3D"h-full transition-[border-left-color] border=
+-solid border-l-[1px] group-hover:border-l-2 group-hover:border-l-[var(--bl=
+ue10)] border-[var(--gray8)]"></div></div></div><div class=3D"flex-1 overfl=
+ow-hidden relative"><div class=3D"w-full h-full overflow-scroll outline-non=
+e" tabindex=3D"0"><div class=3D"relative" style=3D"width: 2016px; height: 1=
+151px; margin: 0px;"><div class=3D"absolute top-0 left-0 w-full h-full z-0 =
+bg-[var(--slate3)]"></div><div class=3D"absolute top-0 left-0 w-full h-full=
+ z-0 bg-radial-gradient bg-[length:16px_16px]"></div><div class=3D"w-full h=
+-full absolute top-0 left-0" style=3D"z-index: 0;"></div><svg class=3D"abso=
+lute top-0 left-0 z-0 pointer-events-none" xmlns=3D"http://www.w3.org/2000/=
+svg" width=3D"2016" height=3D"1151"><defs><marker id=3D"edge-from" viewBox=
+=3D"0 0 10 10" refX=3D"4" refY=3D"5" markerWidth=3D"10" markerHeight=3D"10"=
+ markerUnits=3D"userSpaceOnUse"><circle class=3D"container stroke-1 fill-[v=
+ar(--slate2)] transition-[stroke-width,stroke] duration-200 stroke-[var(--s=
+late9)]" cx=3D"5" cy=3D"5" r=3D"4"></circle></marker><marker id=3D"edge-to"=
+ viewBox=3D"0 0 10 10" refX=3D"10" refY=3D"5" markerWidth=3D"10" markerHeig=
+ht=3D"10" markerUnits=3D"userSpaceOnUse" orient=3D"auto-start-reverse"><pol=
+ygon class=3D"container stroke-1 fill-[var(--slate2)] transition-[stroke-wi=
+dth,stroke] duration-200 stroke-[var(--slate9)]" points=3D"1,1 9,5 1,9"></p=
+olygon></marker></defs><g><path class=3D"path fill-none stroke-1 stroke-[va=
+r(--slate10)]" marker-end=3D"url(#edge-from)" d=3D"M 312.8000183105469 121.=
+60000610351562 L 312.8000183105469 121.60000610351562 Q 312.8000183105469 1=
+21.60000610351562 309.8000183105469 121.60000610351562 L 296.8000183105469 =
+121.60000610351562"></path><path class=3D"path fill-none stroke-1 stroke-[v=
+ar(--slate10)]" marker-end=3D"url(#edge-to)" d=3D"M 416.79998779296875 105.=
+60000610351562 L 416.79998779296875 105.60000610351562 Q 416.79998779296875=
+ 105.60000610351562 419.79998779296875 105.60000610351562 L 432.79998779296=
+875 105.60000610351562"></path><path class=3D"path fill-none stroke-1 strok=
+e-[var(--slate10)]" d=3D"M 312.8000183105469 121.60000610351562  L 312.8000=
+183105469 121.60000610351562  L 397.79998779296875 121.60000610351562 Q 400=
+.79998779296875 121.60000610351562 400.79998779296875 118.60000610351562  L=
+ 400.79998779296875 108.60000610351562 Q 400.79998779296875 105.60000610351=
+562 403.79998779296875 105.60000610351562  L 416.79998779296875 105.6000061=
+0351562"></path><path class=3D"stroke-[20px] stroke-transparent fill-transp=
+arent cursor-pointer" pointer-events=3D"stroke" d=3D"M 312.8000183105469 12=
+1.60000610351562  L 312.8000183105469 121.60000610351562  L 397.79998779296=
+875 121.60000610351562 Q 400.79998779296875 121.60000610351562 400.79998779=
+296875 118.60000610351562  L 400.79998779296875 108.60000610351562 Q 400.79=
+998779296875 105.60000610351562 403.79998779296875 105.60000610351562  L 41=
+6.79998779296875 105.60000610351562"></path></g><g><path class=3D"path fill=
+-none stroke-1 stroke-[var(--slate10)]" marker-end=3D"url(#edge-from)" d=3D=
+"M 728.7999877929688 401.59999084472656 L 728.7999877929688 401.59999084472=
+656 Q 728.7999877929688 401.59999084472656 725.7999877929688 401.5999908447=
+2656 L 712.7999877929688 401.59999084472656"></path><path class=3D"path fil=
+l-none stroke-1 stroke-[var(--slate10)]" marker-end=3D"url(#edge-to)" d=3D"=
+M 768.800048828125 417.59999084472656 L 768.800048828125 417.59999084472656=
+ Q 768.800048828125 417.59999084472656 771.800048828125 417.59999084472656 =
+L 784.800048828125 417.59999084472656"></path><path class=3D"path fill-none=
+ stroke-1 stroke-[var(--slate10)]" d=3D"M 728.7999877929688 401.59999084472=
+656  L 728.7999877929688 401.59999084472656  L 749.800048828125 401.5999908=
+4472656 Q 752.800048828125 401.59999084472656 752.800048828125 404.59999084=
+472656  L 752.800048828125 414.59999084472656 Q 752.800048828125 417.599990=
+84472656 755.800048828125 417.59999084472656  L 768.800048828125 417.599990=
+84472656"></path><path class=3D"stroke-[20px] stroke-transparent fill-trans=
+parent cursor-pointer" pointer-events=3D"stroke" d=3D"M 728.7999877929688 4=
+01.59999084472656  L 728.7999877929688 401.59999084472656  L 749.8000488281=
+25 401.59999084472656 Q 752.800048828125 401.59999084472656 752.80004882812=
+5 404.59999084472656  L 752.800048828125 414.59999084472656 Q 752.800048828=
+125 417.59999084472656 755.800048828125 417.59999084472656  L 768.800048828=
+125 417.59999084472656"></path></g></svg><div class=3D"absolute" style=3D"t=
+op: 32px; left: 32px; z-index: 0;"><div class=3D"table-container border-sol=
+id border-[var(--slate9)] border-[1px] cursor-grab transition-outline bg-[v=
+ar(--slate2)] shadow-[0_1px_4px_rgba(0,0,0,0.1)] outline-8  react-draggable=
+" style=3D"transform: translate(0px, 0px);"><div class=3D"p-2 relative  ran=
+dom text-[var(--slate12)]"><div class=3D"transition-transform text-center f=
+ont-semibold flex-0 " style=3D"width: 240px;"><div class=3D"leading-normal =
+overflow-hidden text-ellipsis whitespace-nowrap">Login Details</div></div><=
+/div><hr class=3D"border-[1px] border-solid self-stretch h-auto border-b-0 =
+border-r-0 border-[var(--gray6)]"><div class=3D"relative"><div class=3D"h-3=
+ w-3"></div><div style=3D"height: 3px;"></div><div><div style=3D"height: 24=
+px;"><div class=3D"h-full flex items-center transition-colors hover:bg-[var=
+(--slate5)]   " draggable=3D"true"><div class=3D"h-3 w-3"></div><div class=
+=3D"flex" style=3D"width: 240px;"><div class=3D"text-[var(--slate11)] overf=
+low-hidden flex-1 px-2 m-[-4px]" data-row-field=3D"name"><div class=3D"rela=
+tive"><div tabindex=3D"0" class=3D"leading-normal w-full truncate cursor-po=
+inter transition-outline outline-8 outline-transparent outline -outline-off=
+set-2 react-draggable-cancel row-input-string-view [&amp;>:not(.weak)]:tran=
+sition-none"><span>Name</span></div></div></div><div class=3D"flex-1 overfl=
+ow-hidden text-right px-2 m-[-4px] text-[var(--slate11)]" data-row-field=3D=
+"type"><div class=3D"relative"><div tabindex=3D"0" class=3D"leading-normal =
+w-full truncate cursor-pointer transition-outline outline-8 outline-transpa=
+rent outline -outline-offset-2 react-draggable-cancel row-input-string-view=
+ [&amp;>:not(.weak)]:transition-none"><span>varchar(30)</span></div></div><=
+/div></div><div class=3D"h-3 w-3"></div></div></div><div style=3D"height: 2=
+4px;"><div class=3D"h-full flex items-center transition-colors hover:bg-[va=
+r(--slate5)]   font-semibold" draggable=3D"true"><div class=3D"h-3 w-3"></d=
+iv><div class=3D"flex" style=3D"width: 240px;"><div class=3D"text-[var(--sl=
+ate11)] overflow-hidden flex-1 px-2 m-[-4px]" data-row-field=3D"name"><div =
+class=3D"relative"><div tabindex=3D"0" class=3D"leading-normal w-full trunc=
+ate cursor-pointer transition-outline outline-8 outline-transparent outline=
+ -outline-offset-2 react-draggable-cancel row-input-string-view [&amp;>:not=
+(.weak)]:transition-none"><span>email_id</span></div></div></div><div class=
+=3D"flex-1 overflow-hidden text-right px-2 m-[-4px] text-[var(--slate11)]" =
+data-row-field=3D"type"><div class=3D"relative"><div tabindex=3D"0" class=
+=3D"leading-normal w-full truncate cursor-pointer transition-outline outlin=
+e-8 outline-transparent outline -outline-offset-2 react-draggable-cancel ro=
+w-input-string-view [&amp;>:not(.weak)]:transition-none"><span>varchar(40)<=
+/span></div></div></div></div><div class=3D"h-3 w-3"></div></div></div><div=
+ style=3D"height: 24px;"><div class=3D"h-full flex items-center transition-=
+colors hover:bg-[var(--slate5)]   " draggable=3D"true"><div class=3D"h-3 w-=
+3"></div><div class=3D"flex" style=3D"width: 240px;"><div class=3D"text-[va=
+r(--slate11)] overflow-hidden flex-1 px-2 m-[-4px]" data-row-field=3D"name"=
+><div class=3D"relative"><div tabindex=3D"0" class=3D"leading-normal w-full=
+ truncate cursor-pointer transition-outline outline-8 outline-transparent o=
+utline -outline-offset-2 react-draggable-cancel row-input-string-view [&amp=
+;>:not(.weak)]:transition-none"><span>Password</span></div></div></div><div=
+ class=3D"flex-1 overflow-hidden text-right px-2 m-[-4px] text-[var(--slate=
+11)]" data-row-field=3D"type"><div class=3D"relative"><div tabindex=3D"0" c=
+lass=3D"leading-normal w-full truncate cursor-pointer transition-outline ou=
+tline-8 outline-transparent outline -outline-offset-2 react-draggable-cance=
+l row-input-string-view [&amp;>:not(.weak)]:transition-none"><span>varchar(=
+20)</span></div></div></div></div><div class=3D"h-3 w-3"></div></div></div>=
+</div><div style=3D"height: 4px;"></div><div class=3D"h-3 w-3"></div></div>=
+</div></div><div class=3D"absolute" style=3D"top: 16px; left: 432px; z-inde=
+x: 0;"><div class=3D"table-container border-solid border-[var(--slate9)] bo=
+rder-[1px] cursor-grab transition-outline bg-[var(--slate2)] shadow-[0_1px_=
+4px_rgba(0,0,0,0.1)] outline-8  react-draggable" style=3D"transform: transl=
+ate(0px, 0px);"><div class=3D"p-2 relative  random text-[var(--slate12)]"><=
+div class=3D"transition-transform text-center font-semibold flex-0 " style=
+=3D"width: 240px;"><div class=3D"leading-normal overflow-hidden text-ellips=
+is whitespace-nowrap">Profiles</div></div></div><hr class=3D"border-[1px] b=
+order-solid self-stretch h-auto border-b-0 border-r-0 border-[var(--gray6)]=
+"><div class=3D"relative"><div class=3D"h-3 w-3"></div><div style=3D"height=
+: 3px;"></div><div><div style=3D"height: 24px;"><div class=3D"h-full flex i=
+tems-center transition-colors hover:bg-[var(--slate5)]   " draggable=3D"tru=
+e"><div class=3D"h-3 w-3"></div><div class=3D"flex" style=3D"width: 240px;"=
+><div class=3D"text-[var(--slate11)] overflow-hidden flex-1 px-2 m-[-4px]" =
+data-row-field=3D"name"><div class=3D"relative"><div tabindex=3D"0" class=
+=3D"leading-normal w-full truncate cursor-pointer transition-outline outlin=
+e-8 outline-transparent outline -outline-offset-2 react-draggable-cancel ro=
+w-input-string-view [&amp;>:not(.weak)]:transition-none"><span>Name</span><=
+/div></div></div><div class=3D"flex-1 overflow-hidden text-right px-2 m-[-4=
+px] text-[var(--slate11)]" data-row-field=3D"type"><div class=3D"relative">=
+<div tabindex=3D"0" class=3D"leading-normal w-full truncate cursor-pointer =
+transition-outline outline-8 outline-transparent outline -outline-offset-2 =
+react-draggable-cancel row-input-string-view [&amp;>:not(.weak)]:transition=
+-none"><span>varchar(30)</span></div></div></div></div><div class=3D"h-3 w-=
+3"></div></div></div><div style=3D"height: 24px;"><div class=3D"h-full flex=
+ items-center transition-colors hover:bg-[var(--slate5)]   font-semibold" d=
+raggable=3D"true"><div class=3D"h-3 w-3"></div><div class=3D"flex" style=3D=
+"width: 240px;"><div class=3D"text-[var(--slate11)] overflow-hidden flex-1 =
+px-2 m-[-4px]" data-row-field=3D"name"><div class=3D"relative"><div tabinde=
+x=3D"0" class=3D"leading-normal w-full truncate cursor-pointer transition-o=
+utline outline-8 outline-transparent outline -outline-offset-2 react-dragga=
+ble-cancel row-input-string-view [&amp;>:not(.weak)]:transition-none"><span=
+>email_id</span></div></div></div><div class=3D"flex-1 overflow-hidden text=
+-right px-2 m-[-4px] text-[var(--slate11)]" data-row-field=3D"type"><div cl=
+ass=3D"relative"><div tabindex=3D"0" class=3D"leading-normal w-full truncat=
+e cursor-pointer transition-outline outline-8 outline-transparent outline -=
+outline-offset-2 react-draggable-cancel row-input-string-view [&amp;>:not(.=
+weak)]:transition-none"><span>varchar(40)</span></div></div></div></div><di=
+v class=3D"h-3 w-3"></div></div></div><div style=3D"height: 24px;"><div cla=
+ss=3D"h-full flex items-center transition-colors hover:bg-[var(--slate5)]  =
+ " draggable=3D"true"><div class=3D"h-3 w-3"></div><div class=3D"flex" styl=
+e=3D"width: 240px;"><div class=3D"text-[var(--slate11)] overflow-hidden fle=
+x-1 px-2 m-[-4px]" data-row-field=3D"name"><div class=3D"relative"><div tab=
+index=3D"0" class=3D"leading-normal w-full truncate cursor-pointer transiti=
+on-outline outline-8 outline-transparent outline -outline-offset-2 react-dr=
+aggable-cancel row-input-string-view [&amp;>:not(.weak)]:transition-none"><=
+span>DOB</span></div></div></div><div class=3D"flex-1 overflow-hidden text-=
+right px-2 m-[-4px] text-[var(--slate11)]" data-row-field=3D"type"><div cla=
+ss=3D"relative"><div tabindex=3D"0" class=3D"leading-normal w-full truncate=
+ cursor-pointer transition-outline outline-8 outline-transparent outline -o=
+utline-offset-2 react-draggable-cancel row-input-string-view [&amp;>:not(.w=
+eak)]:transition-none"><span>date</span></div></div></div></div><div class=
+=3D"h-3 w-3"></div></div></div><div style=3D"height: 24px;"><div class=3D"h=
+-full flex items-center transition-colors hover:bg-[var(--slate5)]   " drag=
+gable=3D"true"><div class=3D"h-3 w-3"></div><div class=3D"flex" style=3D"wi=
+dth: 240px;"><div class=3D"text-[var(--slate11)] overflow-hidden flex-1 px-=
+2 m-[-4px]" data-row-field=3D"name"><div class=3D"relative"><div tabindex=
+=3D"0" class=3D"leading-normal w-full truncate cursor-pointer transition-ou=
+tline outline-8 outline-transparent outline -outline-offset-2 react-draggab=
+le-cancel row-input-string-view [&amp;>:not(.weak)]:transition-none"><span>=
+Gender</span></div></div></div><div class=3D"flex-1 overflow-hidden text-ri=
+ght px-2 m-[-4px] text-[var(--slate11)]" data-row-field=3D"type"><div class=
+=3D"relative"><div tabindex=3D"0" class=3D"leading-normal w-full truncate c=
+ursor-pointer transition-outline outline-8 outline-transparent outline -out=
+line-offset-2 react-draggable-cancel row-input-string-view [&amp;>:not(.wea=
+k)]:transition-none"><span>enum('m','f')</span></div></div></div></div><div=
+ class=3D"h-3 w-3"></div></div></div><div style=3D"height: 24px;"><div clas=
+s=3D"h-full flex items-center transition-colors hover:bg-[var(--slate5)]   =
+" draggable=3D"true"><div class=3D"h-3 w-3"></div><div class=3D"flex" style=
+=3D"width: 240px;"><div class=3D"text-[var(--slate11)] overflow-hidden flex=
+-1 px-2 m-[-4px]" data-row-field=3D"name"><div class=3D"relative"><div tabi=
+ndex=3D"0" class=3D"leading-normal w-full truncate cursor-pointer transitio=
+n-outline outline-8 outline-transparent outline -outline-offset-2 react-dra=
+ggable-cancel row-input-string-view [&amp;>:not(.weak)]:transition-none"><s=
+pan>Type</span></div></div></div><div class=3D"flex-1 overflow-hidden text-=
+right px-2 m-[-4px] text-[var(--slate11)]" data-row-field=3D"type"><div cla=
+ss=3D"relative"><div tabindex=3D"0" class=3D"leading-normal w-full truncate=
+ cursor-pointer transition-outline outline-8 outline-transparent outline -o=
+utline-offset-2 react-draggable-cancel row-input-string-view [&amp;>:not(.w=
+eak)]:transition-none"><span>enum('Kid','Adult)</span></div></div></div></d=
+iv><div class=3D"h-3 w-3"></div></div></div></div><div style=3D"height: 4px=
+;"></div><div class=3D"h-3 w-3"></div></div></div></div><div class=3D"absol=
+ute" style=3D"top: 304px; left: 784px; z-index: 0;"><div class=3D"table-con=
+tainer border-solid border-[var(--slate9)] border-[1px] cursor-grab transit=
+ion-outline bg-[var(--slate2)] shadow-[0_1px_4px_rgba(0,0,0,0.1)] outline-8=
+  react-draggable" style=3D"transform: translate(0px, 0px);"><div class=3D"=
+p-2 relative  random text-[var(--slate12)]"><div class=3D"transition-transf=
+orm text-center font-semibold flex-0 " style=3D"width: 240px;"><div class=
+=3D"leading-normal overflow-hidden text-ellipsis whitespace-nowrap">Cast</d=
+iv></div></div><hr class=3D"border-[1px] border-solid self-stretch h-auto b=
+order-b-0 border-r-0 border-[var(--gray6)]"><div class=3D"relative"><div cl=
+ass=3D"h-3 w-3"></div><div style=3D"height: 3px;"></div><div><div style=3D"=
+height: 24px;"><div class=3D"h-full flex items-center transition-colors hov=
+er:bg-[var(--slate5)]   " draggable=3D"true"><div class=3D"h-3 w-3"></div><=
+div class=3D"flex" style=3D"width: 240px;"><div class=3D"text-[var(--slate1=
+1)] overflow-hidden flex-1 px-2 m-[-4px]" data-row-field=3D"name"><div clas=
+s=3D"relative"><div tabindex=3D"0" class=3D"leading-normal w-full truncate =
+cursor-pointer transition-outline outline-8 outline-transparent outline -ou=
+tline-offset-2 react-draggable-cancel row-input-string-view [&amp;>:not(.we=
+ak)]:transition-none"><span>Actor_name</span></div></div></div><div class=
+=3D"flex-1 overflow-hidden text-right px-2 m-[-4px] text-[var(--slate11)]" =
+data-row-field=3D"type"><div class=3D"relative"><div tabindex=3D"0" class=
+=3D"leading-normal w-full truncate cursor-pointer transition-outline outlin=
+e-8 outline-transparent outline -outline-offset-2 react-draggable-cancel ro=
+w-input-string-view [&amp;>:not(.weak)]:transition-none"><span>varchar(30)<=
+/span></div></div></div></div><div class=3D"h-3 w-3"></div></div></div><div=
+ style=3D"height: 24px;"><div class=3D"h-full flex items-center transition-=
+colors hover:bg-[var(--slate5)]   " draggable=3D"true"><div class=3D"h-3 w-=
+3"></div><div class=3D"flex" style=3D"width: 240px;"><div class=3D"text-[va=
+r(--slate11)] overflow-hidden flex-1 px-2 m-[-4px]" data-row-field=3D"name"=
+><div class=3D"relative"><div tabindex=3D"0" class=3D"leading-normal w-full=
+ truncate cursor-pointer transition-outline outline-8 outline-transparent o=
+utline -outline-offset-2 react-draggable-cancel row-input-string-view [&amp=
+;>:not(.weak)]:transition-none"><span>Acted</span></div></div></div><div cl=
+ass=3D"flex-1 overflow-hidden text-right px-2 m-[-4px] text-[var(--slate11)=
+]" data-row-field=3D"type"><div class=3D"relative"><div tabindex=3D"0" clas=
+s=3D"leading-normal w-full truncate cursor-pointer transition-outline outli=
+ne-8 outline-transparent outline -outline-offset-2 react-draggable-cancel r=
+ow-input-string-view [&amp;>:not(.weak)]:transition-none"><span>varchar(40)=
+</span></div></div></div></div><div class=3D"h-3 w-3"></div></div></div><di=
+v style=3D"height: 24px;"><div class=3D"h-full flex items-center transition=
+-colors hover:bg-[var(--slate5)]   font-semibold" draggable=3D"true"><div c=
+lass=3D"h-3 w-3"></div><div class=3D"flex" style=3D"width: 240px;"><div cla=
+ss=3D"text-[var(--slate11)] overflow-hidden flex-1 px-2 m-[-4px]" data-row-=
+field=3D"name"><div class=3D"relative"><div tabindex=3D"0" class=3D"leading=
+-normal w-full truncate cursor-pointer transition-outline outline-8 outline=
+-transparent outline -outline-offset-2 react-draggable-cancel row-input-str=
+ing-view [&amp;>:not(.weak)]:transition-none"><span>cast_id</span></div></d=
+iv></div><div class=3D"flex-1 overflow-hidden text-right px-2 m-[-4px] text=
+-[var(--slate11)]" data-row-field=3D"type"><div class=3D"relative"><div tab=
+index=3D"0" class=3D"leading-normal w-full truncate cursor-pointer transiti=
+on-outline outline-8 outline-transparent outline -outline-offset-2 react-dr=
+aggable-cancel row-input-string-view [&amp;>:not(.weak)]:transition-none"><=
+span>varchar(30)</span></div></div></div></div><div class=3D"h-3 w-3"></div=
+></div></div></div><div style=3D"height: 4px;"></div><div class=3D"h-3 w-3"=
+></div></div></div></div><div class=3D"absolute" style=3D"top: 288px; left:=
+ 448px; z-index: 0;"><div class=3D"table-container border-solid border-[var=
+(--slate9)] border-[1px] cursor-grab transition-outline bg-[var(--slate2)] =
+shadow-[0_1px_4px_rgba(0,0,0,0.1)] outline-8  react-draggable" style=3D"tra=
+nsform: translate(0px, 0px);"><div class=3D"p-2 relative  random text-[var(=
+--slate12)]"><div class=3D"transition-transform text-center font-semibold f=
+lex-0 " style=3D"width: 240px;"><div class=3D"leading-normal overflow-hidde=
+n text-ellipsis whitespace-nowrap">Videos</div></div></div><hr class=3D"bor=
+der-[1px] border-solid self-stretch h-auto border-b-0 border-r-0 border-[va=
+r(--gray6)]"><div class=3D"relative"><div class=3D"h-3 w-3"></div><div styl=
+e=3D"height: 3px;"></div><div><div style=3D"height: 24px;"><div class=3D"h-=
+full flex items-center transition-colors hover:bg-[var(--slate5)]   " dragg=
+able=3D"true"><div class=3D"h-3 w-3"></div><div class=3D"flex" style=3D"wid=
+th: 240px;"><div class=3D"text-[var(--slate11)] overflow-hidden flex-1 px-2=
+ m-[-4px]" data-row-field=3D"name"><div class=3D"relative"><div tabindex=3D=
+"0" class=3D"leading-normal w-full truncate cursor-pointer transition-outli=
+ne outline-8 outline-transparent outline -outline-offset-2 react-draggable-=
+cancel row-input-string-view [&amp;>:not(.weak)]:transition-none"><span>Tit=
+le</span></div></div></div><div class=3D"flex-1 overflow-hidden text-right =
+px-2 m-[-4px] text-[var(--slate11)]" data-row-field=3D"type"><div class=3D"=
+relative"><div tabindex=3D"0" class=3D"leading-normal w-full truncate curso=
+r-pointer transition-outline outline-8 outline-transparent outline -outline=
+-offset-2 react-draggable-cancel row-input-string-view [&amp;>:not(.weak)]:=
+transition-none"><span>varchar(30)</span></div></div></div></div><div class=
+=3D"h-3 w-3"></div></div></div><div style=3D"height: 24px;"><div class=3D"h=
+-full flex items-center transition-colors hover:bg-[var(--slate5)]   " drag=
+gable=3D"true"><div class=3D"h-3 w-3"></div><div class=3D"flex" style=3D"wi=
+dth: 240px;"><div class=3D"text-[var(--slate11)] overflow-hidden flex-1 px-=
+2 m-[-4px]" data-row-field=3D"name"><div class=3D"relative"><div tabindex=
+=3D"0" class=3D"leading-normal w-full truncate cursor-pointer transition-ou=
+tline outline-8 outline-transparent outline -outline-offset-2 react-draggab=
+le-cancel row-input-string-view [&amp;>:not(.weak)]:transition-none"><span>=
+Description</span></div></div></div><div class=3D"flex-1 overflow-hidden te=
+xt-right px-2 m-[-4px] text-[var(--slate11)]" data-row-field=3D"type"><div =
+class=3D"relative"><div tabindex=3D"0" class=3D"leading-normal w-full trunc=
+ate cursor-pointer transition-outline outline-8 outline-transparent outline=
+ -outline-offset-2 react-draggable-cancel row-input-string-view [&amp;>:not=
+(.weak)]:transition-none"><span>varchar(100)</span></div></div></div></div>=
+<div class=3D"h-3 w-3"></div></div></div><div style=3D"height: 24px;"><div =
+class=3D"h-full flex items-center transition-colors hover:bg-[var(--slate5)=
+]   font-semibold" draggable=3D"true"><div class=3D"h-3 w-3"></div><div cla=
+ss=3D"flex" style=3D"width: 240px;"><div class=3D"text-[var(--slate11)] ove=
+rflow-hidden flex-1 px-2 m-[-4px]" data-row-field=3D"name"><div class=3D"re=
+lative"><div tabindex=3D"0" class=3D"leading-normal w-full truncate cursor-=
+pointer transition-outline outline-8 outline-transparent outline -outline-o=
+ffset-2 react-draggable-cancel row-input-string-view [&amp;>:not(.weak)]:tr=
+ansition-none"><span>cast_id</span></div></div></div><div class=3D"flex-1 o=
+verflow-hidden text-right px-2 m-[-4px] text-[var(--slate11)]" data-row-fie=
+ld=3D"type"><div class=3D"relative"><div tabindex=3D"0" class=3D"leading-no=
+rmal w-full truncate cursor-pointer transition-outline outline-8 outline-tr=
+ansparent outline -outline-offset-2 react-draggable-cancel row-input-string=
+-view [&amp;>:not(.weak)]:transition-none"><span>varchar(30)</span></div></=
+div></div></div><div class=3D"h-3 w-3"></div></div></div></div><div style=
+=3D"height: 4px;"></div><div class=3D"h-3 w-3"></div></div></div></div><div=
+ class=3D"absolute" style=3D"top: 288px; left: 96px; z-index: 0;"><div clas=
+s=3D"table-container border-solid border-[var(--slate9)] border-[1px] curso=
+r-grab transition-outline bg-[var(--slate2)] shadow-[0_1px_4px_rgba(0,0,0,0=
+.1)] outline-8  react-draggable" style=3D"transform: translate(0px, 0px);">=
+<div class=3D"p-2 relative  random text-[var(--slate12)]"><div class=3D"tra=
+nsition-transform text-center font-semibold flex-0 " style=3D"width: 240px;=
+"><div class=3D"leading-normal overflow-hidden text-ellipsis whitespace-now=
+rap">Status</div></div></div><hr class=3D"border-[1px] border-solid self-st=
+retch h-auto border-b-0 border-r-0 border-[var(--gray6)]"><div class=3D"rel=
+ative"><div class=3D"h-3 w-3"></div><div style=3D"height: 3px;"></div><div>=
+<div style=3D"height: 24px;"><div class=3D"h-full flex items-center transit=
+ion-colors hover:bg-[var(--slate5)]   " draggable=3D"true"><div class=3D"h-=
+3 w-3"></div><div class=3D"flex" style=3D"width: 240px;"><div class=3D"text=
+-[var(--slate11)] overflow-hidden flex-1 px-2 m-[-4px]" data-row-field=3D"n=
+ame"><div class=3D"relative"><div tabindex=3D"0" class=3D"leading-normal w-=
+full truncate cursor-pointer transition-outline outline-8 outline-transpare=
+nt outline -outline-offset-2 react-draggable-cancel row-input-string-view [=
+&amp;>:not(.weak)]:transition-none"><span>Title</span></div></div></div><di=
+v class=3D"flex-1 overflow-hidden text-right px-2 m-[-4px] text-[var(--slat=
+e11)]" data-row-field=3D"type"><div class=3D"relative"><div tabindex=3D"0" =
+class=3D"leading-normal w-full truncate cursor-pointer transition-outline o=
+utline-8 outline-transparent outline -outline-offset-2 react-draggable-canc=
+el row-input-string-view [&amp;>:not(.weak)]:transition-none"><span>varchar=
+(30)</span></div></div></div></div><div class=3D"h-3 w-3"></div></div></div=
+><div style=3D"height: 24px;"><div class=3D"h-full flex items-center transi=
+tion-colors hover:bg-[var(--slate5)]   " draggable=3D"true"><div class=3D"h=
+-3 w-3"></div><div class=3D"flex" style=3D"width: 240px;"><div class=3D"tex=
+t-[var(--slate11)] overflow-hidden flex-1 px-2 m-[-4px]" data-row-field=3D"=
+name"><div class=3D"relative"><div tabindex=3D"0" class=3D"leading-normal w=
+-full truncate cursor-pointer transition-outline outline-8 outline-transpar=
+ent outline -outline-offset-2 react-draggable-cancel row-input-string-view =
+[&amp;>:not(.weak)]:transition-none"><span>status</span></div></div></div><=
+div class=3D"flex-1 overflow-hidden text-right px-2 m-[-4px] text-[var(--sl=
+ate11)]" data-row-field=3D"type"><div class=3D"relative"><div tabindex=3D"0=
+" class=3D"leading-normal w-full truncate cursor-pointer transition-outline=
+ outline-8 outline-transparent outline -outline-offset-2 react-draggable-ca=
+ncel row-input-string-view [&amp;>:not(.weak)]:transition-none"><span>enum(=
+'completed','progress'</span></div></div></div></div><div class=3D"h-3 w-3"=
+></div></div></div><div style=3D"height: 24px;"><div class=3D"h-full flex i=
+tems-center transition-colors hover:bg-[var(--slate5)]   " draggable=3D"tru=
+e"><div class=3D"h-3 w-3"></div><div class=3D"flex" style=3D"width: 240px;"=
+><div class=3D"text-[var(--slate11)] overflow-hidden flex-1 px-2 m-[-4px]" =
+data-row-field=3D"name"><div class=3D"relative"><div tabindex=3D"0" class=
+=3D"leading-normal w-full truncate cursor-pointer transition-outline outlin=
+e-8 outline-transparent outline -outline-offset-2 react-draggable-cancel ro=
+w-input-string-view [&amp;>:not(.weak)]:transition-none"><span>lastwatch</s=
+pan></div></div></div><div class=3D"flex-1 overflow-hidden text-right px-2 =
+m-[-4px] text-[var(--slate11)]" data-row-field=3D"type"><div class=3D"relat=
+ive"><div tabindex=3D"0" class=3D"leading-normal w-full truncate cursor-poi=
+nter transition-outline outline-8 outline-transparent outline -outline-offs=
+et-2 react-draggable-cancel row-input-string-view [&amp;>:not(.weak)]:trans=
+ition-none"><span>timestamp</span></div></div></div></div><div class=3D"h-3=
+ w-3"></div></div></div></div><div style=3D"height: 4px;"></div><div class=
+=3D"h-3 w-3"></div></div></div></div><div class=3D"absolute" style=3D"top: =
+64px; left: 752px; z-index: 0;"><div class=3D"table-container border-solid =
+border-[var(--slate9)] border-[1px] cursor-grab transition-outline bg-[var(=
+--slate2)] shadow-[0_1px_4px_rgba(0,0,0,0.1)] outline-8  react-draggable" s=
+tyle=3D"transform: translate(0px, 0px);"><div class=3D"p-2 relative  random=
+ text-[var(--slate12)]"><div class=3D"transition-transform text-center font=
+-semibold flex-0 " style=3D"width: 240px;"><div class=3D"leading-normal ove=
+rflow-hidden text-ellipsis whitespace-nowrap">User Videos</div></div></div>=
+<hr class=3D"border-[1px] border-solid self-stretch h-auto border-b-0 borde=
+r-r-0 border-[var(--gray6)]"><div class=3D"relative"><div class=3D"h-3 w-3"=
+></div><div style=3D"height: 3px;"></div><div><div style=3D"height: 24px;">=
+<div class=3D"h-full flex items-center transition-colors hover:bg-[var(--sl=
+ate5)]   font-semibold" draggable=3D"true"><div class=3D"h-3 w-3"></div><di=
+v class=3D"flex" style=3D"width: 240px;"><div class=3D"text-[var(--slate11)=
+] overflow-hidden flex-1 px-2 m-[-4px]" data-row-field=3D"name"><div class=
+=3D"relative"><div tabindex=3D"0" class=3D"leading-normal w-full truncate c=
+ursor-pointer transition-outline outline-8 outline-transparent outline -out=
+line-offset-2 react-draggable-cancel row-input-string-view [&amp;>:not(.wea=
+k)]:transition-none"><span>email.id</span></div></div></div><div class=3D"f=
+lex-1 overflow-hidden text-right px-2 m-[-4px] text-[var(--slate11)]" data-=
+row-field=3D"type"><div class=3D"relative"><div tabindex=3D"0" class=3D"lea=
+ding-normal w-full truncate cursor-pointer transition-outline outline-8 out=
+line-transparent outline -outline-offset-2 react-draggable-cancel row-input=
+-string-view [&amp;>:not(.weak)]:transition-none"><span>varchar(40)</span><=
+/div></div></div></div><div class=3D"h-3 w-3"></div></div></div><div style=
+=3D"height: 24px;"><div class=3D"h-full flex items-center transition-colors=
+ hover:bg-[var(--slate5)]   " draggable=3D"true"><div class=3D"h-3 w-3"></d=
+iv><div class=3D"flex" style=3D"width: 240px;"><div class=3D"text-[var(--sl=
+ate11)] overflow-hidden flex-1 px-2 m-[-4px]" data-row-field=3D"name"><div =
+class=3D"relative"><div tabindex=3D"0" class=3D"leading-normal w-full trunc=
+ate cursor-pointer transition-outline outline-8 outline-transparent outline=
+ -outline-offset-2 react-draggable-cancel row-input-string-view [&amp;>:not=
+(.weak)]:transition-none"><span class=3D"italic">&lt;empty&gt;</span></div>=
+</div></div><div class=3D"flex-1 overflow-hidden text-right px-2 m-[-4px] t=
+ext-[var(--slate11)]" data-row-field=3D"type"><div class=3D"relative"><div =
+tabindex=3D"0" class=3D"leading-normal w-full truncate cursor-pointer trans=
+ition-outline outline-8 outline-transparent outline -outline-offset-2 react=
+-draggable-cancel row-input-string-view [&amp;>:not(.weak)]:transition-none=
+"><span class=3D"italic">&lt;empty&gt;</span></div></div></div></div><div c=
+lass=3D"h-3 w-3"></div></div></div></div><div style=3D"height: 4px;"></div>=
+<div class=3D"h-3 w-3"></div></div></div></div></div></div></div></div><hr =
+class=3D"border-[1px] border-solid self-stretch h-auto border-b-0 border-r-=
+0 border-[var(--gray8)]"><div class=3D"flex-0"><div class=3D"px-2 relative =
+lg:flex lg:justify-between md:block bg-[var(--slate2)]"><button class=3D"bg=
+-none text-[var(--slate12)] disabled:text-[var(--slate10)] hover:bg-[var(--=
+slate6)] active:bg-[var(--slate7)] transition-shadow ease-out duration-300 =
+outline outline-transparent ring-8 ring-transparent flex justify-center gap=
+-2 rounded text-13 px-2   [-webkit-app-region:no-drag] absolute top-0 left-=
+0 w-full h-3" fdprocessedid=3D"22lurj"><svg stroke=3D"currentColor" fill=3D=
+"currentColor" stroke-width=3D"0" class=3D"" height=3D"1em" width=3D"1em" x=
+mlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 16 16" style=3D"width: 1=
+2px; height: 12px;"><path d=3D"M12 5c-.28 0-.53.11-.71.29L8 8.59l-3.29-3.3a=
+1.003 1.003 0 00-1.42 1.42l4 4c.18.18.43.29.71.29s.53-.11.71-.29l4-4A1.003 =
+1.003 0 0012 5z"></path></svg></button><div class=3D"p-2 flex justify-cente=
+r"><div class=3D"flex whitespace-nowrap items-center text-gray-400"><p><a t=
+arget=3D"_blank" rel=3D"noopener noreferrer" href=3D"https://github.com/Tab=
+lePlus/diagram-plugin">Issue tracker</a><span> </span><a target=3D"_blank" =
+rel=3D"noopener noreferrer" href=3D"mailto:nick@tableplus.com">Email us</a>=
+<span> </span><span class=3D"font-bold">Apps: </span><a target=3D"_blank" r=
+el=3D"noopener noreferrer" href=3D"https://tableplus.com/sql" title=3D"SQL =
+Formatter">SQL</a><span> </span><a target=3D"_blank" rel=3D"noopener norefe=
+rrer" href=3D"https://tableplus.com/xml" title=3D"XML Viewer &amp; Formatte=
+r">XML</a><span> </span><a target=3D"_blank" rel=3D"noopener noreferrer" hr=
+ef=3D"https://tableplus.com/json" title=3D"JSON Viewer &amp; Formatter">JSO=
+N</a></p></div></div><div class=3D"p-2 flex justify-center"><div class=3D"f=
+lex items-center lg:text-right text-left py-2 text-[var(--slate11)]"><p cla=
+ss=3D"leading-normal"><span>=C2=A9 2023 </span><a target=3D"_blank" rel=3D"=
+noopener noreferrer" href=3D"https://tableplus.com/">Table Plus Inc.</a><sp=
+an>1100-1959 Upper Water Street Halifax NS Canada. All rights reserved</spa=
+n></p><div class=3D"h-4 w-4"></div><a target=3D"_blank" rel=3D"noopener nor=
+eferrer" href=3D"https://tableplus.com/"><img class=3D"h-[32px]" alt=3D"Tab=
+lePlus logo" src=3D"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACQC=
+AMAAABpjJTCAAACQ1BMVEUAAAD/hjX/v0D4hi/zeyz/my7uXx/xYyPwWCD7mSb/0DfsWiHsVR//=
+lif3diP7fSX8minwWyD/jyf6lSfvXB77mif0cSjpWh/9yzL7kSbvZCD6mibuWx77jyf7myfxWh7=
+jVSH9kifzciT1YCHmUR/9zTj7libyXh7zdSPlSR//jCj/zzn7mCbtXh/7iCb4lybvZCH5eST9lS=
+b/0TPzpir5fiXtVx/lTh/9zDP7iyb5eST8mSn/0Tj4eiXqVB73dCP6iSbkSR/qZyH5eCT8nCjjR=
+yD9yjXYWCL8fib8fCftbyP7mSbiTx/9vy7sVh/dVCLllCj9zjn5wzHhRR77jCbPYyLhaiLyXx79=
+vyviRh78uy/8zzX7linyciXKXiP8xi/6hib81DX91TT90zX9zDnSaCT8xS/WZSP4qjH8vSv8wS3=
+6kCb8zDH8zTX7mCb8xC780DP8nyv8xzD81Db6hib8wjP82jj8vi7wXh78vzL6fCX81jj8uzL8yD=
+X6lCb6jSb8xTT8qS36iyb84Dz83jr8yTL8pCv3dyL8uiz6iSb8xDH8yS/83Dr6gCb6byb8rC/8s=
+TD6eCb85T76dSb80jP8uCv6kyb8tTDlTB784zzubSLjXyL8tzLrVR78ry77gybycCLraSL8xi/h=
+Rh70dCLoUR76cib81zXoZiLnZCLuWR7tcSLmbiLdQB7fWSLfaiL8tCrTZCLzgiTzaiDmVR/xjCf=
+ZZiLcUiH2sC/2oCnrhibrdyTxZB/ylijNXiLufibceyV9ccSiAAAAaXRSTlMACQQQFxz9JGjxPD=
+ZCJ+eRXVc7pKGQLf5x+OHXuY+FgHVta00p8cnDvbozJ+TWv7uMh3gy/fLx8OjlelBOS+ba1M+yp=
+pqJhmhdVPOvpaCVUv34+PPw8O/t5+LOwUTKx7Sa9+3p1J1d1ba1NXuqAAARIklEQVR42tSb+U/T=
+UBzAuwMREVBBvA/QIOKFd9R4Y7yPeMZEjUeMWVc62Rqp1WxhCmPqPCKgkYhDwYCbckQ8wOtP89v=
+Xdm/1tW+syoYfEn7+fN77vkc7gPmH2Jn/G/vEkuqFUyeXOm3/a8miM6Ionpm9YklJ9cSp+bn/X4=
+htrqjy7t27DdtWzC1ZMHFRfq7DxvwvTJyg+gMvEd0fN27bufTQkT0wW4vH/5Y4lugCUEF393OFE=
+2ehZM/Co/mLx/GWTJ2gD+hOCnijooTszWXGI7Zdf46QHNCtC3iPmHF+KzMemXyGCMA78PzNe/lL=
+5nkstn3/eDwRaAvIHUAk70BnNBY7UD4ezoKdOAWmOwBoOzAjGo1BQbWDyTY5RUWrV2/eXL5v39a=
+t06qqSktLlxABeIK0HfgYhQAgvivrR3lLOIRZX1hYuP3AixcvOjs7J8jMAD4C3fpD/CbapQbEK0=
+uZ7DK/TcIBXV0gFoUASAB6enp7e9sRH2Q+K3wYGRpMBMSzfBnZVvkFnT+A/IkAraBvqKPV1e8PK=
+QHA6fJsXkYFy/1uyWwDyB34EP/e0Qq4XE2DKCDrBVN4f5tAnyAcEB/+2g/2KMDV+nVQCejrO13t=
+ZLLFfN7vdku0gF41oH0EFl+l2SXT/30krhT0Ze8yKpYDBM2fDEjo/4TF1/QBF6JjGAVkscBZIQe=
+4pRRHYGSoKUkeB8AcDYO/zLWjWTkI0/L8coBgGgD2PWjyCX0t4Tsq+PTp9N5sFJTxKCAgGQUg/z=
+hefEJfmyMU8OnUXhuTaezFaoBgEAD+8WE4uKR9c70+Yt1w3ydg4GrGD0LOHDUgGFH8AbwBMePJl=
+7/X1+sKmtf9kgMGDmW4AI6AFiAQGzBCLr5GPeDS82W4bwC4kOEnozW8FhCW8CUK/rGhrx0Ue6IA=
+zdEnKLh2lMkgtoOJANgCHPATLz5pjwOIhF8DAz9OZfAygiOAd0CQVP/Y4Nd++uIDLMuSAWzrsYE=
+fP04tzNxltCUPB4SFkBww6G/qT22PIANY9ouccNXJZIj5PA4QBCnaBYtPt0f6lACPZ92vHz8uLG=
+YyQ40uQAjoF99lvPjUAChgYRMu5DOZwFGRHBCuS8MemRoHeLwwRxcy8mRUlZcUAP7NoxodVdM84=
+PX9+19+ZeS5YgqPA8A/DXvg3j2PWYD3Pvd6XSYuo5qkgLr+tOwRLOGvBdznuOPHxvzJyFmBA+pa=
+R69/T8HrpQZAwqoxfq6oykMBbcg/zcX3yngMJwjOgBcFXOdmMmNKGa8F8P1p2yPIALwBEHB9bAP=
+sxWoA+GN9mr1OvxFgaQHXxzrAOUcNAP/RDz7WBzxZDTiXpwSAvxV7gGtMEXDYlmINnX/5LoDoT2=
+vwsb0Mq/MnAurKqAaO3bsdjHVqVH8ri8+peAw24LXXmwgonEYRsBWFQqttf/GpLvLvsGoP1NY2G=
+k+QFsBLKwvML5HVIaDIYf1TXeRvbXSQPcCxtFsUAiJFdjP/8vUhmc12qy8zyN/y4qt4zM8w4Jci=
+6/czxuwvDCEKy63Y2wv2rcL+Vu2B17QAri0SebXD+BhsBX+F7elPf1VZ8aawH/ytjg6Go11CnDv=
+y6pWwMochKd0e0ticnr1j2pqVm8KCEOb5BmSPoduT+sD1WjZFgCAIa0iLnMqEf6UjDfmqsosrT8=
+LrOxAAf528BXsZDzlBXvUMtzQGZH9hE/FLtNzKrkTAvtHaO+WlhxcX8JdxN9WTa08fHVIf4MyPQ=
+Is3iALCOwr+mOHd8BFUWhtgzzk3r+JkIBhE/oi6+r9dfISvljUPuBdG/uFgsUPnvzkajWoF+0ex=
+9OfWFO+YFQhgf5mGf2Ev46EGIP/grDKd/wEUgAp221It/ZbpFbPkVy69PlwODfTRSW2vwmn+ZAC=
+LAoLBQGBT0l1aDr9I1woKq+iX/ZSaOWAP+oT/q8irhrTvTKzvw1xnTQNuqhsQcLtXOTWrybNfAG=
+pBEeXG2Tf94HJ4WTHzhx8xdfXW7EEfc8vn+fMSSgTUhxX/ADjUOFT/FZ2diQLaBixaz8v62F+nD=
+0iS5L7tBX364NPtZbxmDxItzYKg+bfNmoK08sEfF6ymPAdVd6X0hwKXtdHB9gBndoZbmmHTkT8E=
++CsK5LnY1dODC7bn0v5471tAp0/6A0+ER1btMT7WLOCZNkDg7+cPOhlnSU8vLojRHuPyz4iDxv4=
+R5K8GPJEarI0O5sYtj+pPBiT78/x8R0l7ey8uoP4MmyiKUVN/KeH/5KnU5OWsLj7Yy3B4A/QBj/=
+EA8UBeZTuAC2gbYC8RxW9hN218QB/8Af9N6/YIn8kl1NIBAW5tA4ChnuSCSiclwLlCFEVpVP5v3=
+zY0mtjT9TEe/RHAAXiAFAbbccGBRQz9CMAMBSnjj/2fNrGNlu2BBw8441u0pUHZAPDXGMEFu2y0=
+gIUi8E1A/vrlJ/wfPu1wsV7r9oDP+BJqaQriA6Dgj2sFs/MZGkdEmVCQPj7I/+ET+YOh15TBp+s=
+DN1jDAN86bYAwQ+1qQfVo/oq+K+X4g/9DqdUFeKwtPnD37l2vYcClmSs1f8xPpeD0ZGpA7mxRmS=
+H6+IM/EIEAVGDRHqjVAnSX0KVJBava8ADpjkG1nRqwaIKIkEyWH/sDgkuBrbVkD9zxke+TKIDJK=
+fb/GdAm36UrchkqC0SFKNX/oULQpRVwPkv6d+488BhdQpfXwn1+kMfgu3ThKP+R5FuEPv4It0uD=
+bbRgj+DII6AEMDk1PE8M0Vwnk/oIIEL08UfwLozXij3gMwq4sowBHPPzeD3++F7sSjsCwO/qzvO=
+3aSCMw0462Juw995D7A0CCogl4AtTIECI4DqjiQtJs0hLSoBCQiAxkJSKKCDBF1SKVJb413jvbO=
+fsnh0H6cx4ypciRfo9d+8NX2z3E2l+Kr+K360z6KgzfqeGF1BDtMBWEAAcLo+embMbOashoPI9b=
+Db7E1JuLV7fb6cHoIa8ADlZf3b1QstOWGupPpjpGt/krPdZKqDbpHwIb++6ddzy1UxPxweePg1o=
+t3LCtQvTNmj2ys7xisGItSS99RDA9FnlRzsJyqBdi0V6iA88InvprZfV9MRgPjKYOWei0ifWQ4D=
+UUK348EsuF/5I3THQ2mFdOiQ9pvMhFth6oeXGSoOUjvFLXDtI41sPAUL4tUpQBnaoPAAt4seknr=
+sp7tVbOgTB6yVNT+NsIOktmazJ/ynmH0IKuFvlyZMnGTdNWwcKbl06hGuQ3sExwbFUk5/XZUc/W=
+AB+5PwAPM5A4w3Un/5FV4fv3jQnx4opM2q2P0DaH1NwG3ArQNLXKp3Odh+66ePsSI7hw4Qkv1X7=
+A729mfvGBlaND00faFVue7rcwE5gHamfOtq/FwQKbkMDgYSn03c+CgjkfpvbNziA8RD4lPcP6QC=
+6/XH+TOa525DWR1R6tehxyxPON3EMIMsYnT8F/0zaHyi4jWl7pImvL3o9LRzLIUDXT0pbPikcn+=
+RHAvdNDN6069J3dQhwdwHN2Q0MBdYZ1D9p/pSu+dX8hYLbhFsdOD5u+QDcH2TMcSfDITCL5KenH=
+7p8gAJw39QgQBU9zTSO5RCg219fP3R+oAiX5SYGApluaNhX0MJm8/aHH7P8xQi5o9gC1hVE7+S+=
+8xbTD50fuK0K/LZHcSfHkMl3PsXrnn5IfBBANxNT1CNyvpFjuYx94q2nHzp/JBK55ZWxFmE/hAm=
+LxuaNy98iPxB688ZLqN/j7EqWArum1zX90PkBbxvwBqhThP0QBhb0eKynHzo/JtT2ENNGRCw92O=
+7jgPWPg3CcSrW/dX4sACcKD6tgDesOYVtBzv2P36bxFa/l9EPnD4mtBNmhjg5hW0GOS3BOEucR0=
+A9k+qHzk/hqfuAeEajX4/RIjiWNe9CBf56XAQV9+dTMD4j4RjGCtcctWARYMmUsPvEHA+JgWf4k=
+vxj1aTAVaVNHiFeMuDim7OrOvYUDqyQyIA515xcT6FBWK1GjR9q8Yki8O4GtwOFwNgcKWV5jEI9=
+jB+v8iNZnMtYebSL6zLZFbAW2wyEiUujJ6wxkh16z6YfkT0SfBQLEwVwE4gNicZmDrcCVnrCskF=
+YNyC0rvCf1RLt7o5of8icSQqCKucc9UfnQl7kcUxxrXvdghVw4HtMZYIU477+bIc1P5weigXeIA=
+OVBTFofqH0W6hvOVqBxbzAoK3Tv5fV9gBWAvD+VMc8PAsI7HZQIiQ8dsHkUW4ExcFOxrLDmyKZY=
+HhRog3QS+qFA509gotFooB3xztjDB/HJZ37ua2ArMBFubsUKm4407kkbG4ACcugtGuSPInztCrT=
+Hs7aQZsgnBqeeYHMZPHeKk8OMh5xJpHDF4dyfSxoaYAVwiPmfFOn8gNDRBVQViIgvGtJPWZ8rbF=
+aBpe93Tx7tkJ/rySOFNLrPdBysBrEYZaB2AlimeX8moi1/BZ96Lq0TCejiA4nIy91sVoFFk6eWt=
+iyfAJsSl/Jk4WzokQWPH7+OEQOqjGSHfKoYIuWPEAShvYviXWuIrBiKwJeBWay+0pgwqyJJ+w6O=
+niQ/2bakSd4WvQ1aGQBJjz8javIDvq7OofFFNT7JL36rsFsFGuZukeAVgps8iBE78H/hnbWlAWb=
+6zQunSX7oAvTVL0KuIiEUGZofjAcHNo/mmOEcvbxcLvdjgUlyx45DNzPxdRnMWNQwsuX6KcgvE+=
+h8UaVLECN0fuBnZXUj00Vs3rnyZw+waqKyscuBQQ8ImExGRKHvBJrFmna2XFisGLQ/farE96H4V=
+PkDg1Mrk50cUxYdm44E5jjVawNkkLYwAPq3qKWA+wGPAvk8/YUvpMSn8kc/S6V5HGMc81fB9+FN=
+6m/LcmCQ4y0Nmpc7NB258/hp3AUQv+NBxDg/IH6olCZwrHGucM0cT04olGsDEKi1IPSVD+knhKO=
+pjCi8eBpI0PttsuXYOFDBqwBzhTGkNY+EwUBeDcyGMtAv7RsyFsdP52P+yINIrfyJb1IJVgF7GT=
+M2m4UueJv01DAINpcPUq+MQReiRRKfzh8dHKiU5nI241gTxga5OBiYDYSX5TMn6dcvgkDBIH+iu=
+mZ/lSqwCtjNlbBskOWNDYD+gbJaQYQVq2IxRYDE1+UvTJVKsArYzfYexSDoMTFIN5ehguj3JoFA=
+r1n5Iz5LlRKsAnZzcZNikEubGLyUyudGGT+tftes/IHEBxAYztlO014QkA142gDolqTyMafxw9I=
+ps/IBBiswBEDcbpz7X6sG4ZjHQ02nyWZJgiFM44BtrT9ikh/4CR2wtIGzn/nBqkHQAwwx6JMkaX=
+mDyburQIAuH4wwOAACJzj7gWvkqkEuSRn0V0BgnumrkwrU7KkKfC1LJbuHADlmUQ2yPDHACulmy=
+F/dx9HDOCNi6PyRqdABmxdyfwDnpKBqkMuF83qDl5UKqSCDYdxLlQ9GEH6UQQCvAvYzP6kxCHq0=
+Bv0lJDDcVN2TMskf/QAVZPcqQAZBGgQUg2xcNQCSzSj/uWGm6h4/Pm+n8stD+D02t5/GJck06YM=
+wXzXgX5ZKIHDQfCc40x+hyx/xE1WQ3asAqYQ4Mqge+cYUA093CQlsqRHD5SnSzQ8UBySyCtjPbF=
+5nEPTIxL9jgeWOWm/vKdD5gc+oA+xfBcjFic5AGQZ8n/xa+FoXtQ1rM0b5Q6+QQPMEzmbIdMjrD=
+ORh0P0eC+weVdO9lyp/AOZQEJgxjLMZ0o4gQAyy2R7IH/z+HhlUoIJq0HSean7gG+oAcjVpP3Ni=
+aNemMQh6RqwfLmMxkxwQ6fzF3Vu2bJ76fi73x9gxPZbXVBEQdznqHD8ilV9oWTRq9OiFE4Zxf4y=
+mOS6Xa7bMOMz6pno/en4rsFjl1KlTwvWV3P/ESmDDSJWdwMh/8c+e/HV+AeXoxrDgi1ZWAAAAAE=
+lFTkSuQmCC" width=3D"auto" height=3D"32"></a></div></div></div></div></div>=
+<div style=3D"position: fixed; z-index: 9999; inset: 16px; pointer-events: =
+none;"></div></div><div id=3D"portals"></div><span id=3D"PING_IFRAME_FORM_D=
+ETECTION" style=3D"display: none;"></span><span id=3D"PING_CONTENT_DLS_POPU=
+P" style=3D"display: none;"></span><div style=3D"background-color: transpar=
+ent; border: none; bottom: 15px; display: block; margin: 0px; opacity: 1; p=
+adding: 0px; position: fixed; right: 15px; z-index: 2147483646;"><template =
+shadowmode=3D"closed"><div class=3D"dls__container">
+  <div class=3D"shield" style=3D"background: transparent; opacity: 0.1; dis=
+play: none;">
+    <div class=3D"shield__circle" style=3D"opacity: 1;">
+      <img src=3D"chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/image=
+s/download_scan/mcafee_logo_white.svg?secret=3Dspiqzi" x-mcsrc=3D"" id=3D"d=
+ls_ballon_icon" x-mcsrcparsed=3D"true">
+    </div>
+    <div class=3D"dls__popup__expanded" style=3D"opacity: 0;">
+      <img src=3D"chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/image=
+s/download_scan/download_scan_icon.svg?secret=3Dspiqzi" x-mcsrc=3D"" class=
+=3D"dls__icon" x-mcsrcparsed=3D"true">
+      <div class=3D"content">
+        <div class=3D"content__images">
+          <img src=3D"chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/i=
+mages/download_scan/mcafee_logo_red.svg?secret=3Dspiqzi" x-mcsrc=3D"" id=3D=
+"dls_mcafee_logo" x-mcsrcparsed=3D"true">
+          <img src=3D"chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/i=
+mages/download_scan/seperator_line.svg?secret=3Dspiqzi" x-mcsrc=3D"" class=
+=3D"seperator__line" x-mcsrcparsed=3D"true">
+          <img src=3D"chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/i=
+mages/download_scan/webadvisor.svg?secret=3Dspiqzi" x-mcsrc=3D"" x-mcsrcpar=
+sed=3D"true">
+          <img src=3D"chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/i=
+mages/download_scan/close-outline.svg?secret=3Dspiqzi" x-mcsrc=3D"" id=3D"d=
+ls_close_icon" x-mcsrcparsed=3D"true">
+        </div>
+        <p id=3D"download_scan_popup_expanded_descriptions">Your download's=
+ being scanned. We'll let you know if there's an issue.</p>
+      </div>
+    </div>
+  </div>
+</div></template></div></body></html>
+------MultipartBoundary--SncEeiwnf1k9SRfAhlvc6LrR6yS4maOnwJodDCLiAL----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-72307664-3e6b-4334-a459-5755334ca01b@mhtml.blink
+
+@charset "utf-8";
+
+@keyframes go2264125279 {=20
+  0% { transform: scale(0) rotate(45deg); opacity: 0; }
+  100% { transform: scale(1) rotate(45deg); opacity: 1; }
+}
+
+@keyframes go3020080000 {=20
+  0% { transform: scale(0); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes go463499852 {=20
+  0% { transform: scale(0) rotate(90deg); opacity: 0; }
+  100% { transform: scale(1) rotate(90deg); opacity: 1; }
+}
+
+@keyframes go1268368563 {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes go1310225428 {=20
+  0% { transform: scale(0) rotate(45deg); opacity: 0; }
+  100% { transform: scale(1) rotate(45deg); opacity: 1; }
+}
+
+@keyframes go651618207 {=20
+  0% { height: 0px; width: 0px; opacity: 0; }
+  40% { height: 0px; width: 6px; opacity: 1; }
+  100% { opacity: 1; height: 10px; }
+}
+
+@keyframes go901347462 {=20
+  0% { transform: scale(0.6); opacity: 0.4; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.go4109123758 { z-index: 9999; }
+
+.go4109123758 > * { pointer-events: auto; }
+------MultipartBoundary--SncEeiwnf1k9SRfAhlvc6LrR6yS4maOnwJodDCLiAL----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://diagramplus.com/static/css/main.69a3b2d1.css
+
+@charset "utf-8";
+
+.selected .path, .temp-selected .path { stroke-width: 2px; stroke: rgb(13, =
+162, 231); }
+
+.selected .dot, .temp-selected .dot { fill: rgb(13, 162, 231); }
+
+.temp-selected .table-container { outline: rgb(13, 162, 231) solid 2px; }
+
+.cm-editor.cm-focused:not(.x) { outline: none; }
+
+.cm-editor .cm-scroller { font-family: SFMono-Regular, Menlo, Monaco, Conso=
+las, "Liberation Mono", "Courier New", monospace; }
+
+.cm-editor .cm-line { padding-left: 0px; padding-right: 0px; }
+
+.cm-editor .cm-content { padding-bottom: 0px; padding-top: 0px; }
+
+.cm-editor { flex: 1 1 auto; overflow: auto !important; }
+
+.mac_container__PLhkI { --gray-5: #adadad; --gray-9: #575757; --gray-4: #91=
+9292; --gray-1: #fcfdfd; }
+
+.light .mac_container__PLhkI { color: var(--gray-9); }
+
+.dark .mac_container__PLhkI { color: var(--gray-1); }
+
+.mac_container__PLhkI input[type=3D"checkbox"] { border-radius: 3px; height=
+: 14px; margin-left: 3px; margin-top: 3px; width: 14px; }
+
+.light .mac_container__PLhkI { background: rgb(255, 255, 255); border-width=
+: 0.5px; border-style: solid; border-color: rgb(165, 165, 165) rgb(183, 183=
+, 183) rgb(183, 183, 183); border-image: initial; box-shadow: rgba(0, 0, 0,=
+ 0.2) 0px 0.5px 1px inset; }
+
+.dark .mac_container__PLhkI { background-image: linear-gradient(rgb(97, 97,=
+ 97), rgb(121, 121, 121)); border: none; box-shadow: rgb(127, 127, 127) 0px=
+ 0.5px 0px inset, rgb(102, 102, 102) 0px 1px 0px inset, rgb(41, 41, 41) 0px=
+ 0.5px 0.5px; }
+
+.mac_container__PLhkI button, .mac_container__PLhkI input[type=3D"text"], .=
+mac_container__PLhkI select { border-radius: 4px; height: 23px; outline: re=
+vert; }
+
+.light .mac_container__PLhkI button, .light .mac_container__PLhkI input[typ=
+e=3D"text"], .light .mac_container__PLhkI select { background: linear-gradi=
+ent(rgb(254, 254, 254), rgb(241, 241, 241)); border-color: rgb(202, 202, 20=
+2) rgb(195, 195, 195) rgb(160, 160, 160); border-style: solid; border-width=
+: 0.5px; box-shadow: rgb(198, 198, 198) 0px 0.5px 0px; }
+
+.dark .mac_container__PLhkI button, .dark .mac_container__PLhkI input[type=
+=3D"text"], .dark .mac_container__PLhkI select { background: linear-gradien=
+t(rgb(122, 122, 122), rgb(117, 117, 117)); border: 0.5px solid rgb(74, 74, =
+74); box-shadow: rgb(148, 148, 148) 0px 0.5px 0px inset, rgb(127, 127, 127)=
+ 0px 1px 0px inset; }
+
+.light .mac_container__PLhkI button:active { background: linear-gradient(rg=
+b(227, 227, 227), rgb(212, 212, 212)); }
+
+.dark .mac_container__PLhkI button:active { background: linear-gradient(rgb=
+(143, 141, 141), rgb(129, 128, 128)); }
+
+.mac_box__ZiK18 { height: 37px; }
+
+.mac_main__ixmmp { padding: 0px 8px 0px 70px; }
+
+.light .mac_main__ixmmp { background: linear-gradient(rgb(229, 229, 229), r=
+gb(205, 205, 205)); box-shadow: rgb(246, 246, 246) 0px 0.5px 0px inset, rgb=
+(235, 235, 235) 0px 1px 0px inset; }
+
+.dark .mac_main__ixmmp { background: linear-gradient(rgb(86, 87, 87), rgb(7=
+0, 71, 71)); box-shadow: rgb(148, 148, 148) 0px 0.5px 0px inset, rgb(134, 1=
+35, 135) 0px 1px 0px inset; }
+
+.light .mac_more__4CTEK { background: rgb(236, 236, 236); }
+
+.dark .mac_more__4CTEK { background: rgb(68, 68, 68); }
+
+.win_container__rhk4C { --gray-5: #c3c3c3; --gray-4: #585858; }
+
+.light .win_main__g41ve { background-color: rgb(255, 255, 255); }
+
+.dark .win_main__g41ve { background-color: rgb(37, 37, 37); }
+
+.light .win_more__kQdI8 { background-color: rgb(246, 246, 246); }
+
+.dark .win_more__kQdI8 { background-color: rgb(51, 51, 51); }
+
+:root { --gray1: #fcfcfc; --gray2: #f8f8f8; --gray3: #f3f3f3; --gray4: #ede=
+ded; --gray5: #e8e8e8; --gray6: #e2e2e2; --gray7: #dbdbdb; --gray8: #c7c7c7=
+; --gray9: #8f8f8f; --gray10: #858585; --gray11: #6f6f6f; --gray12: #171717=
+; --slate1: #fbfcfd; --slate2: #f8f9fa; --slate3: #f1f3f5; --slate4: #eceef=
+0; --slate5: #e6e8eb; --slate6: #dfe3e6; --slate7: #d7dbdf; --slate8: #c1c8=
+cd; --slate9: #889096; --slate10: #7e868c; --slate11: #687076; --slate12: #=
+11181c; --blue1: #fbfdff; --blue2: #f5faff; --blue3: #edf6ff; --blue4: #e1f=
+0ff; --blue5: #cee7fe; --blue6: #b7d9f8; --blue7: #96c7f2; --blue8: #5eb0ef=
+; --blue9: #0091ff; --blue10: #0081f1; --blue11: #006adc; --blue12: #00254d=
+; --green1: #fbfefc; --green2: #f2fcf5; --green3: #e9f9ee; --green4: #ddf3e=
+4; --green5: #ccebd7; --green6: #b4dfc4; --green7: #92ceac; --green8: #5bb9=
+8c; --green9: #30a46c; --green10: #299764; --green11: #18794e; --green12: #=
+153226; --red1: #fffcfc; --red2: #fff8f8; --red3: #ffefef; --red4: #ffe5e5;=
+ --red5: #fdd8d8; --red6: #f9c6c6; --red7: #f3aeaf; --red8: #eb9091; --red9=
+: #e5484d; --red10: #dc3d43; --red11: #cd2b31; --red12: #381316; }
+
+.dark-theme { --slate1: #151718; --slate2: #1a1d1e; --slate3: #202425; --sl=
+ate4: #26292b; --slate5: #2b2f31; --slate6: #313538; --slate7: #3a3f42; --s=
+late8: #4c5155; --slate9: #697177; --slate10: #787f85; --slate11: #9ba1a6; =
+--slate12: #ecedee; --gray1: #161616; --gray2: #1c1c1c; --gray3: #232323; -=
+-gray4: #282828; --gray5: #2e2e2e; --gray6: #343434; --gray7: #3e3e3e; --gr=
+ay8: #505050; --gray9: #707070; --gray10: #7e7e7e; --gray11: #a0a0a0; --gra=
+y12: #ededed; --blue1: #0f1720; --blue2: #0f1b2d; --blue3: #10243e; --blue4=
+: #102a4c; --blue5: #0f3058; --blue6: #0d3868; --blue7: #0a4481; --blue8: #=
+0954a5; --blue9: #0091ff; --blue10: #369eff; --blue11: #52a9ff; --blue12: #=
+eaf6ff; --green1: #0d1912; --green2: #0c1f17; --green3: #0f291e; --green4: =
+#113123; --green5: #133929; --green6: #164430; --green7: #1b543a; --green8:=
+ #236e4a; --green9: #30a46c; --green10: #3cb179; --green11: #4cc38a; --gree=
+n12: #e5fbeb; --red1: #1f1315; --red2: #291415; --red3: #3c181a; --red4: #4=
+81a1d; --red5: #541b1f; --red6: #671e22; --red7: #822025; --red8: #aa2429; =
+--red9: #e5484d; --red10: #f2555a; --red11: #ff6369; --red12: #feecee; }
+
+*, ::after, ::before { border: 0px solid rgb(229, 231, 235); box-sizing: bo=
+rder-box; }
+
+::after, ::before { --tw-content: ""; }
+
+html { text-size-adjust: 100%; font-feature-settings: normal; font-family: =
+Inter; line-height: 1.5; tab-size: 4; }
+
+body { line-height: inherit; margin: 0px; }
+
+hr { border-top-width: 1px; color: inherit; height: 0px; }
+
+abbr:where([title]) { text-decoration: underline dotted; }
+
+h1, h2, h3, h4, h5, h6 { font-size: inherit; font-weight: inherit; }
+
+a { color: inherit; text-decoration: inherit; }
+
+b, strong { font-weight: bolder; }
+
+code, kbd, pre, samp { font-family: Menlo, Monaco, Consolas, "Liberation Mo=
+no", "Courier New", monospace; font-size: 1em; }
+
+small { font-size: 80%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-ali=
+gn: baseline; }
+
+sub { bottom: -0.25em; }
+
+sup { top: -0.5em; }
+
+table { border-collapse: collapse; border-color: inherit; text-indent: 0px;=
+ }
+
+button, input, optgroup, select, textarea { color: inherit; font-family: in=
+herit; font-size: 100%; font-weight: inherit; line-height: inherit; margin:=
+ 0px; padding: 0px; }
+
+button, select { text-transform: none; }
+
+[type=3D"button"], [type=3D"reset"], [type=3D"submit"], button { appearance=
+: button; background-color: transparent; background-image: none; }
+
+progress { vertical-align: baseline; }
+
+::-webkit-inner-spin-button, ::-webkit-outer-spin-button { height: auto; }
+
+[type=3D"search"] { appearance: textfield; outline-offset: -2px; }
+
+::-webkit-search-decoration { appearance: none; }
+
+::-webkit-file-upload-button { appearance: button; font: inherit; }
+
+summary { display: list-item; }
+
+blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre { margin: 0p=
+x; }
+
+fieldset { margin: 0px; }
+
+fieldset, legend { padding: 0px; }
+
+menu, ol, ul { list-style: none; margin: 0px; padding: 0px; }
+
+textarea { resize: vertical; }
+
+input::placeholder, textarea::placeholder { color: rgb(156, 163, 175); opac=
+ity: 1; }
+
+[role=3D"button"], button { cursor: pointer; }
+
+:disabled { cursor: default; }
+
+audio, canvas, embed, iframe, img, object, svg, video { display: block; ver=
+tical-align: middle; }
+
+img, video { height: auto; max-width: 100%; }
+
+[hidden] { display: none; }
+
+*, ::after, ::before { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; =
+--tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; -=
+-tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: =
+; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: =
+; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-=
+numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ri=
+ng-offset-color: #fff; --tw-ring-color: rgba(59,130,246,.5); --tw-ring-offs=
+et-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; =
+--tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contra=
+st: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; =
+--tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brigh=
+tness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop=
+-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdr=
+op-saturate: ; --tw-backdrop-sepia: ; }
+
+::backdrop { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-trans=
+late-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y=
+: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pin=
+ch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-sla=
+shed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fr=
+action: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-=
+color: #fff; --tw-ring-color: rgba(59,130,246,.5); --tw-ring-offset-shadow:=
+ 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shado=
+w-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw=
+-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia=
+: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; -=
+-tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotat=
+e: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturat=
+e: ; --tw-backdrop-sepia: ; }
+
+.container { width: 100%; }
+
+@media (min-width: 601px) {
+  .container { max-width: 601px; }
+}
+
+@media (min-width: 1001px) {
+  .container { max-width: 1001px; }
+}
+
+.pointer-events-none { pointer-events: none; }
+
+.visible { visibility: visible; }
+
+.collapse { visibility: collapse; }
+
+.static { position: static; }
+
+.fixed { position: fixed; }
+
+.absolute { position: absolute; }
+
+.relative { position: relative; }
+
+.sticky { position: sticky; }
+
+.inset-0 { inset: 0px; }
+
+.top-\[50\%\] { top: 50%; }
+
+.left-\[50\%\] { left: 50%; }
+
+.top-0 { top: 0px; }
+
+.left-0 { left: 0px; }
+
+.bottom-\[calc\(100\%_-_8px\)\] { bottom: calc(100% - 8px); }
+
+.isolate { isolation: isolate; }
+
+.z-\[5\] { z-index: 5; }
+
+.z-10 { z-index: 10; }
+
+.z-\[1\] { z-index: 1; }
+
+.z-0 { z-index: 0; }
+
+.z-\[2\] { z-index: 2; }
+
+.m-auto { margin: auto; }
+
+.m-0 { margin: 0px; }
+
+.m-\[5px\] { margin: 5px; }
+
+.m-\[-4px\] { margin: -4px; }
+
+.m-1 { margin: 0.25rem; }
+
+.-m-\[30px\] { margin: -30px; }
+
+.mx-3 { margin-left: 0.75rem; margin-right: 0.75rem; }
+
+.mx-auto { margin-left: auto; margin-right: auto; }
+
+.mx-\[5px\] { margin-left: 5px; margin-right: 5px; }
+
+.mb-2 { margin-bottom: 0.5rem; }
+
+.mt-2 { margin-top: 0.5rem; }
+
+.ml-auto { margin-left: auto; }
+
+.-mr-\[15px\] { margin-right: -15px; }
+
+.ml-2 { margin-left: 0.5rem; }
+
+.block { display: block; }
+
+.inline-block { display: inline-block; }
+
+.inline { display: inline; }
+
+.flex { display: flex; }
+
+.inline-flex { display: inline-flex; }
+
+.table { display: table; }
+
+.\!table { display: table !important; }
+
+.inline-table { display: inline-table; }
+
+.table-caption { display: table-caption; }
+
+.table-cell { display: table-cell; }
+
+.table-column { display: table-column; }
+
+.table-column-group { display: table-column-group; }
+
+.table-footer-group { display: table-footer-group; }
+
+.table-header-group { display: table-header-group; }
+
+.table-row-group { display: table-row-group; }
+
+.table-row { display: table-row; }
+
+.flow-root { display: flow-root; }
+
+.grid { display: grid; }
+
+.inline-grid { display: inline-grid; }
+
+.contents { display: contents; }
+
+.list-item { display: list-item; }
+
+.hidden { display: none; }
+
+.h-screen { height: 100vh; }
+
+.h-auto { height: auto; }
+
+.h-4 { height: 1rem; }
+
+.h-3 { height: 0.75rem; }
+
+.h-\[1px\] { height: 1px; }
+
+.h-full { height: 100%; }
+
+.h-\[64px\] { height: 64px; }
+
+.h-2 { height: 0.5rem; }
+
+.h-\[32px\] { height: 32px; }
+
+.h-\[75vh\] { height: 75vh; }
+
+.h-6 { height: 1.5rem; }
+
+.max-h-\[85\%\] { max-height: 85%; }
+
+.max-h-\[90vh\] { max-height: 90vh; }
+
+.min-h-\[128px\] { min-height: 128px; }
+
+.min-h-\[50vh\] { min-height: 50vh; }
+
+.min-h-0 { min-height: 0px; }
+
+.w-4 { width: 1rem; }
+
+.w-full { width: 100%; }
+
+.w-3 { width: 0.75rem; }
+
+.w-\[96px\] { width: 96px; }
+
+.w-fit { width: fit-content; }
+
+.w-2 { width: 0.5rem; }
+
+.w-20 { width: 5rem; }
+
+.w-\[32px\] { width: 32px; }
+
+.w-auto { width: auto; }
+
+.w-\[120px\] { width: 120px; }
+
+.w-\[40px\] { width: 40px; }
+
+.w-\[104px\] { width: 104px; }
+
+.min-w-\[384px\] { min-width: 384px; }
+
+.min-w-\[100px\] { min-width: 100px; }
+
+.min-w-\[75vw\] { min-width: 75vw; }
+
+.min-w-0 { min-width: 0px; }
+
+.max-w-\[80vh\] { max-width: 80vh; }
+
+.max-w-\[384px\] { max-width: 384px; }
+
+.max-w-\[90vw\] { max-width: 90vw; }
+
+.flex-0 { flex: 0 0 auto; }
+
+.flex-1 { flex: 1 1 0%; }
+
+.flex-\[1_0_0px\] { flex: 1 0 0%; }
+
+.flex-none { flex: 0 0 auto; }
+
+.flex-\[1_1_0px\] { flex: 1 1 0%; }
+
+.flex-\[1_1_auto\] { flex: 1 1 auto; }
+
+.flex-\[1_1\] { flex: 1 1 0%; }
+
+.grow { flex-grow: 1; }
+
+.origin-center { transform-origin: center center; }
+
+.translate-x-\[-50\%\] { --tw-translate-x: -50%; }
+
+.translate-x-\[-50\%\], .translate-y-\[-50\%\] { transform: translate(var(-=
+-tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(=
+--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(=
+--tw-scale-y)); }
+
+.translate-y-\[-50\%\] { --tw-translate-y: -50%; }
+
+.-translate-y-2 { --tw-translate-y: -0.5rem; }
+
+.-translate-y-2, .transform { transform: translate(var(--tw-translate-x),va=
+r(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY=
+(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)); }
+
+.\!transform { transform: translate(var(--tw-translate-x),var(--tw-translat=
+e-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-=
+y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important; }
+
+@keyframes spin {=20
+  100% { transform: rotate(1turn); }
+}
+
+.animate-spin { animation: 1s linear 0s infinite normal none running spin; =
+}
+
+@keyframes right-slide-in {=20
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0px); }
+}
+
+.animate-right-slide-in { animation: 0.15s ease-out 0s 1 normal none runnin=
+g right-slide-in; }
+
+@keyframes left-slide-in {=20
+  0% { transform: translateX(50%); }
+  100% { transform: translateX(0px); }
+}
+
+.animate-left-slide-in { animation: 0.15s ease-out 0s 1 normal none running=
+ left-slide-in; }
+
+@keyframes bottom-slide-in {=20
+  0% { opacity: 0; transform: translateY(-50%); }
+  100% { opacity: 1; transform: translateY(0px); }
+}
+
+.animate-bottom-slide-in { animation: 0.15s ease-out 0s 1 normal none runni=
+ng bottom-slide-in; }
+
+@keyframes top-slide-in {=20
+  0% { opacity: 0; transform: translateY(50%); }
+  100% { opacity: 1; transform: translateY(0px); }
+}
+
+.animate-top-slide-in { animation: 0.15s ease-out 0s 1 normal none running =
+top-slide-in; }
+
+.cursor-pointer { cursor: pointer; }
+
+.cursor-col-resize { cursor: col-resize; }
+
+.cursor-grab { cursor: grab; }
+
+.select-none { user-select: none; }
+
+.resize { resize: both; }
+
+.flex-row { flex-direction: row; }
+
+.flex-col { flex-direction: column; }
+
+.flex-wrap { flex-wrap: wrap; }
+
+.items-start { align-items: flex-start; }
+
+.items-center { align-items: center; }
+
+.justify-start { justify-content: flex-start; }
+
+.justify-end { justify-content: flex-end; }
+
+.justify-center { justify-content: center; }
+
+.justify-between { justify-content: space-between; }
+
+.gap-1 { gap: 0.25rem; }
+
+.gap-2 { gap: 0.5rem; }
+
+.self-stretch { align-self: stretch; }
+
+.overflow-hidden { overflow: hidden; }
+
+.overflow-scroll { overflow: scroll; }
+
+.overflow-y-auto { overflow-y: auto; }
+
+.overflow-x-hidden { overflow-x: hidden; }
+
+.truncate { overflow: hidden; white-space: nowrap; }
+
+.text-ellipsis, .truncate { text-overflow: ellipsis; }
+
+.whitespace-nowrap { white-space: nowrap; }
+
+.break-all { word-break: break-all; }
+
+.rounded { border-radius: 0.25rem; }
+
+.rounded-lg { border-radius: 0.5rem; }
+
+.rounded-md { border-radius: 0.375rem; }
+
+.border, .border-\[1px\] { border-width: 1px; }
+
+.border-b-0 { border-bottom-width: 0px; }
+
+.border-r-0 { border-right-width: 0px; }
+
+.border-t { border-top-width: 1px; }
+
+.border-l-\[1px\] { border-left-width: 1px; }
+
+.border-solid { border-style: solid; }
+
+.border-none { border-style: none; }
+
+.border-\[var\(--gray8\)\] { border-color: var(--gray8); }
+
+.border-\[var\(--gray6\)\] { border-color: var(--gray6); }
+
+.border-\[var\(--slate7\)\] { border-color: var(--slate7); }
+
+.border-gray-700 { --tw-border-opacity: 1; border-color: rgb(55 65 81/var(-=
+-tw-border-opacity)); }
+
+.border-\[var\(--slate9\)\] { border-color: var(--slate9); }
+
+.border-\[1\] { }
+
+.border-\[--highlight-5\] { }
+
+.border-\[var\(--gray7\)\] { border-color: var(--gray7); }
+
+.bg-\[var\(--slate1\)\] { background-color: var(--slate1); }
+
+.bg-black { --tw-bg-opacity: 1; background-color: rgb(0 0 0/var(--tw-bg-opa=
+city)); }
+
+.bg-white { --tw-bg-opacity: 1; background-color: rgb(255 255 255/var(--tw-=
+bg-opacity)); }
+
+.bg-\[var\(--slate8\)\] { background-color: var(--slate8); }
+
+.bg-\[var\(--blue9\)\] { background-color: var(--blue9); }
+
+.bg-gray-900 { --tw-bg-opacity: 1; background-color: rgb(17 24 39/var(--tw-=
+bg-opacity)); }
+
+.bg-gray-900\/25 { background-color: rgba(17, 24, 39, 0.25); }
+
+.bg-\[var\(--slate4\)\] { background-color: var(--slate4); }
+
+.bg-\[var\(--slate2\)\] { background-color: var(--slate2); }
+
+.bg-\[var\(--slate7\)\] { background-color: var(--slate7); }
+
+.bg-\[var\(--slate3\)\] { background-color: var(--slate3); }
+
+.bg-\[var\(--gray6\)\] { background-color: var(--gray6); }
+
+.bg-\[\#4199E1\]\/\[0\.2\] { background-color: rgba(65, 153, 225, 0.2); }
+
+.bg-none { background-image: none; }
+
+.bg-radial-gradient { background-image: radial-gradient(circle,var(--slate7=
+) 1px,transparent 1px); }
+
+.bg-\[length\:16px_16px\] { background-size: 16px 16px; }
+
+.fill-\[var\(--slate2\)\] { fill: var(--slate2); }
+
+.fill-none { fill: none; }
+
+.fill-\[var\(--slate12\)\] { fill: var(--slate12); }
+
+.fill-\[var\(--blue10\)\] { fill: var(--blue10); }
+
+.fill-transparent { fill: transparent; }
+
+.stroke-black { stroke: rgb(0, 0, 0); }
+
+.stroke-white { stroke: rgb(255, 255, 255); }
+
+.stroke-current { stroke: currentcolor; }
+
+.stroke-\[var\(--blue10\)\] { stroke: var(--blue10); }
+
+.stroke-\[var\(--slate10\)\] { stroke: var(--slate10); }
+
+.stroke-transparent { stroke: transparent; }
+
+.stroke-\[var\(--slate9\)\] { stroke: var(--slate9); }
+
+.stroke-2, .stroke-\[2\] { stroke-width: 2; }
+
+.stroke-1 { stroke-width: 1; }
+
+.stroke-\[20px\] { stroke-width: 20px; }
+
+.p-4 { padding: 1rem; }
+
+.p-2 { padding: 0.5rem; }
+
+.p-1 { padding: 0.25rem; }
+
+.p-3 { padding: 0.75rem; }
+
+.p-0\.5 { padding: 0.125rem; }
+
+.p-0 { padding: 0px; }
+
+.py-1\.5 { padding-bottom: 0.375rem; padding-top: 0.375rem; }
+
+.px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
+
+.py-1 { padding-bottom: 0.25rem; padding-top: 0.25rem; }
+
+.py-3 { padding-bottom: 0.75rem; padding-top: 0.75rem; }
+
+.px-1 { padding-left: 0.25rem; padding-right: 0.25rem; }
+
+.py-2 { padding-bottom: 0.5rem; padding-top: 0.5rem; }
+
+.py-4 { padding-bottom: 1rem; padding-top: 1rem; }
+
+.px-3 { padding-left: 0.75rem; padding-right: 0.75rem; }
+
+.py-0\.5 { padding-bottom: 0.125rem; padding-top: 0.125rem; }
+
+.py-0 { padding-bottom: 0px; padding-top: 0px; }
+
+.px-\[10px\] { padding-left: 10px; padding-right: 10px; }
+
+.px-0 { padding-left: 0px; padding-right: 0px; }
+
+.px-3\.5 { padding-left: 0.875rem; padding-right: 0.875rem; }
+
+.px-\[calc\(8px_\+_30px\)\] { padding-left: 38px; padding-right: 38px; }
+
+.pl-\[20px\] { padding-left: 20px; }
+
+.text-left { text-align: left; }
+
+.text-center { text-align: center; }
+
+.text-right { text-align: right; }
+
+.font-mono { font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Cour=
+ier New", monospace; }
+
+.text-13 { font-size: 13px; line-height: 16px; }
+
+.text-15 { font-size: 15px; line-height: 20px; }
+
+.text-17 { font-size: 17px; line-height: 22px; }
+
+.font-medium { font-weight: 500; }
+
+.font-semibold { font-weight: 600; }
+
+.font-bold { font-weight: 700; }
+
+.uppercase { text-transform: uppercase; }
+
+.lowercase { text-transform: lowercase; }
+
+.capitalize { text-transform: capitalize; }
+
+.italic { font-style: italic; }
+
+.leading-normal { line-height: 1.5; }
+
+.leading-5 { line-height: 1.25rem; }
+
+.text-gray-400 { --tw-text-opacity: 1; color: rgb(156 163 175/var(--tw-text=
+-opacity)); }
+
+.text-current { color: currentcolor; }
+
+.text-\[var\(--slate12\)\] { color: var(--slate12); }
+
+.text-gray-800 { --tw-text-opacity: 1; color: rgb(31 41 55/var(--tw-text-op=
+acity)); }
+
+.text-gray-600 { --tw-text-opacity: 1; color: rgb(75 85 99/var(--tw-text-op=
+acity)); }
+
+.text-white { --tw-text-opacity: 1; color: rgb(255 255 255/var(--tw-text-op=
+acity)); }
+
+.text-\[var\(--slate2\)\] { color: var(--slate2); }
+
+.text-\[var\(--slate11\)\] { color: var(--slate11); }
+
+.text-\[var\(--highlight-5\)\] { color: var(--highlight-5); }
+
+.text-\[var\(--gray10\)\] { color: var(--gray10); }
+
+.text-\[var\(--slate8\)\] { color: var(--slate8); }
+
+.text-\[var\(--green10\)\] { color: var(--green10); }
+
+.text-\[var\(--red10\)\] { color: var(--red10); }
+
+.text-\[var\(--slate10\)\] { color: var(--slate10); }
+
+.underline { text-decoration-line: underline; }
+
+.overline { text-decoration-line: overline; }
+
+.line-through { text-decoration-line: line-through; }
+
+.opacity-70 { opacity: 0.7; }
+
+.opacity-25 { opacity: 0.25; }
+
+.shadow { --tw-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0=
+,.1); --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1p=
+x var(--tw-shadow-color); }
+
+.shadow, .shadow-lg { box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),va=
+r(--tw-ring-shadow,0 0 #0000),var(--tw-shadow); }
+
+.shadow-lg { --tw-shadow: 0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rg=
+ba(0,0,0,.1); --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color),=
+0 4px 6px -4px var(--tw-shadow-color); }
+
+.shadow-sm { --tw-shadow: 0 1px 2px 0 rgba(0,0,0,.05); --tw-shadow-colored:=
+ 0 1px 2px 0 var(--tw-shadow-color); }
+
+.shadow-sm, .shadow-xl { box-shadow: var(--tw-ring-offset-shadow,0 0 #0000)=
+,var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow); }
+
+.shadow-xl { --tw-shadow: 0 20px 25px -5px rgba(0,0,0,.1),0 8px 10px -6px r=
+gba(0,0,0,.1); --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color)=
+,0 8px 10px -6px var(--tw-shadow-color); }
+
+.shadow-24 { --tw-shadow: hsla(0,0%,6%,.05) 0px 0px 0px 1px,hsla(0,0%,6%,.1=
+) 0px 3px 6px,hsla(0,0%,6%,.2) 0px 9px 24px; --tw-shadow-colored: 0px 0px 0=
+px 1px var(--tw-shadow-color),0px 3px 6px var(--tw-shadow-color),0px 9px 24=
+px var(--tw-shadow-color); }
+
+.shadow-24, .shadow-\[0_-2px_0px_var\(--blue8\)\] { box-shadow: var(--tw-ri=
+ng-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow=
+); }
+
+.shadow-\[0_-2px_0px_var\(--blue8\)\] { --tw-shadow: 0 -2px 0px var(--blue8=
+); --tw-shadow-colored: 0 -2px 0px var(--tw-shadow-color); }
+
+.shadow-\[0_1px_4px_rgba\(0\,0\,0\,0\.1\)\] { --tw-shadow: 0 1px 4px rgba(0=
+,0,0,.1); --tw-shadow-colored: 0 1px 4px var(--tw-shadow-color); }
+
+.shadow-\[0_0px_3px_var\(--blue10\)\], .shadow-\[0_1px_4px_rgba\(0\,0\,0\,0=
+\.1\)\] { box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-=
+shadow,0 0 #0000),var(--tw-shadow); }
+
+.shadow-\[0_0px_3px_var\(--blue10\)\] { --tw-shadow: 0 0px 3px var(--blue10=
+); --tw-shadow-colored: 0 0px 3px var(--tw-shadow-color); }
+
+.shadow-\[0_-2px_0px_var\(--blue10\)\] { --tw-shadow: 0 -2px 0px var(--blue=
+10); --tw-shadow-colored: 0 -2px 0px var(--tw-shadow-color); box-shadow: va=
+r(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--=
+tw-shadow); }
+
+.shadow-\[var\(--slate1\)\] { --tw-shadow-color: var(--slate1); --tw-shadow=
+: var(--tw-shadow-colored); }
+
+.outline-none { outline: transparent solid 2px; outline-offset: 2px; }
+
+.outline { outline-style: solid; }
+
+.outline-8 { outline-width: 8px; }
+
+.outline-2 { outline-width: 2px; }
+
+.-outline-offset-1 { outline-offset: -1px; }
+
+.-outline-offset-2 { outline-offset: -2px; }
+
+.outline-transparent { outline-color: transparent; }
+
+.outline-\[var\(--blue10\)\] { outline-color: var(--blue10); }
+
+.ring-8 { --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring=
+-offset-width) var(--tw-ring-offset-color); --tw-ring-shadow: var(--tw-ring=
+-inset) 0 0 0 calc(8px + var(--tw-ring-offset-width)) var(--tw-ring-color);=
+ box-shadow: var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-sh=
+adow,0 0 #0000); }
+
+.ring-transparent { --tw-ring-color: transparent; }
+
+.blur { --tw-blur: blur(8px); }
+
+.blur, .filter { filter: var(--tw-blur) var(--tw-brightness) var(--tw-contr=
+ast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-sat=
+urate) var(--tw-sepia) var(--tw-drop-shadow); }
+
+.transition-shadow { transition-duration: 0.15s; transition-property: box-s=
+hadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
+
+.transition-\[border-left-color\] { transition-duration: 0.15s; transition-=
+property: border-left-color; transition-timing-function: cubic-bezier(0.4, =
+0, 0.2, 1); }
+
+.transition-colors { transition-duration: 0.15s; transition-property: color=
+, background-color, border-color, text-decoration-color, fill, stroke; tran=
+sition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
+
+.transition-none { transition-property: none; }
+
+.transition-\[stroke-width\,stroke\] { transition-duration: 0.15s; transiti=
+on-property: stroke-width, stroke; transition-timing-function: cubic-bezier=
+(0.4, 0, 0.2, 1); }
+
+.transition-outline { transition-duration: 0.15s; transition-property: outl=
+ine; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
+
+.transition-transform { transition-duration: 0.15s; transition-property: tr=
+ansform; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
+
+.duration-300 { transition-duration: 0.3s; }
+
+.duration-200 { transition-duration: 0.2s; }
+
+.ease-out { transition-timing-function: cubic-bezier(0, 0, 0.2, 1); }
+
+.\[-webkit-app-region\:no-drag\] { app-region: no-drag; }
+
+@font-face { font-display: swap; font-family: Inter; font-style: normal; fo=
+nt-weight: 100 900; src: url("../../static/media/Inter-roman.var.ba4caefcdf=
+5b36b438db.woff2") format("woff2"); }
+
+@font-face { font-display: swap; font-family: Inter; font-style: italic; fo=
+nt-weight: 100 900; src: url("../../static/media/Inter-italic.var.30807be7a=
+bc48ba8c73c.woff2") format("woff2"); }
+
+button { cursor: auto; }
+
+svg { display: block !important; }
+
+body { font-size: 14px; overflow: hidden; }
+
+body:not(#weak) { font-feature-settings: "tnum"; font-variant-numeric: tabu=
+lar-nums; font-weight: 400; }
+
+.hover\:bg-\[var\(--slate6\)\]:hover { background-color: var(--slate6); }
+
+.hover\:bg-\[var\(--slate9\)\]:hover { background-color: var(--slate9); }
+
+.hover\:bg-\[var\(--slate4\)\]:hover { background-color: var(--slate4); }
+
+.hover\:bg-\[var\(--slate5\)\]:hover { background-color: var(--slate5); }
+
+.hover\:bg-\[var\(--blue10\)\]:hover { background-color: var(--blue10); }
+
+.hover\:bg-blue-500:hover { --tw-bg-opacity: 1; background-color: rgb(59 13=
+0 246/var(--tw-bg-opacity)); }
+
+.hover\:shadow:hover { --tw-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1=
+px rgba(0,0,0,.1); --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),=
+0 1px 2px -1px var(--tw-shadow-color); box-shadow: var(--tw-ring-offset-sha=
+dow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow); }
+
+.focus\:outline-none:focus { outline: transparent solid 2px; outline-offset=
+: 2px; }
+
+.focus\:outline-blue-500:focus { outline-color: rgb(59, 130, 246); }
+
+.focus\:ring:focus { --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 va=
+r(--tw-ring-offset-width) var(--tw-ring-offset-color); --tw-ring-shadow: va=
+r(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-r=
+ing-color); box-shadow: var(--tw-ring-offset-shadow),var(--tw-ring-shadow),=
+var(--tw-shadow,0 0 #0000); }
+
+.focus\:ring-blue-200:focus { --tw-ring-opacity: 1; --tw-ring-color: rgb(19=
+1 219 254/var(--tw-ring-opacity)); }
+
+.active\:bg-\[var\(--slate7\)\]:active { background-color: var(--slate7); }
+
+.active\:bg-\[var\(--slate10\)\]:active { background-color: var(--slate10);=
+ }
+
+.active\:bg-\[var\(--slate6\)\]:active { background-color: var(--slate6); }
+
+.active\:bg-\[var\(--blue10\)\]:active { background-color: var(--blue10); }
+
+.active\:bg-\[var\(--gray10\)\]:active { background-color: var(--gray10); }
+
+.disabled\:text-\[var\(--slate10\)\]:disabled { color: var(--slate10); }
+
+.disabled\:text-\[var\(--slate4\)\]:disabled { color: var(--slate4); }
+
+.disabled\:text-\[var\(--slate9\)\]:disabled { color: var(--slate9); }
+
+.disabled\:text-\[var\(--slate6\)\]:disabled { color: var(--slate6); }
+
+.disabled\:text-gray-500:disabled { --tw-text-opacity: 1; color: rgb(107 11=
+4 128/var(--tw-text-opacity)); }
+
+.group[open] .group-open\:flex { display: flex; }
+
+.group:focus-within .group-focus-within\:flex { display: flex; }
+
+.group:hover .group-hover\:flex { display: flex; }
+
+.group:hover .group-hover\:border-l-2 { border-left-width: 2px; }
+
+.group:hover .group-hover\:border-l-\[var\(--blue10\)\] { border-left-color=
+: var(--blue10); }
+
+.group:focus .group-focus\:flex { display: flex; }
+
+.data-checked\:bg-\[var\(--blue9\)\][data-state=3D"checked"] { background-c=
+olor: var(--blue9); }
+
+.data-checked\:text-\[var\(--slate12\)\][data-state=3D"checked"] { color: v=
+ar(--slate12); }
+
+.data-checked\:active\:bg-\[var\(--blue10\)\]:active[data-state=3D"checked"=
+] { background-color: var(--blue10); }
+
+.disabled\:data-checked\:bg-gray-400[data-state=3D"checked"]:disabled { --t=
+w-bg-opacity: 1; background-color: rgb(156 163 175/var(--tw-bg-opacity)); }
+
+.data-unchecked\:bg-\[var\(--slate7\)\][data-state=3D"unchecked"] { backgro=
+und-color: var(--slate7); }
+
+.data-unchecked\:text-\[var\(--slate10\)\][data-state=3D"unchecked"] { colo=
+r: var(--slate10); }
+
+.data-unchecked\:active\:bg-\[var\(--slate8\)\]:active[data-state=3D"unchec=
+ked"] { background-color: var(--slate8); }
+
+.disabled\:data-unchecked\:active\:bg-gray-100:active[data-state=3D"uncheck=
+ed"]:disabled { --tw-bg-opacity: 1; background-color: rgb(243 244 246/var(-=
+-tw-bg-opacity)); }
+
+.data-on\:bg-\[var\(--slate8\)\][data-state=3D"on"] { background-color: var=
+(--slate8); }
+
+.data-on\:font-medium[data-state=3D"on"] { font-weight: 500; }
+
+.data-on\:shadow[data-state=3D"on"] { --tw-shadow: 0 1px 3px 0 rgba(0,0,0,.=
+1),0 1px 2px -1px rgba(0,0,0,.1); --tw-shadow-colored: 0 1px 3px 0 var(--tw=
+-shadow-color),0 1px 2px -1px var(--tw-shadow-color); box-shadow: var(--tw-=
+ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shad=
+ow); }
+
+.data-highlighted\:bg-blue-500[data-highlighted] { --tw-bg-opacity: 1; back=
+ground-color: rgb(59 130 246/var(--tw-bg-opacity)); }
+
+.data-highlighted\:bg-\[var\(--blue10\)\][data-highlighted] { background-co=
+lor: var(--blue10); }
+
+.data-disabled\:text-gray-500[data-disabled] { --tw-text-opacity: 1; color:=
+ rgb(107 114 128/var(--tw-text-opacity)); }
+
+.data-disabled\:text-\[var\(--slate9\)\][data-disabled] { color: var(--slat=
+e9); }
+
+@media (min-width: 1001px) {
+  .lg\:flex { display: flex; }
+  .lg\:hidden { display: none; }
+  .lg\:min-w-\[620px\] { min-width: 620px; }
+  .lg\:justify-between { justify-content: space-between; }
+  .lg\:text-right { text-align: right; }
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+  .md\:block { display: block; }
+  .md\:flex { display: flex; }
+  .md\:hidden { display: none; }
+  .md\:min-w-\[300px\] { min-width: 300px; }
+}
+
+@media (max-width: 600px) {
+  .sm\:flex { display: flex; }
+  .sm\:hidden { display: none; }
+  .sm\:w-fit { width: fit-content; }
+  .sm\:min-w-\[300px\] { min-width: 300px; }
+}
+
+.\[\&\>\:not\(\.weak\)\]\:transition-none > :not(.weak), .\[\&\>button\]\:t=
+ransition-none > button { transition-property: none; }
+------MultipartBoundary--SncEeiwnf1k9SRfAhlvc6LrR6yS4maOnwJodDCLiAL----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,600;1,800&display=swap
+
+@charset "utf-8";
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtE6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,=
+ U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWvU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+21=
+16; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38=
+E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWu06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB=
+1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWxU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A=
+1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-203=
+7, U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-21=
+12, U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2=
+138, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+=
+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+23=
+19, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-2=
+3E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U=
++25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2=
+BFE, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqW106F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-=
+20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3=
+, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, =
+U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF,=
+ U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-1=
+01FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1=
+F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31=
+E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A=
+7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E=
+0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F42=
+6, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, =
+U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1=
+F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F=
+7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1=
+F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68=
+D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1=
+F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1=
+F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1=
+F890-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F99=
+6, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1=
+FABF-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, =
+U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0=
+-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWt06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F,=
+ U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720=
+-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6F.woff2") form=
+at("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2=
+DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191=
+, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtE6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,=
+ U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWvU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+21=
+16; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38=
+E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWu06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB=
+1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWxU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A=
+1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-203=
+7, U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-21=
+12, U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2=
+138, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+=
+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+23=
+19, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-2=
+3E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U=
++25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2=
+BFE, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqW106F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-=
+20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3=
+, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, =
+U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF,=
+ U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-1=
+01FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1=
+F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31=
+E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A=
+7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E=
+0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F42=
+6, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, =
+U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1=
+F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F=
+7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1=
+F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68=
+D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1=
+F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1=
+F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1=
+F890-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F99=
+6, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1=
+FABF-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, =
+U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0=
+-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWt06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F,=
+ U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720=
+-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6F.woff2") form=
+at("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2=
+DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191=
+, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtE6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,=
+ U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWvU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+21=
+16; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38=
+E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWu06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB=
+1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWxU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A=
+1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-203=
+7, U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-21=
+12, U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2=
+138, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+=
+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+23=
+19, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-2=
+3E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U=
++25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2=
+BFE, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqW106F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-=
+20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3=
+, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, =
+U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF,=
+ U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-1=
+01FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1=
+F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31=
+E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A=
+7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E=
+0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F42=
+6, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, =
+U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1=
+F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F=
+7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1=
+F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68=
+D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1=
+F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1=
+F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1=
+F890-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F99=
+6, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1=
+FABF-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, =
+U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0=
+-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWt06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F,=
+ U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720=
+-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6F.woff2") form=
+at("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2=
+DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191=
+, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtE6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,=
+ U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWvU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+21=
+16; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38=
+E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWu06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB=
+1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWxU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A=
+1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-203=
+7, U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-21=
+12, U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2=
+138, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+=
+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+23=
+19, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-2=
+3E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U=
++25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2=
+BFE, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqW106F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-=
+20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3=
+, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, =
+U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF,=
+ U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-1=
+01FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1=
+F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31=
+E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A=
+7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E=
+0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F42=
+6, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, =
+U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1=
+F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F=
+7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1=
+F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68=
+D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1=
+F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1=
+F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1=
+F890-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F99=
+6, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1=
+FABF-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, =
+U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0=
+-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWt06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F,=
+ U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720=
+-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6F.woff2") form=
+at("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2=
+DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191=
+, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtE6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,=
+ U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWvU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+21=
+16; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38=
+E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWu06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB=
+1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWxU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A=
+1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-203=
+7, U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-21=
+12, U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2=
+138, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+=
+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+23=
+19, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-2=
+3E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U=
++25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2=
+BFE, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqW106F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-=
+20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3=
+, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, =
+U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF,=
+ U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-1=
+01FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1=
+F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31=
+E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A=
+7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E=
+0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F42=
+6, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, =
+U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1=
+F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F=
+7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1=
+F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68=
+D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1=
+F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1=
+F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1=
+F890-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F99=
+6, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1=
+FABF-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, =
+U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0=
+-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWt06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F,=
+ U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720=
+-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6F.woff2") form=
+at("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2=
+DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191=
+, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtE6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,=
+ U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWvU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+21=
+16; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38=
+E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWu06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB=
+1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWxU6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A=
+1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-203=
+7, U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-21=
+12, U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2=
+138, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+=
+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+23=
+19, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-2=
+3E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U=
++25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2=
+BFE, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqW106F15M.woff2") f=
+ormat("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-=
+20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3=
+, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, =
+U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF,=
+ U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-1=
+01FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1=
+F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31=
+E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A=
+7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E=
+0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F42=
+6, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, =
+U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1=
+F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F=
+7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1=
+F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68=
+D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1=
+F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1=
+F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1=
+F890-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F99=
+6, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1=
+FABF-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtk6F15M.woff2") f=
+ormat("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, =
+U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0=
+-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWt06F15M.woff2") f=
+ormat("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F,=
+ U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720=
+-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6F.woff2") form=
+at("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2=
+DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191=
+, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2") form=
+at("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+=
+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2") form=
+at("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;=
+ }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2") form=
+at("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3=
+A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2") form=
+at("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-=
+FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A1, =
+U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-2037, =
+U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-2112,=
+ U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2138=
+, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F=
+1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319,=
+ U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-23E1=
+, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25=
+FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE=
+, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-20E=
+4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U=
++2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+2=
+5A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+=
+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101F=
+D, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0F=
+F, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, =
+U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1=
+F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, =
+U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, =
+U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1=
+F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C=
+8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, =
+U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F51=
+3, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, =
+U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C=
+6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F70=
+0-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F89=
+0-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, =
+U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1FAB=
+F-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2") form=
+at("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1=
+A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1E=
+F9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+=
+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7=
+FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2") format=
+("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA=
+, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, =
+U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2") form=
+at("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+=
+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2") form=
+at("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;=
+ }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2") form=
+at("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3=
+A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2") form=
+at("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-=
+FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A1, =
+U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-2037, =
+U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-2112,=
+ U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2138=
+, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F=
+1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319,=
+ U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-23E1=
+, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25=
+FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE=
+, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-20E=
+4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U=
++2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+2=
+5A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+=
+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101F=
+D, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0F=
+F, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, =
+U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1=
+F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, =
+U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, =
+U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1=
+F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C=
+8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, =
+U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F51=
+3, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, =
+U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C=
+6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F70=
+0-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F89=
+0-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, =
+U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1FAB=
+F-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2") form=
+at("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1=
+A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1E=
+F9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+=
+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7=
+FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2") format=
+("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA=
+, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, =
+U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2") form=
+at("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+=
+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2") form=
+at("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;=
+ }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2") form=
+at("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3=
+A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2") form=
+at("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-=
+FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A1, =
+U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-2037, =
+U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-2112,=
+ U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2138=
+, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F=
+1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319,=
+ U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-23E1=
+, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25=
+FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE=
+, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-20E=
+4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U=
++2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+2=
+5A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+=
+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101F=
+D, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0F=
+F, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, =
+U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1=
+F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, =
+U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, =
+U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1=
+F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C=
+8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, =
+U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F51=
+3, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, =
+U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C=
+6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F70=
+0-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F89=
+0-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, =
+U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1FAB=
+F-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2") form=
+at("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1=
+A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1E=
+F9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+=
+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7=
+FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2") format=
+("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA=
+, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, =
+U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2") form=
+at("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+=
+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2") form=
+at("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;=
+ }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2") form=
+at("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3=
+A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2") form=
+at("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-=
+FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A1, =
+U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-2037, =
+U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-2112,=
+ U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2138=
+, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F=
+1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319,=
+ U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-23E1=
+, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25=
+FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE=
+, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-20E=
+4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U=
++2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+2=
+5A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+=
+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101F=
+D, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0F=
+F, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, =
+U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1=
+F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, =
+U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, =
+U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1=
+F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C=
+8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, =
+U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F51=
+3, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, =
+U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C=
+6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F70=
+0-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F89=
+0-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, =
+U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1FAB=
+F-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2") form=
+at("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1=
+A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1E=
+F9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+=
+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7=
+FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 600=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2") format=
+("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA=
+, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, =
+U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2") form=
+at("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+=
+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2") form=
+at("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;=
+ }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2") form=
+at("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3=
+A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2") form=
+at("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-=
+FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A1, =
+U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-2037, =
+U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-2112,=
+ U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2138=
+, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F=
+1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319,=
+ U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-23E1=
+, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25=
+FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE=
+, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-20E=
+4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U=
++2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+2=
+5A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+=
+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101F=
+D, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0F=
+F, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, =
+U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1=
+F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, =
+U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, =
+U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1=
+F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C=
+8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, =
+U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F51=
+3, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, =
+U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C=
+6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F70=
+0-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F89=
+0-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, =
+U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1FAB=
+F-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2") form=
+at("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1=
+A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1E=
+F9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+=
+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7=
+FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2") format=
+("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA=
+, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, =
+U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2") form=
+at("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+=
+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2") form=
+at("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;=
+ }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2") form=
+at("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3=
+A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2") form=
+at("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-=
+FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2") form=
+at("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A1, =
+U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-2037, =
+U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-2112,=
+ U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2138=
+, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F=
+1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319,=
+ U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-23E1=
+, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25=
+FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE=
+, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-20E=
+4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U=
++2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+2=
+5A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+=
+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101F=
+D, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0F=
+F, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, =
+U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1=
+F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, =
+U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, =
+U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1=
+F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C=
+8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, =
+U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F51=
+3, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, =
+U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C=
+6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F70=
+0-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F89=
+0-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, =
+U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1FAB=
+F-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2") form=
+at("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1=
+A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1E=
+F9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2") form=
+at("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+=
+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7=
+FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 800=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2") format=
+("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA=
+, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, =
+U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Poppins; font-style: italic; font-weight: 400; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiGyp8=
+kv8JHgFVrJJLufntAKPY.woff2") format("woff2"); unicode-range: U+100-2AF, U+3=
+04, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C=
+0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Poppins; font-style: italic; font-weight: 400; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiGyp8=
+kv8JHgFVrJJLucHtA.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+=
+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, =
+U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Poppins; font-style: italic; font-weight: 500; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiDyp8=
+kv8JHgFVrJJLmg1hVGdeOcEg.woff2") format("woff2"); unicode-range: U+100-2AF,=
+ U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD=
+-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Poppins; font-style: italic; font-weight: 500; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiDyp8=
+kv8JHgFVrJJLmg1hVF9eO.woff2") format("woff2"); unicode-range: U+0-FF, U+131=
+, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-20=
+6F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;=
+ }
+
+@font-face { font-family: Poppins; font-style: italic; font-weight: 600; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiDyp8=
+kv8JHgFVrJJLmr19VGdeOcEg.woff2") format("woff2"); unicode-range: U+100-2AF,=
+ U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD=
+-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Poppins; font-style: italic; font-weight: 600; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiDyp8=
+kv8JHgFVrJJLmr19VF9eO.woff2") format("woff2"); unicode-range: U+0-FF, U+131=
+, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-20=
+6F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;=
+ }
+
+@font-face { font-family: Poppins; font-style: italic; font-weight: 800; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiDyp8=
+kv8JHgFVrJJLm111VGdeOcEg.woff2") format("woff2"); unicode-range: U+100-2AF,=
+ U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD=
+-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Poppins; font-style: italic; font-weight: 800; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiDyp8=
+kv8JHgFVrJJLm111VF9eO.woff2") format("woff2"); unicode-range: U+0-FF, U+131=
+, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-20=
+6F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;=
+ }
+
+@font-face { font-family: Poppins; font-style: normal; font-weight: 400; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiEyp8=
+kv8JHgFVrJJnecmNE.woff2") format("woff2"); unicode-range: U+100-2AF, U+304,=
+ U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, =
+U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Poppins; font-style: normal; font-weight: 400; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiEyp8=
+kv8JHgFVrJJfecg.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+15=
+2-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+=
+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Poppins; font-style: normal; font-weight: 500; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiByp8=
+kv8JHgFVrLGT9Z1JlFc-K.woff2") format("woff2"); unicode-range: U+100-2AF, U+=
+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20=
+C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Poppins; font-style: normal; font-weight: 500; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiByp8=
+kv8JHgFVrLGT9Z1xlFQ.woff2") format("woff2"); unicode-range: U+0-FF, U+131, =
+U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F=
+, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Poppins; font-style: normal; font-weight: 600; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiByp8=
+kv8JHgFVrLEj6Z1JlFc-K.woff2") format("woff2"); unicode-range: U+100-2AF, U+=
+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20=
+C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Poppins; font-style: normal; font-weight: 600; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiByp8=
+kv8JHgFVrLEj6Z1xlFQ.woff2") format("woff2"); unicode-range: U+0-FF, U+131, =
+U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F=
+, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Poppins; font-style: normal; font-weight: 800; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiByp8=
+kv8JHgFVrLDD4Z1JlFc-K.woff2") format("woff2"); unicode-range: U+100-2AF, U+=
+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20=
+C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Poppins; font-style: normal; font-weight: 800; fo=
+nt-display: swap; src: url("https://fonts.gstatic.com/s/poppins/v21/pxiByp8=
+kv8JHgFVrLDD4Z1xlFQ.woff2") format("woff2"); unicode-range: U+0-FF, U+131, =
+U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F=
+, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--SncEeiwnf1k9SRfAhlvc6LrR6yS4maOnwJodDCLiAL----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/mcafee_logo_white.svg?secret=spiqzi
+
+<svg width=3D"34" height=3D"34" viewBox=3D"0 0 34 34" fill=3D"none" xmlns=
+=3D"http://www.w3.org/2000/svg">
+<path d=3D"M9.2402 11.5717V23.1982L16.5771 26.5917V32.2021L4.14429 26.4497V=
+3.60645L16.5771 9.35372V14.9634L9.2402 11.5717Z" fill=3D"white"/>
+<path d=3D"M23.914 11.5722V23.1986L16.5771 26.5917V32.2021L29.0099 26.4501V=
+3.60688L16.5771 9.35372V14.9634L23.914 11.5722Z" fill=3D"white"/>
+</svg>
+
+------MultipartBoundary--SncEeiwnf1k9SRfAhlvc6LrR6yS4maOnwJodDCLiAL----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/download_scan_icon.svg?secret=spiqzi
+
+<svg width=3D"73" height=3D"65" viewBox=3D"0 0 73 65" fill=3D"none" xmlns=
+=3D"http://www.w3.org/2000/svg">
+<rect width=3D"72.7844" height=3D"65" fill=3D"white"/>
+<path d=3D"M62.6649 32.891C62.6649 47.186 51.0766 58.7743 36.7817 58.7743C2=
+2.4868 58.7743 10.8984 47.186 10.8984 32.891C10.8984 18.5961 22.4868 7.0078=
+1 36.7817 7.00781C51.0766 7.00781 62.6649 18.5961 62.6649 32.891ZM17.1182 3=
+2.891C17.1182 43.7509 25.9218 52.5545 36.7817 52.5545C47.6415 52.5545 56.44=
+52 43.7509 56.4452 32.891C56.4452 22.0312 47.6415 13.2276 36.7817 13.2276C2=
+5.9218 13.2276 17.1182 22.0312 17.1182 32.891Z" fill=3D"#4258FF"/>
+<circle cx=3D"36.9763" cy=3D"55.6605" r=3D"3.11377" fill=3D"#4258FF"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M42.0805 31.351L37.6=
+252 35.8064L37.6249 23.356L35.549 23.356L35.5493 35.8071L31.0933 31.351L29.=
+6255 32.8189L35.1191 38.3125C35.9297 39.1232 37.2441 39.1232 38.0548 38.312=
+5L43.5484 32.8189L42.0805 31.351ZM27.2456 43.0765H45.9282V41.0007H27.2456V4=
+3.0765Z" fill=3D"#4258FF"/>
+</svg>
+
+------MultipartBoundary--SncEeiwnf1k9SRfAhlvc6LrR6yS4maOnwJodDCLiAL----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/mcafee_logo_red.svg?secret=spiqzi
+
+<svg width=3D"76" height=3D"16" viewBox=3D"0 0 76 16" fill=3D"none" xmlns=
+=3D"http://www.w3.org/2000/svg">
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M37.7977 9.90788L35.=
+8231 8.69787L35.6761 8.93505C35.226 9.6643 34.6111 10.034 33.8486 10.0333C3=
+2.5424 10.0328 31.5581 9.01666 31.5588 7.66935C31.5594 6.32276 32.5451 5.30=
+793 33.8511 5.30848C34.6244 5.30921 35.2051 5.65942 35.6791 6.41113L35.8265=
+ 6.64466L37.8105 5.43209L37.6391 5.1761C36.6914 3.76032 35.4527 3.07214 33.=
+8525 3.07105C30.8275 3.06958 29.1939 5.4383 29.1929 7.66788C29.1916 9.89783=
+ 30.8224 12.2687 33.8472 12.2702C35.3884 12.2711 36.8426 11.4628 37.6428 10=
+.1604L37.7977 9.90788Z" fill=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M43.3073 4.8923L44.4=
+124 7.75346L42.187 7.75219L43.3073 4.8923ZM37.6988 12.2726L40.4293 12.274L4=
+1.2405 10.1933L45.3379 10.1953L46.1468 12.2773L48.889 12.2792L43.9977 0.082=
+4538L41.5624 0.0808105L42.211 1.69781L37.6988 12.2726Z" fill=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M50.0191 12.2794L52.=
+415 12.2809L52.418 6.80706L53.9803 6.80815L53.9815 4.51174L52.4193 4.51083L=
+52.4198 3.42552C52.42 2.95974 52.7224 2.46511 53.283 2.46547C53.5907 2.4656=
+6 53.7766 2.51989 53.9619 2.60168L54.2285 2.72018L55.224 0.479462L54.9371 0=
+.358589C54.492 0.17034 53.8717 0.102783 53.4392 0.102418C52.3529 0.10187 51=
+.4573 0.468142 50.8487 1.16143C50.3175 1.76671 50.0244 2.60862 50.0237 3.53=
+124L50.0232 4.50937L48.9654 4.50882L48.9642 6.80541L50.0221 6.80559L50.0191=
+ 12.2794Z" fill=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M17.8979 0.0106201V1=
+2.261L20.5011 12.2628L20.505 5.25912L23.0282 7.19748L25.5533 5.25912V12.265=
+8L28.1526 12.267L28.1594 0.0106201L23.0298 4.00748L17.8979 0.0106201Z" fill=
+=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M57.2864 6.56615C57.=
+5992 5.73045 58.2739 5.24257 59.1459 5.24294C60.0272 5.24348 60.7151 5.7213=
+2 61.0798 6.56834L57.2864 6.56615ZM59.376 3.11328C56.3604 3.11164 54.7314 5=
+.47378 54.73 7.69661C54.7291 9.92017 56.3553 12.2834 59.3711 12.2852H59.372=
+5H59.3744C60.7573 12.2699 62.0541 11.6201 63.0579 10.4482L61.1038 9.34922C6=
+0.6029 9.87836 59.9943 10.1566 59.3229 10.1563C58.3388 10.1555 57.4664 9.47=
+94 57.2381 8.59494L63.7543 8.59841L63.7547 7.98839C63.7566 4.62767 61.1954 =
+3.11438 59.376 3.11328Z" fill=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M67.0804 6.57129C67.=
+3931 5.73558 68.0673 5.24752 68.9399 5.24807C69.8212 5.24862 70.5091 5.7264=
+5 70.8738 6.57348L67.0804 6.57129ZM69.1698 3.11878C66.1538 3.11695 64.5253 =
+5.47909 64.5239 7.7021C64.5229 9.92566 66.1487 12.2889 69.1648 12.2907H69.1=
+662H69.1678C70.5512 12.2754 71.8481 11.6252 72.8517 10.4537L70.8976 9.35471=
+C70.3963 9.88385 69.7881 10.1621 69.1168 10.1617C68.1325 10.161 67.2599 9.4=
+8489 67.0319 8.60044L73.5481 8.60391L73.5486 7.99388C73.5506 4.63298 70.989=
+1 3.11987 69.1698 3.11878Z" fill=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M73.2422 2.70959H74.=
+2565V2.90496H73.8581V4.00141H73.6389V2.90496H73.2422V2.70959Z" fill=3D"#C01=
+818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M74.3988 2.70959H74.=
+7076L75.0532 3.72113H75.0568L75.3937 2.70959H75.6989V4.00141H75.4902V3.0044=
+7H75.4865L75.1394 4.00141H74.9585L74.6109 3.00447H74.6076V4.00141H74.3988V2=
+.70959Z" fill=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M2.63757 10.4604V4.2=
+526L6.4351 6.06369V3.0687L0 0.00012207V12.1965L6.4351 15.2676V12.2722L2.637=
+57 10.4604Z" fill=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M10.2328 10.4603V4.2=
+5248L6.4353 6.06357V3.06858L12.8704 0V12.1963L6.4353 15.2675V12.2721L10.232=
+8 10.4603Z" fill=3D"#C01818"/>
+</svg>
+
+------MultipartBoundary--SncEeiwnf1k9SRfAhlvc6LrR6yS4maOnwJodDCLiAL----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/seperator_line.svg?secret=spiqzi
+
+<svg width=3D"1" height=3D"13" viewBox=3D"0 0 1 13" fill=3D"none" xmlns=3D"=
+http://www.w3.org/2000/svg">
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M0.571726 11.6904V0.=
+875681V11.6904Z" fill=3D"#FF1C1C"/>
+<path d=3D"M0.571726 11.6904V0.875681" stroke=3D"#FF1C1C" stroke-width=3D"0=
+.866667" stroke-linecap=3D"square"/>
+</svg>
+
+------MultipartBoundary--SncEeiwnf1k9SRfAhlvc6LrR6yS4maOnwJodDCLiAL----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/webadvisor.svg?secret=spiqzi
+
+<svg width=3D"64" height=3D"10" viewBox=3D"0 0 64 10" fill=3D"none" xmlns=
+=3D"http://www.w3.org/2000/svg">
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M8.12091 9.7761H7.18=
+323L5.53671 4.1395C5.45857 3.89001 5.37113 3.57527 5.27438 3.19527C5.17764 =
+2.81527 5.1274 2.5869 5.12368 2.51013C5.04182 3.01679 4.91159 3.57143 4.732=
+98 4.17405L3.13669 9.7761H2.19901L0.027832 1.35863H1.03249L2.3218 6.55766C2=
+.50041 7.28695 2.63064 7.94713 2.7125 8.53824C2.81297 7.83582 2.96181 7.148=
+76 3.15902 6.47705L4.62135 1.35863H5.62601L7.16091 6.52311C7.33951 7.11806 =
+7.49021 7.78976 7.613 8.53824C7.6837 7.99319 7.81765 7.32917 8.01486 6.5461=
+4L9.29859 1.35863H10.3033L8.12091 9.7761ZM13.7973 9.89105C12.8931 9.89105 1=
+2.1796 9.60702 11.6568 9.03894C11.134 8.47086 10.8726 7.68209 10.8726 6.672=
+6C10.8726 5.65544 11.1154 4.84748 11.601 4.24869C12.0866 3.64991 12.7387 3.=
+35052 13.5573 3.35052C14.3238 3.35052 14.9303 3.61057 15.3768 4.13066C15.82=
+33 4.65076 16.0466 5.33686 16.0466 6.18897V6.79351H11.8326C11.8512 7.53431 =
+12.0326 8.09662 12.3768 8.48046C12.721 8.8643 13.2056 9.05621 13.8308 9.056=
+21C14.4894 9.05621 15.1405 8.91419 15.7843 8.63016V9.48227C15.4568 9.62813 =
+15.147 9.73272 14.855 9.79605C14.5629 9.85938 14.2103 9.89105 13.7973 9.891=
+05ZM13.5459 4.15117C13.0548 4.15117 12.6632 4.31622 12.3711 4.64632C12.079 =
+4.97642 11.9069 5.43317 11.8548 6.0166H15.0529C15.0529 5.41398 14.9227 4.95=
+243 14.6622 4.63192C14.4018 4.31142 14.0297 4.15117 13.5459 4.15117ZM20.472=
+6 3.3622C21.2763 3.3622 21.9005 3.64528 22.3452 4.21143C22.7898 4.77759 23.=
+0122 5.57884 23.0122 6.61519C23.0122 7.65155 22.788 8.45663 22.3396 9.03047=
+C21.8912 9.6043 21.2689 9.89121 20.4726 9.89121C20.0745 9.89121 19.7107 9.8=
+1541 19.3814 9.66379C19.0521 9.51218 18.7759 9.279 18.5526 8.96426H18.4856L=
+18.2903 9.77606H17.6261V0.817383H18.5526V2.99372C18.5526 3.48119 18.5377 3.=
+91876 18.5079 4.30643H18.5526C18.9842 3.67694 19.6242 3.3622 20.4726 3.3622=
+ZM20.3389 4.1626C19.7063 4.1626 19.2505 4.34971 18.9714 4.72395C18.6924 5.0=
+9819 18.5528 5.72863 18.5528 6.61529C18.5528 7.50196 18.6961 8.13623 18.982=
+6 8.51815C19.2691 8.90007 19.7287 9.09102 20.3612 9.09102C20.9305 9.09102 2=
+1.3547 8.87704 21.6338 8.44906C21.9129 8.02108 22.0524 7.406 22.0524 6.6037=
+8C22.0524 5.78237 21.9129 5.17016 21.6338 4.76714C21.3547 4.36411 20.9231 4=
+.1626 20.3389 4.1626ZM29.8995 9.77594L28.8837 7.0987H25.613L24.6083 9.77594=
+H23.6483L26.8744 1.32393H27.6725L30.8819 9.77594H29.8995ZM28.5879 6.21798L2=
+7.6391 3.60982C27.5163 3.27972 27.3897 2.87478 27.2595 2.39499C27.1776 2.76=
+347 27.0604 3.16841 26.9079 3.60982L25.9479 6.21798H28.5879ZM36.0283 8.9297=
+1H35.978C35.5501 9.57072 34.9101 9.89121 34.058 9.89121C33.258 9.89121 32.6=
+357 9.6091 32.191 9.04486C31.7464 8.48062 31.5241 7.67842 31.5241 6.63822C3=
+1.5241 5.59803 31.7473 4.79007 32.1938 4.21431C32.6403 3.63856 33.2617 3.35=
+069 34.058 3.35069C34.8878 3.35069 35.5241 3.66159 35.9669 4.2834H36.0394L3=
+6.0004 3.82856L35.978 3.38523V0.817383H36.9045V9.77606H36.1511L36.0283 8.92=
+971ZM34.175 9.09111C34.8076 9.09111 35.2662 8.91359 35.5508 8.55855C35.8355=
+ 8.2035 35.9778 7.63063 35.9778 6.83993V6.63842C35.9778 5.74408 35.8336 5.1=
+0596 35.5452 4.72404C35.2569 4.34213 34.7964 4.15117 34.1638 4.15117C33.620=
+6 4.15117 33.2048 4.369 32.9164 4.80465C32.628 5.2403 32.4838 5.85539 32.48=
+38 6.64993C32.4838 7.45599 32.6271 8.06436 32.9136 8.47506C33.2001 8.88577 =
+33.6206 9.09111 34.175 9.09111ZM40.2084 9.77585L37.8865 3.46563H38.88L40.19=
+73 7.208C40.4949 8.08315 40.6698 8.65122 40.7219 8.91223H40.7666C40.8075 8.=
+70879 40.9368 8.28754 41.1545 7.64845C41.3721 7.00937 41.8605 5.61511 42.61=
+96 3.46563H43.6131L41.2912 9.77585H40.2084ZM45.5221 9.77585H44.5956V3.46563=
+H45.5221V9.77585ZM44.5173 1.75582C44.5173 1.53703 44.5694 1.37678 44.6736 1=
+.27507C44.7777 1.17335 44.908 1.12249 45.0642 1.12249C45.2131 1.12249 45.34=
+14 1.17431 45.4494 1.27795C45.5573 1.38158 45.6112 1.54087 45.6112 1.75582C=
+45.6112 1.97077 45.5573 2.13102 45.4494 2.23657C45.3414 2.34213 45.2131 2.3=
+9491 45.0642 2.39491C44.908 2.39491 44.7777 2.34213 44.6736 2.23657C44.5694=
+ 2.13102 44.5173 1.97077 44.5173 1.75582ZM51.4329 8.05441C51.4329 8.64167 5=
+1.2208 9.09459 50.7966 9.41318C50.3724 9.73176 49.7771 9.89105 49.0106 9.89=
+105C48.1994 9.89105 47.5668 9.75863 47.1129 9.49378V8.60713C47.4068 8.76066=
+ 47.7222 8.88157 48.0589 8.96985C48.3957 9.05813 48.7203 9.10227 49.0329 9.=
+10227C49.5166 9.10227 49.8887 9.02263 50.1492 8.86333C50.4096 8.70404 50.53=
+99 8.46127 50.5399 8.13501C50.5399 7.88936 50.4366 7.67921 50.2301 7.50456C=
+50.0236 7.32992 49.6208 7.12361 49.0217 6.88563C48.4524 6.66684 48.0478 6.4=
+7589 47.8078 6.31276C47.5678 6.14963 47.3892 5.96443 47.2719 5.75716C47.154=
+7 5.54989 47.0961 5.30232 47.0961 5.01444C47.0961 4.5001 47.2989 4.0942 47.=
+7045 3.79673C48.1101 3.49925 48.6664 3.35052 49.3733 3.35052C50.032 3.35052=
+ 50.6757 3.4887 51.3045 3.76506L50.9752 4.54233C50.3613 4.28132 49.805 4.15=
+081 49.3064 4.15081C48.8673 4.15081 48.5361 4.22182 48.3129 4.36384C48.0896=
+ 4.50586 47.978 4.70161 47.978 4.95111C47.978 5.12 48.0199 5.26393 48.1036 =
+5.38292C48.1873 5.50191 48.3222 5.61514 48.5082 5.72261C48.6943 5.83009 49.=
+0515 5.98554 49.5799 6.18897C50.3054 6.4615 50.7957 6.73593 51.0506 7.0123C=
+51.3054 7.28866 51.4329 7.63602 51.4329 8.05441ZM58.2201 6.61503C58.2201 7.=
+64371 57.9689 8.44687 57.4666 9.02455C56.9642 9.60222 56.2703 9.89105 55.38=
+47 9.89105C54.8377 9.89105 54.3521 9.75863 53.9279 9.49378C53.5037 9.22894 =
+53.1763 8.84894 52.9456 8.3538C52.7149 7.85865 52.5995 7.27906 52.5995 6.61=
+503C52.5995 5.58635 52.8488 4.7851 53.3475 4.21127C53.8461 3.63743 54.5382 =
+3.35052 55.4238 3.35052C56.2796 3.35052 56.9596 3.64415 57.4638 4.23142C57.=
+968 4.81869 58.2201 5.61322 58.2201 6.61503ZM53.5593 6.61529C53.5593 7.4213=
+5 53.7156 8.03548 54.0281 8.4577C54.3407 8.87992 54.8002 9.09102 55.4068 9.=
+09102C56.0133 9.09102 56.4738 8.88088 56.7882 8.46058C57.1026 8.04028 57.25=
+98 7.42519 57.2598 6.61529C57.2598 5.81308 57.1026 5.20375 56.7882 4.78729C=
+56.4738 4.37083 56.0096 4.1626 55.3956 4.1626C54.7891 4.1626 54.3314 4.3679=
+5 54.0226 4.77865C53.7137 5.18935 53.5593 5.80156 53.5593 6.61529ZM62.6347 =
+3.35052C62.9063 3.35052 63.15 3.37355 63.3658 3.41961L63.2375 4.30627C62.98=
+44 4.24869 62.7612 4.2199 62.5677 4.2199C62.0728 4.2199 61.6495 4.42717 61.=
+2979 4.84172C60.9463 5.25626 60.7704 5.77251 60.7704 6.39049V9.7759H59.8439=
+V3.46567H60.6086L60.7146 4.63445H60.7593C60.9863 4.22374 61.2598 3.90708 61=
+.5798 3.68446C61.8998 3.46183 62.2514 3.35052 62.6347 3.35052Z" fill=3D"#C0=
+1818"/>
+</svg>
+
+------MultipartBoundary--SncEeiwnf1k9SRfAhlvc6LrR6yS4maOnwJodDCLiAL----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/close-outline.svg?secret=spiqzi
+
+<svg width=3D"12" height=3D"12" viewBox=3D"0 0 12 12" fill=3D"none" xmlns=
+=3D"http://www.w3.org/2000/svg">
+<path d=3D"M11.4671 1.1549L10.3122 0L5.73355 4.57865L1.1549 0L0 1.1549L4.57=
+865 5.73355L0 10.3122L1.1549 11.4671L5.73355 6.88845L10.3122 11.4671L11.467=
+1 10.3122L6.88845 5.73355L11.4671 1.1549Z" fill=3D"#6E6E6E"/>
+</svg>
+
+------MultipartBoundary--SncEeiwnf1k9SRfAhlvc6LrR6yS4maOnwJodDCLiAL------
