@@ -1,0 +1,12 @@
+
+• Backtracking is nothing but the modified process of the brute force approach.
+• Where the technique systematically searches for a solution to a problem among all available options.
+It does so by assuming that the solutions are represented by vectors (v,..., v) of values and by traversing through the domains of the vectors until the solutions is found.
+
+
+Algorithm
+Backtrack(X[1.../])
+if X[1...] is a solution then write X[1...];
+exit
+else
+for each X[1...i+1] that is promising do Backtrack(X[1...i+1])
