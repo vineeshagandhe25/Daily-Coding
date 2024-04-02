@@ -1,0 +1,27 @@
+Place N Queens on an N-by-N chessboard so that none of them can attack each other.
+
+Algorithm Place (k, i)
+// Returns true if a queen can be placed in kth row and //ith column. Otherwise it returns false. [] is a
+// global array whose first (k-1) values have been set. // Abs(r) returns the absolute value of r.
+{
+for j 1 to k-1 do
+if ((x[j] = i) // Two in the same column or (Abs(r[j]) = Abs(j - k)))
+// or in the same diagonal
+then return false;
+return true;
+}
+
+All solutions to the n-queens problem
+Algorithm NQueens(k, m)
+// Using backtracking, this procedure prints all // possible placements of n queens on an n x n //chessboard so that they are nonattacking.
+{
+for i:= 1 to n do
+{
+if Place (k,) then
+{
+    x[k]:=i;
+    if(k=n) then write(x[1:n]);
+    else NQueens(k+1,n);
+}
+}
+}
