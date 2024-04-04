@@ -1,0 +1,10 @@
+Master’s Theorem for Decreasing Functions
+
+Consider a relation of type −
+T(n) = aT(n-b) + f(n)
+where, a >= 1 and b > 0, f(n) is asymptotically positive
+Here,
+n − size of the problem
+a − number of sub-problems in the recursion
+n-b − size of the sub problems based on the assumption that all sub-problems are of the same size.
+f(n) − represents the cost of work done outside the recursion  Θ(nk), where k >= 0.
