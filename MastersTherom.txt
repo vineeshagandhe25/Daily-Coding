@@ -8,3 +8,12 @@ n − size of the problem
 a − number of sub-problems in the recursion
 n-b − size of the sub problems based on the assumption that all sub-problems are of the same size.
 f(n) − represents the cost of work done outside the recursion  Θ(nk), where k >= 0.
+
+Master’s Theorem for Dividing Functions
+
+T(n) = aT(n/b) + f(n)
+where, a >= 1 and b > 1,
+n − size of the problem
+a − number of sub-problems in the recursion
+n/b − size of the sub problems based on the assumption that all sub-problems are of the same size.
+f(n) − represents the cost of work done outside the recursion 		     Ɵ(nklogpn ) ,where k >= 0 and p is a real number;
