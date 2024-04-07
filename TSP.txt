@@ -1,0 +1,20 @@
+The Traveling Salesperson Problem
+
+TSP problem is as follows:
+Let G = (V,E) be directed graph with edge costs  Cij.	Cij>0 for all i and j and Cij = +∞ if <i,j>      E.
+Let |V |= n and assume n>1.
+A tour of G is a directed cycle that includes every  vertex in V.
+The cost of a tour is the sum of the cost of the edges on the tour.
+The TSP problem is to find a tour of minimum  cost.
+
+Solution:
+
+Form the principle of optimality, it follows that  
+   g(1, V-{1})= min{C1k+g(k,V-{1,k})}	……(1)
+	 				(forward approach)
+In general, for i   S, g(i, S)= min{Cij+g(j, S-{j})}………..(2)  j    s
+(1) may be solved for g(1, V-{1}) if we know g(k,  V-{1,k}) for all choices of k.
+These values are obtained from (2)
+g(i, Ø) = Ci1 1≤i≤n.
+g(i, Ø) is the length of the shortest path starting at i  going through no vertex and ending at 1.
+
