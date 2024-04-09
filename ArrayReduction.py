@@ -21,9 +21,11 @@ def arrayReduction(arr):
         arr.append(max_ele+min_ele)  # Time Complexity of append() -- O(1) 
         cost += math.ceil( (min_ele + max_ele) /  (max_ele - min_ele) )  # cost of an operation
         operations += 1
-    
+    print(arr)
     return cost
 
 # input
-arr=[1,2,3,4,5]
+arr=[1,2,3,4,5,6,7]
 print(arrayReduction(arr))
+# * Time Complexity --- O(N^2) where N is length of arr
+# * Space Complexity---O(1) 
