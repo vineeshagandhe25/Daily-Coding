@@ -1,0 +1,12 @@
+Time complexity of Binary Search:
+If  the time for diving the list   is a constant, then  the computing time  for binary search  is described by the recurrence relation
+			c1 		     	n=1, c1 is  a constant
+			T(n/2) + c2           n >1, c2 is a constant 
+Assume n=2k, then
+T(n) = T(n/2) + c2 
+        =T(n/4)+c2+c2
+        =T(n/8) +c2+c2+c2
+         …..
+         …..
+        = T(1)+ kc2 
+      = c1+kc2 =c1+ log n*c2 = O(logn)
