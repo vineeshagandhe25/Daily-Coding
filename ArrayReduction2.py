@@ -9,16 +9,25 @@ maximum_element)/
 Find the total cost to reduce the array to
 a single element. '''
 import math
+import heapq
+
 def arrayReduction(arr):
     n=len(arr)  # Time Complexity of len() -- O(1)
     operations=1
     cost=0
-    while operations < n :  # Time Complexity -- O(N) where N is length of arr
-        max_ele=max(arr)    # Time Complexity of max() -- O(N) * N
-        min_ele=min(arr)    # Time Complexity of min() -- O(N) * N
-        arr.remove(max_ele) # Time Complexity of remove() -- O(N) * N
-        arr.remove(min_ele) # Time Complexity of remove() -- O(N) * N
-        arr.append(max_ele+min_ele)  # Time Complexity of append() -- O(1) 
+    min_heap=[] 
+    max_heap=[]
+    for num in arr:
+        heapq.heappush(min_heap,num) # creating min heap 
+        heapq.heappush(max_heap,-num) # creating max heap 
+        #print(min_heap," ",max_heap)
+
+    while operations < n:  # Time Complexity -- O(N) where N is length of arr
+        max_ele=-heapq.heappop(max_heap)
+        min_ele=heapq.heappop(min_heap)
+        newEle=max_ele+min_ele  
+        heapq.heappush(min_heap,newEle)
+        heapq.heappush(max_heap,-newEle)
         cost += math.ceil( (min_ele + max_ele) /  (max_ele - min_ele + 1) )  # cost of an operation
         operations += 1
     
