@@ -13,18 +13,20 @@ def findPairs(arr,k):
     
     if k == 0:
         return
-    while i < j  and j < n : 
-        if (arr[i] - arr[j]) == k:
+    while  j < n : 
+        diff=abs(arr[i] - arr[j])
+        if diff == k:
             res += 1
             i += 1
             j += 1
 
-        elif  (arr[i] - arr[j]) > k:
-            i += 1
+        elif  diff < k:
             j += 1
 
         else:
-            j += 1      
+            i += 1
+            if i == j :
+                j += 1      
 
     return res
 
