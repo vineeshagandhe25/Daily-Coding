@@ -13,7 +13,8 @@ def findPairs(arr,k):
     
     if k == 0:
         return
-    while  j < n : 
+    
+    while  j < n :  # Time Complexity ---  O(n) where n is length of input arr
         diff=abs(arr[i] - arr[j])
         if diff == k:
             res += 1
@@ -51,4 +52,4 @@ k=-1
 print(findPairs(arr,k))
 
 # * Time Complexity --- O(n) where n is length of input arr.
-# * Space  Complexity --- O(n) where n is length of input arr.
+# * Space  Complexity --- O(1).
