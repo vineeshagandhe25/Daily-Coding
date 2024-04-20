@@ -1,0 +1,11 @@
+Chromatic Number :
+The chromatic number can be described as the minimum number of colors required to properly color any graph.
+ In other words, the chromatic number can be described as a minimum number of colors that are needed to color 
+ any graph in such a way that no two adjacent vertices of a graph will be assigned the same color.
+
+ The above graph contains some points, which are described as follows:
+ The same color is not used to color the two adjacent vertices.
+ The minimum number of colors of this graph is 3, which is needed to properly color the vertices.
+ Hence, in this graph, the chromatic number = 3
+ If we want to properly color this graph, in this case, we are required at least 3 colors.
+ 
