@@ -1,0 +1,83 @@
+Queries on employee database
+1.	Display all the information of the emp table
+Select * from emp;
+
+2.	Display unique jobs from EMP table.
+Select distinct job from emp;
+
+3.	List the details of the emps in asc order of their salaries.
+Select * from emp order by sal;
+
+4.	List the details of the emps in asc order of the Deptnos and desc of Jobs.
+Select * from emp order by deptno, job desc;;
+
+5.	Display all the unique job  in the descending order
+Select distinct job from emp order by job desc;
+
+6.	List the emps who joined before 1981.
+Select * from emp where substr(hiredate,8,2) < 81;
+
+7.	List the Empno, Ename, Sal of all Employees in the ASC order of AnnSal.
+Select empno,ename,sal,sal*12 annualsal from emp order by annualsal; 
+
+8.	Display the empno , ename, job, hiredate, exp of all Mgrs.
+select empno,ename,job,hiredate,ceil((sysdate-hiredate)/365)  as experience 
+from emp where empno in (select mgr from emp);
+
+9.	List the empno, ename, sal, experience of all emps working for Mgr 7839
+select empno,ename,job,sal,ceil((sysdate-hiredate)/365)  as experience 
+from emp where mgr =7839;
+
+10.	Display the details of the emps whose Comm. is more than their sal.
+select * from emp where comm> sal;
+
+11.	List the emps who are either ‘CLERK’ or ‘ANALYST’ in the desc order
+select * from emp where job in ('CLERK','ANALYST');
+
+12.	List the emps who are working for the deptno 10 or 20
+select * from emp where deptno in (10,20);
+
+13.	List the emps whose annul sal ranging from 22000 and 45000
+select empno, sal*12 as annualsal from emp where sal*12 between 22000 and 45000
+
+14.	List the enames those are starting with ‘s’ and with fire characters
+select empno,ename from emp where ename like'S%';
+
+15.	List the 5 character names starting with ‘s’ and ending with ‘h’
+select empno,ename from emp where ename like'S%H';
+
+16.	List the emps who joined in January
+select * from emp where substr(hiredate,4,3)='JAN';
+
+17.	List the emps who does not belong to deptno 20
+select * from emp where deptno !=20;
+
+18.	List all the emps except ‘president’ & ‘Mgr’ in asc order of salaries
+select empno from emp 
+where empno NOT IN(select distinct mgr from emp where mgr is not null) and 
+job!='PESIDENT'
+order by sal;
+
+19.	List the emps who are working under ‘Mgr’
+select * from emp where mgr is not null;
+
+20.	List all the clerks of deptno 20.
+select * from emp where job=’CLERK’ and deptno=20;
+21.	Find out least 5 earners of the company
+select * from (select * from emp order by sal) where rownum<=5;
+
+22.	List the Mgrs who are not working under ‘PRESIDENT’ but are working under other Manager.
+select * from emp where mgr!= (select empno from emp where job='PRESIDENT');
+
+23.	List the details of employees along with dname and loc of all the emps working under ‘Accounting’ & ‘Research’ in the ascending order of deptno
+Select  * from emp natural join dept where dname=‘Accounting’ or dname = ‘Research’ Order by deptno
+
+24.	.List the empno, ename, sal, dname of all the ‘Mgrs’ and ‘Analyst’ working in NEWYORK, DALLAS with an exp more than 7 years. 
+Select empno, ename, sal, dname from emp natural join dept where job= ‘Manager’ or job=’Analyst’ and  ceil((sysdate-hiredate)/365)  >7
+
+25.	Find out the no of emps whose salary is > their Manager salary.
+Select count(*) from 
+( Select  E1.empno from emp E1  where  E1.sal > (select sal from emp where empno=E1.mgr) )
+
+
+

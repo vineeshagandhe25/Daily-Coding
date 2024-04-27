@@ -1,0 +1,385 @@
+Create the following tables for the Banking Database
+
+create table customer
+   (customer_name 	varchar(15),	
+    customer_street  varchar(12)	not null,
+    customer_city 	varchar(15)	not null,
+    primary key(customer_name));
+
+
+create table branch
+   (branch_name 	varchar(15),
+    branch_city 	varchar(15)	not null,
+    assets 		number	not null,
+    primary key(branch_name));
+
+
+create table account
+   (account_number 	varchar(15),
+    branch_name		varchar(15)	not null,
+    balance 		number		not null,
+    primary key(account_number));
+
+
+create table loan
+   (loan_number 	varchar(15),
+    branch_name		varchar(15)	not null,
+    amount 		number		not null,
+    primary key(loan_number));
+
+
+create table depositor
+   (customer_name 	varchar(15)	not null,
+    account_number 	varchar(15)	not null,
+    primary key(customer_name, account_number),
+    foreign key(account_number) references account(account_number),
+    foreign key(customer_name) references customer(customer_name));
+
+
+create table borrower
+   (customer_name 	varchar(15)	not null,
+    loan_number 	varchar(15)	not null,
+    primary key(customer_name, loan_number),
+    foreign key(customer_name) references customer(customer_name),
+    foreign key(loan_number) references loan(loan_number));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Insert the following data to the corresponding tables.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+All customer data.
+
+Jones		Main	     Harrison
+Smith		Main	     Rye
+Hayes		Main	     Harrison
+Curry		North	     Rye
+Lindsay 	Park	     Pittsfield
+Turner		Putnam	     Stamford
+Williams	Nassau	     Princeton
+Adams		Spring	     Pittsfield
+Johnson 	Alma	     Palo Alto
+Glenn		Sand Hill    Woodside
+Brooks		Senator      Brooklyn
+Green		Walnut	     Stamford
+Jackson 	University   Salt Lake
+Majeris 	First	     Rye
+McBride 	Safety	     Rye
+
+15 rows selected.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+All branch data.
+
+Downtown	Brooklyn	   900000
+Redwood 	Palo Alto	  2100000
+Perryridge	Horseneck	  1700000
+Mianus		Horseneck	   400200
+Round Hill	Horseneck	  8000000
+Pownal		Bennington	   400000
+North Town	Rye		  3700000
+Brighton	Brooklyn	  7000000
+Central 	Rye		   400280
+
+9 rows selected.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+All account data.
+
+A-101		Downtown	      500
+A-215		Mianus		      700
+A-102		Perryridge	      400
+A-305		Round Hill	      350
+A-201		Perryridge	      900
+A-222		Redwood 	      700
+A-217		Brighton	      750
+A-333		Central 	      850
+A-444		North Town	      625
+
+9 rows selected.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+All depositor data.
+
+Johnson 	A-101
+Smith		A-215
+Hayes		A-102
+Hayes		A-101
+Turner		A-305
+Johnson 	A-201
+Jones		A-217
+Lindsay 	A-222
+Majeris 	A-333
+Smith		A-444
+
+10 rows selected.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+All loan data.
+
+L-17		Downtown	     1000
+L-23		Redwood 	     2000
+L-15		Perryridge	     1500
+L-14		Downtown	     1500
+L-93		Mianus		      500
+L-11		Round Hill	      900
+L-16		Perryridge	     1300
+L-20		North Town	     7500
+L-21		Central 	      570
+
+9 rows selected.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+All borrower data.
+
+Jones		L-17
+Smith		L-23
+Hayes		L-15
+Jackson 	L-14
+Curry		L-93
+Smith		L-11
+Williams	L-17
+Adams		L-16
+McBride 	L-20
+Smith		L-21
+
+10 rows selected.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ 
+ Write SQL Queries
+1)	Find names and cities of all borrowers
+select distinct customer.customer_name, customer_city
+from borrower, customer
+where borrower.customer_name = customer.customer_name;
+
+OR
+select distinct customer_name, customer_city
+from borrower natural join customer;
+
+2)	Find set of names and cities of customers who have a loan at Perryridge branch
+select distinct C.customer_name, customer_city
+from customer C, borrower B, loan L
+where C.customer_name = B.customer_name and 
+			B.loan_number = L.loan_number and 
+ 	 			 branch_name = 'Perryridge';
+
+OR 
+select distinct customer_name, customer_city
+from  (customer NATURAL JOIN borrower ) JOIN loan 
+ using (loan_number) 
+where  branch_name = 'Perryridge';
+
+or
+
+select distinct customer_name, customer_city
+from  (customer NATURAL JOIN borrower )  NATURAL JOIN loan 
+where  branch_name = 'Perryridge';
+
+
+3)	Find Numbers of accounts with balances between $700 and $900.
+select account_number
+from account
+where balance between 700 and 900;
+
+4)	Find the average account balance at the Perryridge branch.
+select avg(balance)
+from account
+where branch_name=’Perryridge’;
+
+5)	Find Names of customers on streets with names ending in “Hill".
+select customer_name
+from customer
+where customer_street like '%Hill';
+
+
+6)	Find all loan numbers at the Perryridge branch with loan amounts greater than $1200.
+select loan_number
+from loan
+where branch_name=’Perryridge’ and amount>1200;
+
+7)	Find the loan number of those loans with loan amounts between $900 and $1500 
+select loan_number
+from loan
+where amount between 900 and 1500;
+
+8)	Find the name, loan number and loan amount of all customers, and rename the column name loan_number as loan_id
+select customer_name,loan_number as loan_id, amount
+   from loan natural join borrower
+
+9)	Find the name, loan number and loan amount of all customers having a loan at the Perryridge branch.
+select customer_name , loan_number , amount
+from loan natural join borrower
+where branch_name=’Perryridge’
+
+10)	Find the customer names and their loan numbers for all     customers having a loan at some branch.
+select customer_name , loan_number , amount
+from loan natural join borrower
+
+11)	Find the names of all branches that have greater assets than some branch located in Brooklyn.
+Select b1. branch_name 
+From branch b1, branch b2
+Where b1.assets > b2.assets and b2.branch_city= ‘Brooklyn’
+
+OR
+select branch_name
+from branch
+where assets > some	(select assets
+				from branch
+				where branch_city = 'Brooklyn')
+12)	Find the names of all customers whose street includes the   substring “Main”.
+select customer_name
+from customer
+where customer_street like '%Main%';
+
+
+13)	Select the names of customers who have a loan at the bank, and whose names are neither Smith nor Jones.
+select distinct customer_name 
+from loan natural join borrower
+where customer_name not in(‘Smith’,’Jones’)
+
+14)	List in alphabetic order the names of all customers having a   loan in Perryridge branch
+select customer_name 
+from loan natural join borrower
+where branch_name=’Perryridge’
+order by customer_name;
+
+15)	Find the average account balance at each branch.
+select branch_name , avg(balance)
+from account
+group by branch_name;
+
+16)	Find the number of depositors for each branch (Use distinct).
+select branch_name , count(distinct customer_name)
+from account natural join depositor
+group by branch_name;
+
+17)	Find all customers who have at most one account at the Perryridge branch
+select c.customer_name
+from customer c
+where 1>=(select count(account_number)
+		from account natutal join depositor
+		where customer_name = c.customer_name and
+ 			branch_name = 'Perryridge')
+
+OR
+-----The below sql statement gives the names of customers ------who must have account and should have at most one account ----at the perryridge branch
+
+select customer_name
+from account natutal join depositor
+where branch_name = 'Perryridge' 
+group by customer_name
+having count(account_number)=1;
+
+
+18)	 Find all customers who have at least two accounts at the perryridge branch
+select c.customer_name
+from customer c
+where 2<=(select count(account_number)
+		from account natutal join depositor
+		where customer_name = c.customer_name and
+ 			branch_name = 'Perryridge')
+
+OR
+select customer_name
+from account natutal join depositor
+where branch_name = 'Perryridge' 
+group by customer_name
+having count(account_number)>=2;
+
+19)	Find all customers who have a loan, an account, or both:
+  Use(set operation)
+
+ (select distinct customer_name from borrower )
+  Union
+ (select distinct customer_name from depositor );
+
+20)	Find all customers who have both a loan and an account.
+ Write the query in 2 ways Using (set operation) and set   membership test
+
+(select distinct customer_name from borrower )
+intersect
+(select distinct customer_name from depositor );
+
+OR
+
+select distinct customer_name
+from borrower
+where customer_name in (select customer_name
+				from depositor );
+
+21)	Find all customers who have an account but no loan.
+ Write the query in 2 ways Using (set operation) and set     cardinality test
+(select distinct customer_name from depositor )
+ except
+(select distinct customer_name from borrower )
+OR
+Select T1.customer_name
+	from (account natural join depositor ) as T1
+	 where  not exists (select *
+	 from (loan natural join borrower) AS T2
+ 	and T2.customer_name = T1.customer_name );	
+
+
+22)	Display names of customers at Perryridge branch, in      alphabetical order.
+Select * from ((Select customer_name from  borrower 
+                    where branch_name  =‘Perryridge’) 
+		       Union
+               (Select customer_name from depositor 
+                    where branch_name =‘Perryridge’))
+order by customer_name ;
+
+23)	Display Loan data, ordered by decreasing amounts, then increasing loan numbers.
+Select * from loan order by amount desc, loan_number;
+
+24)	Find the average account balance at the Perryridge    branch.
+select avg(balance)from account
+				where branch_name =‘Perryridge’;
+
+25)	Find the number of depositors in the bank.
+ select  count(Distinct Customer_name) from   Depositor;
+
+26)	Find the number of depositors for each branch
+ select  count(Distinct Customer_name) from   Depositor natural join account group by branch_name ;
+
+27)	Find the names of all branches where the average account balance is more than $1,200.
+select branch_name, avg(balance)
+from account group by branch_name
+having avg(balance) > 1200 ;
+
+28)	Find all customers who have an account at all the branches located in Brooklyn.
+Select customername from  customer C
+where not exists ((select branch_name from branch 
+				where  branch_city = 'Brooklyn') 
+				except 
+			    (select branch_name 
+				from depositor natural join account
+				 where customer name = C.customer_name));
+
+29)	Find Names of branches having at least one account, with average account balances.
+select branch_name, avg(balance)
+from account
+group by branch_name;
+
+30)	Find Names of branches having at least one account, with size of set of customers.
+select branch_name, count(distinct customer_name)
+from depositor, account 
+where depositor.account_number = account.account_number
+group by branch_name ;
