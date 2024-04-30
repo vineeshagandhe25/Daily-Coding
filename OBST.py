@@ -1,20 +1,34 @@
 # Optimal Binary Search Tree
 def obst(keys,freq):
     n = len(keys)
-    res = [[0 for _ in range(n)] for _ in range(n)]
-
-    for gap in range(n):
-        for i in range(n - gap):
-            j = i + gap
-            if gap == 0:
-                res[i][j] = freq[i]
-            else:
-                res[i][j] = float('inf')
-                sum_freq = sum(freq[i:j+1])
-                for k in range(i, j+1):
-                    cost = (res[i][k-1] if k > i else 0) + (res[k+1][j] if k < j else 0) + sum_freq
-                    if cost < res[i][j]:
-                        res[i][j] = cost
+    res = [[0 for _ in range(n+1)] for _ in range(n+1)]
+    
+    
+    for i in range(n+1):
+        for j in range(n+1):
+            if i == j or j < i :
+                res[i][j]=0
+            elif i+1 == j :
+                res[i][j]=freq[j-1]
+    print(res)            
+    for i in range(2,n+1):
+        for j in range(i,n+1):
+            if i == j or j < i :
+                res[i][j]=0
+            elif i+1 == j :
+                res[i][j]=freq[j-1]
+            else :
+                sum=0
+                for k in range(i+1,j+1):
+                    sum+=freq[k-1]
+                cost = float('inf')
+                for k in range(i+1,j+1):
+                    temp=(res[i][k-1]+res[k][j])
+                    #print(k,temp)
+                    if temp < cost :
+                        cost= temp
+                res[i][j]=cost+sum 
+                #print(cost,sum)                   
     return res
 
 a = [1, 2, 3, 4]
