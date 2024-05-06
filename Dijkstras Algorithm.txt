@@ -1,0 +1,7 @@
+Dijkstra’s Algorithm:
+Dijkstra’s algorithm is a popular algorithms for solving many single-source shortest path problems having non-negative edge weight in the graphs 
+i.e., it is to find the shortest distance between two vertices on a graph.
+It was conceived by Dutch computer scientist Edsger W. Dijkstra in 1956.
+
+
+Reference Link --- https://www.geeksforgeeks.org/introduction-to-dijkstras-shortest-path-algorithm/
