@@ -1,0 +1,31 @@
+Finding Connected Components using DFS :
+
+Connected_Components(G)
+{
+    for each vertex v to N
+    {
+        flag[v] = -1
+    }
+    count=0
+    for each vertex v to N 
+    {
+        if(flag[v]==-1)
+        {
+            DFS(v,flag)
+            count++
+        }
+    }
+    print count
+}
+
+DFS(v,flag)
+{
+    flag[v] += 1
+    print v
+    for each adjacent_node u of vertex
+    {
+        if (flag[u]==-1)
+        DFS(u,flag)
+    }
+
+}
