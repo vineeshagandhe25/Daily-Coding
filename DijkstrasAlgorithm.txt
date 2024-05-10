@@ -1,0 +1,18 @@
+Dijkstra’s algorithm
+"Single-Source Shortest path  Problem"
+
+Algorithm SSSP(V, Cost, D, n)
+    {
+	// let V={1,2,…..n} & Source =1;
+	// S={1};
+	for i =2 to n do 
+		D[i]=C[1,i];
+	for i =1 to n do {
+		choose a vertex w  V-S such that D[w] is minimum;
+		S=S U {w};
+		for each vertex v  V-S
+		D[v] = min(D[v],D[w]+C[w, v]);
+	}
+   }
+
+Time Complexity --- O(N^2)
