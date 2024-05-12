@@ -1,0 +1,24 @@
+Floyd’s Algorithm 
+All pairs shortest path
+The problem: find the shortest path between every pair of vertices of a graph
+The graph: may contain negative edges but no negative cycles
+A representation: a weight matrix where  W(i, j) = 0 if i = j. 
+ W(i, j) = ∞ if there is no edge between i and j.   
+ W(i, j) = “weight of edge”
+Note: we have shown principle of optimality applies to shortest path problems
+
+
+Let A(k)[i , j] = weight of a shortest path from vi to vj using only vertices from {v1,v2,…,vk} as intermediate vertices in the path
+A(0) = W
+A(n) = D which is the goal matrix
+
+How do we compute A(k) from A(k-1) ?
+Case 1:  A shortest path from vi to vj restricted to using only vertices from {v1,v2,…,vk} as intermediate vertices does not use vk. 
+Then A(k)[i , j]= A(k-1)[i , j].
+Case 2: A shortest path from vi to vj restricted to using only vertices from {v1,v2,…,vk} as intermediate vertices does use vk.  
+Then A(k)[i, j]= A(k-1)[i, k]+ A(k-1)[k, j].
+
+Since 
+A(k)[i, j]= A(k-1)[i, j] or
+A(k)[i, j]= A(k-1)[i, k]+ A(k-1)[k, j].
+We conclude:  A(k)[i, j]= min{ A(k-1)[i, j], A(k-1)[i, k]+ A(k-1)[k, j] }.
