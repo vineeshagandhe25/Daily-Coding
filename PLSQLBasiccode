@@ -10,3 +10,22 @@ Var2:=&var2;
 dbms_output.put_line(var3); 
 End; / 
 
+* Create a procedure to create a table
+
+Table creation:
+create table user(id number(10) primary key,name varchar2(100));  
+
+Procedure Code:
+create or replace procedure "INSERTUSER"    
+(id IN NUMBER,    
+name IN VARCHAR2)    
+is    
+begin    
+insert into user values(id,name);    
+end;    
+
+Call above created Procedure:
+BEGIN    
+   insertuser(101,'Rahul');  
+   dbms_output.put_line('record inserted successfully');    
+END;  
