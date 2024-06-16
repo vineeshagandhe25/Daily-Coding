@@ -1,0 +1,22 @@
+
+Algorithm to Find All Articulation Points
+
+Data: G(V, E), s
+Result: Articulation vertices in G
+
+DFSTree(G);
+Procedure ArticulationPoints(s, d) 
+Visited[s] = TRUE;
+depth[s] = d;
+low[s] = d;
+for each kЄ Adj(s) do
+  if Visited[s] == FALSE then Articulation Point (k, d+1);
+end
+low[s]= min (low[s], low[k]);
+
+if low[k]>= depth[s] then
+  if s = not a root node OR number of children(s) > 1 then
+     print("s is a articulation point");
+  end
+end
+end
