@@ -20,3 +20,9 @@ if low[k]>= depth[s] then
   end
 end
 end
+
+Time Complexity Analysis
+The algorithm mainly uses the DFS search with some additional steps. 
+So basically, the time complexity of this algorithm is equal to the time complexity of the DFS algorithm.
+In case the given graph uses the adjacency list, the time complexity of the DFS algorithm would be O(V + E). 
+Therefore, the overall time complexity of this algorithm is   O(V + E).
