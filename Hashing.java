@@ -8,13 +8,13 @@ public class Hashing
         int arr[]={2,3,3,8,9};
         
         HashMap<Integer,List<Integer>> input = new HashMap<>();
-        // Adding index as key and corresponding value is number .
+        // Adding numbers as keys.
         for(int i=0;i<arr.length;i++)
         {
            
             input.put(arr[i],new ArrayList<>());
         }
-
+        // and corresponding values are there indices in list format .
         for(int i=0;i<arr.length;i++)
         {
            
