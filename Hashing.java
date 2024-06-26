@@ -5,12 +5,20 @@ public class Hashing
 {
     public static void main(String[] args)
     {
-        int arr[]={1,2,3,4,5};
-        HashMap<Integer,Integer> input = new HashMap<>();
-        // Adding numbers as keys and corresponding values are their index.
+        int arr[]={2,3,3,8,9};
+        
+        HashMap<Integer,List<Integer>> input = new HashMap<>();
+        // Adding index as key and corresponding value is number .
         for(int i=0;i<arr.length;i++)
         {
-            input.put(arr[i],i);
+           
+            input.put(arr[i],new ArrayList<>());
+        }
+
+        for(int i=0;i<arr.length;i++)
+        {
+           
+            input.get(arr[i]).add(i);
         }
         
         int k=5;
@@ -18,18 +26,18 @@ public class Hashing
         
     }
    //Function to find Indices 
-    public static void findIndices(HashMap<Integer,Integer> map ,int k)
+    public static void findIndices(HashMap<Integer,List<Integer>> map ,int k)
     {
         System.out.println("The indices are :");
-
-        for(Integer num1 : map.keySet())
+        for(Integer num1:map.keySet())
         {
             if(map.containsKey(k-num1))
             {
-             int num2 =k-num1;   
-             System.out.println(map.get(num1)+" "+map.get(num2)); 
+                int num2= k- num1;
+                System.out.println(map.get(num1)+" "+map.get(num2));
             }
         }
+        
     }
 }
 
