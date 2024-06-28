@@ -9,7 +9,7 @@ def is_articulation_point(graph, node):
     def is_connected(graph):
         visited = set()
         # here dfs stands for depth first search 
-        # need to calculate time and space complexities .
+        # dfs Time Complexity - O(V*E)
         def dfs(v):
             visited.add(v)
             for neighbor in graph[v]:
@@ -44,3 +44,6 @@ if is_articulation_point(graph, node):
     print(f"The node {node} is an articulation point.")
 else:
     print(f"The node {node} is not an articulation point.")
+
+
+# Time Complexity -- O(V*E) where V is no of nodes in graph and E is no of edges in Graph.
