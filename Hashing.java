@@ -23,44 +23,46 @@ public class Hashing
         
         int k=5;
         findIndices(input, k);
+
         
     }
    //Function to find Indices 
     public static void findIndices(HashMap<Integer,List<Integer>> map ,int k)
     {
-        System.out.println("The indices are :");
-        for(Integer num1:map.keySet()) // Time Compleixty - O(N)
+        System.out.println("The indices are:");
+
+        // To avoid duplicates
+        Set<String> visitedPairs = new HashSet<>();
+
+        for (Integer num1 : map.keySet()) // Time Complexity - O(N) where N is size HashMap
         {
-            if(map.containsKey(k-num1))
+            int num2 = k - num1;
+            if (map.containsKey(num2)) 
             {
-                int num2= k- num1;
-                List<Integer> li1=map.get(num1); 
-                List<Integer> li2=map.get(num2);
-                Iterator<Integer> itr1=li1.iterator();  //defining iterators to list and printing value's list in order to print indices as pair. 
-                Iterator<Integer> itr2=li2.iterator();
-                int i = 0;
-                int j = 0;
+                List<Integer> li1 = map.get(num1);
+                List<Integer> li2 = map.get(num2);
 
-                while(itr1.hasNext() || itr2.hasNext()) // Time Compleixty - O(M) where M is maxSize(it1,itr2)
-                {
-                    
-                    if(itr1.hasNext())
+                for (int i : li1) // Time Complexity - O(N*M) where M is size of li1
+                 {
+                    for (int j : li2) // Time Complexity -O(N*M*P) where P is size of li2
                     {
-                      i=itr1.next();
+                        // To avoid same element twice
+                        if (i != j)
+                         {
+                            
+                            String pair = i < j ? i + "," + j : j + "," + i; // storing pair as sting (smaller index,Larger index).
+                            if (!visitedPairs.contains(pair)) 
+                            {
+                                visitedPairs.add(pair);
+                                System.out.println(i + " " + j);
+                            }
+                        }
                     }
-
-                    if(itr2.hasNext())
-                    {
-                      j=itr2.next();
-                    }
-
-                    System.out.println(i+" "+j);
                 }
             }
-        } 
-        
+        }
     }
 }
 
-// Time Complexity --- O(N*M) where N is the length of hashmap and M is maxSize(it1,itr2).
-// Space Complexity --- O(N) where N is the length of hashmap.
+// Time Complexity --- O(N^2) where N is the length of array .
+// Space Complexity --- O(N) where N is the length of array.
