@@ -26,7 +26,7 @@ public class Anagrams {
             set2.add(c);
         }
 
-        if(set1==set2)
+        if(set1.equals(set2))
         {
           System.out.println("The given strings are Anagrams");
         }
