@@ -1,38 +1,57 @@
+
 /*Write a function to check if two strings are Anagrams without using built-in methods or sorting .*/
 /*An anagram is a word or phase formed by rearranging the letters of another word or phase . Eg:"Listen --- "Slient"*/
 import java.util.*;
 
 public class Anagrams {
-    public static void main(String[] args) {
-        String str1="Listen";
-        String str2="silent";
-        isAnagrams(str1, str2);
-        
+    public static void main(String[] args) 
+    {
+        String str1 = "Listen";
+        String str2 = "Silent";
+        if (isAnagram(str1, str2)) 
+        {
+            System.out.println("The given strings are anagrams");
+        } 
+        else 
+        {
+            System.out.println("The given strings are not anagrams");
+        }
     }
 
-    public static void isAnagrams(String str1,String str2)
+    public static boolean isAnagram(String str1, String str2) 
     {
-        str1=str1.toLowerCase();
-        str2=str2.toLowerCase();
-        Set<Character> set1=new HashSet<>();
-        Set<Character> set2=new HashSet<>();
+        // Convert strings to lower case
+        str1 = str1.toLowerCase();
+        str2 = str2.toLowerCase();
 
-        for(char c : str1.toCharArray())
+        // If lengths are not equal, they cannot be anagrams
+        if (str1.length() != str2.length())
         {
-            set1.add(c);
-        }
-        for(char c : str2.toCharArray())
-        {
-            set2.add(c);
+            return false;
         }
 
-        if(set1.equals(set2))
+        // Create an array to count character frequencies
+        int[] charCounts = new int[26]; // Assuming only lowercase English letters
+
+        // Increment character counts from str1 and decrement from str2
+        for (int i = 0; i < str1.length(); i++)  // Time Complexity --- O(N)
         {
-          System.out.println("The given strings are Anagrams");
+            charCounts[str1.charAt(i) - 'a']++;
+            charCounts[str2.charAt(i) - 'a']--;
         }
-        else
+
+        // Check if all counts are zero I(Constant Time)
+        for (int count : charCounts) 
         {
-            System.out.println("The given strings are not Anagrams");
+            if (count != 0) 
+            {
+                return false;
+            }
         }
+
+        return true;
     }
 }
+
+// Time Complexity --- O(N) where N is the length of input strings.
+// Space Complexity --- O(N) where N is the length of input strings.
