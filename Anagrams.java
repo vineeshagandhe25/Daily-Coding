@@ -1,7 +1,7 @@
 
 /*Write a function to check if two strings are Anagrams without using built-in methods or sorting .*/
 /*An anagram is a word or phase formed by rearranging the letters of another word or phase . Eg:"Listen --- "Slient"*/
-import java.util.*;
+
 
 public class Anagrams {
     public static void main(String[] args) 
