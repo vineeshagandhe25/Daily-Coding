@@ -6,7 +6,7 @@ def topological_sort(graph):
     visited = [False] * len(graph)
     stack = []
 
-    for vertex in range(len(graph)):
+    for vertex in range(len(graph)):  # Time complexity O(N)  no of  vertices
         if not visited[vertex]:
             dfs(graph, vertex, visited, stack)
 
@@ -15,7 +15,7 @@ def topological_sort(graph):
 def dfs(graph, vertex, visited, stack):
     visited[vertex] = True
 
-    for adjacent in graph[vertex]:
+    for adjacent in graph[vertex]: # Time complexity O(M) where M is no of adjacent vertices. 
         if not visited[adjacent]:
             dfs(graph, adjacent, visited, stack)
 
@@ -32,4 +32,5 @@ graph = [
 res = topological_sort(graph)
 print(res)  
 
-
+# Time complexity O(N^2)  no of  vertices in graph
+# Space complexity O(N)  no of  vertices
