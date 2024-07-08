@@ -1,3 +1,5 @@
+# Dijkstra’s algorithm  "Single-Source Shortest path  Problem"
+
 def dijkstra(graph, start):
     distances = {node: float('inf') for node in graph}
     distances[start] = 0
@@ -29,3 +31,6 @@ shortest_distances = dijkstra(graph, start_node)
 print("Shortest distances from node", start_node + ":")
 for node, distance in shortest_distances.items():
     print("To node", node + ":", distance)
+
+# Time Complexity --- O(V^2) where V is no of vertices.
+# Space Complexity --- O(V^2) where V is no of vertices.
