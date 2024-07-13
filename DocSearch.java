@@ -39,7 +39,7 @@ class DocSearch
                 "I love coding coding coding coding coding coding coding coding coding.",
                 "I love coding coding coding coding coding coding coding coding coding coding." };
         // Search query
-        String searchWord = "coding";        
+        String searchWord = "I love coding";        
 
         // Calculate scores for each document
         int[] scores = new int[docs.length];
@@ -65,19 +65,32 @@ class DocSearch
 
     }
 
-    public static int calculateScore(String doc, String searchWord) 
-    {
-        String[] words = doc.split("\\W+"); // Split by non-word characters
+    public static int calculateScore(String doc, String searchstr) {
+        int length = searchstr.length();
         int score = 0;
-        for (String word : words) { // Time Complexity - O(N) where N is length of words.
-            if (word.equalsIgnoreCase(searchWord)) 
-            {
+        int index = 0;
+    
+        // Convert searchstr to lower case to ignore case
+        String lowerSearchStr = searchstr.toLowerCase();
+    
+        while (index <= doc.length() - length) { // Time Complexity---O(N)  where  N is length of doc
+            // Get the substring of the same length as searchstr from the current index
+            String sub = doc.substring(index, index + length).toLowerCase();
+            
+            if (sub.equals(lowerSearchStr)) {
                 score++;
+                index += length; 
+            } else {
+                index++;
             }
         }
+    
         return score;
     }
+    
+    
+    
 }
 
-// Time Complexity --- O(N*D) where  N is length of words and D is length of docs.
+// Time Complexity --- O(N*D) where  N is length of doc and D is length of docs.
 // Space Compleixty ---O(D)  where D is length of docs.
