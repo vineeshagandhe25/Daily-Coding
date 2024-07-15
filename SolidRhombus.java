@@ -1,3 +1,4 @@
+//Solid Rhombus Pattern
 public class SolidRhombus {
     public static void main(String[] args) {
         int n = 5;
