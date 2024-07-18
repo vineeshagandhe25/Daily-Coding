@@ -7,3 +7,21 @@ This is an optimization problem. Correspondingly, the Clique Decision Problem is
 Problem Statement:
 To prove that a problem is NP-Complete, we have to show that it belongs to both NP and NP-Hard Classes. (Since NP-Complete problems are NP-Hard problems which also belong to NP)
 
+The Clique Decision Problem belongs to NP:
+If a problem belongs to the NP class, then it should have polynomial-time verifiability, that is given a certificate, we should be able to verify in polynomial time if it is a solution to the problem.
+Proof:
+Certificate – Let the certificate be a set S consisting of nodes in the clique and S is a subgraph of G.
+Verification – We have to check if there exists a clique of size k in the graph. Hence, verifying if number of nodes in S equals k, takes O(1) time. Verifying whether each vertex has an out-degree of (k-1) takes O(k2) time. (Since in a complete graph, each vertex is connected to every other vertex through an edge. Hence the total number of edges in a complete graph = kC2 = k*(k-1)/2 ). Therefore, to check if the graph formed by the k nodes in S is complete or not, it takes O(k2) = O(n2) time (since k<=n, where n is number of vertices in G).
+Therefore, the Clique Decision Problem has polynomial time verifiability and hence belongs to the NP Class.
+
+The Clique Decision Problem belongs to NP-Hard :
+A problem L belongs to NP-Hard if every NP problem is reducible to L in polynomial time. Now, let the Clique Decision Problem by C. 
+To prove that C is NP-Hard, we take an already known NP-Hard problem, say S, and reduce it to C for a particular instance. 
+If this reduction can be done in polynomial time, then C is also an NP-Hard problem. 
+The Boolean Satisfiability Problem (S) is an NP-Complete problem as proved by the Cook’s theorem. 
+Therefore, every problem in NP can be reduced to S in polynomial time. 
+Thus, if S is reducible to C in polynomial time, every NP problem can be reduced to C in polynomial time, thereby proving C to be NP-Hard.
+
+Conclusion:
+The Clique Decision Problem is NP and NP-Hard. Therefore, the Clique decision problem is NP-Complete.
+
