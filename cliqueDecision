@@ -22,6 +22,16 @@ The Boolean Satisfiability Problem (S) is an NP-Complete problem as proved by th
 Therefore, every problem in NP can be reduced to S in polynomial time. 
 Thus, if S is reducible to C in polynomial time, every NP problem can be reduced to C in polynomial time, thereby proving C to be NP-Hard.
 
+Proof : 
+Thus, the graph G (V, E) is constructed such that – 
+        V = { <a, i> | a belongs to Ci } and 
+        E = { ( <a, i>, <b, j> ) | i ≠j ; b ≠a’ } 
+Consider the subgraph of G with the vertices 
+        <x2, 1>; <x1’, 2>; <x3, 3>. 
+It forms a clique of size 3 (Depicted by dotted line in figure).
+Corresponding to this, for the assignment – 
+        <x1, x2, x3> = <0, 1, 1>  F evaluates to true. 
+
 Conclusion:
 The Clique Decision Problem is NP and NP-Hard. Therefore, the Clique decision problem is NP-Complete.
 
