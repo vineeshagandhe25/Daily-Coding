@@ -12,8 +12,8 @@ def num_ways(N, M, X):
     if M == 0 or X == 0:
         return 0
 
-    for i in range(1, M + 1):
-        for j in range(1, X + 1):
+    for i in range(1, M + 1): # Time Complexity --- O(M)
+        for j in range(1, X + 1):# Time Complexity ---O(X*M)
             for k in range(1, min(j, N) + 1):
                 dp[i][j] += dp[i - 1][j - k]
 
@@ -24,3 +24,6 @@ M = 3
 X = 12 
 result = num_ways(N, M, X)
 print(result)
+
+# Time Complexity ---O(X*M)
+# Space Complexity ---O(X*M)
