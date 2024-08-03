@@ -1,0 +1,4 @@
+Dynamic Programming Patterns :
+
+Reference Link ---
+https://docs.google.com/document/d/1JPQWvvZdOYdzoM1jWlrCKgOd5lTYBC1MO6ijelglNZY/mobilebasic
