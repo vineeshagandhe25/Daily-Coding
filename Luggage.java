@@ -15,6 +15,7 @@ public class Luggage {
             weights[i] = sc.nextInt();
         int t = sc.nextInt();
         System.out.println(weightMachine(n, weights, t));
+        sc.close();
     }
 
     static int weightMachine(int N, int weights[], int T) {
