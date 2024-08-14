@@ -1,0 +1,15 @@
+ 5 ways to swap two Numbers .
+ -> using a temporary variable : temp = a
+                                 a=b  
+                                 b=temp
+-> using arithmetic operations (+,-) : a=a+b 
+                                       b=a-b 
+                                       a=a-b 
+->using tuple packing/unpacking : a,b=b,a 
+->using Xor(^) operator : a=a^b 
+                          b=a^b 
+                          a=a^b 
+->using arithmetic operations (*,/): a=a*b 
+                                     b=a//b 
+                                     a=a//b 
+                                                                                                 
