@@ -1,0 +1,18 @@
+OOPS is a programming paradigm based on objects encapsulating data and methods.It enables modular,reusable code and offers a
+structured approach to problem-solving.Objects are derived from classes,which serve as blueprint with data members and methods.
+
+-> The four pillars of OOPS :
+* Encapsulation
+* Inheritance
+* Polymorphism 
+* Abstraction
+
+Inheritance : Is a mechanism where a new class inherits attributes and methods from an existing class,promoting code reuse and efficiency.
+It includes various types such as single,muitiple,muitilevel,hierarchical and hybrid inheritance.
+
+Polymorphism : allows objects to take on multiple forms based on the context,achieved through method overloading and method overriding.
+
+Encapsulation : hides data and methods within a class,restricting access modifiers,enhancing code security and reliability .
+
+Abstraction : focuses on exposing only the essential functionalities of an object while hiding the complex implementation details.
+It cab be implemented through abstract classes and interfaces.
