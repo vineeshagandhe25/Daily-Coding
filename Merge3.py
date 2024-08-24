@@ -1,3 +1,4 @@
+# Merging two sorted linked lists into sorted single list .
 # Definition for singly-linked list.
 class ListNode(object):
     def __init__(self, val=0, next=None):
@@ -11,11 +12,12 @@ class Solution(object):
         :type list2: Optional[ListNode]
         :rtype: Optional[ListNode]
         """
-        dummy = ListNode()
+        dummy = ListNode()   # creating dummy(head node) for resultant
 
-        current = dummy
+        current = dummy # used for next iteration of resultant
         
         while list1 and list2:
+            # comparing and assigning values to resultant
             if list1.val < list2.val:
                 current.next = list1
                 list1 = list1.next
@@ -25,6 +27,7 @@ class Solution(object):
     
             current = current.next
         
+        # assigning remaining values
         if list1:
             current.next = list1
 
@@ -33,5 +36,6 @@ class Solution(object):
         
         return dummy.next
 
-
+# Time Complexity --- O(N) where N is length of min(list1,list2).
+# Space Complexity --- O(L) where L is length(list1)+length(list2).
         
