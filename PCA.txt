@@ -1,0 +1,65 @@
+import numpy as np
+import pandas as pd
+from sklearn.datasets import load_breast_cancer
+import matplotlib.pyplot as plt
+
+# Load the Breast Cancer dataset
+breast_cancer = load_breast_cancer()
+data = breast_cancer.data
+target = breast_cancer.target
+feature_names = breast_cancer.feature_names
+
+# Convert to a pandas DataFrame
+df = pd.DataFrame(data, columns=feature_names)
+
+# Standardize the data
+df_standardized = (df - df.mean()) / df.std()
+
+# Calculate the covariance matrix
+n_samples = df_standardized.shape[0]
+cov_matrix = np.dot(df_standardized.T, df_standardized) / (n_samples - 1)
+
+# Compute the eigenvalues and eigenvectors
+eigenvalues, eigenvectors = np.linalg.eig(cov_matrix)
+
+# Sort the eigenvalues and eigenvectors in descending order of eigenvalues
+sorted_index = np.argsort(eigenvalues)[::-1]
+sorted_eigenvalues = eigenvalues[sorted_index]
+sorted_eigenvectors = eigenvectors[:, sorted_index]
+
+# Choose the number of principal components (e.g., 2)
+n_components = 2
+selected_eigenvectors = sorted_eigenvectors[:, :n_components]
+
+# Transform the data
+principal_components = np.dot(df_standardized, selected_eigenvectors)
+
+# Create a DataFrame with the principal components
+df_pca = pd.DataFrame(data=principal_components, columns=['Principal Component 1', 'Principal Component 2'])
+df_pca['Target'] = target
+
+# Plot the principal components
+plt.figure(figsize=(10, 7))
+plt.scatter(df_pca['Principal Component 1'], df_pca['Principal Component 2'], c=df_pca['Target'], cmap='coolwarm', s=50)
+plt.xlabel('Principal Component 1')
+plt.ylabel('Principal Component 2')
+plt.title('PCA on Breast Cancer Dataset')
+plt.colorbar(label='Breast Cancer Diagnosis')
+plt.grid()
+plt.show()
+
+# Explained variance
+explained_variance_ratio = sorted_eigenvalues / np.sum(sorted_eigenvalues)
+cumulative_explained_variance = np.cumsum(explained_variance_ratio)
+print('Explained variance by principal components:')
+for i, variance in enumerate(explained_variance_ratio, start=1):
+    print(f'Principal Component {i}: {variance:.2f}')
+
+# Plot the cumulative explained variance
+plt.figure(figsize=(8, 5))
+plt.plot(range(1, len(cumulative_explained_variance) + 1), cumulative_explained_variance, marker='o', linestyle='--')
+plt.xlabel('Number of Principal Components')
+plt.ylabel('Cumulative Explained Variance')
+plt.title('Cumulative Explained Variance by PCA')
+plt.grid()
+plt.show()
