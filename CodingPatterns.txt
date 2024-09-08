@@ -1,0 +1,18 @@
+In programming, coding patterns are standard solutions to common problems that arise during development. 
+Understanding these patterns helps in writing more efficient, maintainable, and reusable code. Here's a brief overview of some common coding patterns:
+
+1. Singleton Pattern
+Purpose: Ensures that a class has only one instance and provides a global point of access to it.
+Use case: Database connection, logging, or configuration settings.
+
+2. Factory Pattern
+Purpose: Creates objects without exposing the instantiation logic to the client and refers to the newly created object using a common interface.
+
+3. Observer Pattern
+Purpose: Defines a dependency between objects so that when one object changes state, all its dependents are notified automatically.
+
+4.Decorator Pattern
+Purpose: Allows behavior to be added to individual objects, dynamically, without affecting the behavior of other objects from the same class.
+
+5. Strategy Pattern
+Purpose: Defines a family of algorithms, encapsulates each one, and makes them interchangeable. This allows the algorithm to vary independently from clients that use it.
