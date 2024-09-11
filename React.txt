@@ -1,0 +1,23 @@
+We can create react apps using various methods. And now we discussing about CRA and using vite approach 
+
+1. Bundling and Development Speed
+Create React App (CRA):
+
+Uses Webpack as its bundler and development server.
+During development, Webpack bundles all your code, which can result in slower startup times and hot module replacement (HMR).
+It can be slower, especially for larger projects, because Webpack needs to rebuild the entire app when code changes.
+Vite:
+
+Uses esbuild for bundling, which is significantly faster than Webpack.
+For development, Vite serves files directly using native ES Modules. This leads to faster startup times, as only the files that are needed are loaded, not the entire bundle.
+Vite provides near-instant HMR, making development much quicker.
+2. Build Time
+Create React App (CRA):
+
+Uses Webpack for both development and production builds, which can result in longer build times, especially as the application grows.
+CRA optimizes the app for production, but the build process can feel slow compared to modern tools.
+Vite:
+
+Uses esbuild for development but switches to Rollup for production builds. Both esbuild and Rollup are known for their fast build times and optimized outputs.
+Vite has faster production builds due to the efficiency of its underlying tools.
+
