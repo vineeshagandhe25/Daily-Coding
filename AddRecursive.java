@@ -24,6 +24,10 @@ public class AddRecursive {
         }
     }
 }
-
+/*
+ * here the logic is to keep on incrementing one varible and parallely decrementing the another variable
+ * so when decrementing variable becomes zero we can obtain sum
+ * Note : This code does not work for negative numbers.
+ */
 // Time Complexity --- O(1)
 // Space Complexity --- O(1)
