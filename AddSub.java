@@ -23,6 +23,8 @@ public class AddSub
        return num1;
     }
 
+    /* The code adds two integers by using bitwise operations. It computes the sum with XOR and handles the carry with AND and left-shift operations. */
+
     public static int sub(int num1,int num2)
     {
         int barrow = 0;
@@ -37,6 +39,10 @@ public class AddSub
        return num1;
 
     }
+
+    /*The code uses bitwise operations to perform subtraction by first converting the second number (num2) to its negative form using two's complement.
+     It then computes the difference using XOR for subtraction and AND for calculating the borrow, left-shifting the borrow to the next significant bit.
+     Finally, the result is returned when no more borrow remains. */
 }
 
 // Time Complexity --- O(n) where n is the number of bits in the larger of the two numbers.
