@@ -36,3 +36,8 @@ class Solution(object):
         
         return dummy.next 
 
+# Time Complexity --- O(max(n,m)) where n is no of nodes in l1 and m is no of nodes in l2.
+# Space Complexity --- O(max(n,m)) where n is no of nodes in l1 and m is no of nodes in l2.
+
+
+# Here in above code the linked list contains only single digit as its value . Here in this code just we travelling through each node and adding for resultant.
