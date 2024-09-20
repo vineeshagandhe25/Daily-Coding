@@ -1,0 +1,7 @@
+Divide and conquer is an algorithmic technique that solves a problem by breaking it down into smaller, more manageable subproblems. 
+Each of these subproblems is solved independently, and their solutions are combined to form the final solution. The approach consists of three main steps:
+
+Divide: Break the original problem into smaller subproblems.
+Conquer: Solve each subproblem recursively.
+Combine: Merge the solutions of the subproblems to solve the original problem.
+Classic examples of divide and conquer algorithms include Merge Sort, Quick Sort, and Binary Search.
