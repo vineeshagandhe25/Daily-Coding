@@ -1,0 +1,37 @@
+To solve any coding question effectively, follow these structured steps:
+
+1. Understand the Problem
+Read carefully: Read the problem statement multiple times to fully grasp the requirements and constraints.
+Clarify inputs and outputs: Identify what the input is, and what output is expected.
+Understand constraints: Take note of any time or space constraints.
+Look for edge cases: Think of unusual or extreme inputs that could break your solution.
+
+2. Plan a Solution
+Break down the problem: Break the problem into smaller steps or parts.
+Choose an approach: Based on the problem type (e.g., sorting, searching, recursion, dynamic programming), choose the right algorithmic approach.
+Write pseudocode: Outline your solution in plain language or pseudocode.
+Think of edge cases: Consider if your approach handles edge cases like empty inputs, negative numbers, or maximum limits.
+
+3. Write the Code
+Start simple: Begin by coding the simplest part of the solution.
+Follow your pseudocode: Use the pseudocode you wrote as a guide.
+Use meaningful variable names: Keep your code readable and clean.
+
+4. Test the Code
+Test with sample inputs: Use example test cases provided with the question.
+Edge case testing: Try to test the code with edge cases and large inputs.
+Debug: If the code fails, use print statements or a debugger to trace the problem.
+
+5. Optimize the Solution
+Analyze complexity: Determine the time and space complexity (Big O notation) of your solution.
+Look for improvements: If the solution is slow or uses too much memory, think of ways to optimize it.
+
+6. Refactor Code
+Clean up: Remove unnecessary comments, improve readability, and ensure the code follows best practices.
+Modularize: Break the solution into functions or methods to make it reusable and maintainable.
+
+7. Submit and Review
+Submit: If you're working on an online coding platform, submit the solution.
+Review the feedback: If it fails test cases, rework your approach using feedback.
+
+By following this structured process, you can systematically approach and solve coding problems effectively.
