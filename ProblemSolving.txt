@@ -35,3 +35,18 @@ Submit: If you're working on an online coding platform, submit the solution.
 Review the feedback: If it fails test cases, rework your approach using feedback.
 
 By following this structured process, you can systematically approach and solve coding problems effectively.
+
+-> In general, effective problem-solving strategies include the following steps:
+
+Define the problem.
+Come up with alternative solutions.
+Decide on a solution.
+Implement the solution.
+
+1. Trial and error
+2. Heuristics
+3. Gut instincts (insight problem-solving)
+4. Working backward
+5. Means-end analysis
+
+https://psychcentral.com/health/problem-solving-strategies#means-end-analysis
