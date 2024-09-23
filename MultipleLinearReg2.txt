@@ -1,44 +1,64 @@
 import numpy as np
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import matplotlib.pyplot as plt
-from sklearn import datasets
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import confusion_matrix, accuracy_score, classification_report
-from sklearn.preprocessing import OneHotEncoder
 
-# Load the Iris dataset
-iris = datasets.load_iris()
-X = iris.data[:, :2]  # Use only the first two features for visualization
-y = iris.target
+# Create the dataset
+# Independent variables (Size in sq ft, Number of Bedrooms, Age of House in years)
+X = np.array([
+    [1500, 3, 10],
+    [1800, 4, 15],
+    [2400, 3, 20],
+    [3000, 5, 8],
+    [3500, 4, 12],
+    [4000, 5, 5]
+])
 
-# Split the dataset into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+# Dependent variable (House Price in $1000s)
+Y = np.array([300, 400, 350, 500, 450, 550])
 
-# Create a logistic regression model
-model = LogisticRegression(multi_class='multinomial', solver='lbfgs')
+# Create a Linear Regression model
+model = LinearRegression()
 
-# Fit the model to the training data
-model.fit(X_train, y_train)
+# Fit the model to the data
+model.fit(X, Y)
 
-# Make predictions on the test data
-y_pred = model.predict(X_test)
+# Predict the house prices based on the model
+Y_pred = model.predict(X)
 
-# Evaluate the model
-print("Confusion Matrix:")
-print(confusion_matrix(y_test, y_pred))
-print("\nAccuracy Score:", accuracy_score(y_test, y_pred))
-print("\nClassification Report:")
-print(classification_report(y_test, y_pred))
+# Predicting the price for a new house with 2000 sq ft, 3 bedrooms, and 10 years old
+new_data = np.array([2000, 3, 10]).reshape(1, -1)
+new_prediction = model.predict(new_data)
 
-# Visualize the decision boundary
-xx, yy = np.meshgrid(np.arange(X[:, 0].min()-1, X[:, 0].max()+1, 0.1),
-                     np.arange(X[:, 1].min()-1, X[:, 1].max()+1, 0.1))
-Z = model.predict(np.c_[xx.ravel(), yy.ravel()])
-Z = Z.reshape(xx.shape)
+# Calculate evaluation metrics
+mae = mean_absolute_error(Y, Y_pred)
+mse = mean_squared_error(Y, Y_pred)
+rmse = np.sqrt(mse)
+r2 = r2_score(Y, Y_pred)
 
-plt.contourf(xx, yy, Z, alpha=0.3, cmap='coolwarm')
-plt.scatter(X[:, 0], X[:, 1], c=y, edgecolors='k', cmap='coolwarm')
-plt.xlabel(iris.feature_names[0])
-plt.ylabel(iris.feature_names[1])
-plt.title('Logistic Regression Decision Boundary on Iris Dataset')
+# Calculate Adjusted R-squared
+n = len(Y)
+k = X.shape[1]
+adjusted_r2 = 1 - ((1 - r2) * (n - 1) / (n - k - 1))
+
+# Print evaluation metrics
+print(f"Mean Absolute Error (MAE): {mae}")
+print(f"Mean Squared Error (MSE): {mse}")
+print(f"Root Mean Squared Error (RMSE): {rmse}")
+print(f"R-squared (R2): {r2}")
+print(f"Adjusted R-squared: {adjusted_r2}")
+print(f"\nPrediction for new house (2000 sq ft, 3 bedrooms, 10 years old): ${new_prediction[0] * 1000:.2f}")
+
+# Print actual vs predicted prices side by side
+print("\nActual Prices vs Predicted Prices:")
+for i in range(len(Y)):
+    print(f"Actual Price: ${Y[i] * 1000:.2f} \t Predicted Price: ${Y_pred[i] * 1000:.2f}")
+
+# Visualize the Results
+# Plot actual vs predicted house prices
+plt.scatter(Y, Y_pred, color='blue')
+plt.plot([min(Y), max(Y)], [min(Y_pred), max(Y_pred)], color='red', linewidth=2)
+plt.xlabel('Actual House Prices ($1000s)')
+plt.ylabel('Predicted House Prices ($1000s)')
+plt.title('Actual vs Predicted House Prices')
 plt.show()
