@@ -18,3 +18,6 @@ else:
        f=0
     num=num//10
  print(output_string)
+
+ # Time Complexity --- O(logN)
+ # Space Complexity --- O(logN)
