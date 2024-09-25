@@ -1,6 +1,6 @@
 #Q:Convert a given integer into words
 num=99999
-ones=['one','two','three','four','five','six','seven','eight','nine']  # ones place
+ones=['one','two','three','four','five','six','seven','eight','nine']  
 teens = ["ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"]
 tens = [ "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty","ninety"]
 if num==0:
