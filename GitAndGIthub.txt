@@ -1,0 +1,23 @@
+What's the difference between Git and GitHub?
+
+The key difference between Git and GitHub is that Git is a free, open source version control tool that developers install locally
+on their personal computers, while GitHub is a pay-for-use online service built to run Git in the cloud.
+
+How GitHub is different from Git
+
+GitHub has built an entire ecosystem of DevOps tools around the Git tooling that promises to make developers, software teams and organizations more productive. 
+Additional tools GitHub provides over and above their Git hosting service include the following:
+
+A web-based interface to make Git easier to use.
+GitHub Actions to help users create CI/CD pipelines.
+GitHub Pages for free website hosting.
+Branch protection rules for increased security.
+Pull request workflows to help merge and rebase code.
+Code scanning to identify known vulnerabilities.
+GitHub Desktop to simplify push, pull and fetch operations.
+Software team administration tools.
+GitHub Copilot for AI-based peer programming.
+Social media functionality that lets users follow other developers.
+GitHub constantly expands its suite of software development-related tools. 
+In stark contrast, the Git tool has achieved a remarkable state of stability, and other than minor tweaks to the APIs, very few changes.
+
