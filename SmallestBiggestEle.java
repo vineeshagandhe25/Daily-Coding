@@ -9,7 +9,8 @@ import java.util.*;
 
 public class SmallestBiggestEle {
 
-    public static void findSmallBigEle(int[] array) {
+    // Method to find the smallest and biggest element
+    public static void findSmallBigEle(int[] array) { // Time Complexity - O(n) Space Complexity - O(1)
         int small = array[0];
         int big = array[0];
 
@@ -23,14 +24,37 @@ public class SmallestBiggestEle {
             }
         }
 
-        System.out.println("The Biggest element : " + big);
-        System.out.println("The Smallest element : " + small);
+        System.out.println("The Biggest element: " + big);
+        System.out.println("The Smallest element: " + small);
     }
 
-    public static void findNthBigSmallEle(int[] array) {
-        quickSort(array, 0, array.length);
+    // method to find nth smallest and nth biggest element
+    public static void findNthBigSmallEle(int[] array, int n) { // Time Complexity - O(nlogn) (since it uses quickSort),
+                                                                // Space
+        // Complexity - O(logn) (due to quickSort)
+
+        // Sorting the array
+        quickSort(array, 0, array.length - 1);
+
+        // nth smallest element
+        if (n - 1 < array.length) {
+            System.out.println(n + "th Smallest element: " + array[n - 1]);
+        } else {
+            System.out.println("Invalid 'n' for smallest element.");
+        }
+
+        // nth biggest element
+        if (n - 1 < array.length) {
+            System.out.println(n + "th Biggest element: " + array[array.length - n]);
+        } else {
+            System.out.println("Invalid 'n' for biggest element.");
+        }
 
     }
+
+    // quick sort
+    // Time Complexity: O(nlogn) (average case) O(n²) (worst case)
+    // Space Complexity: O(logn) (for recursion stack)
 
     public static int partition(int[] arr, int low, int high) {
         int pivot = arr[low];
@@ -60,7 +84,7 @@ public class SmallestBiggestEle {
         return j;
     }
 
-    private static void quickSort(int[] arr, int low, int high) {
+    public static void quickSort(int[] arr, int low, int high) {
         if (low < high) {
 
             int pi = partition(arr, low, high);
@@ -69,7 +93,7 @@ public class SmallestBiggestEle {
         }
     }
 
-    public static void findBigSmallPosition(int[] array) {
+    public static void findBigSmallPosition(int[] array) { // Time Complexity - O(n) Space Complexity - O(1)
         int small_pos = 0, big_pos = 0;
 
         for (int i = 1; i < array.length; i++) {
@@ -91,13 +115,22 @@ public class SmallestBiggestEle {
 
         Scanner sc = new Scanner(System.in);
         int array[] = new int[20];
-        for (int i = 1; i <= 20; i++) {
+        for (int i = 0; i < 20; i++) {
             array[i] = sc.nextInt();
         }
 
         System.out.println("Smallest and Biggest elements :");
-
+        findSmallBigEle(array);
+        System.out.println("Smallest and Biggest elements positions are :");
+        findBigSmallPosition(array);
+        System.out.println("N th biggest and smallest elements :");
+        System.out.println("Enter value for n to find nth biggest and smallest elements:");
+        int n = sc.nextInt();
+        findNthBigSmallEle(array, n);
         sc.close();
     }
 
 }
+
+// Time Complexity --- O(nlogn) where n is length of given array.
+// Space Complexity --- O(logn) where n is length of given array.
