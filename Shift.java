@@ -7,6 +7,7 @@ INPUT :
 OUTPUT:
 71 88 92 23 12 34 72 43 12 67  */
 
+
 public class Shift {
 
     public static void main(String[] args) {
@@ -14,26 +15,35 @@ public class Shift {
         int[] arr = { 12, 23, 71, 34, 92, 43, 12, 67, 72, 88 };
         int[] res = new int[10];
 
-        // for even index elements
-        for (int i = 0; i < arr.length; i += 2) { // Time Complexity --- O(N)
-            int newIndex = i + 2;
-            if (newIndex >= arr.length) {
-                newIndex = newIndex - arr.length;    // Circular shift
+        int iterations = arr.length/2-1;
+        int i=1;
+        while (i<=iterations) {
+            // Shift odd-indexed elements
+            for (int j = 1; j < arr.length; j += 2) {
+                int newIndex = j - 2;
+                if (newIndex < 0) {
+                    newIndex = arr.length + newIndex; // Circular shift for negative index
+                }
+                res[newIndex] = arr[j];
             }
-            res[newIndex] = arr[i];
-        }
 
-        // for odd index elements
-        for (int i = 1; i < arr.length; i += 2) { // Time Complexity --- O(N)
-            int newIndex = i - 2;
-            if (newIndex < 0) {
-                newIndex = arr.length + newIndex;  // Circular shift
+            // Shift even-indexed elements right by 2 positions (circular shift)
+            for (int j = 0; j < arr.length; j += 2) {
+                int newIndex = j + 2;
+                if (newIndex >= arr.length) {
+                    newIndex = newIndex - arr.length; // Circular shift for exceeding index
+                }
+                res[newIndex] = arr[j];
             }
-            res[newIndex] = arr[i];
-        }
 
-        for (int i = 0; i < res.length; i++) {
-            System.out.print(res[i] + " ");
+            for (int k = 0; k < res.length; k++) {
+                arr[k] = res[k];
+            }
+            i += 1;
+        }
+        
+        for (int k = 0; k < res.length; k++) {
+            System.out.print(arr[k] + " ");
         }
     }
 }
