@@ -1,0 +1,20 @@
+Design & Implement the following scenario:
+ Draw a class diagram, and use case diagram for the library system. Discuss your 
+design decisions, and any limitations of your model. For each book held by the 
+library, the catalogue contains the title, author's name and ISBN of the book. There 
+may be multiple copies of a each book and each copy with unique accession 
+number. Registered readers belonging to the library, each of whom is issued with a 
+number of tickets. The system records the name and address of each reader, and the 
+number of tickets that they have been issued with. Readers can borrow one book for 
+each ticket that they possess, and the system keeps a record of which books a reader 
+has borrowed, along with the date that the book must be returned by. Readers can 
+borrow, return and renew books from the library by forwarding a ticket to the 
+library staff at the library desk. Readers have an option of purchasing additional 
+tickets from the library. Any book that is not returned by the due date is subject to a 
+fine of Rs.1 per day. Library staff is responsible for collecting fines, adding new 
+books to the library.
+
+To draw class diagram we need to understand and should decode the scenario into classes with their own attributes and behaviour .
+Then identifying and establishing relationships between classes.
+
+To draw Use case diagram we have identify actors and coressponding usecases.
