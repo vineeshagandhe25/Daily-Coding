@@ -21,3 +21,5 @@ To draw Use case diagram we have identify actors and coressponding usecases.
 
 usecase ----- https://drive.google.com/file/d/1GcL7Pgawks54xbQ1vbcaWkFVo8ZFvfiN/view?usp=sharing
 class diagram ----- https://drive.google.com/file/d/1nTdCS65gg0iiVsw2BlkB8vxwWF7f2G4U/view?usp=sharing
+
+Limitations : It is a basic diagram which includes only basic idea but not entire sysytem flow.
