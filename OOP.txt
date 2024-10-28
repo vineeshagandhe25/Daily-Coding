@@ -1,0 +1,83 @@
+Module 1: Fundamentals of Object-Oriented Programming
+Introduction to OOP
+
+Concepts of Procedural vs. Object-Oriented Programming
+Benefits and Applications of OOP
+Basic Components
+
+Objects and Classes
+Instance and Class Variables
+Basic Syntax (Defining Classes, Creating Objects)
+Module 2: Key OOP Principles
+Encapsulation
+
+Access Modifiers (private, protected, public)
+Getters and Setters
+Importance of Data Hiding
+Abstraction
+
+Abstract Classes and Methods
+Interfaces and Implementing Multiple Interfaces
+Real-world Examples of Abstraction
+Inheritance
+
+Types of Inheritance (Single, Multilevel, Hierarchical, Hybrid)
+super and this keywords
+Method Overriding and Constructor Chaining
+Polymorphism
+
+Method Overloading (Compile-Time Polymorphism)
+Method Overriding (Runtime Polymorphism)
+Dynamic Binding and the Role of instanceof
+Module 3: Advanced OOP Concepts
+Constructors
+
+Default, Parameterized, and Copy Constructors
+Constructor Overloading
+Static and Non-static Components
+
+Static Variables and Methods
+Static Blocks and Initialization
+Difference between Static and Instance Members
+Inner Classes
+
+Types of Inner Classes (Static, Member, Local, and Anonymous)
+Uses and Scenarios for Inner Classes
+Module 4: Exception Handling in OOP
+Basics of Exception Handling
+try, catch, finally blocks
+throw and throws Keywords
+Custom Exceptions and Error Handling Patterns
+Module 5: Core OOP Features in Java
+Java-Specific Concepts
+
+Object Class and its Key Methods (toString(), equals(), hashCode())
+final Keyword in Java (for Variables, Methods, and Classes)
+this vs. super in Java
+Packages and Organizing Code
+
+Creating and Using Packages
+Importing and Access Modifiers in Packages
+Module 6: Design Patterns in OOP
+Introduction to Design Patterns
+
+Importance of Design Patterns in OOP
+Classification of Patterns (Creational, Structural, Behavioral)
+Common Patterns
+
+Singleton Pattern
+Factory Pattern
+Observer Pattern
+Decorator Pattern
+Module 7: Best Practices and Code Design
+SOLID Principles
+
+Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion
+Code Reusability and Maintenance
+
+DRY (Don't Repeat Yourself)
+Avoiding Tight Coupling
+Code Optimization in OOP
+
+Minimizing Object Creation
+Avoiding Memory Leaks
