@@ -1,0 +1,40 @@
+BANKING NETWORK DESIGN
+Introduction: The Banking Network is designed to support various banking applications by allowing users and bank employees to securely connect to a main server. The primary objective of this network is to ensure that only authorized users can access the network, including all servers and network devices. Additionally, it aims to provide greater speed, reduced time consumption, and maintain 99.99% uptime.
+Objectives: 
+Ensure authorized access to the network and devices.
+Deliver high speed and minimize time delays.
+Provide 99.99% uptime.
+Implement Quality of Service (QoS) to allocate bandwidth effectively.
+Design a user-friendly interface for easy troubleshooting.
+Key Components and Architecture
+The hardware and components for this network include:
+•	Hubs
+•	L2 and L3 Switches
+•	Routers
+•	Modems
+•	Firewalls
+•	VSAT (Very Small Aperture Terminal)
+•	Cables for device interconnection
+•	Servers as per customer requirements
+This network is built on Cisco’s Multilayer Network Design model, providing a reliable, scalable environment for Internet, Intranet, and Extranet services, enabling data, voice, and internet-based applications. By dividing the network into layers, it allows a structured distribution of functions, improved connectivity, and high availability.
+
+
+
+
+Implementation Strategy:
+1.	Topology Design: The network will have layered divisions to assign specific roles, enhancing distribution, control, and ease of troubleshooting.
+2.	Scalability: Provision to add ports in switches as necessary.
+3.	Failure Management: Avoid single points of failure and ensure fast recovery.
+4.	Protocol and Bandwidth Management: Utilizing BGP for efficient data flow management and QoS for bandwidth allocation.
+Future Scope:
+This network design can be adapted by various banks with improvements to enhance reliability and aim for 100% uptime. Upgrades can be easily implemented using the latest protocols like BGP, ensuring control over data flow and enhanced QoS.
+Limitations:
+1.	Inability to address undetected bugs in third-party software.
+2.	Constraints due to service provider lease line uptime.
+3.	Dependency on the latest technology and compatible software versions.
+4.	Security improvements can be made for better performance.
+Conclusion:
+The Banking Network Design provides a robust foundation for secure and efficient banking services, with high availability, scalability, and efficient data management. Future enhancements could address existing limitations, ensuring more robust and adaptable performance.
+
+
+
