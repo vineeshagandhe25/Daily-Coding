@@ -1,0 +1,22 @@
+The error you're seeing happens when your local branch is behind the remote branch on GitHub. To resolve it, you need to update your local branch to match the remote branch before pushing your changes. Here’s how:
+
+Pull the latest changes from GitHub:
+
+git pull origin main
+This will fetch and merge the latest changes from the remote main branch into your local branch.
+
+Resolve any merge conflicts (if any appear) by editing the conflicting files. Once resolved, stage the changes:
+
+git add <file_with_conflicts>
+Commit the merge (only if there were conflicts to resolve):
+
+git commit -m "Resolve merge conflicts"
+Push your changes to the remote repository:
+
+
+git push origin main
+If you're certain that you want your local changes to overwrite the remote changes (i.e., discard the changes on GitHub), you can use a force push instead:
+
+
+git push origin main --force
+However, be careful with force pushes as they replace the history on GitHub with your local branch's state, which may lead to data loss if others are working on the repository.
