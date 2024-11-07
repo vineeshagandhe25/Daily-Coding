@@ -1,0 +1,29 @@
+Pros and Cons of Each Approach
+
+1. Initialization During Declaration:
+
+Pros:
+Simpler and shorter, especially for default values.
+Avoids repetitive code if you have multiple constructors.
+
+Cons:
+If different constructors need different default values, you would need to override these values in each constructor.
+Makes the default value less flexible, as changing it requires editing the declaration line.
+
+
+2. Initialization in the Constructor:
+
+Pros:
+More flexibility if you have multiple constructors (e.g., some with parameters and some without).
+Keeps initialization logic in one place, making it easier to modify defaults later without editing each field's declaration.
+
+Cons:
+Slightly more verbose for simple defaults.
+
+Which is Better?
+It depends on the use case:
+
+If you have a single default value and don’t expect it to change, initializing during declaration is usually simpler and clearer.
+If you have multiple constructors or may need more flexible initializations, it’s often better to initialize in the constructor.
+In this specific case, if you’re using the same default values across all constructors, initializing in the declaration is likely 
+the more concise approach. However, if you later decide that Room could have variable default dimensions, initializing in the constructor provides more control.
