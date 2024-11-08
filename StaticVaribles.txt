@@ -1,0 +1,22 @@
+In Java, a static variable (also known as a class variable) is a variable that belongs to the class itself, rather than to instances of the class. 
+Here are some key points about static variables:
+
+Key Characteristics of Static Variables :
+
+-> Shared Among All Instances: A static variable is shared across all instances of the class. This means that if you change the static variable in one instance, 
+the change will reflect in all other instances of that class.
+
+-> Memory Allocation: Static variables are stored in a special part of memory called the class area, so they are not recreated for each instance.
+
+-> Class-Level Access: Since static variables belong to the class, you can access them directly using the class name (e.g., ClassName.staticVariable), 
+even without creating an instance.
+
+-> Lifetime: Static variables exist as long as the class is loaded into memory, making them useful for values that need to persist across instances and 
+the application's lifecycle.
+
+When to Use Static Variables ?
+
+Static variables are useful when:
+-> You need a value to be shared across all instances (e.g., counters, configuration constants).
+-> The variable is related to the class itself rather than any specific instance.
+-> You want to save memory, especially if many instances of the class are created and the variable holds the same value across all instances.
