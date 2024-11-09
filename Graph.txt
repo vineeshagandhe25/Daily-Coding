@@ -1,0 +1,24 @@
+Problem : You are given a 2-D matrix grid. Each cell can have one of three possible values:
+
+0 representing an empty cell
+1 representing a fresh fruit
+2 representing a rotten fruit
+Every minute, if a fresh fruit is horizontally or vertically adjacent to a rotten fruit, then the fresh fruit also becomes rotten.
+
+Return the minimum number of minutes that must elapse until there are zero fresh fruits remaining. If this state is impossible within the grid, return -1.
+
+Approach
+Initialize the Queue: Start by adding all the initial positions of rotten fruits (2s) to a queue, since they will start the rotting process. 
+This is a multi-source BFS because all rotten fruits simultaneously begin to rot their neighbors.
+
+Count Fresh Fruits: Keep track of the number of fresh fruits (1s) in the grid. This helps determine if all fruits have become rotten by the end of the process.
+
+Process BFS Level by Level:
+
+For each minute, process all the rotten fruits in the queue. For each rotten fruit, check its four possible neighbors (up, down, left, right).
+If a neighbor is a fresh fruit, rot it by changing its value to 2, decrease the fresh fruit count, and add this newly rotten fruit to the queue.
+At the end of each level of BFS (each minute), increment the minutes counter.
+Check Result:
+
+After the BFS is complete, check if there are any fresh fruits left.
+If fresh_count is zero, return the minutes_elapsed. If there are still fresh fruits, return -1 (impossible to rot all fruits).
