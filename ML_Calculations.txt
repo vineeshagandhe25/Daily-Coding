@@ -1,0 +1,10 @@
+ML Mathematical Problems References :
+
+KMeans : https://youtu.be/KzJORp8bgqs?feature=shared
+
+DBSCAN : https://youtu.be/-p354tQsKrs?feature=shared
+
+AdaBoost : https://youtu.be/l3DzJBb3MaE?feature=shared
+
+Q-Learning : https://youtu.be/_O9a5xbBe-s?feature=shared
+
