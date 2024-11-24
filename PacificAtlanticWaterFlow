@@ -1,0 +1,65 @@
+Pacific Atlantic Water Flow
+
+You are given a rectangular island heights where heights[r][c] represents the height above sea level of the cell at coordinate (r, c).
+
+The islands borders the Pacific Ocean from the top and left sides, and borders the Atlantic Ocean from the bottom and right sides.
+
+Water can flow in four directions (up, down, left, or right) from a cell to a neighboring cell with height equal or lower. Water can also flow into the ocean from cells adjacent to the ocean.
+
+Find all cells where water can flow from that cell to both the Pacific and Atlantic oceans. Return it as a 2D list where each element is a list [r, c] representing the row and column of the cell. You may return the answer in any order.
+
+class Solution {
+    public List<List<Integer>> pacificAtlantic(int[][] heights) {
+        int m = heights.length;
+        int n = heights[0].length;
+        boolean[][] pacificReachable = new boolean[m][n];
+        boolean[][] atlanticReachable = new boolean[m][n];
+        List<List<Integer>> result = new ArrayList<>();
+
+        // Start DFS from Pacific border cells (top and left edges)
+        for (int r = 0; r < m; r++) {
+            dfs(heights, pacificReachable, r, 0); // Left edge for Pacific
+            dfs(heights, atlanticReachable, r, n - 1);   // Right edge for Atlantic
+        }
+        for (int c = 0; c < n; c++) {
+            dfs(heights, pacificReachable, 0, c);  // Top edge for Pacific
+            dfs(heights, atlanticReachable, m - 1, c);  // Bottom edge for Atlantic
+        }
+
+        // Collect cells that can reach both oceans
+        for (int r = 0; r < m; r++) {
+            for (int c = 0; c < n; c++) {
+                if (pacificReachable[r][c] && atlanticReachable[r][c]) {
+                    List<Integer> cell = new ArrayList<>();
+                    cell.add(r);
+                    cell.add(c);
+                    result.add(cell);
+                }
+            }
+        }
+
+        return result;    
+    }
+    private void dfs(int[][] heights, boolean[][] reachable, int r, int c) {
+        int m = heights.length;
+        int n = heights[0].length;
+        reachable[r][c] = true;
+
+        // Define directions for moving up, down, left, and right
+        int[][] directions = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+
+        // Explore all 4 directions
+        for (int[] dir : directions) {
+            int newRow = r + dir[0];
+            int newCol = c + dir[1];
+
+            // Check if the new position is within bounds and meets conditions
+            if (newRow >= 0 && newRow < m && newCol >= 0 && newCol < n &&
+                    !reachable[newRow][newCol] && heights[newRow][newCol] >= heights[r][c]) {
+                dfs(heights, reachable, newRow, newCol);
+            }
+        }
+    }
+}
+// Time Complexity --- O(m*n)
+// Space Complexity --- O(m*n)
