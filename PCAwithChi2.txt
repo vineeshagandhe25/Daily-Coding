@@ -1,0 +1,50 @@
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.feature_selection import SelectKBest, chi2
+from sklearn.svm import SVC
+from sklearn.metrics import classification_report
+from sklearn.preprocessing import KBinsDiscretizer
+
+# Sample dataset
+data = {
+    'Age': [63, 67, 67, 37, 41, 56, 55, 60, 52, 53],
+    'Cholesterol': [233, 286, 229, 250, 204, 275, 211, 224, 285, 268],
+    'Resting Blood Pressure': [150, 108, 129, 130, 115, 140, 140, 130, 132, 140],
+    'Max Heart Rate': [150, 140, 145, 150, 140, 155, 160, 130, 145, 155],
+    'Heart Disease': [1, 1, 1, 0, 0, 1, 0, 0, 1, 0]
+}
+
+# Convert to DataFrame
+df = pd.DataFrame(data)
+
+# Split features and target
+X = df.drop(columns='Heart Disease')
+y = df['Heart Disease']
+
+# Train-test split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Discretize features
+discretizer = KBinsDiscretizer(n_bins=3, encode='ordinal', strategy='uniform')
+X_train_discretized = discretizer.fit_transform(X_train)
+X_test_discretized = discretizer.transform(X_test)
+
+# Feature selection using Chi-Square
+chi2_selector = SelectKBest(chi2, k='all')
+X_train_chi2 = chi2_selector.fit_transform(X_train_discretized, y_train)
+
+# Train SVM classifier
+svm = SVC(kernel='linear', class_weight='balanced')
+svm.fit(X_train_chi2, y_train)
+
+# Evaluate the model
+X_test_chi2 = chi2_selector.transform(X_test_discretized)
+y_pred = svm.predict(X_test_chi2)
+print(classification_report(y_test, y_pred))
+
+# Predict for a new instance
+new_data = pd.DataFrame({'Age': [45], 'Cholesterol': [230], 'Resting Blood Pressure': [120], 'Max Heart Rate': [150]})
+new_data_discretized = discretizer.transform(new_data)
+new_data_chi2 = chi2_selector.transform(new_data_discretized)
+prediction = svm.predict(new_data_chi2)
+print(f'Predicted Heart Disease: {"Yes" if prediction[0] == 1 else "No"}')
