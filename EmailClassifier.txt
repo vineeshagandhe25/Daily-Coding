@@ -1,0 +1,51 @@
+import numpy as np
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.metrics import accuracy_score, classification_report
+
+# Sample email dataset (spam vs. ham)
+emails = [
+    ('Free money!!!', 'spam'),
+    ('Hi, how are you?', 'ham'),
+    ('Win a free iPhone now!', 'spam'),
+    ('Are you available for a meeting tomorrow?', 'ham'),
+    ('Congratulations, you have won a lottery!', 'spam'),
+    ('Let\'s catch up soon.', 'ham'),
+    ('You have an urgent message, please reply!', 'spam'),
+    ('Important: Your account has been suspended.', 'spam'),
+    ('Reminder: Meeting at 3 PM tomorrow.', 'ham'),
+    ('Limited time offer: 50% off!', 'spam'),
+]
+
+# Convert the data into a DataFrame
+df = pd.DataFrame(emails, columns=['email', 'label'])
+
+# Step 1: Text preprocessing and feature extraction
+# Using CountVectorizer to convert text into a bag-of-words representation
+vectorizer = CountVectorizer()
+
+# Convert the emails into features (bag-of-words)
+X = vectorizer.fit_transform(df['email'])
+
+# Step 2: Encode labels (spam=1, ham=0)
+y = df['label'].apply(lambda x: 1 if x == 'spam' else 0)
+
+# Step 3: Split data into training and test sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
+# Step 4: Train a Naive Bayes classifier
+model = MultinomialNB()
+model.fit(X_train, y_train)
+
+# Step 5: Make predictions
+y_pred = model.predict(X_test)
+
+# Step 6: Evaluation
+accuracy = accuracy_score(y_test, y_pred)
+print(f"Accuracy: {accuracy * 100:.2f}%")
+
+# Print detailed classification report
+print("\nClassification Report:")
+print(classification_report(y_test, y_pred, target_names=['Ham', 'Spam']))
