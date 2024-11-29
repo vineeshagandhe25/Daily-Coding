@@ -1,0 +1,30 @@
+Lasso and Ridge
+
+#Lasso
+from sklearn.linear_model import Lasso
+import numpy as np
+from sklearn.datasets import load_iris
+
+data = load_iris()
+X, y = data.data, data.target
+# Train Lasso model
+lasso = Lasso(alpha=0.01).fit(X, y)
+
+# Get selected features
+selected_features = [data.feature_names[i] for i in np.where(lasso.coef_ != 0)[0]]
+print("Lasso Selected features:", selected_features)
+
+#Ridge
+from sklearn.linear_model import Ridge
+import numpy as np
+from sklearn.datasets import load_iris
+
+data = load_iris()
+X, y = data.data, data.target
+# Train Ridge model
+ridge = Ridge(alpha=1.0).fit(X, y)
+
+# Threshold for selecting significant features (e.g., coefficients > 0.1 in magnitude)
+threshold = 0.1
+selected_features = [data.feature_names[i] for i in range(len(ridge.coef_)) if abs(ridge.coef_[i]) > threshold]
+print("Ridge Selected features based on threshold:", selected_features)   
