@@ -1,0 +1,42 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.decomposition import PCA
+
+# Original Dataset: Math, Science, English scores of 10 students
+data = np.array([
+    [85, 78, 92],  # Student 1
+    [72, 88, 81],  # Student 2
+    [89, 84, 90],  # Student 3
+    [75, 85, 78],  # Student 4
+    [80, 89, 85],  # Student 5
+    [82, 92, 88],  # Student 6
+    [78, 84, 84],  # Student 7
+    [85, 90, 91],  # Student 8
+    [79, 87, 83],  # Student 9
+    [88, 86, 89]   # Student 10
+])
+
+# Perform PCA to reduce dimensions to 2
+pca = PCA(n_components=2)
+data_reduced = pca.fit_transform(data)
+
+# Explained Variance Ratio
+explained_variance = pca.explained_variance_ratio_
+
+# Visualization
+plt.figure(figsize=(8, 6))
+plt.scatter(data_reduced[:, 0], data_reduced[:, 1], color='blue', s=100, edgecolor='black')
+
+# Add student labels near each point
+for i, (x, y) in enumerate(data_reduced):
+    plt.text(x + 0.2, y, f"Student {i+1}", fontsize=9)
+
+plt.title('PCA: Students Data in 2D', fontsize=14)
+plt.xlabel(f"PC1 ({explained_variance[0]*100:.2f}% Variance)", fontsize=12)
+plt.ylabel(f"PC2 ({explained_variance[1]*100:.2f}% Variance)", fontsize=12)
+plt.axhline(0, color='gray', linestyle='--', linewidth=0.5)
+plt.axvline(0, color='gray', linestyle='--', linewidth=0.5)
+plt.grid(alpha=0.5)
+plt.show()
+print(f'PCA Explained Variance Ratios: {pca.explained_variance_ratio_}')
+print(f'Total Variance Retained by PCA: {sum(pca.explained_variance_ratio_)}')
