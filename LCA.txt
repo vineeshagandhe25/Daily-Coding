@@ -1,0 +1,25 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis as LDA
+
+# Dataset
+X = np.array([
+    [60, 170, 5], [65, 165, 6], [58, 172, 4], [70, 160, 6],
+    [68, 162, 5], [64, 168, 7], [80, 175, 8], [85, 180, 9],
+    [78, 173, 7], [82, 177, 8], [88, 182, 9], [75, 170, 6]
+])
+y = np.array([0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1])  # Classes--Student Pass=1,fail=0
+
+# Apply LDA
+lda = LDA(n_components=1)
+tdata = lda.fit_transform(X, y)
+
+# Visualization
+plt.scatter(tdata[y == 0], [0] * len(tdata[y == 0]), color='red', label='Class 0')
+plt.scatter(tdata[y == 1], [0] * len(tdata[y == 1]), color='blue', label='Class 1')
+plt.title("LDA Projection")
+plt.xlabel("LDA Component")
+plt.legend()
+plt.show()
+
+print(f"LDA Projected Data:\n{tdata}")
