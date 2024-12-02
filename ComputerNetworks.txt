@@ -1,0 +1,70 @@
+Overview of Computer Networks
+A computer network is a system of interconnected devices that communicate with each other to share resources and exchange data. It enables communication between computers and other devices like printers, servers, and smartphones. 
+
+Here's a detailed overview:
+
+1. Components of Computer Networks
+Nodes: Devices connected to the network (e.g., computers, servers, smartphones).
+Links: Physical or logical connections between nodes (e.g., cables, wireless signals).
+Switches: Devices that connect multiple nodes in a network.
+Routers: Devices that route data between different networks.
+Protocols: Rules that govern communication (e.g., TCP/IP, HTTP).
+
+2. Types of Computer Networks
+PAN (Personal Area Network):
+Small-scale network, usually within a single person's reach (e.g., Bluetooth).
+LAN (Local Area Network):
+Covers a small geographical area, like a home or office.
+Uses Ethernet cables or Wi-Fi.
+MAN (Metropolitan Area Network):
+Spans a city or a large campus.
+Example: Citywide Wi-Fi networks.
+WAN (Wide Area Network):
+Covers large geographical areas, such as countries or continents.
+Example: The Internet.
+
+3. Network Topologies
+Bus Topology: All devices connected to a single cable.
+Star Topology: All devices connected to a central hub.
+Ring Topology: Devices connected in a circular manner.
+Mesh Topology: Devices interconnected for redundancy and reliability.
+Hybrid Topology: Combination of two or more topologies.
+
+4. Communication Models
+Client-Server Model:
+Central server provides resources and services to client devices.
+Peer-to-Peer Model:
+All devices share resources without a central server.
+
+5. Types of Transmission Media
+Wired Media:
+Twisted Pair, Coaxial Cable, Fiber Optic Cable.
+Wireless Media:
+Radio waves, Infrared, Satellite.
+
+6. Networking Protocols
+TCP/IP (Transmission Control Protocol/Internet Protocol): Fundamental protocol suite for the Internet.
+HTTP/HTTPS: Used for web communication.
+FTP (File Transfer Protocol): Transfers files over a network.
+SMTP/POP3/IMAP: Protocols for email communication.
+DNS (Domain Name System): Translates domain names into IP addresses.
+
+7. OSI Model
+7 Layers: Physical, Data Link, Network, Transport, Session, Presentation, Application.
+Defines a framework for networking functions.
+
+8. Applications of Computer Networks
+Communication: Email, video calls, messaging.
+Resource Sharing: Sharing files, printers, and applications.
+Cloud Computing: Access to on-demand computing services.
+Internet of Things (IoT): Connecting devices like sensors and appliances.
+
+9. Network Security
+Threats: Viruses, malware, phishing, denial-of-service attacks.
+Solutions: Firewalls, encryption, VPNs, intrusion detection systems.
+
+10. Future Trends in Networking
+5G and Beyond: Faster and more reliable wireless communication.
+SDN (Software-Defined Networking): Programmable network configurations.
+IoT Expansion: More connected devices.
+Cybersecurity: Enhanced measures for data protection.
