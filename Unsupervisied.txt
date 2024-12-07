@@ -1,0 +1,60 @@
+Association and Clustering are two important concepts in Machine Learning (ML), both related to analyzing data, but they serve different purposes and work on different principles.
+
+Association
+Definition: Association learning focuses on finding relationships, patterns, or correlations between variables in a dataset. 
+It is widely used to discover hidden patterns that frequently co-occur.
+
+Objective: Identify if-then rules between data items.
+
+Key Concept: Association Rules Mining
+
+Example: Market Basket Analysis
+Rule: If a customer buys bread, they are likely to buy butter.
+Rule Representation: {Bread} → {Butter}
+Metrics Used:
+Support: Frequency of the itemset in the dataset.
+Confidence: Likelihood of the rule being true.
+Lift: Strength of the rule compared to random chance.
+
+
+Algorithms:
+Apriori
+FP-Growth (Frequent Pattern Growth)
+Eclat
+
+Applications:
+Retail (Product recommendations)
+Web usage mining
+Fraud detection in financial systems
+
+Clustering
+
+Definition: Clustering is an unsupervised learning technique that groups data points into clusters based on their similarity.
+
+Objective: Partition a dataset into groups such that data points within a group (cluster) are more similar to each other than to points in other groups.
+
+Key Concept: Similarity/Dissimilarity
+
+Measured using distance metrics such as:
+Euclidean distance
+Manhattan distance
+Cosine similarity
+Types of Clustering:
+
+Partition-based Clustering:
+Example: k-Means, k-Medoids
+
+Hierarchical Clustering:
+Example: Agglomerative, Divisive
+
+Density-based Clustering:
+Example: DBSCAN, OPTICS
+
+Model-based Clustering:
+Example: Gaussian Mixture Models (GMM)
+
+Applications:
+Customer segmentation
+Image segmentation
+Document categorization
+Anomaly detection
