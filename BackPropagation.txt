@@ -1,0 +1,27 @@
+Backpropagation (short for "backward propagation of errors") is an essential algorithm used in training artificial neural networks. 
+It works by minimizing the error of predictions during supervised learning. Here's an overview of the process:
+
+1. Forward Propagation
+Input data is passed through the network layer by layer.
+The network computes predictions using the current weights and biases.
+The output is compared to the actual target using a loss function .
+
+2. Calculate the Loss
+The loss function calculates the difference between the predicted values and the actual target values. This error quantifies how far the model's predictions 
+are from the ground truth.
+
+3. Backward Propagation
+This is the process of adjusting weights and biases in the network to reduce the error:
+Compute Gradients:
+Using the chain rule of calculus, gradients of the loss function with respect to the weights and biases are computed. This is done layer by layer, starting from the output layer and moving backward through the network.
+Update Parameters:
+Weights and biases are updated using an optimization algorithm, typically Gradient Descent or its variants (e.g., Stochastic Gradient Descent, Adam). The general update rule is:
+
+
+4. Iterative Training
+The forward and backward passes are repeated for multiple iterations (epochs) until the loss converges or the model achieves satisfactory performance.
+
+Key Components
+Activation Functions: Non-linear transformations (like ReLU, Sigmoid, or Tanh) are applied to neurons' outputs, enabling the network to model complex patterns.
+Loss Function: Determines the error between predictions and actual values.
+Gradient Descent: Optimization algorithm used to minimize the loss function.
