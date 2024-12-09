@@ -1,0 +1,62 @@
+# NB
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+from sklearn.naive_bayes import CategoricalNB
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
+
+# Dataset
+data = {
+    'Study Hours': [5, 2, 4, 1, 6, 3, 8, 5, 7, 2],
+    'Attendance': ['High', 'Low', 'High', 'Low', 'High', 'Low', 'High', 'Low', 'High', 'Low'],
+    'Parental Support': ['Yes', 'No', 'Yes', 'No', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Yes'],
+    'Pass/Fail': ['Pass', 'Fail', 'Pass', 'Fail', 'Pass', 'Fail', 'Pass', 'Pass', 'Pass', 'Fail']
+}
+
+df = pd.DataFrame(data)
+
+# Encode categorical features
+le_attendance = LabelEncoder()
+le_parental_support = LabelEncoder()
+le_pass_fail = LabelEncoder()
+
+df['Attendance'] = le_attendance.fit_transform(df['Attendance'])
+df['Parental Support'] = le_parental_support.fit_transform(df['Parental Support'])
+df['Pass/Fail'] = le_pass_fail.fit_transform(df['Pass/Fail'])
+
+# Split features (X) and target (y)
+X = df.drop('Pass/Fail', axis=1)
+y = df['Pass/Fail']
+
+# Train-test split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
+# Train the Gaussian Naïve Bayes model
+model = CategoricalNB()
+model.fit(X_train, y_train)
+
+# Predictions
+y_pred = model.predict(X_test)
+
+# Evaluation metrics
+accuracy = accuracy_score(y_test, y_pred)
+precision = precision_score(y_test, y_pred, zero_division=1)
+recall = recall_score(y_test, y_pred)
+f1 = f1_score(y_test, y_pred)
+
+print(f"Accuracy: {accuracy}")
+print(f"Precision: {precision}")
+print(f"Recall: {recall}")
+print(f"F1-Score: {f1}")
+print(f"Confusion Matrix:\n{confusion_matrix(y_test, y_pred)}")
+
+# Predicting for a new student
+new_student = pd.DataFrame([[4, 'High', 'Yes']], columns=['Study Hours', 'Attendance', 'Parental Support'])
+
+# Encode the new student data
+new_student['Attendance'] = le_attendance.transform(new_student['Attendance'])
+new_student['Parental Support'] = le_parental_support.transform(new_student['Parental Support'])
+
+# Prediction for the new student
+new_prediction = model.predict(new_student)
+print(f"Prediction for the new student: {'Pass' if new_prediction[0] == 1 else 'Fail'}")
