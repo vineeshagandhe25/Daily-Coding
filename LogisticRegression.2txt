@@ -1,0 +1,62 @@
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.feature_selection import SelectKBest, f_classif
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+
+# Load the Pima Indians Diabetes dataset
+data = pd.read_csv('/content/pima-indians-diabetes.csv')
+
+# Print column names to ensure 'Outcome' exists
+print("Columns in dataset:", data.columns)
+
+# Optional: Strip any leading/trailing spaces from column names
+data.columns = data.columns.str.strip()
+
+# Check if 'Outcome' column exists
+if 'Outcome' in data.columns:
+    # Split the dataset into features (X) and target (y)
+    X = data.drop('Outcome', axis=1)
+    y = data['Outcome']
+
+    # Split the dataset into training and testing sets
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+    # Apply SelectKBest to select the top 4 features based on the ANOVA F-statistic
+    select_k_best = SelectKBest(score_func=f_classif, k=4)
+    X_train_selected = select_k_best.fit_transform(X_train, y_train)
+    X_test_selected = select_k_best.transform(X_test)
+
+    # Train a Logistic Regression model using the selected features
+    model = LogisticRegression(max_iter=200)
+    model.fit(X_train_selected, y_train)
+
+    # Predict the target for the test set
+    y_pred = model.predict(X_test_selected)
+
+    # Evaluate the model
+    accuracy = accuracy_score(y_test, y_pred)
+    precision = precision_score(y_test, y_pred)
+    recall = recall_score(y_test, y_pred)
+    f1 = f1_score(y_test, y_pred)
+
+    # Output the evaluation metrics
+    print(f"Accuracy: {accuracy}")
+    print(f"Precision: {precision}")
+    print(f"Recall: {recall}")
+    print(f"F1-Score: {f1}")
+
+    # Display the scores of each feature
+    print("\nFeature scores (ANOVA F-statistic):")
+    for i, score in enumerate(select_k_best.scores_):
+        print(f"Feature {X.columns[i]}: {score}")
+
+    # Predict for a new instance (e.g., a new patient)
+    new_instance = [[2, 85, 66, 29, 0, 26.6, 0.351, 31]]  # Example of a new patient (Pregnancies, Glucose, BloodPressure, etc.)
+    new_instance_selected = select_k_best.transform(new_instance)
+    new_prediction = model.predict(new_instance_selected)
+
+    # Output the prediction for the new instance
+    print(f"\nPrediction for new instance: {new_prediction[0]}")
+else:
+    print("Column 'Outcome' not found in the dataset. Please check the dataset.")
