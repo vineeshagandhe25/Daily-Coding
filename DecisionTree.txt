@@ -1,0 +1,62 @@
+import pandas as pd
+from sklearn.tree import DecisionTreeClassifier, export_text, plot_tree
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report
+import matplotlib.pyplot as plt
+
+# Dataset
+data = {
+    'Outlook': ['Sunny', 'Sunny', 'Overcast', 'Rainy', 'Rainy', 'Rainy', 'Overcast', 'Sunny', 'Sunny', 'Rainy', 'Sunny', 'Overcast', 'Overcast', 'Rainy'],
+    'Temperature': ['Hot', 'Hot', 'Hot', 'Mild', 'Cool', 'Cool', 'Cool', 'Mild', 'Cool', 'Mild', 'Mild', 'Mild', 'Hot', 'Mild'],
+    'Humidity': ['High', 'High', 'High', 'High', 'Normal', 'Normal', 'Normal', 'High', 'Normal', 'Normal', 'Normal', 'High', 'Normal', 'High'],
+    'Wind': ['Weak', 'Strong', 'Weak', 'Weak', 'Weak', 'Strong', 'Strong', 'Weak', 'Weak', 'Strong', 'Normal', 'Strong', 'Weak', 'Strong'],
+    'Play Tennis': [0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0]
+}
+
+# Convert to DataFrame
+df = pd.DataFrame(data)
+
+# Encode categorical features
+df_encoded = pd.get_dummies(df.drop(columns='Play Tennis'), drop_first=True)
+X = df_encoded
+y = df['Play Tennis']
+
+# Train-test split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Train Decision Tree Classifier (ID3 algorithm)
+clf = DecisionTreeClassifier(criterion='entropy')
+clf.fit(X_train, y_train)
+
+# Predict on test data
+y_pred = clf.predict(X_test)
+
+# Evaluate the model
+print(classification_report(y_test, y_pred))
+
+
+# Visualize the tree (Graphical Representation)
+plt.figure(figsize=(15, 10))
+plot_tree(clf, feature_names=X.columns, class_names=['Not Play', 'Play'], filled=True, rounded=True, fontsize=10)
+plt.show()
+
+# New instance (with the same categories as the training data)
+new_data = pd.DataFrame({
+    'Outlook_Sunny': [1],
+    'Temperature_Hot': [1],
+    'Humidity_High': [1],
+    'Wind_Weak': [1],
+    'Outlook_Rainy': [0],
+    'Outlook_Overcast': [0],
+    'Temperature_Cool': [0],
+    'Temperature_Mild': [0],
+    'Humidity_Normal': [0],
+    'Wind_Strong': [0]
+})
+
+# Make sure the new data has the same columns as the training data
+new_data = new_data[X.columns]  # Align columns with training data
+
+# Predict for the new instance
+new_prediction = clf.predict(new_data)
+print(f'Predicted Play Tennis: {"Play" if new_prediction[0] == 1 else "Not Play"}')
