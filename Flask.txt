@@ -1,0 +1,44 @@
+Flask is a lightweight and flexible Python web framework used for building web applications. It is well-suited for beginners and small to medium-sized projects, 
+and it's a favorite choice for developers because of its simplicity and extensibility.
+
+Key Features of Flask:
+
+1. Lightweight and Modular: Flask does not impose a specific project structure or unnecessary dependencies, giving developers full control.
+2. Built-in Development Server: A simple server for testing and debugging applications.
+3. Routing: Map URLs to specific functions (called views) using decorators.
+4. Templating: Jinja2 templating engine for dynamic HTML pages.
+5. Extension Support: Easily integrate extensions for database management, authentication, and more.
+6. RESTful Request Handling: Perfect for building APIs.
+7. Secure Cookies: Supports client-side sessions via signed cookies.
+
+Basic Flask Example:
+
+from flask import Flask, render_template, request, jsonify
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Welcome to Flask!"
+
+@app.route('/greet/<name>')
+def greet(name):
+    return f"Hello, {name}!"
+
+@app.route('/json', methods=['POST'])
+def process_json():
+    data = request.get_json()
+    return jsonify({"received": data})
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+
+Key Concepts:
+
+1. Routes: Define URL patterns with @app.route.
+2. Templates: Use .html files with Jinja2 syntax for dynamic content.
+3. Forms: Handle user inputs using Flask’s request object.
+4. Static Files: Manage CSS, JS, and images in the static/ folder.
+5. Blueprints: Organize large applications by grouping routes and logic.
+6. Database Integration: Use Flask extensions like Flask-SQLAlchemy for databases.
