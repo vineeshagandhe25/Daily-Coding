@@ -1,0 +1,3 @@
+Java Fundamentals --- https://mylearn.oracle.com/ou/learning-path/java-explorer/79726
+
+Java Global Certification Exam --- https://mylearn.oracle.com/ou/learning-path/java-se-8-programmer-associate/40821
