@@ -1,0 +1,25 @@
+Core Technical Skills ---
+
+Java:
+Focused on learning Java in-depth, covering OOPs, syntax, exception handling, multi-threading and JDBC.
+Completed multiple Java projects, including a Library Management System .
+Prepared for Oracle's free Java certification.
+
+Web Development:
+Built a responsive eCommerce website frontend using React and worked on its backend with MongoDB.
+Worked on a Fertilizer Recommendation System and Crop Recommendation System with Flask, implementing ML models and deploying them.
+
+Data Structures and Algorithms (DSA):
+Started structured DSA learning for placements using resources .
+Practiced coding daily and documented progress on GitHub.
+
+Machine Learning:
+Developed ML-based projects like the Fertilizer Recommendation System and Crop Recommendation System.
+Enhanced understanding of Python libraries like NumPy, pandas and Matplotlib for data analysis and visualization.
+
+Projects Developed ---
+
+* Library Management System: Implemented inheritance to demonstrate OOP concepts.
+* Fertilizer Recommendation System: Designed to optimize sustainable fertilizer usage with a machine learning model.
+* Crop Recommendation System
+* Ecommerce Website
