@@ -1,0 +1,29 @@
+What is a UML diagram ? 
+UML means Unified Modeling Language and it’s a standardized visual language used most often in, but not exclusively, software development, IT and business systems.
+
+-> UML class diagrams are used to show and define a system’s static classes, attributes, methods and relationships between classes.
+1. Define the purpose and scope
+2. Identify and label classes
+3. Add attributes
+4. Add methods
+
+As for those symbols: +,-, # or ~, they’re the visibility of that attribute or method and its access privileges to other classes.
+– = Private, meaning no accesses from other classes
++ = Public, accessible to other classes
+# = Protected, accessible by the same class or subclasses
+~ = Package, can be used by any class in the same package
+
+5. Show relationships --- Inheritance , Association , Aggregation , Composition and Dependency .
+6. Add multiplicity notation (if necessary) 
+
+The way we show that on the structure diagram is as follows:
+
+0..1 = zero to one
+1 = exactly one
+0..* = zero to many
+1..* = one to many
+n..m = specific number range 
+
+7. Review and Refine 
+
+Resource link --- https://slickplan.com/blog/how-to-make-a-uml-diagram
