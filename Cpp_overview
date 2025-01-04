@@ -1,0 +1,208 @@
+Introduction
+
+C++ is a high-level, general-purpose programming language developed by Bjarne Stroustrup in 1983 as an extension of C.
+
+It is widely used for system programming, game development, competitive programming, and more.
+
+
+
+---
+
+2. Key Features
+
+1. Object-Oriented Programming (OOP):
+
+C++ introduces OOP concepts like classes, objects, inheritance, polymorphism, encapsulation, and abstraction.
+
+
+
+2. Multi-Paradigm:
+
+Supports procedural, functional, and object-oriented programming.
+
+
+
+3. Low-Level Memory Control:
+
+Direct access to memory through pointers.
+
+
+
+4. Standard Template Library (STL):
+
+Predefined classes and functions for data structures (e.g., vectors, stacks) and algorithms (e.g., sorting, searching).
+
+
+
+5. High Performance:
+
+Faster execution due to compiled nature and low-level memory manipulation.
+
+
+
+6. Portability:
+
+Code can run on multiple platforms with minimal changes.
+
+
+
+7. Rich Library Support:
+
+Includes libraries for various functionalities (e.g., I/O, threading, algorithms).
+
+
+
+
+
+---
+
+3. Syntax and Language Elements
+
+Basic Structure:
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello, World!" << endl;
+    return 0;
+}
+
+Core Concepts:
+
+Data Types: int, float, double, char, bool
+
+Control Structures: if-else, loops (for, while, do-while)
+
+Functions: User-defined and inline functions
+
+Classes and Objects
+
+File Handling
+
+Exception Handling
+
+
+
+
+---
+
+4. OOP Principles
+
+1. Classes and Objects:
+
+A class defines a blueprint, and objects are instances of classes.
+
+
+
+2. Inheritance:
+
+Enables code reuse (e.g., single, multiple, hierarchical inheritance).
+
+
+
+3. Polymorphism:
+
+Compile-time (function overloading) and run-time (virtual functions).
+
+
+
+4. Encapsulation:
+
+Bundling data and methods in a class.
+
+
+
+5. Abstraction:
+
+Hiding implementation details and exposing only essential information.
+
+
+
+
+
+---
+
+5. Standard Template Library (STL)
+
+Provides ready-to-use classes and functions.
+
+Components:
+
+1. Containers: Vectors, lists, queues, stacks, sets, maps
+
+
+2. Algorithms: Sort, search, reverse, find
+
+
+3. Iterators: Pointers-like objects to traverse containers.
+
+
+
+
+
+---
+
+6. Applications
+
+1. System Programming:
+
+Operating systems, embedded systems
+
+
+
+2. Game Development:
+
+Game engines like Unreal Engine use C++.
+
+
+
+3. Competitive Programming:
+
+STL makes it a preferred language for coding competitions.
+
+
+
+4. Desktop Applications:
+
+GUI applications (e.g., Adobe Photoshop).
+
+
+
+5. Database Management:
+
+Backend processing and database systems.
+
+
+
+6. Scientific Computing:
+
+Simulations, mathematical computations.
+
+
+
+
+
+---
+
+7. Advantages
+
+High performance
+
+Rich libraries and frameworks
+
+Flexibility and control over hardware
+
+Compatibility with C language
+
+
+
+---
+
+8. Limitations
+
+Steep learning curve for beginners.
+
+Manual memory management (prone to memory leaks).
+
+Less support for modern web and mobile development compared to languages like Python or JavaScript.
