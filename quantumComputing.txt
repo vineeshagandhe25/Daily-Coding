@@ -1,0 +1,6 @@
+Quantum Computing ---
+
+https://www.geeksforgeeks.org/introduction-quantum-computing/ 
+
+https://www.ibm.com/think/topics/quantum-computing
+
