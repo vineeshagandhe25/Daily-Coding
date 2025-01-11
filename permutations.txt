@@ -1,0 +1,10 @@
+Algorithm to find all permutations of a string
+
+Algorithm --- 
+
+* Base Case: If the string has only one character, return the string itself as the only permutation.
+* Recursive Case:
+   -> Loop through each character in the string.
+   -> For the current character, fix it as the first character.
+   -> Find all permutations of the remaining characters (excluding the fixed character).
+   -> Append the fixed character to each of the permutations of the remaining characters.
