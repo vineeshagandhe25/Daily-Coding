@@ -1,0 +1,49 @@
+1. Grid Computing
+Definition: A distributed system where resources (CPU, storage, etc.) from multiple independent computers are pooled together to work on a single task or set of tasks.
+Key Features:
+Heterogeneous systems (different hardware, OS, etc.).
+Resources are geographically dispersed.
+Decentralized control (resources may belong to different organizations).
+Purpose: Solving large-scale computational problems (e.g., scientific research, simulations).
+Example:
+SETI@home: Searching for extraterrestrial intelligence by analyzing radio signals using volunteer computers.
+Advantages:
+High computational power for large-scale problems.
+Cost-effective (uses existing resources).
+Disadvantages:
+Complex to manage and configure.
+High latency due to geographical dispersion.
+
+2. Cluster Computing
+Definition: A group of interconnected computers (nodes) working together as a single system to perform tasks.
+Key Features:
+Homogeneous systems (similar hardware and OS).
+Resources are centralized and often in the same location.
+Centralized control and management.
+Purpose: High availability, scalability, and fault tolerance in applications.
+Example:
+Google’s server clusters for handling search queries.
+Advantages:
+Low latency due to proximity of nodes.
+High reliability and scalability.
+Disadvantages:
+High setup cost (dedicated hardware and maintenance).
+Limited geographical distribution.
+
+3. Cloud Computing
+Definition: A model for delivering computing resources (e.g., servers, storage, databases, networking, software) over the internet on a pay-as-you-go basis.
+Key Features:
+Resources are virtualized and on-demand.
+Highly scalable and elastic.
+Accessible via the internet from anywhere.
+Purpose: Providing flexible and scalable computing services for various applications (businesses, individuals, etc.).
+Example:
+Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform.
+Advantages:
+No need for infrastructure management.
+Cost-effective (pay-as-you-go model).
+Scalable and globally accessible.
+Disadvantages:
+Dependency on internet connectivity.
+Security and privacy concerns.
+
