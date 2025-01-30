@@ -1,0 +1,43 @@
+Keras
+What it is:
+A high-level deep learning API built on top of frameworks like TensorFlow and Theano (now mainly integrated into TensorFlow).
+Designed for simplicity and fast prototyping.
+Key Features:
+User-Friendly: Intuitive and simple syntax, ideal for beginners.
+Modular Design: Models are built by combining building blocks like layers, optimizers, and loss functions.
+Support for Multiple Backends: Originally supported multiple backends (TensorFlow, Theano, etc.), but now tightly integrated with TensorFlow.
+Pre-trained Models: Includes libraries like Keras Applications with pre-trained models.
+Customization: Offers flexibility for advanced users by supporting custom layers, functions, and models.
+Use Cases:
+Quick prototyping and experimentation.
+Deployment of production-ready models using TensorFlow Extended (TFX).
+
+TensorFlow
+What it is:
+An end-to-end open-source platform for machine learning developed by Google.
+Used for building machine learning models, particularly deep learning applications.
+Key Features:
+Comprehensive: Supports the full ML lifecycle (training, evaluation, deployment).
+Scalability: Allows distributed computing and works seamlessly on CPUs, GPUs, and TPUs.
+TensorFlow Extended (TFX): For deploying and managing ML pipelines.
+TensorFlow Lite: For deploying models on mobile and embedded devices.
+TensorFlow.js: For running ML models in the browser or Node.js.
+Ecosystem: Rich ecosystem including TensorBoard for visualization and TensorFlow Hub for pre-trained models.
+Use Cases:
+Complex research and production-level ML applications.
+Real-time applications like natural language processing (NLP), computer vision, and reinforcement learning.
+
+PyTorch
+What it is:
+An open-source deep learning framework developed by Facebook's AI Research (FAIR) lab.
+Known for its dynamic computational graph and flexibility.
+Key Features:
+Dynamic Computation Graph: Provides flexibility for building and modifying models during runtime, ideal for research.
+Pythonic: Easy to learn and integrates seamlessly with Python.
+TorchScript: Converts models into a deployable, optimized format for production.
+Ecosystem: Includes libraries like PyTorch Lightning (for structured training) and TorchServe (for deployment).
+Community and Research: Widely adopted by researchers due to its simplicity and debugging-friendly environment.
+Use Cases:
+Research-oriented projects.
+Applications requiring dynamic behavior, like reinforcement learning.
+Production environments with TorchScript.
