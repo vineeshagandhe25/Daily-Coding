@@ -1,0 +1,36 @@
+Why are servers distributed country-wise?
+Performance Improvement
+
+Servers located closer to users reduce latency (the time it takes for a request to travel to the server and back).
+Example: When you use Gmail in India, your request may be handled by a Google server located in Asia rather than in the US.
+Data Sovereignty and Compliance
+
+Many countries have laws that require user data to be stored and processed within their borders (e.g., GDPR in the EU, Data Protection Bill in India, CLOUD Act in the US).
+Companies set up servers in countries to comply with these laws.
+Example: Microsoft Azure and AWS have data centers in India to comply with local regulations.
+Disaster Recovery and Redundancy
+
+Distributed servers ensure that if one server goes down (due to a natural disaster, power outage, or technical issue), another server in a different location can take over.
+Example: Cloud providers like AWS use Availability Zones and Regions to ensure redundancy.
+Scalability
+
+Large companies like Google, Amazon, or Netflix distribute their servers globally to handle high traffic from different countries.
+Localized Content Delivery
+
+Using Content Delivery Networks (CDNs), companies cache and serve localized data (e.g., videos, images) from servers near users.
+Example: YouTube uses CDNs to deliver videos faster to users globally.
+Examples of Country/Region-Wise Server Distribution
+Google Cloud
+
+Google has data centers in multiple countries, such as the US, India, Germany, Japan, and Australia.
+Example: Google's Mumbai data center serves Indian users for better performance.
+Amazon Web Services (AWS)
+
+AWS is divided into regions and availability zones.
+Regions like us-east-1 (Virginia), ap-south-1 (Mumbai), or eu-west-1 (Ireland) allow customers to choose where their resources are hosted.
+Microsoft Azure
+
+Operates datacenters in over 60 regions worldwide, offering localized services in countries like India, Canada, and Brazil.
+Netflix
+
+Netflix uses Open Connect Appliances (OCAs) in ISPs across various countries to cache and stream content locally.
