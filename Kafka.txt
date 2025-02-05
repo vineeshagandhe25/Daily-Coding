@@ -1,0 +1,50 @@
+Apache Kafka - Overview
+Apache Kafka is an open-source distributed event streaming platform designed for high-throughput, fault-tolerant, and real-time data processing. It is used for building real-time data pipelines and streaming applications that handle large volumes of data efficiently.
+
+1. Why Kafka?
+Kafka is widely used because it provides:
+✔ Scalability – Can handle millions of messages per second.
+✔ Fault Tolerance – Data is replicated across multiple brokers.
+✔ Durability – Data persistence with log-based storage.
+✔ High Performance – Optimized for low-latency message processing.
+✔ Decoupling of Services – Acts as a messaging backbone in Microservices.
+
+2. Kafka Architecture
+Kafka is based on a publish-subscribe model and consists of the following core components:
+
+1️⃣ Topics & Partitions
+Topics: Logical channels for organizing messages.
+Partitions: Topics are divided into multiple partitions for scalability.
+Offset: Each message in a partition has a unique identifier (offset).
+2️⃣ Producers
+Applications that write (publish) messages to Kafka topics.
+Messages are distributed across partitions based on a key or round-robin.
+3️⃣ Consumers & Consumer Groups
+Consumers read (subscribe) messages from topics.
+They can be grouped into consumer groups for parallel processing.
+4️⃣ Brokers
+Kafka cluster consists of multiple brokers (servers).
+Each broker stores a subset of partitions and handles message distribution.
+5️⃣ Zookeeper
+Manages metadata, leader election, and broker coordination in Kafka.
+3. How Kafka Works?
+1️⃣ Producers send messages to a Kafka topic.
+2️⃣ Kafka stores messages in partitions across multiple brokers.
+3️⃣ Consumers read messages in order (based on offset).
+4️⃣ Kafka ensures durability & fault tolerance by replicating data across brokers.
+
+4. Kafka Use Cases
+✔ Log Aggregation – Collecting logs from multiple sources.
+✔ Real-Time Analytics – Processing financial transactions, IoT sensor data.
+✔ Messaging System – Used as a message broker alternative to RabbitMQ.
+✔ Event-Driven Architecture – Decoupling Microservices communication.
+✔ Big Data Processing – Integrating with Spark, Flink, and Hadoop.
+✔ Change Data Capture (CDC) – Streaming database changes in real time.
+
+5. Key Features
+✅ High Throughput & Low Latency – Handles millions of messages per second.
+✅ Fault Tolerance – Data is replicated to ensure durability.
+✅ Horizontally Scalable – Easily scales by adding more brokers.
+✅ Durable & Persistent – Messages are stored in logs for replayability.
+✅ Supports Multiple Clients – Java, Python, Go, .NET, and more.
+
