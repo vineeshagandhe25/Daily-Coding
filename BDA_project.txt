@@ -1,0 +1,23 @@
+Problem Statement
+"AI-Driven Real-Time Disease Prediction System Using a Data Lake and Kafka"
+Traditional healthcare systems struggle with real-time disease prediction due to static models, batch processing, and limited adaptability. 
+This project aims to build a real-time AI-powered disease prediction system that continuously learns from live patient data using a Data Lake instead of a relational database. 
+The system ensures scalability, flexibility, and adaptability by storing raw, unstructured patient data and retraining the AI model dynamically.
+
+
+Tech Stack
+✅ Data Storage: Data Lake (AWS S3 / HDFS / Google Cloud Storage)
+✅ Real-Time Streaming: Apache Kafka
+✅ Machine Learning: Python (XGBoost, Random Forest)
+✅ Data Processing: Pandas, NumPy, Scikit-learn
+✅ Backend API: Flask (REST API for real-time predictions)
+✅ Model Deployment: Docker, AWS Lambda (optional)
+
+Abstract
+This project develops a real-time disease prediction system that leverages big data analytics and AI to provide instant diagnosis based on patient health parameters. 
+Unlike traditional healthcare models that rely on static databases and periodic updates, this system uses a Data Lake (AWS S3/HDFS) to store raw, continuously streamed 
+patient data for future AI model retraining. Apache Kafka ensures seamless ingestion of real-time data from multiple sources (wearables, hospital records, sensors). 
+Machine learning models (XGBoost, Random Forest) process the incoming data, making predictions via a Flask API. The system enables continuous learning, allowing the 
+AI model to improve over time as more data is collected and stored. By replacing traditional databases with a Data Lake, this approach ensures scalability, schema flexibility, 
+and enhanced predictive accuracy.
+
