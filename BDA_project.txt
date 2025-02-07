@@ -21,3 +21,24 @@ Machine learning models (XGBoost, Random Forest) process the incoming data, maki
 AI model to improve over time as more data is collected and stored. By replacing traditional databases with a Data Lake, this approach ensures scalability, schema flexibility, 
 and enhanced predictive accuracy.
 
+Project Guide: Step-by-Step Implementation ---
+
+Step 1: Setup Data Lake (AWS S3 / Google Cloud / HDFS)
+Create a Data Lake bucket in AWS S3 (or use HDFS if on-premise).
+Configure Kafka consumers to store raw patient data in Data Lake.
+
+Step 2: Kafka Setup for Real-Time Data Streaming
+Install Apache Kafka and create a Kafka Topic (patient_data_stream).
+Set up Kafka Producer to send patient data to Kafka
+
+Step 3: Kafka Consumer to Store Data in Data Lake
+A Kafka Consumer listens for new patient data and saves it in the Data Lake.
+
+Step 4: AI Model Development
+Extract raw data from Data Lake, preprocess it, and train a Random Forest/XGBoost model.
+
+Step 5: Flask API for Real-Time Disease Predictions
+Deploy a Flask API to serve predictions.
+
+
+
