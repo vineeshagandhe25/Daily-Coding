@@ -1,3 +1,5 @@
+// You are given a string num representing a non negative integer and an integer k . Your task is to remove k digits from num to form the smallest possible integer.
+// The result should not have any leading zeros unless it is 0 . 
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
