@@ -1,0 +1,139 @@
+Knuth-Morris-Pratt (KMP) Algorithm Explanation
+The Knuth-Morris-Pratt (KMP) algorithm is an efficient string searching algorithm that finds occurrences of a needle (substring) in a haystack (text) in O(N + M) time, where:
+
+𝑁
+N is the length of the haystack
+
+𝑀
+M is the length of the needle
+
+KMP avoids unnecessary comparisons by preprocessing the needle to build a Longest Prefix Suffix (LPS) array.
+
+Step-by-Step Explanation of KMP Algorithm
+1. Why Do We Need KMP?
+The naive approach compares the needle at every position in haystack, leading to O(N × M) time complexity in the worst case. KMP improves this by skipping unnecessary comparisons.
+
+2. Key Idea: Longest Prefix Suffix (LPS) Array
+Before searching, KMP preprocesses the needle to create an LPS array (also called partial match table). The LPS array tells us how much we can skip when a mismatch occurs.
+
+What is LPS?
+The LPS[i] stores the length of the longest proper prefix of needle[0...i] that is also a suffix.
+
+A proper prefix means it does not include the whole string.
+
+Example of LPS Array Calculation
+For needle = "ABABCABAB":
+
+Index	0	1	2	3	4	5	6	7	8
+Needle	A	B	A	B	C	A	B	A	B
+LPS	0	0	1	2	0	1	2	3	4
+How LPS Helps:
+When we mismatch at i = 8 (B ≠ D), instead of shifting back to i = 0, we check LPS[7] = 3, meaning we can restart comparison from index 3 in needle, skipping redundant checks.
+
+3. Steps of KMP Algorithm
+Step 1: Preprocess the needle to Build LPS Array
+We create the LPS array to determine how much we should shift the pattern upon a mismatch.
+
+java
+Copy
+Edit
+private int[] computeLPSArray(String needle) {
+    int n = needle.length();
+    int[] lps = new int[n];
+    int len = 0; // Length of the previous longest prefix suffix
+    int i = 1;
+
+    while (i < n) {
+        if (needle.charAt(i) == needle.charAt(len)) {
+            len++;
+            lps[i] = len;
+            i++;
+        } else {
+            if (len > 0) {
+                len = lps[len - 1]; // Reduce len to check previous prefix
+            } else {
+                lps[i] = 0;
+                i++;
+            }
+        }
+    }
+    return lps;
+}
+Step 2: Use LPS Array to Perform Efficient String Matching
+Once the LPS array is ready, we use it to efficiently search needle in haystack by skipping unnecessary comparisons.
+
+java
+Copy
+Edit
+public int strStr(String haystack, String needle) {
+    if (needle.isEmpty()) return 0;
+    
+    int[] lps = computeLPSArray(needle);
+    int i = 0, j = 0; // i for haystack, j for needle
+    int m = haystack.length(), n = needle.length();
+
+    while (i < m) {
+        if (haystack.charAt(i) == needle.charAt(j)) {
+            i++;
+            j++;
+            if (j == n) return i - j; // Found needle at index i - j
+        } else {
+            if (j > 0) j = lps[j - 1]; // Use LPS to shift efficiently
+            else i++; // No prefix match, just move to next character
+        }
+    }
+    return -1; // No match found
+}
+4. Example Walkthrough
+Example 1: haystack = "abxabcabcaby", needle = "abcaby"
+Compute LPS for "abcaby" → [0, 0, 0, 1, 2, 0]
+
+Start matching "abcaby" in "abxabcabcaby"
+
+Match fails at index 2 (x ≠ c), reset j using LPS
+
+Continue matching using LPS
+
+Match found at index 6
+
+Example 2: haystack = "aaaaa", needle = "bba"
+Compute LPS for "bba" → [0, 0, 1]
+
+No match found → return -1
+
+5. Complexity Analysis
+LPS Array Computation: 
+𝑂
+(
+𝑀
+)
+O(M)
+
+String Search: 
+𝑂
+(
+𝑁
+)
+O(N)
+
+Total Complexity: 
+𝑂
+(
+𝑁
++
+𝑀
+)
+O(N+M) (better than 
+𝑂
+(
+𝑁
+𝑀
+)
+O(NM))
+
+6. Why Use KMP?
+✅ Faster than brute force (O(NM) → O(N + M))
+✅ Avoids unnecessary comparisons using LPS
+✅ Useful for large texts & bioinformatics applications
+
+KMP is widely used in text searching, DNA sequencing, and spam filtering where fast substring matching is required.
