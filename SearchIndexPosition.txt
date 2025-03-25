@@ -1,0 +1,37 @@
+Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+
+You must write an algorithm with O(log n) runtime complexity.
+
+To solve this problem with 
+O(logn) time complexity, we can use binary search. The idea is to find the target value or determine the correct index where the target should be inserted if it's not present.
+
+Here's how the algorithm works:
+
+Perform a binary search on the sorted array.
+
+If the target is found during the binary search, return its index.
+
+If the target is not found, return the index where the target should be inserted in order.
+
+public class Solution {
+    public int searchInsert(int[] nums, int target) {
+        int left = 0, right = nums.length - 1;
+        
+        while (left <= right) {
+            int mid = left + (right - left) / 2;  
+            
+            if (nums[mid] == target) {
+                return mid;  
+            } else if (nums[mid] < target) {
+                left = mid + 1;  
+            } else {
+                right = mid - 1;  
+            }
+        }
+        
+        // If target is not found, left is the insertion position
+        return left;
+    }
+}
+
+Time Complexity: O(logn) .
