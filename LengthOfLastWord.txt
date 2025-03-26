@@ -1,0 +1,35 @@
+Given a string s consisting of words and spaces, return the length of the last word in the string.
+
+A word is a maximal substring consisting of non-space characters only.
+
+To find the length of the last word in a string s, we can follow these steps:
+
+Trim any trailing spaces from the string.
+
+Split the string into words based on spaces.
+
+The last word will be the last element of the resulting list.
+
+Return the length of this last word.
+
+public class Solution {
+    public int lengthOfLastWord(String s) {
+        // Trim any trailing spaces and split the string by spaces
+        String[] words = s.trim().split(" ");
+        
+        // Return the length of the last word
+        return words.length > 0 ? words[words.length - 1].length() : 0;
+    }
+}
+
+Explanation:
+trim(): Removes leading and trailing spaces from the string.
+
+split(" "): Splits the string into an array of words based on spaces.
+
+words[words.length - 1].length(): Accesses the last word and returns its length.
+
+If the string is empty or contains only spaces, the array will be empty, and in that case, we return 0.
+
+Time Complexity: O(n), where n is the length of the string.
+Space Complexity: O(n), where n is the length of the string.
