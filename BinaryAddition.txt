@@ -1,0 +1,40 @@
+Given two binary strings a and b, return their sum as a binary string.
+
+class Solution {
+    public String addBinary(String a, String b) {
+        StringBuilder result = new StringBuilder();
+        int carry = 0;
+        
+        int i = a.length() - 1;
+        int j = b.length() - 1;
+        
+        while (i >= 0 || j >= 0 || carry != 0) {
+           
+            int bitA = (i >= 0) ? a.charAt(i--) - '0' : 0;
+            int bitB = (j >= 0) ? b.charAt(j--) - '0' : 0;
+            
+            int sum = bitA + bitB + carry;
+            
+            result.append(sum % 2);
+            
+            carry = sum / 2;
+        }
+        
+        return result.reverse().toString();
+    }
+}
+
+
+Explanation:
+StringBuilder: We use StringBuilder to efficiently build the resulting binary string.
+
+Pointer Initialization: We use two pointers, i and j, which start from the last indices of strings a and b, respectively.
+
+Bit-by-bit Addition: We add the corresponding bits from both strings along with any carry. If one string is shorter than the other, we treat the missing bits as 0.
+
+Carry Handling: The sum of the current bits (plus carry) is calculated. If it's 2 or more, we set a carry for the next bit addition.
+
+Reversing the Result: After the loop, the StringBuilder contains the binary sum in reverse order, so we reverse it before returning the result.
+
+Time Complexity: O(max(n, m))
+Space Complexity: O(max(n, m))
