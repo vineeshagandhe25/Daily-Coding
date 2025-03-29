@@ -1,0 +1,25 @@
+Given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative as well.
+
+To solve the problem of finding the square root of a non-negative integer x and rounding it down to the nearest integer without using any built-in exponent 
+function or operator, we can use a binary search approach.
+
+Here’s the reasoning behind it:
+
+Binary Search: The square root of x lies between 0 and x. If x is very large, iterating over all numbers from 0 to x to find the square root would be inefficient. 
+Instead, we can use binary search to efficiently find the integer square root.
+
+Binary Search Steps:
+
+Set the lower boundary (left) to 0 and the upper boundary (right) to x.
+
+Calculate the middle value mid as (left + right) // 2.
+
+If mid * mid == x, then mid is the square root of x.
+
+If mid * mid < x, then the square root must be larger than mid, so adjust left to mid + 1.
+
+If mid * mid > x, then the square root must be smaller than mid, so adjust right to mid - 1.
+
+Why Binary Search Works:
+
+The values mid * mid will get closer and closer to x as we narrow down the search range. By doing this, we can find the largest integer mid such that mid * mid <= x.
