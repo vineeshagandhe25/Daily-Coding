@@ -1,0 +1,28 @@
+Given the root of a binary tree, return the inorder traversal of its nodes' values. 
+
+We can perform an inorder traversal of a binary tree using recursion or iteration (using a stack)
+
+Time & Space Complexity
+
+Recursive Approach
+Time Complexity: O(n) 
+Space Complexity: O(n) 
+
+Iterative Approach
+Time Complexity: O(n)
+Space Complexity: O(n) 
+
+Given the roots of two binary trees p and q, write a function to check if they are the same or not.
+Two binary trees are considered the same if they are structurally identical, and the nodes have the same value.
+
+We can check whether two binary trees are identical by comparing their structure and node values using recursion or iteration.
+
+Time & Space Complexity
+
+Recursive Approach
+Time Complexity: O(n) 
+Space Complexity: O(n) 
+
+Iterative Approach (Using BFS)
+Time Complexity: O(n)
+Space Complexity: O(n) 
