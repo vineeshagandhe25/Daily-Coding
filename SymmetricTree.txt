@@ -1,0 +1,21 @@
+Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
+
+To check if a binary tree is symmetric around its center, we can use a recursive approach and iterative approach. 
+The idea is to compare the left and right subtrees to ensure they are mirror images of each other.
+
+class Solution {
+    public boolean isSymmetric(TreeNode root) {
+        if (root == null) return true;
+        return isMirror(root.left, root.right);
+    }
+
+    private static boolean isMirror(TreeNode t1, TreeNode t2) {
+        if (t1 == null && t2 == null) return true;
+        if (t1 == null || t2 == null) return false;
+        return (t1.val == t2.val) && isMirror(t1.left, t2.right) && isMirror(t1.right, t2.left);
+    }
+}
+
+Time Complexity: O(n) (every node is visited once).
+
+Space Complexity: O(h) (recursion stack, where h is the tree height).
