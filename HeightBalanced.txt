@@ -1,0 +1,7 @@
+Given a binary tree, determine if it is height-balanced.
+
+A binary tree is height-balanced if:
+For every node, abs(height(left subtree) - height(right subtree)) ≤ 1, and both the left and right subtrees are also height-balanced.
+
+Time Complexity = O(n) , n = total number of nodes in the tree
+Space Complexity = O(h) , h = height of the tree
