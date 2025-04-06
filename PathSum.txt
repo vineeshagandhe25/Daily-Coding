@@ -1,0 +1,24 @@
+Given the root of a binary tree and an integer targetSum, return true if the tree has a root-to-leaf path such that adding up all the values along the path equals targetSum.
+
+Approach:
+
+Traverse the tree from the root.
+At each node, subtract the node’s value from the targetSum.
+If you reach a leaf node (node with no left or right child) and the remaining targetSum is equal to the leaf node’s value, return True.
+Otherwise, recursively check the left and right subtrees.
+
+class Solution {
+    public boolean hasPathSum(TreeNode root, int targetSum) {
+        if (root == null) return false;
+
+        if (root.left == null && root.right == null) {
+            return root.val == targetSum;
+        }
+
+        int remainingSum = targetSum - root.val;
+        return hasPathSum(root.left, remainingSum) || hasPathSum(root.right, remainingSum);
+    }
+}
+
+Time Complexity = O(n) , n = total number of nodes in the tree
+Space Complexity = O(n) .
