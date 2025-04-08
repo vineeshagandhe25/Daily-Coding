@@ -1,0 +1,35 @@
+Given an integer numRows, return the first numRows of Pascal's triangle.
+
+Approach:
+Start with an empty list of lists (the result).
+Loop from 0 to numRows - 1:
+Each row starts and ends with 1.
+For elements in between, use the values from the previous row:
+row[i] = prevRow[i - 1] + prevRow[i].
+Add each row to the result list.
+
+class Solution {
+    public List<List<Integer>> generate(int numRows) {
+        List<List<Integer>> triangle = new ArrayList<>();
+
+        for (int row = 0; row < numRows; row++) {
+            List<Integer> currentRow = new ArrayList<>();
+
+            for (int col = 0; col <= row; col++) {
+                if (col == 0 || col == row) {
+                    currentRow.add(1); // First and last element is always 1
+                } else {
+                    int val = triangle.get(row - 1).get(col - 1) + triangle.get(row - 1).get(col);
+                    currentRow.add(val);
+                }
+            }
+
+            triangle.add(currentRow);
+        }
+
+        return triangle;
+    }
+}
+
+Time Complexity: O(n^2)
+Space Complexity: O(n^2)
