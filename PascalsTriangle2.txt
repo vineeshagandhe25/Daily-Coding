@@ -1,0 +1,23 @@
+Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's triangle.
+
+class Solution {
+    public List<List<Integer>> generate(int numRows) {
+        List<List<Integer>> triangle = new ArrayList<>();
+
+        ist<Integer> row = new ArrayList<>();
+        long val = 1;
+        row.add((int) val); // First element is always 1
+
+        for (int i = 1; i <= rowIndex; i++) {
+            // Calculate next value using the formula:
+            // C(n, k) = C(n, k - 1) * (n - k + 1) / k
+            val = val * (rowIndex - i + 1) / i;
+            row.add((int) val);
+        }
+
+        return row;
+    }
+}
+
+Time Complexity: O(n)
+Space Complexity: O(n)
