@@ -1,0 +1,38 @@
+Given the root of a binary tree and an integer targetSum, return all root-to-leaf paths where the sum of the node values in the path equals targetSum. 
+Each path should be returned as a list of the node values, not node references.
+
+
+Steps---
+1 Start from the root and initialize an empty list path.
+2 Traverse left and right recursively using DFS.
+3 At each leaf, check if the remaining sum equals the current node's value.
+4 If yes, add a copy of the path to the result.
+5 Backtrack after exploring left and right.
+
+class Solution {
+    public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
+        List<List<Integer>> result = new ArrayList<>();
+        List<Integer> path = new ArrayList<>();
+        dfs(root, targetSum, path, result);
+        return result;
+    }
+
+    private void dfs(TreeNode node, int targetSum, List<Integer> path, List<List<Integer>> result) {
+        if (node == null) return;
+
+        path.add(node.val);
+        targetSum -= node.val;
+
+        if (node.left == null && node.right == null && targetSum == 0) {
+            result.add(new ArrayList<>(path)); 
+        }
+
+        dfs(node.left, targetSum, path, result);
+        dfs(node.right, targetSum, path, result);
+
+        path.remove(path.size() - 1); 
+    }
+}
+
+Time Complexity: O(n)
+Space Complexity: O(n)
