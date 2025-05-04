@@ -1,0 +1,34 @@
+Given a collection of candidate numbers (candidates) and a target number (target), find all unique combinations in candidates where the candidate numbers sum to target.
+
+Each number in candidates may only be used once in the combination.
+
+Note: The solution set must not contain duplicate combinations.
+
+class Solution {
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        List<List<Integer>> results = new ArrayList<>();
+        Arrays.sort(candidates);  
+        backtrack(candidates, target, 0, new ArrayList<>(), results);
+        return results;
+    }
+
+    private void backtrack(int[] candidates, int target, int start, List<Integer> tempList, List<List<Integer>> results) {
+        if (target == 0) {
+            results.add(new ArrayList<>(tempList));
+            return;
+        }
+
+        for (int i = start; i < candidates.length; i++) {
+            if (i > start && candidates[i] == candidates[i - 1]) continue;
+            
+            if (candidates[i] > target) break;
+
+            tempList.add(candidates[i]);
+            backtrack(candidates, target - candidates[i], i + 1, tempList, results); // move i+1 since each can be used once
+            tempList.remove(tempList.size() - 1);
+        }
+    }    
+}
+
+Time complexity = O(2^N)
+Space complexity = O(N)
