@@ -1,0 +1,132 @@
+BASIC LEVEL (Beginner)
+1. Time & Space Complexity --- Big O notation (Best, average, worst cases)
+                               Time-space trade-off
+
+2. Mathematics & Number Theory --- Prime numbers (Sieve of Eratosthenes)
+                                   GCD, LCM (Euclidean Algorithm)
+                                   Modular arithmetic
+                                   Power/exponentiation (Fast Exponentiation)
+                                   Factorials, permutations & combinations
+
+3. Bit Manipulation --- Bitwise operators
+                        Set, unset, toggle bits
+                        Counting set bits (Brian Kernighan's algo)
+                        Check power of 2, 4, etc.
+                        XOR tricks (e.g., finding unique numbers)
+
+DATA STRUCTURES
+4. Arrays
+Traversals, searching, sorting
+Prefix sum, sliding window
+Two pointers, binary search
+
+5. Strings
+Palindrome, anagram
+String reversal, rotations
+Substring, subsequence
+Pattern matching (KMP basic)
+Character frequency, hashing
+
+6. Hashing / HashMap / HashSet
+Frequency count
+Subarray with sum = k
+First non-repeating element
+
+7. Recursion & Backtracking
+Factorial, Fibonacci, Tower of Hanoi
+N-Queens, Sudoku solver
+Subset sum, permutations
+
+8. Stacks & Queues
+Balanced parentheses
+Next greater/smaller element
+LRU cache, monotonic stack
+Queue using stacks and vice versa
+
+INTERMEDIATE LEVEL
+
+9. Linked Lists
+Reversal, palindrome, cycle detection (Floyd’s)
+Merge two sorted lists
+Detect and remove loop
+
+10. Binary Search
+Classic binary search
+First/last occurrence
+Search in rotated sorted array
+Binary search on answer (e.g., min days to ship)
+
+11. Sliding Window & Two Pointers
+Max sum subarray
+Longest substring without repeat
+Trapping rainwater
+Container with most water
+
+12. Sorting Algorithms
+Bubble, selection, insertion
+Merge sort, quick sort
+Counting sort, radix sort (basic understanding)
+
+ADVANCED LEVEL
+
+13. Trees and Binary Trees
+Inorder, preorder, postorder traversal (recursive & iterative)
+Height, diameter, mirror
+Lowest Common Ancestor (LCA)
+Binary Search Trees (BST): insertion, deletion
+Tree to DLL, flatten binary tree
+
+14. Heaps & Priority Queues
+Max heap, min heap
+Heap sort
+Kth largest/smallest
+Top K frequent elements
+
+15. Graphs
+BFS, DFS
+Detect cycle (directed & undirected)
+Topological sort (Kahn’s algorithm)
+Connected components
+Dijkstra’s, Prim’s, Kruskal’s
+Union-Find (Disjoint Set Union)
+
+16. Dynamic Programming (DP)
+Memoization, tabulation
+0/1 Knapsack, Subset sum
+Longest Common Subsequence (LCS)
+Longest Increasing Subsequence (LIS)
+Matrix chain multiplication
+DP on trees, DP on subsets
+Bitmask DP
+
+Greedy Algorithms
+
+EXPERT LEVEL
+
+17. Advanced Graph Algorithms
+Bellman-Ford
+Floyd-Warshall
+Bridge & articulation points (Tarjan’s)
+SCC (Kosaraju’s algorithm)
+
+18. Trie
+Insert, search, delete
+Word search problems
+Prefix-based problems (e.g., autocomplete)
+
+19. Segment Trees / Fenwick Trees (BIT)
+Range queries
+Lazy propagation
+2D segment trees (optional)
+
+20. Greedy Algorithms
+Activity selection
+Huffman coding
+Job scheduling
+Interval problems
+
+21. Game Theory & Miscellaneous
+Grundy numbers, Minimax
+Meet in the middle
+Divide and conquer
+Sliding window maximum using deque
