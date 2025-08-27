@@ -812,3 +812,266 @@ Empty tree (null) — handle gracefully.
 Single node — check diameter=1, symmetric true, etc.
 Skewed tree: 1→2→3 (right-skewed) — height/diameter edge cases.
 Balanced tree like your earlier example (1,2,3,4,5) — verify traversals & boundary.
+
+* Step 3 --- BST Master Notes
+Core BST Properties
+Definition: A binary search tree is a binary tree where:
+Left child < Parent node
+Right child > Parent node
+Both left & right subtrees must also be BSTs.
+Inorder traversal of a BST = Sorted order 
+Average time complexities:
+Search → O(log N) (best/avg), O(N) (worst if skewed tree)
+Insert → same as above
+Delete → same as above
+Trick: Balanced BSTs (like AVL, Red-Black Trees) keep O(log N). Regular BST may degrade.
+
+1. Insertion into BST
+Logic:
+Compare key with root.
+If key < root.val, go left.
+Else go right.
+Insert at null position.
+public TreeNode insert(TreeNode root, int key) {
+    if (root == null) return new TreeNode(key);
+    if (key < root.val) root.left = insert(root.left, key);
+    else if (key > root.val) root.right = insert(root.right, key);
+    return root;
+}
+Trick: In interviews, stress that duplicates are usually not allowed in BST (or handled specially).
+
+2. Searching in BST
+public boolean search(TreeNode root, int key) {
+    if (root == null) return false;
+    if (root.val == key) return true;
+    if (key < root.val) return search(root.left, key);
+    return search(root.right, key);
+}
+
+Iterative version (common in interviews):
+public boolean searchIter(TreeNode root, int key) {
+    while (root != null) {
+        if (key == root.val) return true;
+        if (key < root.val) root = root.left;
+        else root = root.right;
+    }
+    return false;
+}
+
+3. Deletion in BST
+Most asked, must understand 3 cases:
+Node is a leaf → just delete it.
+Node has one child → replace with child.
+Node has two children → replace with inorder successor (min in right subtree) or inorder predecessor (max in left).
+public TreeNode deleteNode(TreeNode root, int key) {
+    if (root == null) return null;
+    
+    if (key < root.val) root.left = deleteNode(root.left, key);
+    else if (key > root.val) root.right = deleteNode(root.right, key);
+    else {
+        // Case 1 & 2
+        if (root.left == null) return root.right;
+        else if (root.right == null) return root.left;
+
+        // Case 3: two children → get inorder successor
+        TreeNode minNode = findMin(root.right);
+        root.val = minNode.val;
+        root.right = deleteNode(root.right, minNode.val);
+    }
+    return root;
+}
+
+private TreeNode findMin(TreeNode node) {
+    while (node.left != null) node = node.left;
+    return node;
+}
+
+4. Validate if a Tree is BST
+Key trick: Every node must be in a valid range (min < node < max).
+public boolean isValidBST(TreeNode root) {
+    return helper(root, Long.MIN_VALUE, Long.MAX_VALUE);
+}
+
+private boolean helper(TreeNode node, long min, long max) {
+    if (node == null) return true;
+    if (node.val <= min || node.val >= max) return false;
+    return helper(node.left, min, node.val) && helper(node.right, node.val, max);
+}
+Interview trap: Checking only local left < root < right is WRONG. Must check full range.
+
+5. Find Min & Max in BST
+public int findMin(TreeNode root) {
+    while (root.left != null) root = root.left;
+    return root.val;
+}
+public int findMax(TreeNode root) {
+    while (root.right != null) root = root.right;
+    return root.val;
+}
+
+6. Floor & Ceil in BST
+Floor: Largest value ≤ key
+Ceil: Smallest value ≥ key
+public int floor(TreeNode root, int key) {
+    int ans = -1;
+    while (root != null) {
+        if (root.val == key) return root.val;
+        if (root.val > key) root = root.left;
+        else {
+            ans = root.val;
+            root = root.right;
+        }
+    }
+    return ans;
+}
+
+public int ceil(TreeNode root, int key) {
+    int ans = -1;
+    while (root != null) {
+        if (root.val == key) return root.val;
+        if (root.val < key) root = root.right;
+        else {
+            ans = root.val;
+            root = root.left;
+        }
+    }
+    return ans;
+}
+
+7. Successor & Predecessor in BST
+Inorder successor: Smallest node greater than target.
+Inorder predecessor: Largest node smaller than target.
+public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
+    TreeNode succ = null;
+    while (root != null) {
+        if (p.val < root.val) {
+            succ = root;
+            root = root.left;
+        } else root = root.right;
+    }
+    return succ;
+}
+
+public TreeNode inorderPredecessor(TreeNode root, TreeNode p) {
+    TreeNode pred = null;
+    while (root != null) {
+        if (p.val > root.val) {
+            pred = root;
+            root = root.right;
+        } else root = root.left;
+    }
+    return pred;
+}
+
+Interview Tricks & Quick Recall
+Inorder → Sorted → use for BST validation.
+Deletion case is most important → rehearse all 3 cases.
+Successor/Predecessor = go opposite subtree (right for successor, left for predecessor).
+If asked Floor/Ceil, always keep track of candidate answer while traversing.
+For large trees, iterative solutions often save stack space → mention in interview.
+
+* step 4 --- Core BST Problems
+1. Lowest Common Ancestor in BST
+Concept: In BST, values are ordered, so you don’t need full traversal like normal binary tree.
+Rule:
+If p.val < root.val && q.val < root.val → LCA lies in left subtree.
+If p.val > root.val && q.val > root.val → LCA lies in right subtree.
+Otherwise, root is LCA.
+Why Important? Very common interview problem. Tests BST property understanding.
+
+2. Convert Sorted Array to BST
+Concept: Use divide & conquer. Pick middle element as root → ensures height balance.
+Recursive approach:
+mid = (low+high)/2 → root.
+Left half → left subtree.
+Right half → right subtree.
+Why Important? Tests recursion + understanding of BST balance.
+
+3. Convert BST to Sorted Linked List
+Concept: Inorder traversal of BST gives sorted order.
+Use inorder traversal + keep track of “previous node” to link nodes as a list.
+Variants:
+Singly linked list.
+Doubly linked list.
+Why Important? Combines traversal + pointer manipulation.
+
+4. kth Smallest / kth Largest in BST
+Concept: Inorder traversal = sorted sequence.
+Maintain counter → return when counter == k.
+kth largest = reverse inorder.
+Why Important? Very frequent interview problem (Google/Amazon favorite). Tests recursion & traversal order.
+
+Practice Problems (Must-Do)
+1. Two Sum in BST
+Concept: Similar to 2-sum in array.
+Solutions:
+Inorder traversal → sorted array → 2-pointer check.
+Or: Use HashSet during traversal.
+Why Important? Combines BST traversal + array techniques.
+
+2. Range Sum of BST
+Concept: Use recursion.
+If node.val < low → only search right.
+If node.val > high → only search left.
+Else, add node value + search both.
+Why Important? Tests pruning using BST properties.
+
+3. Serialize and Deserialize BST
+Concept:
+Serialize = convert BST → string.
+Deserialize = convert string → BST.
+Trick:
+Preorder traversal + BST property (value ranges) for reconstruction.
+Much simpler than generic Binary Tree because of ordering.
+Why Important? Advanced, tests recursion, BST property, and design skills.
+
+step 5 --- 
+Self-Balancing Trees (AVL, Red-Black)
+Interviewers mostly ask conceptual questions:
+Why self-balancing trees are needed?
+How rotations work in AVL?
+Difference between AVL and Red-Black?
+Core Ideas:
+Problem with normal BST:
+If keys are inserted in sorted order → BST becomes skewed → O(n) operations.
+Self-balancing keeps height = O(log n).
+AVL Tree
+Balance factor = height(left) – height(right) ∈ {-1,0,1}
+If it goes out of range → rotation is applied.
+Rotations:
+LL Rotation
+RR Rotation
+LR Rotation
+RL Rotation
+Strictly balanced → faster searches but more rotations.
+
+Red-Black Tree
+Each node is Red or Black.
+Rules maintain “black-height balance”.
+Less strict than AVL → fewer rotations, better for insertion-heavy workloads.
+Used in Java’s TreeMap, C++ STL map/set.
+
+Interview Trick:
+AVL → better for read-heavy workloads.
+Red-Black → better for write-heavy workloads.
+
+Segment Tree (Range Queries)
+Used when array has frequent updates + range queries.
+Example:
+Find sum/min/max in range [L,R].
+Update an element → still log(n).
+Time Complexity:
+Build: O(n)
+Query: O(log n)
+Update: O(log n)
+Example Problem:
+Given an array of stock prices → answer queries like:
+“What’s the min price between day 2 and 6?”
+“Update price on day 4 to 500.”
+
+Fenwick Tree (Binary Indexed Tree)
+Same purpose as Segment Tree but simpler & uses less memory.
+Supports prefix sum queries and updates in O(log n).
+Great for problems like:
+Count of inversions in array.
+Prefix sums with updates.
