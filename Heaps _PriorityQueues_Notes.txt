@@ -1,0 +1,303 @@
+Heaps + Priority Queues (Placement Notes)
+
+1. What is a Heap? A Heap is a complete binary tree: All levels are completely filled except possibly the last.The last level is filled from left to right.
+It satisfies the Heap Property: Max Heap → Parent ≥ Children and Min Heap → Parent ≤ Children
+Index Representation (Array-based):
+Root → index 0
+Left child of i → 2*i + 1
+Right child of i → 2*i + 2
+Parent of i → (i-1)/2
+
+2. Types of Heaps
+Binary Heap (most common, used in Priority Queue).
+Binomial Heap (rare in interviews).
+Fibonacci Heap (theoretical, used in Dijkstra’s/Prim’s but not expected from freshers).
+For placements → Focus on Binary Heap.
+
+3. Heap Operations
+| Operation             | Description                | Time Complexity |
+| --------------------- | -------------------------- | --------------- |
+| Insert (push)         | Add element & heapify up   | **O(log n)**    |
+| Delete (pop)          | Remove root & heapify down | **O(log n)**    |
+| Get top (peek)        | Return min/max element     | **O(1)**        |
+| Build Heap from array | Heapify all elements       | **O(n)**        |
+
+4. Priority Queue (PQ)
+Definition: Abstract data type where elements are served based on priority, not just insertion order.
+Implemented using:
+Heap (most efficient).
+Balanced BST (e.g., TreeMap in Java).
+Unsorted/Sorted arrays (inefficient).
+Java: PriorityQueue class (default = Min Heap).
+To make Max Heap → use custom comparator.
+
+Min Heap
+import java.util.*;
+class MinHeapExample {
+    public static void main(String[] args) {
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        pq.add(10);
+        pq.add(5);
+        pq.add(20);
+        System.out.println(pq.peek()); // 5
+        pq.poll(); // removes 5
+        System.out.println(pq.peek()); // 10
+    }
+}
+
+Max Heap
+PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+maxHeap.add(10);
+maxHeap.add(5);
+maxHeap.add(20);
+System.out.println(maxHeap.peek()); // 20
+
+Custom Objects with Priority
+class Task {
+    int priority;
+    String name;
+    Task(int p, String n) { priority = p; name = n; }
+}
+
+PriorityQueue<Task> pq = new PriorityQueue<>((a, b) -> a.priority - b.priority);
+pq.add(new Task(2, "Code"));
+pq.add(new Task(1, "Eat"));
+System.out.println(pq.poll().name); // Eat
+
+6. Heapify Algorithm --- Used to build a heap from an array in O(n).
+void heapify(int arr[], int n, int i) {
+    int largest = i;
+    int left = 2 * i + 1;
+    int right = 2 * i + 2;
+
+    if (left < n && arr[left] > arr[largest])
+        largest = left;
+
+    if (right < n && arr[right] > arr[largest])
+        largest = right;
+
+    if (largest != i) {
+        int temp = arr[i];
+        arr[i] = arr[largest];
+        arr[largest] = temp;
+        heapify(arr, n, largest);
+    }
+}
+
+7. Heap Sort (Applications of Heap)
+Build max heap → O(n).
+Repeatedly swap root with last element + heapify → O(n log n).
+Heap sort is not stable but gives O(n log n) sorting.
+
+8. Common Problem Patterns
+Top-K / Kth Element Problems --
+Kth largest/smallest element → Heap (O(n log k)).
+Top K frequent elements → Heap + HashMap.
+Streaming Data - Running median → Two Heaps (max-heap + min-heap).
+Merging - Merge k sorted arrays/lists → Min Heap.
+Interval Problems - Meeting rooms, job scheduling → Min Heap.
+Graph Problems - Dijkstra’s / Prim’s algorithm → Min Heap.
+
+9. Complexities in PQ Problems
+Insert → O(log n)
+Remove top → O(log n)
+Peek → O(1)
+Build heap from array → O(n)
+Dijkstra’s using Min Heap → O(E log V)
+
+10. Interview Tips
+✅ Don’t confuse Heap with Binary Search Tree. Heap has no in-order ordering.
+✅ Know both Min Heap and Max Heap use-cases.
+✅ Remember heapify complexity is O(n), not O(n log n).
+✅ Learn to implement custom comparator for PriorityQueue in Java.
+✅ Be ready for Kth largest/smallest and Top-K problems.
+✅ For graphs, always connect PQ with Dijkstra/Prim’s.
+
+11. Must-Solve Problems (LeetCode/InterviewBit)
+Kth Largest Element in Array
+Kth Smallest Element in Array
+Top K Frequent Elements
+Find Median from Data Stream
+Merge k Sorted Lists
+Meeting Rooms II
+Minimum Cost to Connect Ropes
+
+------------------------------------------------------------------------
+Problems
+
+1 Given an array of size n, find the Kth largest (or Kth smallest) element.
+
+Intuition
+Instead of sorting the entire array (O(n log n)), we only care about the top K elements.
+We can use a heap to keep track of just K elements efficiently.
+
+Approach 1: Kth Largest Element , Using a Min Heap of size k
+1 Create a min-heap (smallest element at top).
+2 Traverse all elements of array: Add element to heap and If heap size > k → pop the smallest element.
+3 At the end → the root of heap = Kth largest.
+
+Example
+Array: [3, 2, 1, 5, 6, 4], k = 2 (Find 2nd largest)
+Steps:
+Insert 3 → heap = [3]
+Insert 2 → heap = [2, 3]
+Insert 1 → heap = [1, 3, 2] → pop → [2, 3]
+Insert 5 → heap = [2, 3, 5] → pop → [3, 5]
+Insert 6 → heap = [3, 5, 6] → pop → [5, 6]
+Insert 4 → heap = [4, 6, 5] → pop → [5, 6]
+✅ Answer = heap.peek() = 5 (2nd largest).
+
+Approach 2: Kth Smallest Element
+Same logic but:
+Use a Max Heap of size k.
+Keep popping if heap size > k.
+At the end → root of heap = Kth smallest.
+
+Time Complexity
+We process n elements.
+Each insertion/deletion in heap = O(log k).
+Total = O(n log k).
+Much faster than sorting (O(n log n)), especially when k << n.
+
+public static int findKthLargest(int[] nums, int k) {
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+        
+        for (int num : nums) {
+            minHeap.add(num);
+            if (minHeap.size() > k) {
+                minHeap.poll();
+            }
+        }
+        return minHeap.peek();
+    }
+
+So the formula Kth largest/smallest → Heap (O(n log k)) comes directly from: n insertions , Heap size maintained at k and Each operation costs log k.
+
+2 Given an array, return the K most frequent elements.
+
+Approach: HashMap + Heap
+We combine two data structures:
+HashMap → Count frequency of each element.
+Key = element
+Value = frequency
+Heap (PriorityQueue) → Keep track of top K frequent elements.
+Use a Min Heap of size k (so least frequent stays at root).
+If heap size > k, remove root.
+At the end → Heap contains k most frequent elements.
+Step-by-Step Example
+nums = [1,1,1,2,2,3], k = 2
+HashMap frequencies:
+1 → 3
+2 → 2
+3 → 1
+Push into Min Heap (by frequency):
+Add (1,3) → heap = [1]
+Add (2,2) → heap = [2,1]
+Add (3,1) → heap = [3,1,2] → size > k → pop → heap = [2,1]
+Answer = Heap = [1,2].
+public static int[] topKFrequent(int[] nums, int k) {
+        // Step 1: Count frequencies
+        Map<Integer, Integer> freqMap = new HashMap<>();
+        for (int num : nums) {
+            freqMap.put(num, freqMap.getOrDefault(num, 0) + 1);
+        }
+
+        // Step 2: Min Heap (element with lowest frequency at top)
+        PriorityQueue<Map.Entry<Integer, Integer>> minHeap =
+                new PriorityQueue<>((a, b) -> a.getValue() - b.getValue());
+
+        for (Map.Entry<Integer, Integer> entry : freqMap.entrySet()) {
+            minHeap.add(entry);
+            if (minHeap.size() > k) {
+                minHeap.poll(); // remove least frequent
+            }
+        }
+
+        // Step 3: Extract elements from heap
+        int[] result = new int[k];
+        int i = 0;
+        while (!minHeap.isEmpty()) {
+            result[i++] = minHeap.poll().getKey();
+        }
+        return result;
+}
+Time Complexity
+Building frequency map → O(n)
+Heap operations → O(n log k)
+Total → O(n log k)
+Much better than sorting all elements (O(n log n)).
+Interview Tip - Sometimes interviewers also ask for: Bucket Sort approach → O(n) solution (but Heap + HashMap is simpler for coding rounds).
+
+Bucket Sort Approach (O(n))
+Idea
+Frequency of an element can be at most n (if all elements are the same).
+We can create buckets where bucket[i] holds the list of elements that appear i times.
+Then, traverse buckets from highest frequency → lowest frequency, collecting top K elements.
+Steps
+HashMap: Count frequencies of each element.
+Bucket Array: Create an array of size n+1 (index = frequency).
+Example: if element x appears 3 times → put x into bucket[3].
+Traverse buckets backward (from highest frequency to lowest).
+Collect K elements and return.
+
+3 We’re given a stream of numbers (one by one). After each insertion, we need to return the median of all elements so far.
+
+Intuition: Why Two Heaps?
+Median depends on sorted order, but sorting after every insertion = O(n log n). Too slow.
+Instead, maintain two heaps:
+Max Heap → left half of numbers (smaller values)
+Min Heap → right half of numbers (larger values)
+Balance them so:
+Sizes differ by at most 1
+All elements in max-heap ≤ all elements in min-heap
+Then:
+If both heaps equal size → median = average of roots
+If heaps differ → median = root of larger heap
+Time Complexity - Insert → O(log n) (heap push/pop),Find median → O(1) (just peek roots),Stream of n numbers → O(n log n)
+
+4 You are given k sorted arrays/lists, and you need to merge them into one sorted list efficiently.
+Optimal Approach: Min Heap
+We use a Min Heap to always pick the smallest element among the k lists.
+Steps:
+Insert the first element of each array into a Min Heap.
+Heap stores a tuple: (value, arrayIndex, elementIndex).
+Extract the minimum element from the heap and add it to the result.
+Insert the next element from the same array as the extracted element.
+Repeat until the heap is empty.
+Time Complexity = O(N log k) and Space Complexity = O(k).
+
+5 Meeting Rooms II (Leetcode 253 style) Given meeting intervals [start, end], find the minimum number of meeting rooms required.
+Intuition
+Sort intervals by start time.
+Use a min-heap (priority queue) to track end times of ongoing meetings.
+At each new meeting:
+If the earliest ending meeting (heap top) ends before or at the start of the new one → reuse the room (pop from heap).
+Otherwise, we need a new room (keep it in heap).
+Heap size at the end = number of rooms required.
+import java.util.*;
+
+class Solution {
+    public int minMeetingRooms(int[][] intervals) {
+        if (intervals.length == 0) return 0;
+
+        // Step 1: Sort by start time
+        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+
+        // Step 2: Min heap for end times
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+
+        // Step 3: Process meetings
+        for (int[] interval : intervals) {
+            // If room got free
+            if (!minHeap.isEmpty() && minHeap.peek() <= interval[0]) {
+                minHeap.poll();
+            }
+            minHeap.add(interval[1]); // Add current meeting's end
+        }
+
+        // Size of heap = rooms required
+        return minHeap.size();
+    }
+}
+Complexity - Sorting: O(n log n) Each interval → Heap operations: O(log n) = Total: O(n log n)
+*** Job Scheduling with Deadlines using Min Heap (classic variant asked in Amazon/Google) ***
