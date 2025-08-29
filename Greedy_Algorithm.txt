@@ -1,0 +1,189 @@
+Introduction
+
+Definition: Greedy algorithm builds up a solution step by step, always choosing the option that looks best at the moment ("locally optimal choice") with the hope of reaching 
+a global optimum.
+Core Idea: Make the best choice now → leads to overall optimal solution.
+Applications: Optimization problems (maximize/minimize value, minimize cost, scheduling, shortest path in graphs, etc.).
+
+Steps to Solve Greedy Problems
+1 Identify the optimal substructure: Can the problem be broken down into smaller subproblems that lead to an overall solution?
+2 Define the greedy choice property: At each step, can we choose the best option without reconsidering past choices?
+3 Sort or prioritize items: Often involves sorting by ratio, weight, profit, deadlines, etc.
+4 Iteratively pick choices: Continue until the problem is solved or constraints are reached.
+5 Verify correctness: Sometimes greedy fails → always check if greedy is guaranteed to work.
+
+Greedy vs Dynamic Programming
+| Feature  | Greedy                            | Dynamic Programming           |
+| -------- | --------------------------------- | ----------------------------- |
+| Approach | Local optimal choice              | Considers all possibilities   |
+| Speed    | Faster (O(n log n) typical)       | Slower (O(n²) or more)        |
+| Use Case | When greedy-choice property holds | General optimization problems |
+| Example  | Activity Selection                | 0/1 Knapsack                  |
+
+Classic Greedy Examples 
+
+1. Activity Selection (Interval Scheduling)
+Max number of non-overlapping activities.
+Greedy choice: Select the activity that finishes earliest.
+
+2. Fractional Knapsack
+You have weight limit. Take fractions of items.
+Greedy choice: Take item with highest value/weight ratio first.
+
+3. Job Sequencing with Deadlines
+Maximize profit by scheduling jobs before deadline.
+Greedy choice: Pick jobs with highest profit first and assign to latest available slot.
+
+4. Graph Problems using Greedy
+Minimum Spanning Tree (MST):
+Kruskal’s Algorithm → pick smallest edges (avoid cycles).
+Prim’s Algorithm → expand MST with smallest edge.
+Dijkstra’s Algorithm → always expand shortest distance node.
+
+5. Other Greedy Problems
+Minimum coins (only works when coin system is canonical like Indian currency).
+Jump Game (minimum jumps to reach end).
+Gas Station (circular tour problem).
+Candy Distribution.
+
+Time Complexity
+Sorting-based greedy → O(n log n)
+Heap-based greedy → O(n log n) or O(E log V) in graphs
+
+Quick Greedy Problem Checklist
+1 When you see a problem in interview:
+2 Is it asking for maximum/minimum?
+3 Can you sort items by some rule?
+4 Does picking the best now prevent future problems?
+5 Can you prove greedy is correct (or give counterexample if not)?
+
+Must-Practice Beginner-Friendly Problems
+
+1 Activity Selection (GFG)
+2 Fractional Knapsack (GFG)
+3 Job Sequencing (GFG)
+4 Minimum Coins (Leetcode 322 → careful, greedy fails, needs DP)
+5 Jump Game (Leetcode 55, 45)
+6 Gas Station (Leetcode 134)
+7 Candy Distribution (Leetcode 135)
+
+Problem Statement
+You are given n activities with start and finish times.
+Select the maximum number of activities that don’t overlap (only one activity can be done at a time).
+Arrays.sort(activities, (a, b) -> a.end - b.end); // sort by finish time
+
+        int count = 1;  
+        int lastEnd = activities[0].end;
+        System.out.println("Selected activities:");
+        System.out.println("(" + activities[0].start + "," + activities[0].end + ")");
+
+        for (int i = 1; i < activities.length; i++) {
+            if (activities[i].start >= lastEnd) {
+                count++;
+                lastEnd = activities[i].end;
+                System.out.println("(" + activities[i].start + "," + activities[i].end + ")");
+            }
+        }
+        System.out.println("Maximum activities = " + count);
+
+Sorting: O(n log n)
+Iteration: O(n)
+Total = O(n log n), Space = O(1)      
+
+Problem Statement
+You have a knapsack (bag) with a weight capacity W.
+You are given n items, each with: value v[i] weight w[i]
+Goal: Maximize total value in the knapsack.
+Difference from 0/1 Knapsack:
+0/1 Knapsack → Either take the full item or leave it → Needs DP.
+Fractional Knapsack → You can take fractions of an item → Greedy works!
+
+If fractional items are allowed, DP is unnecessary. DP would be O(nW) → slower and complex. Greedy gives O(n log n) (because of sorting)
+
+import java.util.*;
+
+class Item {
+    int value, weight;
+    Item(int v, int w) {
+        value = v; weight = w;
+    }
+}
+
+public class FractionalKnapsack {
+    static double getMaxValue(Item[] items, int W) {
+        Arrays.sort(items, (a, b) -> 
+            Double.compare((double)b.value / b.weight, (double)a.value / a.weight)
+        ); // sort by ratio desc
+
+        int currWeight = 0;
+        double finalValue = 0.0;
+
+        for (Item item : items) {
+            if (currWeight + item.weight <= W) {
+                currWeight += item.weight;
+                finalValue += item.value;
+            } else {
+                int remain = W - currWeight;
+                finalValue += item.value * ((double) remain / item.weight);
+                break; // knapsack full
+            }
+        }
+        return finalValue;
+    }
+
+    public static void main(String[] args) {
+        Item[] items = { new Item(60, 10), new Item(100, 20), new Item(120, 30) };
+        int W = 50;
+        System.out.println("Maximum value = " + getMaxValue(items, W));
+    }
+}
+
+Complexity
+Sorting: O(n log n)
+Iteration: O(n)
+Total = O(n log n), Space = O(1)
+
+Why Greedy Fails in 0/1 Knapsack
+Problem Recap
+You have n items, each with value v[i] and weight w[i].
+Knapsack capacity = W.
+0/1 Knapsack → Either take the item completely or leave it.
+No fractions allowed.
+Item 1: value = 60, weight = 10  → ratio = 6
+Item 2: value = 100, weight = 20 → ratio = 5
+Item 3: value = 120, weight = 30 → ratio = 4
+Knapsack capacity = 50
+Greedy Approach (by ratio):
+Pick Item 1 (10, value=60) → remaining W = 40
+Pick Item 2 (20, value=100) → remaining W = 20
+Cannot take full Item 3 (30 > 20), so stop.
+Total value = 160
+Optimal DP Solution:
+Pick Item 2 (20, value=100)
+Pick Item 3 (30, value=120)
+Total value = 220 
+
+Problem Statement
+You have n jobs. Each job has: id → job number deadline → latest time it can be finished profit → money earned if completed before or on its deadline 
+Goal: Schedule jobs to maximize total profit (only 1 job per unit time).
+
+Arrays.sort(jobs, (a, b) -> b.profit - a.profit); // sort by profit desc
+
+        int maxDeadline = 0;
+        for (Job job : jobs) maxDeadline = Math.max(maxDeadline, job.deadline);
+
+        int[] slot = new int[maxDeadline + 1]; // 1-indexed slots
+        Arrays.fill(slot, -1);
+
+        int count = 0, profit = 0;
+        for (Job job : jobs) {
+            for (int j = job.deadline; j > 0; j--) {
+                if (slot[j] == -1) { // free slot
+                    slot[j] = job.id;
+                    count++;
+                    profit += job.profit;
+                    break;
+                }
+            }
+        }
+        return new int[]{count, profit};
