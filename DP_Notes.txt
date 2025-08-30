@@ -1,0 +1,158 @@
+Dynamic Programming (DP) Introduction ---
+
+Dynamic Programming is a commonly used algorithmic technique used to optimize recursive solutions when same subproblems are called again.
+The core idea behind DP is to store solutions to subproblems so that each is solved only once.
+To solve DP problems, we first write a recursive solution in a way that there are overlapping subproblems in the recursion tree (the recursive function is called with 
+the same parameters multiple times)
+To make sure that a recursive value is computed only once (to improve time taken by algorithm), we store results of the recursive calls.
+There are two ways to store the results, one is top down (or memoization) and other is bottom up (or tabulation).
+
+When to Use Dynamic Programming (DP)?
+Dynamic programming is used for solving problems that consists of the following characteristics:
+
+1. Optimal Substructure:
+The property Optimal substructure means that we use the optimal results of subproblems to achieve the optimal result of the bigger problem.
+Example:
+Consider the problem of finding the minimum cost path in a weighted graph from a source node to a destination node. We can break this problem down into smaller subproblems:
+Find the minimum cost path from the source node to each intermediate node.
+Find the minimum cost path from each intermediate node to the destination node.
+The solution to the larger problem (finding the minimum cost path from the source node to the destination node) can be constructed from the solutions to these smaller subproblems.
+
+2. Overlapping Subproblems:
+The same subproblems are solved repeatedly in different parts of the problem refer to Overlapping Subproblems Property in Dynamic Programming.
+Example:
+Consider the problem of computing the Fibonacci series. To compute the Fibonacci number at index n, we need to compute the Fibonacci numbers at indices n-1 and n-2. 
+This means that the subproblem of computing the Fibonacci number at index n-2 is used twice (note that the call for n - 1 will make two calls, one for n-2 and other for n-3) 
+in the solution to the larger problem of computing the Fibonacci number at index n. 
+
+Approaches of Dynamic Programming (DP) 
+1. Top-Down Approach (Memoization):
+In the top-down approach, also known as memoization, we keep the solution recursive and add a memoization table to avoid repeated calls of same subproblems.
+Before making any recursive call, we first check if the memoization table already has solution for it.
+After the recursive call is over, we store the solution in the memoization table.
+
+2. Bottom-Up Approach (Tabulation):
+In the bottom-up approach, also known as tabulation, we start with the smallest subproblems and gradually build up to the final solution.
+We write an iterative solution (avoid recursion overhead) and build the solution in bottom-up manner.
+We use a dp table where we first fill the solution for base cases and then fill the remaining entries of the table using recursive formula.
+We only use recursive formula on table entries and do not make recursive calls.
+
+https://media.geeksforgeeks.org/wp-content/uploads/20241223141819419563/1.webp
+
+Memoization:
+Top-down approach
+Stores the results of function calls in a table.
+Recursive implementation
+Entries are filled when needed.
+
+Tabulation:
+Bottom-up approach
+Stores the results of subproblems in a table
+Iterative implementation
+Entries are filled in a bottom-up manner from the smallest size to the final size.
+
+Pattern to Remember ---
+
+1 Optimization (minimize cost/steps) → use min + +1 when you take a step.
+Examples: Edit Distance, Minimum Path, Coin Change (min coins).
+
+2 Optimization (maximize length/value) → use max + +1 (or +value) when you include something.
+Examples: LCS, LIS, Knapsack.
+
+3 Counting problems → use + (add ways), not min/max.
+Examples: Unique Paths, Coin Change (total ways).
+
+| Problem Type                                                   | Example                 | Recurrence Relation                                                                                                    | Why `min` / `max`?                                         | When to add `+1`                                                       |
+| -------------------------------------------------------------- | ----------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **Edit Distance** (minimum operations to convert string A → B) | `"horse" → "ros"`       | If `s1[i-1]==s2[j-1]` → `dp[i][j] = dp[i-1][j-1]`<br>Else → `dp[i][j] = 1 + min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1])` | We want **minimum operations** → use `min`.                | Always add `+1` when an operation (insert, delete, replace) is needed. |
+| **Longest Common Subsequence (LCS)**                           | `"abcde", "ace"`        | If `s1[i-1]==s2[j-1]` → `dp[i][j] = 1 + dp[i-1][j-1]`<br>Else → `dp[i][j] = max(dp[i-1][j], dp[i][j-1])`               | We want the **longest** → use `max`.                       | Add `+1` only when chars match (new subsequence element).              |
+| **Longest Common Substring** (continuous match)                | `"abcde", "abfde"`      | If `s1[i-1]==s2[j-1]` → `dp[i][j] = 1 + dp[i-1][j-1]`<br>Else → `dp[i][j] = 0`                                         | Count max continuous matching → use `max` over all states. | Add `+1` when chars match.                                             |
+| **Minimum Path Sum in Grid**                                   | Grid of numbers         | `dp[i][j] = grid[i][j] + min(dp[i-1][j], dp[i][j-1])`                                                                  | Want **minimum cost** → use `min`.                         | Add current cell value.                                                |
+| **Unique Paths** (count ways in grid)                          | m×n grid                | `dp[i][j] = dp[i-1][j] + dp[i][j-1]`                                                                                   | We count **all ways** (not min/max).                       | No `+1`, just add paths.                                               |
+| **Longest Increasing Subsequence (LIS)**                       | `[10,9,2,5,3,7,101,18]` | `dp[i] = 1 + max(dp[j])` for all `j<i` and `arr[j]<arr[i]`                                                             | Want **longest increasing length** → use `max`.            | Add `+1` for including current element.                                |
+| **Knapsack (0/1)**                                             | Weight/Value arrays     | `dp[i][w] = max(dp[i-1][w], value[i] + dp[i-1][w-weight[i]])`                                                          | Maximize profit/value → use `max`.                         | Add item value if included.                                            |
+| **Coin Change (Min Coins)**                                    | `[1,2,5], amount=11`    | `dp[x] = 1 + min(dp[x-coin])`                                                                                          | Want **minimum coins** → use `min`.                        | Always add `+1` when using a coin.                                     |
+| **Coin Change (Total Ways)**                                   | `[1,2,5], amount=5`     | `dp[x] = dp[x] + dp[x-coin]`                                                                                           | Count number of combinations → sum ways.                   | No `+1`, just add ways.                                                |
+
+What is an Optimization Problem?
+
+In Dynamic Programming (DP), an optimization problem is one where you’re asked to find the best (optimal) solution among many possible solutions.
+“Best” usually means either:
+Minimum cost/steps/operations/time
+Maximum value/length/profit/score
+So optimization = “out of all valid answers, pick the best one.”
+
+                 ┌───────────────┐
+                 │   DP Problem? │
+                 └───────┬───────┘
+                         │
+                         ▼
+              ┌────────────────────────┐
+              │ What does the problem  │
+              │   ask you to find?     │
+              └─────────┬─────────────┘
+                        │
+        ┌───────────────┼────────────────┐
+        ▼               ▼                ▼
+ ┌─────────────┐ ┌─────────────┐ ┌──────────────────┐
+ │ Minimum     │ │ Maximum     │ │ Count Total Ways │
+ │ steps/cost? │ │ length/value│ │ / combinations?  │
+ └──────┬──────┘ └──────┬──────┘ └─────────┬────────┘
+        │               │                  │
+        ▼               ▼                  ▼
+ ┌───────────────┐ ┌───────────────┐ ┌───────────────────┐
+ │ Use `min(...)`│ │ Use `max(...)`│ │ Use `+` (addition)│
+ │ Often +1 step │ │ Often +1/value│ │ No +1, just sum   │
+ │ (insert, etc.)│ │ (extend seq.) │ │ all possibilities │
+ └───────────────┘ └───────────────┘ └───────────────────┘
+
+DP Problem Classification – Min / Max / Count
+1. Minimization Problems (use min)
+Goal: Find minimum steps / cost / operations
+Edit Distance (Levenshtein Distance)
+dp[i][j] = (s1[i-1]==s2[j-1]) ? dp[i-1][j-1] : 1 + min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1])
+Minimum Path Sum (Grid)
+dp[i][j] = grid[i][j] + min(dp[i-1][j], dp[i][j-1])
+Coin Change (Minimum Coins)
+dp[amount] = 1 + min(dp[amount - coin])
+Matrix Chain Multiplication
+dp[i][j] = min(dp[i][k] + dp[k+1][j] + cost)
+
+2. Maximization Problems (use max)
+Goal: Find maximum length / value / profit
+Longest Common Subsequence (LCS)
+dp[i][j] = (s1[i-1]==s2[j-1]) ? 1 + dp[i-1][j-1] : max(dp[i-1][j], dp[i][j-1])
+Longest Common Substring
+dp[i][j] = (s1[i-1]==s2[j-1]) ? 1 + dp[i-1][j-1] : 0
+Longest Increasing Subsequence (LIS)
+dp[i] = 1 + max(dp[j]) for all j<i with arr[j]<arr[i]
+Knapsack (0/1)
+dp[i][w] = max(dp[i-1][w], value[i] + dp[i-1][w-weight[i]])
+Rod Cutting
+dp[len] = max(price[i] + dp[len-i])
+
+3. Counting Problems (use +)
+Goal: Count number of ways / paths / combinations
+Unique Paths (Grid)
+dp[i][j] = dp[i-1][j] + dp[i][j-1]
+Coin Change (Total Ways)
+dp[amount] = dp[amount] + dp[amount - coin]
+Staircase Problem (ways to climb n steps)
+dp[n] = dp[n-1] + dp[n-2] (+ dp[n-3] if 3 steps allowed)
+Decode Ways (like A=1, B=2)
+dp[i] = dp[i-1] if valid + dp[i-2] if valid   
+
+Step-by-Step Approach to Solve DP Problems 
+1. Classify the Problem --- Ask: “Is this about minimizing cost? maximizing value? or counting ways?”
+2. Think Naïve Recursion
+3. Check for Overlapping Subproblems(from recursive tree)
+4. Memoization (Top-Down DP)(recursive formula)
+5. Tabulation (Bottom-Up DP)
+6. Analyze & Optimize
+
+-> Number of dimensions in DP = number of variables that uniquely define a subproblem.
+
+Problems --- 
+
+1. https://www.geeksforgeeks.org/dsa/longest-common-subsequence-dp-4/
+2. https://www.geeksforgeeks.org/dsa/edit-distance-dp-5/
