@@ -152,6 +152,8 @@ Step-by-Step Approach to Solve DP Problems
 
 -> Number of dimensions in DP = number of variables that uniquely define a subproblem.
 
+Reference Link --- https://www.geeksforgeeks.org/competitive-programming/dynamic-programming/
+
 Problems --- 
 
 1. https://www.geeksforgeeks.org/dsa/longest-common-subsequence-dp-4/
