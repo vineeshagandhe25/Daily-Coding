@@ -1,0 +1,59 @@
+1. What is Recursion? 
+Recursion is when a function calls itself to solve a smaller version of the same problem, until reaching a base case.
+Formula: Recursion = Base Case + Recursive Case 
+
+2. Golden Rules of Recursion ---
+1 Identify the base case (stopping condition).
+2 Make progress towards the base case in every recursive call.
+3 Combine results of subproblems (if needed).
+
+3. Types of Recursion ---
+1 Direct Recursion – function calls itself directly.
+2 Indirect Recursion – function A calls B, and B calls A.
+3 Tail Recursion – recursive call is the last step (can be optimized).
+4 Non-Tail Recursion – recursive call followed by extra work (most common in problems).
+
+4. Recursion Mindset ---
+Whenever you face a recursive problem:
+1 Ask: Can I break this problem into smaller subproblems?
+2 Define: What is the base case?
+3 Define: How do I reduce the problem?
+4 Combine: How do subproblem results form the answer?
+
+5. Template for Recursive Functions ---
+returnType function(parameters) {
+    // Base case
+    if (condition) {
+        return baseValue;
+    }
+
+    // Recursive case
+    result = function(smallerProblem);
+
+    // Extra work (if needed)
+    return finalResult;
+}
+
+6 General Strategy: Recursion → Iteration --- 
+When we replace recursion with iteration:
+1 Recursive calls are replaced by a loop.
+2 Base condition (stopping point) becomes the loop termination condition.
+3 The recursive case (progress toward base) becomes the update step in the loop.
+4 The call stack that recursion uses implicitly, you simulate by iteration (or sometimes an explicit stack for complex recursions like DFS).
+
+7 What is Tail Recursion? --- 
+A function is tail recursive if the last action in the function is the recursive call itself, with no extra computation after the call returns.
+In tail recursion, the recursive call’s return value is immediately returned as-is (or passed to the next call).
+This allows compilers (in some languages) to optimize it by reusing the same stack frame → saving space. (Called Tail Call Optimization, TCO.)
+
+Final Understanding
+Yes: Any tail recursive function can be directly converted into iteration.
+The iterative version is the true optimized one (since it removes recursion stack overhead).
+In languages with TCO → tail recursion itself is optimized automatically.
+In Python/Java → you must convert tail recursion to iteration for optimization.
+
+Key Takeaway
+Tail Recursion → Iteration: Direct, natural, no stack needed.
+Head Recursion → Iteration: Possible, but
+If order can be reversed → simple loop.
+If order must be preserved → need an explicit stack.
