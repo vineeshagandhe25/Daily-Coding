@@ -5,6 +5,8 @@ them if they lead to a dead end.
 ->When a dead end is reached, the algorithm backtracks to the previous decision point and explores a different 
 path until a solution is found or all possibilities have been exhausted.
 
+Template Idea: Make a choice , Recurse and Undo the choice (backtrack).
+
 Useful links :
 -> https://www.geeksforgeeks.org/backtracking-algorithms/
 -> https://www.programiz.com/dsa/backtracking-algorithm
