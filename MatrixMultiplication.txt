@@ -1,0 +1,51 @@
+Blocked multiplication is not just an optimization — it is how professional numeric engines beat n³ bottleneck in real life.
+
+Why Normal Matrix Multiplication is Actually Slow ?
+Naive multiplication:
+for i in n:
+  for j in n:
+    for k in n:
+        C[i][j] += A[i][k] * B[k][j]
+
+Problem:
+CPU loads A[i][k] and B[k][j] from RAM every time.
+RAM is 100x slower than CPU registers/cache.
+So CPU waits.
+Time is wasted in memory stalls, not arithmetic.
+
+Blocked Multiplication = Cache-Aware Algorithm
+Key Insight:
+Instead of multiplying full rows and columns,
+we multiply small square blocks that fit inside CPU cache.
+So once a block is loaded into cache, it is reused many times before being evicted.
+
+Step 1 — Divide Matrices into Blocks
+Step 2 — Multiply Block by Block
+
+Why This Is Faster
+
+Inside a block:
+• A_block stays in L1 cache
+• B_block stays in L1 cache
+• C_block is updated many times
+So:
+Each memory load gives hundreds of arithmetic operations
+instead of just 1.
+This maximizes Arithmetic Intensity.
+
+This Is What BLAS Uses
+
+Libraries like:
+• NumPy
+• TensorFlow
+• PyTorch
+• MATLAB
+use blocked + vectorized multiplication.
+
+Why This Matters For You
+This exact idea is reused in:
+• Prefix-sum optimization
+• Convolution (CNNs)
+• FFT
+• Bitset DP
+• GPU kernel design 
