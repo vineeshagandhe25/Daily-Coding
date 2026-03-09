@@ -1,0 +1,49 @@
+Key Insights
+
+Three-Step Pattern
+This problem follows a common linked list pattern:
+Find the middle of the list
+Reverse the second half
+Merge the two halves alternately
+This pattern appears in many linked list problems.
+
+Finding the Middle Efficiently
+Use the fast and slow pointer technique.
+slow -> moves 1 step
+fast -> moves 2 steps
+When fast reaches the end, slow will be at the middle.
+Time: O(n)
+Space: O(1)
+
+Reverse the Second Half
+Standard linked list reversal.
+prev = None
+curr = head_of_second_half
+Iteratively reverse pointers.
+Important because we need:
+Ln → Ln-1 → Ln-2 ...
+
+Merge Alternately
+Now merge like:
+first:  L0 → L1 → L2
+second: Ln → Ln-1 → Ln-2
+Final merge pattern:
+L0 → Ln → L1 → Ln-1 → L2 → Ln-2
+Pointer handling is the tricky part.
+
+Why This Problem Is Important
+This problem teaches:
+Two-pointer techniques
+Linked list reversal
+In-place modification
+Pointer manipulation
+These are core concepts frequently asked in interviews.
+Time Complexity	O(n)
+Space Complexity	O(1)
+
+Pattern Learned
+Find Middle → Reverse Half → Merge Lists
+This pattern is useful for problems like:
+Palindrome Linked List
+Twin Sum of Linked List
+Fold Linked List
