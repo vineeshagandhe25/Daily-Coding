@@ -1,0 +1,160 @@
+Real Advanced DSA Roadmap (Interview Level)
+
+Stage 1: Master the Foundations
+Before advanced topics, you must be extremely comfortable with:
+Arrays
+Prefix Sum
+Kadane's Algorithm
+Subarray problems
+Strings
+Pattern matching
+Anagrams
+Sliding window
+Hashing
+HashMap frequency counting
+Duplicate detection
+
+Typical problem patterns:
+Two Sum
+Longest substring without repeating characters
+Subarray sum equals K
+
+Stage 2: Two Powerful Interview Patterns
+Sliding Window
+Used for subarray / substring problems
+Example problems:
+longest substring without repeating characters
+minimum window substring
+max sum subarray of size k
+Important idea:
+expand window
+shrink window
+maintain condition
+Two Pointers
+Common in sorted arrays.
+Example problems:
+container with most water
+3 sum
+remove duplicates
+
+Stage 3: Binary Search Mastery
+Not just searching elements.
+Learn:
+Binary search on sorted arrays
+Binary search on answer
+Examples:
+find peak element
+search in rotated array
+minimum eating speed
+allocate minimum pages
+This pattern is very common in interviews.
+
+Stage 4: Recursion & Backtracking
+Key idea:
+choose
+explore
+unchoose
+Classic problems:
+permutations
+combinations
+subsets
+N queens
+sudoku solver
+
+Stage 5: Tree Algorithms
+Learn these deeply:
+Tree Traversals
+inorder
+preorder
+postorder
+level order (BFS)
+Important Tree Problems
+Lowest Common Ancestor
+Diameter of Tree
+Balanced Binary Tree
+Path Sum
+Also learn Binary Search Trees (BST):
+insert
+delete
+validate BST
+
+Stage 6: Graph Algorithms
+Graphs are extremely important.
+Basic
+BFS
+DFS
+Connected components
+Intermediate
+Topological Sort
+Detect cycle in graph
+Bipartite graph
+Advanced
+Dijkstra shortest path
+Minimum Spanning Tree
+Kruskal
+Prim
+Union Find (Disjoint Set)
+Example interview problems:
+Course Schedule
+Number of Islands
+Network Delay Time
+
+Stage 7: Dynamic Programming (Most Important)
+DP is heavily tested.
+Start with:
+1D DP
+Fibonacci
+Climbing stairs
+House robber
+2D DP
+Longest Common Subsequence
+Edit Distance
+Longest Palindromic Substring
+Knapsack Pattern
+subset sum
+partition equal subset
+Grid DP
+unique paths
+minimum path sum
+Advanced DP
+DP on trees
+Bitmask DP
+
+Stage 8: Greedy Algorithms
+Greedy works when local optimum leads to global optimum.
+Examples:
+activity selection
+jump game
+meeting rooms
+interval merging
+
+Stage 9: Advanced Data Structures
+These appear in hard interviews.
+Heap / Priority Queue
+Examples:
+kth largest element
+merge k sorted lists
+top k frequent elements
+Trie
+Used for:
+autocomplete
+prefix search
+Segment Tree
+Used for:
+range queries
+dynamic updates
+Fenwick Tree (BIT)
+Efficient prefix sums.
+
+Stage 10: Advanced Problem Patterns
+Top engineers think in patterns, not topics.
+Important patterns:
+Sliding Window
+Two Pointers
+Fast & Slow Pointer
+Binary Search on Answer
+DFS / BFS
+Backtracking
+DP State Transition
+Greedy Choice
+Heap based problems
