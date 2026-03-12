@@ -1,0 +1,122 @@
+1. What is an App?
+An App (Application) is a software program designed to perform a specific task for users.
+Examples:
+Writing documents
+Sending messages
+Playing music
+Browsing the internet
+Examples of apps:
+Microsoft Word → create documents
+Google Chrome → browse internet
+WhatsApp → send messages
+In simple words:
+App = software built to help users do something.
+
+2. What is a Mobile App?
+A Mobile App is an application designed specifically to run on smartphones or tablets.
+Mobile apps are built for mobile operating systems like:
+Android
+iOS
+Examples of mobile apps:
+Instagram
+YouTube
+Google Maps
+These apps are installed from app stores such as:
+Google Play Store
+Apple App Store
+
+3. Difference Between Mobile Apps and Other Apps
+Feature	Mobile Apps	Desktop Apps	Web Apps
+Runs on	Smartphones	Computers	Web browser
+Installed from	App store	Software installer	Website
+Internet	Optional	Optional	Usually required
+Example	WhatsApp	Microsoft Excel	Gmail
+Example:
+If you open Gmail in Chrome → Web App
+If you open Gmail app on phone → Mobile App
+
+4. Types of Mobile Apps
+There are 3 main types of mobile apps.
+Native Apps
+Apps developed specifically for one operating system.
+Example:
+Android app for Android
+iPhone app for iOS
+Languages used:
+Android:
+Kotlin
+Java
+iOS:
+Swift
+Advantages:
+✔ Fast performance
+✔ Full access to device features (camera, GPS)
+Web Apps
+Apps that run inside a web browser.
+Examples:
+Google Docs
+Gmail
+Technologies used:
+HTML
+CSS
+JavaScript
+They are not installed on phone.
+Hybrid Apps
+Apps built using web technologies but packaged like mobile apps.
+Frameworks used:
+Flutter
+React Native
+Advantage:
+✔ One code works for Android + iOS
+
+5. How Mobile Apps Are Developed
+Mobile app development generally follows this process:
+Step 1: Idea
+Decide what your app will do.
+Example:
+Chat app
+Notes app
+Food delivery app
+Step 2: Design
+Design UI (screens, buttons, layouts).
+Tools used:
+Figma
+Adobe XD
+Step 3: Development
+Write the code.
+For Android apps developers use:
+Android Studio
+Kotlin
+Step 4: Testing
+Test the app on phone or emulator.
+Fix bugs and errors.
+Step 5: Deployment
+Upload the app to:
+Google Play Store
+Users can download it.
+
+6. Why Android Development is Popular
+Reasons:
+Android has largest number of users
+Open source
+Huge job market
+Easy publishing
+The operating system was developed by:
+Google
+
+7. What an Android App is Made Of (High Level)
+An Android app usually contains:
+UI (screens)
+Logic (Kotlin code)
+Resources (images, icons)
+Database
+API connections
+All developed in:
+Android Studio
+Simple Summary
+App → Software program
+Mobile App → App designed for smartphones
+Types → Native, Web, Hybrid
+Android apps are mainly developed using:
+Kotlin
+Android Studio
