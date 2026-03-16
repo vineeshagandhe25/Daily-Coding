@@ -1,0 +1,47 @@
+Median of Two Sorted Arrays (Optimal Binary Search Approach)
+
+Problem Statement
+Given two sorted arrays nums1 and nums2 of sizes m and n, the task is to find the median of the combined sorted array.
+The required time complexity is O(log(m+n)), which means we cannot simply merge both arrays because that would take O(m+n) time.
+Key Idea - Instead of merging the arrays, we use Binary Search to partition the arrays in such a way that:
+The left half contains the first (m+n+1)/2 elements.
+The right half contains the remaining elements.
+All elements in the left half are less than or equal to all elements in the right half.
+If we achieve such a partition, we can directly compute the median.
+
+Why Binary Search?
+We perform binary search on the smaller array to reduce the search space and maintain the required O(log(min(m,n))) complexity.
+Assume:
+nums1 size = m
+nums2 size = n
+We divide the arrays into two halves using partitions:
+nums1: [ left1 | right1 ]
+nums2: [ left2 | right2 ]
+The partitions must satisfy the condition:
+max(left1, left2) ≤ min(right1, right2)
+If this condition holds, we have found the correct partition.
+Median Calculation
+Once the correct partition is found:
+Case 1: Total elements are even
+median = (max(left1, left2) + min(right1, right2)) / 2
+Case 2: Total elements are odd
+median = max(left1, left2)
+This works because the left partition contains exactly half of the elements.
+Algorithm Steps
+Always perform binary search on the smaller array.
+Use binary search to select a partition in nums1.
+Calculate the corresponding partition in nums2.
+Identify the elements around the partitions:
+left1, right1
+left2, right2
+Check if the partition condition is satisfied:
+left1 ≤ right2 AND left2 ≤ right1
+If satisfied, compute the median.
+If left1 > right2, move the binary search to the left.
+If left2 > right1, move the binary search to the right.
+Time Complexity
+O(log(min(m,n)))
+Because binary search is applied only on the smaller array.
+Space Complexity
+O(1)
+No extra data structures are used.
