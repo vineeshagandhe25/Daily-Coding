@@ -1,0 +1,26 @@
+Regular Expression Matching
+
+Problem
+Given a string `s` and a pattern `p`, implement regex matching with:
+`.` matches any single character
+`*` matches zero or more of the previous character
+
+Approach (Dynamic Programming)
+We use a 2D DP array where:
+`dp[i][j]` = whether first `i` characters of `s` match first `j` characters of `p`.
+Cases:
+1. If characters match OR pattern has `.`
+   → take diagonal value
+2. If pattern has `*`
+
+   * Ignore `*` → `dp[i][j-2]`
+   * Use `*` → match multiple characters
+
+Complexity
+
+* Time: O(m × n)
+* Space: O(m × n)
+
+Example
+Input: s = "aab", p = "c*a*b"
+Output: true
