@@ -1,0 +1,22 @@
+Problem
+Given a sorted array, remove duplicates in-place such that each element appears at most twice. Return the new length k.
+Do not use extra space. Maintain relative order.
+
+Approach
+This problem is solved using the Two Pointer Technique:
+Use pointer i to track position of valid elements
+Traverse array using pointer j
+Allow insertion if:
+First two elements (i < 2)
+Current element is not equal to nums[i-2]
+
+Logic
+We compare the current element with the element two positions before:
+if (i < 2 || nums[j] != nums[i - 2])
+This ensures:
+Each element appears at most twice
+Third duplicate is skipped
+
+Complexity
+Time Complexity: O(n)
+Space Complexity: O(1)

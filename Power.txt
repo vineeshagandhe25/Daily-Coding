@@ -1,0 +1,29 @@
+Problem: Implement pow(x, n)
+The task is to compute  (x raised to the power n).
+
+Algorithm Explanation
+We iterate while n > 0:
+If n is odd → multiply the result with current x
+Square the base x
+Divide n by 2
+This way, we process the exponent using its binary representation.
+
+Edge Cases Handled
+Negative exponent: Convert it
+
+
+Complexity Analysis
+
+Time Complexity: O(log n)
+
+Space Complexity: O(1)
+
+Summary
+
+Binary Exponentiation efficiently computes powers by:
+
+Reducing the exponent in half at each step
+
+Using squaring to avoid repeated multiplication
+
+Handling negative powers and edge cases safely
