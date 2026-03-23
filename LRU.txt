@@ -1,0 +1,51 @@
+LRU Cache Implementation (Java)
+Overview
+This project implements a **Least Recently Used (LRU) Cache** using Java.
+The cache follows the LRU eviction policy, where the least recently accessed element is removed when the capacity is exceeded.
+
+Features
+* O(1) time complexity for both `get()` and `put()` operations
+* Efficient memory usage
+* Uses **HashMap + Doubly Linked List** for optimal performance
+
+Approach
+To achieve constant time complexity:
+1. HashMap
+* Stores key → node mapping
+* Provides O(1) lookup
+
+2. Doubly Linked List
+* Maintains order of usage
+* Most recently used (MRU) → front
+* Least recently used (LRU) → end
+
+Operations
+get(key)
+* Returns value if key exists
+* Moves the accessed node to the front (most recently used)
+* Returns `-1` if key is not found
+
+put(key, value)
+* Updates value if key exists
+* Inserts new key-value pair if not present
+* Removes least recently used element if capacity is exceeded
+
+Complexity Analysis
+| Operation | Time Complexity |
+| --------- | --------------- |
+| get()     | O(1)            |
+| put()     | O(1)            |
+
+Example
+LRUCache cache = new LRUCache(2);
+cache.put(1, 1);
+cache.put(2, 2);
+cache.get(1);    // returns 1
+cache.put(3, 3); // evicts key 2
+cache.get(2);    // returns -1
+
+Use Cases
+* Browser caching
+* Database query caching
+* Operating systems (memory management)
+* API response caching
