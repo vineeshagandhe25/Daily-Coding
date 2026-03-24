@@ -1,0 +1,22 @@
+Problem Statement
+Given an integer columnNumber, return its corresponding column title as it appears in an Excel sheet.
+
+Approach
+This problem is based on a modified base-26 number system:
+Unlike standard base-26:
+There is no zero (0)
+Mapping is:
+A → 1, B → 2, ..., Z → 26
+
+Key Insight
+To handle 1-based indexing, we decrement the number before applying modulo:
+columnNumber--
+Algorithm
+Initialize an empty result string.
+While columnNumber > 0:
+Decrement columnNumber by 1.
+Find remainder using % 26.
+Convert remainder to character (A + remainder).
+Append character to result.
+Divide columnNumber by 26.
+Reverse the result string.
