@@ -291,3 +291,107 @@ Key Concept (Very Important)
 Every Android app mainly revolves around:
 Activity + UI + Logic + Android OS
 Understanding this makes learning Android development much easier.
+
+Introduction to Kotlin
+
+What is Kotlin?
+Kotlin is a modern programming language used to build applications such as:
+Android apps 
+Web applications 
+Backend systems 
+It is officially supported by Android, which means most Android apps today are written in Kotlin.
+
+Why Kotlin was Created?
+Before Kotlin, Android developers mainly used Java.
+But Java had some problems:
+Too much boilerplate (long code)
+Null pointer crashes
+Less modern features
+
+Kotlin was created to:
+Write less code
+Be safer
+Be more readable
+
+Key Features of Kotlin
+Simple and Concise Kotlin reduces code compared to Java.
+Example:
+fun main() {
+    println("Hello Kotlin")
+}
+Interoperable with Java
+Kotlin works perfectly with Java.
+Meaning:
+You can use Java code in Kotlin
+You can use Kotlin in existing Java projects
+Null Safety (Very Important)
+Kotlin helps prevent crashes caused by null values.
+This is one of its biggest advantages.
+Object-Oriented + Functional
+Kotlin supports:
+OOP (Classes, Objects)
+Functional programming (lambdas, higher-order functions)
+Official Language for Android
+Google announced Kotlin as the official Android language.
+So most modern apps like:
+Pinterest
+Netflix
+use Kotlin.
+
+Basic Structure of a Kotlin Program
+Every Kotlin program has a main function (entry point).
+fun main() {
+    println("Hello World")
+}
+Breakdown:
+fun → keyword to define a function
+main() → starting point
+println() → prints output
+
+Variables in Kotlin
+Kotlin has two types of variables:
+val (Immutable)
+val name = "Vineesha"
+Cannot be changed later
+var (Mutable)
+var age = 21
+age = 22
+Can be changed
+
+Data Types in Kotlin
+Kotlin automatically understands types.
+val num = 10        // Int
+val price = 10.5    // Double
+val name = "Hi"     // String
+val isTrue = true   // Boolean
+This is called Type Inference
+
+Output in Kotlin
+println("Hello")
+print("World")
+Difference:
+println() → next line
+print() → same line
+
+String Templates (Important)
+Kotlin allows easy string formatting.
+val name = "Vineesha"
+println("Hello $name")
+No need for complex concatenation
+
+Comments in Kotlin
+// Single line comment
+/*
+ Multi-line
+ comment
+*/
+ 
+Where Kotlin is Used
+Kotlin is used in:
+Android Apps 
+Backend Development
+Web Development
+Desktop Applications
+
+Tools Used for Kotlin
+To write Kotlin (especially Android apps), we use: Android Studio
