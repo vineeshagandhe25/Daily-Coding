@@ -395,3 +395,112 @@ Desktop Applications
 
 Tools Used for Kotlin
 To write Kotlin (especially Android apps), we use: Android Studio
+
+
+Basic Expressions in Kotlin ---
+
+What is an Expression?
+In Kotlin, an expression is anything that:
+produces a value
+This is very important because:
+Kotlin treats almost everything as an expression
+(not just statements like in Java)
+Example:
+val sum = 5 + 3
+5 + 3 is an expression → result is 8
+
+1. Variables (Expressions storing values)
+Variables hold data.
+val (Immutable)
+val name = "Vineesha"
+Cannot be changed later
+Safer
+Preferred in Kotlin
+var (Mutable)
+var age = 21
+age = 22
+Can be changed
+Use only when necessary
+Key Rule:
+Always prefer val over var
+
+2. Data Types
+Kotlin automatically detects type (Type Inference).
+val num = 10        // Int
+val price = 99.9    // Double
+val name = "Hi"     // String
+val isActive = true // Boolean
+Explicit Type (optional)
+val num: Int = 10
+
+3. Arithmetic Expressions
+Used for calculations.
+val a = 10
+val b = 5
+val sum = a + b
+val diff = a - b
+val mul = a * b
+val div = a / b
+val mod = a % b
+
+4. Comparison Expressions
+Return Boolean (true/false)
+val result = 10 > 5   // true
+val check = 5 == 5    // true
+Operators:
+== equal
+!= not equal
+> < >= <=
+
+5. Logical Expressions
+Used with conditions.
+val result = (10 > 5) && (5 > 2)  // true
+Operators:
+&& → AND
+|| → OR
+! → NOT
+
+6. Assignment Expressions
+Assign values to variables.
+var x = 10
+x += 5   // x = x + 5 → 15
+x -= 2   // 13
+
+7. String Expressions
+Kotlin makes strings powerful.
+String Templates
+val name = "Vineesha"
+val age = 21
+println("My name is $name and I am $age")
+Expression inside String
+val a = 5
+val b = 3
+println("Sum is ${a + b}")
+${} allows expressions inside strings
+
+8. if as an Expression (Important)
+In Kotlin, if returns a value.
+val num = 10
+val result = if (num > 0) "Positive" else "Negative"
+This is powerful and widely used in Android.
+
+9. Unit Expression
+When a function returns nothing:
+fun greet() {
+    println("Hello")
+}
+Return type is Unit (like void in Java)
+
+10. Block Expressions
+Multiple lines inside {} return last value.
+val result = {
+    val a = 10
+    val b = 20
+    a + b
+}
+
+Important Concept
+In Kotlin:
+✔ Expressions return values
+✔ You can assign results directly
+✔ Code becomes shorter and cleaner
