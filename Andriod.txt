@@ -503,4 +503,232 @@ Important Concept
 In Kotlin:
 ✔ Expressions return values
 ✔ You can assign results directly
-✔ Code becomes shorter and cleaner
+✔ Code becomes shorter and cleaner    
+
+
+Control Flow Statements in Kotlin --- 
+
+In Kotlin, control flow statements decide:
+Which code runs and when it runs
+Types of Control Flow
+There are 3 main types:
+Conditional Statements (if, when)
+Loops (for, while)
+Jump Statements (break, continue, return)
+
+1. Conditional Statements
+if-else
+Used to make decisions.
+Basic Example:
+val age = 18
+if (age >= 18) {
+    println("Adult")
+} else {
+    println("Minor")
+}
+
+if as Expression (Very Important)
+val result = if (age >= 18) "Adult" else "Minor"
+No need for ternary operator (like Java)
+Multiple Conditions:
+val marks = 85
+
+if (marks >= 90) {
+    println("A")
+} else if (marks >= 75) {
+    println("B")
+} else {
+    println("C")
+}
+
+2. when Statement (Powerful)
+when is Kotlin’s version of switch—but more powerful.
+Basic Example:
+val day = 2
+when (day) {
+    1 -> println("Monday")
+    2 -> println("Tuesday")
+    else -> println("Other day")
+}
+
+Multiple Values:
+when (day) {
+    1, 2, 3 -> println("Start of week")
+    else -> println("End of week")
+}
+
+Range Check:
+val marks = 85
+when (marks) {
+    in 90..100 -> println("A")
+    in 75..89 -> println("B")
+    else -> println("C")
+}
+
+when as Expression:
+val result = when (marks) {
+    in 90..100 -> "A"
+    else -> "B"
+}
+
+3. Loops (Repetition)
+
+Used to repeat tasks.
+for Loop
+for (i in 1..5) {
+    println(i)
+}
+ Output: 1 2 3 4 5
+
+step:
+for (i in 1..10 step 2) {
+    println(i)
+}
+1, 3, 5, 7, 9
+
+downTo:
+for (i in 5 downTo 1) {
+    println(i)
+}
+
+while Loop
+var i = 1
+while (i <= 5) {
+    println(i)
+    i++
+}
+
+do-while Loop
+var i = 1
+do {
+    println(i)
+    i++
+} while (i <= 5)
+Runs at least once
+
+4. Jump Statements
+
+break
+Stops loop completely.
+
+for (i in 1..5) {
+    if (i == 3) break
+    println(i)
+}
+Output: 1, 2
+
+continue
+Skips current iteration.
+for (i in 1..5) {
+    if (i == 3) continue
+    println(i)
+}
+Output: 1, 2, 4, 5
+
+return
+Exits function.
+fun test() {
+    println("Start")
+    return
+    println("End") // not executed
+}
+
+Real-Life Example (Important)
+Login System:
+val username = "admin"
+val password = "1234"
+
+if (username == "admin" && password == "1234") {
+    println("Login Success")
+} else {
+    println("Login Failed")
+}
+
+
+
+
+Null Safety in Kotlin
+What is Null?
+Null means:
+“No value” or “empty value”
+Example:
+var name = null   // no value
+Problem in Other Languages
+In languages like Java, null can cause crashes:
+NullPointerException (NPE) 
+Example:
+String name = null;
+System.out.println(name.length()); // CRASH
+Kotlin Solution (Null Safety)
+Kotlin solves this problem by:
+Making null handling explicit and safe
+
+1. Non-Nullable Variables (Default)
+By default, variables cannot be null.
+var name: String = "Vineesha"
+This will give error:
+name = null  // Not allowed
+
+2. Nullable Variables (?)
+To allow null, you must explicitly use ?
+var name: String? = null
+Now it is allowed
+
+3. Safe Call Operator (?.) 
+Used to safely access properties.
+var name: String? = null
+println(name?.length)
+Output:
+If not null → length
+If null → returns null (no crash)
+
+4. Elvis Operator (?:) 
+Used to provide default value
+val name: String? = null
+val length = name?.length ?: 0
+println(length)
+Meaning:
+If null → use 0
+If not null → use actual value
+
+🔹 5. Not-Null Assertion (!!) 
+Forces Kotlin to treat value as non-null.
+val name: String? = null
+println(name!!.length)
+If null → CRASH 
+Avoid using this unless you're 100% sure.
+
+6. Safe Cast (as?)
+Used for type conversion safely.
+val obj: Any = "Hello"
+val str: String? = obj as? String
+If conversion fails → returns null (no crash)
+
+7. let Function (Advanced)
+Executes code only if value is not null.
+val name: String? = "Vineesha"
+name?.let {
+    println("Length: ${it.length}")
+}
+Runs only when name is NOT null
+
+8. Example (Real-Life Scenario)
+Login Input:
+val username: String? = null
+if (username != null) {
+    println(username.length)
+} else {
+    println("Username is empty")
+}
+Better version:
+username?.let {
+    println(it.length)
+} ?: println("Username is empty")
+
+9. Why Null Safety is Important in Android
+In Android apps:
+API data may be null
+User input may be empty
+Database values may be missing
+Without null safety → app crashes 
+With Kotlin → safe handling 
