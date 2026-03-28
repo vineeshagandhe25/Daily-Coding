@@ -732,3 +732,87 @@ User input may be empty
 Database values may be missing
 Without null safety → app crashes 
 With Kotlin → safe handling 
+
+Functions in Kotlin ----
+ 
+In Kotlin:
+A function is a block of code that performs a task.
+1. Basic Function
+fun greet() {
+    println("Hello")
+}
+Calling function:
+greet()
+2. Function with Parameters
+fun greet(name: String) {
+    println("Hello $name")
+}
+greet("Vineesha")
+3. Function with Return Value
+fun add(a: Int, b: Int): Int {
+    return a + b
+}
+Short form:
+fun add(a: Int, b: Int) = a + b
+Passing Functions as Arguments
+This is called Higher-Order Functions
+A function that takes another function as input
+Why Do We Need This?
+Because we want flexible behavior
+Example:
+Sometimes add numbers
+Sometimes multiply
+Instead of writing multiple functions, we pass behavior
+Basic Example
+fun operate(a: Int, b: Int, op: (Int, Int) -> Int): Int {
+    return op(a, b)
+}
+Here:
+op is a function
+It takes 2 Ints and returns Int
+Calling It
+val result = operate(5, 3, { x, y -> x + y })
+println(result) // 8
+Lambdas (Simple Functions Without Name)
+A lambda is a short way to write a function.
+Syntax
+{ parameters -> body }
+Example
+val sum = { a: Int, b: Int -> a + b }
+println(sum(5, 3))
+Simplified Lambda (Kotlin Style)
+val result = operate(5, 3) { x, y -> x * y }
+Cleaner and readable
+
+Types of Function Passing
+Function as Parameter
+fun calculate(a: Int, b: Int, operation: (Int, Int) -> Int): Int {
+    return operation(a, b)
+}
+Lambda as Argument
+val result = calculate(10, 5) { x, y -> x - y }
+Function Stored in Variable
+val multiply = { a: Int, b: Int -> a * b }
+println(multiply(4, 3))
+
+Real-Life Android Example (Important)
+Button Click
+button.setOnClickListener {
+    println("Button clicked")
+}
+That { } is a lambda function
+
+Another Example (Task Execution)
+fun executeTask(task: () -> Unit) {
+    task()
+}
+Calling:
+executeTask {
+    println("Task running")
+}
+
+Key Concepts
+✔ Function = reusable code
+✔ Higher-order function = function takes function
+✔ Lambda = short function
+✔ {} = lambda block
