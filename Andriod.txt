@@ -816,3 +816,130 @@ Key Concepts
 ✔ Higher-order function = function takes function
 ✔ Lambda = short function
 ✔ {} = lambda block
+
+
+Classes and Objects in Kotlin
+
+In Kotlin:
+A class is a blueprint
+An object is a real instance of that blueprint
+
+1. What is a Class?
+A class defines properties (data) and functions (behavior).
+Example:
+class Person {
+    var name = ""
+    var age = 0
+
+    fun introduce() {
+        println("My name is $name and age is $age")
+    }
+}
+Here:
+name, age → properties
+introduce() → function
+
+2. What is an Object?
+Object = instance of a class
+Creating Object:
+val p1 = Person()
+p1.name = "Vineesha"
+p1.age = 21
+p1.introduce()
+Output: My name is Vineesha and age is 21
+
+3. Constructor (Important)
+A constructor initializes values when object is created.
+Primary Constructor:
+class Person(val name: String, val age: Int)
+Using it:
+val p1 = Person("Vineesha", 21)
+println(p1.name)
+
+4. Class with Constructor + Function
+class Person(val name: String, val age: Int) {
+
+    fun introduce() {
+        println("My name is $name and age is $age")
+    }
+}
+
+5. Default Values
+class Person(val name: String = "Unknown", val age: Int = 0)
+
+6. init Block
+Runs when object is created.
+class Person(val name: String) {
+
+    init {
+        println("Person created with name $name")
+    }
+}
+
+7. Secondary Constructor
+class Person {
+    var name: String
+    var age: Int
+
+    constructor(name: String, age: Int) {
+        this.name = name
+        this.age = age
+    }
+
+}
+
+8. Inheritance (Basic Idea)
+One class can inherit another
+open class Animal {
+    fun sound() {
+        println("Animal makes sound")
+    }
+}
+class Dog : Animal()
+
+9. Function Overriding
+open class Animal {
+    open fun sound() {
+        println("Animal sound")
+    }
+}
+
+class Dog : Animal() {
+    override fun sound() {
+        println("Dog barks")
+    }
+}
+
+10. Data Class (Very Important ⭐)
+Used to store data.
+data class User(val name: String, val age: Int)
+
+Benefits:
+Automatic toString()
+Automatic equals()
+Cleaner code
+
+Example:
+val user = User("Vineesha", 21)
+println(user)
+
+Real-Life Understanding
+Example:
+Concept	Real Life
+Class	Blueprint of car
+Object	Actual car
+Properties	Color, speed
+Functions	Drive, brake
+
+Android Example
+In Android apps:
+Each screen = class
+Each model (User, Product) = class
+Example:
+data class Product(val name: String, val price: Double)
+
+Why OOP is Important
+Because Android apps are built using:
+Classes
+Objects
+Activities (which are classes)
