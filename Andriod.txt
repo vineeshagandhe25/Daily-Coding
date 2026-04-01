@@ -943,3 +943,148 @@ Because Android apps are built using:
 Classes
 Objects
 Activities (which are classes)
+
+Inheritance in Kotlin (Deep Dive)
+In Kotlin:
+Inheritance means one class can reuse properties and functions of another class
+
+Why Do We Use Inheritance?
+To:
+Reuse code
+Avoid duplication
+Build hierarchy
+Basic Syntax
+open class Parent {
+    fun show() {
+        println("Parent class")
+    }
+}
+
+class Child : Parent()
+Important Rule 
+By default, classes are final (cannot be inherited)
+
+So you must use:
+
+open class Animal
+Example 1: Simple Inheritance
+open class Animal {
+    fun eat() {
+        println("Animal eats")
+    }
+}
+
+class Dog : Animal()
+val dog = Dog()
+dog.eat()
+Example 2: Adding Child Function
+class Dog : Animal() {
+    fun bark() {
+        println("Dog barks")
+    }
+}
+Function Overriding (Very Important)
+Child class can change parent behavior
+
+Example:
+open class Animal {
+    open fun sound() {
+        println("Animal sound")
+    }
+}
+
+class Dog : Animal() {
+    override fun sound() {
+        println("Dog barks")
+    }
+}
+Output:
+val d = Dog()
+d.sound()
+
+Output:
+Dog barks
+super Keyword
+Used to call parent class method
+class Dog : Animal() {
+    override fun sound() {
+        super.sound()
+        println("Dog barks")
+    }
+}
+
+Constructor in Inheritance
+open class Animal(val name: String)
+class Dog(name: String) : Animal(name)
+Real Android Example
+In Android:
+Activities inherit from base classes
+Example idea:
+MainActivity → AppCompatActivity → Activity
+This is inheritance chain in Android
+
+Key Points
+✔ Use open to allow inheritance
+✔ Use override to modify behavior
+✔ Use super to access parent
+
+2. Data Class in Kotlin (Deep Dive)
+What is Data Class?
+A data class is used to store data in a clean and simple way
+Syntax
+data class User(val name: String, val age: Int)
+Why Use Data Class?
+Without data class:
+class User(val name: String, val age: Int)
+Printing:
+User@6d06d69c
+With data class:
+val user = User("Vineesha", 21)
+println(user)
+Output:
+User(name=Vineesha, age=21)
+
+What Data Class Automatically Provides ⭐
+toString()
+equals()
+hashCode()
+copy()
+componentN() (for destructuring)
+
+1. copy() Function
+val user1 = User("Vineesha", 21)
+val user2 = user1.copy(age = 22)
+println(user2)
+Output:
+User(name=Vineesha, age=22)
+
+2. Destructuring
+val user = User("Vineesha", 21)
+val (name, age) = user
+println(name)
+println(age)
+
+3. Equality Check
+val u1 = User("A", 10)
+val u2 = User("A", 10)
+println(u1 == u2)
+
+Output: true
+Because data is same
+
+Rules for Data Class
+✔ Must have at least one parameter
+✔ Parameters must be val or var
+✔ Cannot be abstract/open/sealed
+
+Real Android Usage
+Used for:
+API responses
+Database models
+UI data
+Example:
+data class Product(
+    val id: Int,
+    val name: String,
+    val price: Double
+)
