@@ -910,7 +910,7 @@ class Dog : Animal() {
     }
 }
 
-10. Data Class (Very Important ⭐)
+10. Data Class (Very Important)
 Used to store data.
 data class User(val name: String, val age: Int)
 
