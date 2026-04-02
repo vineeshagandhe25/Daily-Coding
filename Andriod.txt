@@ -1044,7 +1044,7 @@ println(user)
 Output:
 User(name=Vineesha, age=21)
 
-What Data Class Automatically Provides ⭐
+What Data Class Automatically Provides 
 toString()
 equals()
 hashCode()
@@ -1088,3 +1088,87 @@ data class Product(
     val name: String,
     val price: Double
 )
+
+What is Singleton?
+In Kotlin:
+A Singleton class means → only ONE instance (object) exists in the entire app
+Why Do We Use Singleton?
+When we need:
+One shared object
+Global access
+Memory efficiency
+
+How to Create Singleton
+Kotlin makes it very simple using object
+
+object Database {
+    fun connect() {
+        println("Connected to database")
+    }
+}
+
+Using Singleton
+Database.connect()
+No need to create object like Database()
+It already exists
+Real Android Example
+Database instance
+API client
+Shared preferences
+Example idea:
+object ApiClient {
+    fun getData() {
+        println("Fetching data")
+    }
+}
+Key Concept
+object = class + single instance
+
+2. Pair in Kotlin
+What is Pair?
+A Pair stores two values together
+
+Syntax
+val pair = Pair("Vineesha", 21)
+
+Access Values
+println(pair.first)   // Vineesha
+println(pair.second)  // 21
+Better Way (to keyword)
+val pair = "Vineesha" to 21
+
+Destructuring
+val (name, age) = pair
+println(name)
+println(age)
+
+When to Use Pair?
+When you want to return 2 values
+Example:
+fun getUser(): Pair<String, Int> {
+    return "Vineesha" to 21
+}
+
+3. Triple in Kotlin
+What is Triple?
+A Triple stores three values together
+
+Syntax
+val triple = Triple("Vineesha", 21, "India")
+
+Access Values
+println(triple.first)
+println(triple.second)
+println(triple.third)
+
+Destructuring
+val (name, age, country) = triple
+println(name)
+println(age)
+println(country)
+
+When to Use Triple?
+When returning 3 values from function
+fun getDetails(): Triple<String, Int, String> {
+    return Triple("Vineesha", 21, "India")
+}
