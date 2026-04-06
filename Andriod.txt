@@ -1172,3 +1172,160 @@ When returning 3 values from function
 fun getDetails(): Triple<String, Int, String> {
     return Triple("Vineesha", 21, "India")
 }
+
+1. History of Android
+
+What is Android?
+Android is an open-source operating system used in smartphones, tablets, TVs, etc.
+How Android Started
+2003 → Android Inc. founded by
+Andy Rubin
+Rich Miner, Nick Sears, Chris White
+2005 → Acquired by
+Google
+2008 → First Android version released
+First Android Phone
+HTC Dream (also called T-Mobile G1)
+Android Version Evolution (Important)
+Earlier versions were named after desserts 
+Version	Name
+Android 1.5	Cupcake
+Android 1.6	Donut
+Android 2.0	Eclair
+Android 4.0	Ice Cream Sandwich
+Android 5.0	Lollipop
+Android 6.0	Marshmallow
+Android 7.0	Nougat
+Android 8.0	Oreo
+Android 9.0	Pie
+After Android 10 → only numbers used
+
+Why Android Became Popular
+✔ Open source
+✔ Free to use
+✔ Large developer community
+✔ Works on many devices
+✔ Supported by Google
+
+2. Features of Android
+1. Open Source
+Anyone can use and modify Android
+
+2. Multi-tasking
+Run multiple apps at the same time
+
+3. User-Friendly UI
+Easy navigation, touch interface
+
+4. Connectivity
+Supports:
+WiFi
+Bluetooth
+Mobile data
+
+5. Storage Options
+SQLite database
+Files
+Cloud storage
+
+6. Rich Media Support
+Audio
+Video
+Images
+
+7. Security
+App permissions
+Sandbox system
+
+8. Google Integration
+Gmail
+Maps
+Drive
+
+9. Hardware Support
+Camera 
+GPS 
+Sensors
+
+10. App Distribution
+Apps are distributed through:
+Google Play Store
+
+3. Android Architecture (Very Important)
+Android architecture is divided into layers.
+Think of it like a stack (top → bottom)
+
+1. Applications Layer (Top Layer)
+This is what users see
+Examples:
+WhatsApp
+YouTube
+Includes:
+Activities
+UI
+App logic
+
+2. Application Framework
+Provides tools for developers
+Includes:
+Activity Manager
+Window Manager
+Content Providers
+Resource Manager
+Helps you build apps easily
+
+3. Android Runtime (ART)
+Executes app code
+Includes:
+Core libraries
+ART (Android Runtime)
+Converts code into machine-readable form
+
+4. Native Libraries
+Written in C/C++
+Examples:
+SQLite (database)
+Media libraries
+Web engine
+Provides low-level features
+
+5. Linux Kernel (Bottom Layer)
+Core of Android
+Responsibilities:
+Memory management
+Process management
+Security
+Hardware interaction
+Android is built on Linux
+
+Architecture Diagram (Understanding)
+Applications (Apps)
+        ↓
+Application Framework
+        ↓
+Android Runtime (ART)
+        ↓
+Native Libraries
+        ↓
+Linux Kernel
+
+Real Flow Example
+Let’s take example: Opening YouTube
+User taps app
+↓
+Application Layer (UI opens)
+↓
+Framework manages activity
+↓
+Runtime executes code
+↓
+Libraries handle video playback
+↓
+Kernel interacts with hardware
+
+Key Points to Remember
+✔ Android = layered architecture
+✔ Linux Kernel = base
+✔ Apps = top layer
+✔ Framework = developer tools
+✔ Runtime = executes code
