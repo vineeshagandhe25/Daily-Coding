@@ -1328,4 +1328,114 @@ Key Points to Remember
 ✔ Linux Kernel = base
 ✔ Apps = top layer
 ✔ Framework = developer tools
-✔ Runtime = executes code
+✔ Runtime = executes code  
+
+Android Application Framework 
+In Android, the Application Framework is a layer that provides ready-made services and APIs for developers.
+It acts like a bridge between:
+Your app (Activities, UI)
+Lower layers (runtime, kernel)
+What Does Framework Do?
+It manages:
+App lifecycle
+UI system
+Data sharing
+Resources
+System services
+Instead of writing everything from scratch, you use framework components.
+Main Components of Android Framework
+We will focus on:
+Activity Manager
+Window Manager
+Content Provider
+Resource Manager
+
+1. Activity Manager
+What is Activity Manager?
+Manages the lifecycle of activities (screens) in your app
+Responsibilities
+✔ Starts and stops activities
+✔ Manages activity stack (backstack)
+✔ Handles app switching
+✔ Controls memory usage
+Activity Lifecycle (Important)
+onCreate → onStart → onResume → (Running)
+↓
+onPause → onStop → onDestroy
+Example
+In WhatsApp:
+Chat Screen → Open Settings → Back
+Activity Manager:
+Pauses ChatActivity
+Starts SettingsActivity
+Manages back navigation
+Real Role
+It ensures:
+Only required apps run
+Background apps are paused
+System memory is optimized
+ 
+2. Window Manager
+What is Window Manager?
+Controls how UI appears on screen
+Responsibilities
+✔ Manages windows (screens)
+✔ Handles layout positioning
+✔ Controls screen size & resolution
+✔ Manages touch input
+Example
+In YouTube:
+Video fullscreen
+Floating mini player
+Window Manager decides:
+Where UI appears
+How it resizes
+Simple Understanding
+Window Manager = UI placement controller
+
+3. Content Provider
+What is Content Provider?
+Used to share data between apps securely
+Responsibilities
+✔ Data access
+✔ Data sharing
+✔ Data security
+Example
+In WhatsApp:
+When you select contacts:
+WhatsApp → Phone Contacts
+Data comes from:
+Content Provider
+Common Data Sources
+Contacts
+Media (images/videos)
+Files
+Database
+How It Works
+App → Content Provider → Data Source
+Important Feature
+Uses URI (Uniform Resource Identifier) to access data
+
+4. Resource Manager
+What is Resource Manager?
+Manages non-code resources in your app
+Resources Include:
+✔ Strings
+✔ Images
+✔ Colors
+✔ Layouts
+✔ Dimensions
+Example
+<string name="app_name">MyApp</string>
+Access in Kotlin
+val text = getString(R.string.app_name)
+Why Important?
+Supports:
+Multiple languages
+Different screen sizes 
+Reusability
+Example
+Same app in different languages:
+English → "Hello"
+Hindi → "नमस्ते"
+Managed by Resource Manager
