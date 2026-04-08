@@ -1439,3 +1439,114 @@ Same app in different languages:
 English → "Hello"
 Hindi → "नमस्ते"
 Managed by Resource Manager
+
+What is Android SDK?
+The Android SDK (Software Development Kit) is a collection of tools provided by
+Android to build Android apps.
+It contains:
+Libraries
+Debugging tools
+Emulator
+Build tools
+
+All used inside
+Android Studio
+Android SDK Tools (Main Categories)
+Android SDK tools are divided into:
+SDK Tools
+Platform Tools
+Build Tools
+Emulator
+
+1. SDK Tools
+General tools used for development and management
+Examples:
+SDK Manager
+Download SDK versions
+Manage libraries
+Install updates
+AVD Manager (Android Virtual Device)
+Create virtual devices
+Run emulator
+Layout Inspector
+Debug UI layout
+View hierarchy
+Lint
+Finds code issues
+Suggests improvements
+
+2. Platform Tools
+Tools that interact with devices/emulators
+ADB (Android Debug Bridge) Most important tool
+What ADB does:
+✔ Install apps
+✔ Run commands
+✔ Debug device
+✔ Access logs
+Example:
+adb devices
+adb install app.apk
+Real Use:
+Testing app on real device
+Debugging crashes
+
+3. Build Tools
+Used to convert code into APK (Android App)
+Key Tools:
+AAPT (Android Asset Packaging Tool)
+Packages resources (images, XML)
+D8 / R8
+Converts code into optimized format
+Shrinks app size
+Zipalign
+Optimizes APK performance
+
+4. Android Emulator
+Virtual Android device inside your computer
+Features:
+✔ Simulates phone
+✔ Test apps without real device
+✔ Supports:
+Camera
+GPS
+Network
+Example:
+You can run:
+Pixel phone
+Tablet
+Different Android versions
+
+Other Important Tools
+Gradle (Build System)
+Automates build process
+dependencies {
+    implementation "androidx.core:core-ktx:1.0"
+}
+
+Logcat Shows logs and errors
+
+Used for:
+Debugging
+Crash analysis
+
+Real Development Flow
+Write code (Kotlin)
+↓
+Build tools compile code
+↓
+APK generated
+↓
+ADB installs app
+↓
+Run on Emulator/Device
+↓
+Logcat shows logs
+
+Summary Table
+Tool	Purpose
+SDK Manager	Manage SDK versions
+AVD Manager	Create emulator
+ADB	Debug & connect device
+Emulator	Virtual phone
+Gradle	Build automation
+Logcat	Debug logs
