@@ -1550,3 +1550,133 @@ ADB	Debug & connect device
 Emulator	Virtual phone
 Gradle	Build automation
 Logcat	Debug logs
+
+1. Application Components 
+In Android, application components are the building blocks of an app.
+Main Components
+Activity
+Represents a screen (UI)
+Example:
+Login screen
+Home screen
+
+Service
+Runs in background (no UI)
+Example:
+Music playing in background
+
+Broadcast Receiver
+Listens to system events
+Example:
+Battery low
+Network change
+
+Content Provider
+Shares data between apps
+Example:
+Contacts access
+Key Idea
+These components work together to form a complete app.
+
+2. User Interface (UI) Design
+What is UI?
+UI = Everything the user sees and interacts with
+UI in Android is built using:
+XML (Design)
+Kotlin (Logic)
+
+Example
+In YouTube:
+UI includes:
+Video thumbnails
+Buttons
+Text
+Navigation
+
+Types of UI Design
+Static UI
+Fixed layout
+Dynamic UI
+Changes based on data
+Example:
+List of videos
+Chat messages
+
+3. Views (Basic UI Elements)
+What is a View?
+A View is a single UI element
+Examples of Views
+TextView → display text
+Button → user clicks
+ImageView → display image
+EditText → input field
+
+Example XML
+<TextView
+    android:text="Hello World"
+    android:textSize="20sp"/>
+
+Characteristics
+✔ Smallest UI unit
+✔ Handles user interaction
+✔ Drawn on screen
+
+4. ViewGroups (Container)
+What is ViewGroup?
+A ViewGroup is a container that holds multiple Views
+Example
+ViewGroup
+   ├── TextView
+   ├── Button
+   └── ImageView
+
+Common ViewGroups
+LinearLayout
+RelativeLayout
+ConstraintLayout
+FrameLayout
+
+Example XML
+<LinearLayout>
+    <TextView />
+    <Button />
+</LinearLayout>
+
+Key Idea
+ViewGroup = Parent
+View = Child
+
+5. Layouts (Arrangement of UI)
+What is Layout?
+Layout defines how Views are arranged on screen
+Types of Layouts
+LinearLayout
+Arranges items in row or column
+<LinearLayout
+    android:orientation="vertical">
+    <TextView />
+    <Button />
+</LinearLayout>
+
+ConstraintLayout  (Most Important)
+Flexible and modern layout
+Position elements relative to each other
+Used in most apps
+
+FrameLayout
+Stacks elements on top of each other
+
+RelativeLayout
+Positions views relative to others
+(now less used)
+
+View Hierarchy (Very Important)
+ConstraintLayout (ViewGroup)
+   ├── TextView (View)
+   ├── Button (View)
+   └── ImageView (View)
+
+Key Concept
+Android UI = Tree structure
+Root → ViewGroup
+Children → Views
